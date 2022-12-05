@@ -1,5 +1,5 @@
 
-import { defuFn } from '/home/poliweb/Документы/www/AthenaPlus/new/NewSiteAthenaPlus/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/home/poliweb/Документы/www/AthenaPlus/NewSiteAthenaPlus/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 
