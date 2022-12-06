@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: Airborne; 
+    src: url(/fonts/airborne.ttf); 
+  }
+
+  @layer base {
+    h1 {
+      font-family: Airborne, system-ui, sans-serif;
+    }
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+  }
