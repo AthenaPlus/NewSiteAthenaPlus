@@ -6,7 +6,7 @@
                 <h1 class="HeroTitle">
                     {{ HeroTitle }}
                 </h1>
-                <h2 class="">{{ HeroSubtitle }}</h2>
+                <h2 class="HeroSubtitle">{{ HeroSubtitle }}</h2>
                 <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
                     plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken
                     authentic tumeric truffaut hexagon try-hard chambray.</p>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="md:w-1/2">
-                <img class="object-cover object-center rounded" alt="hero" src="img/Home_AthenaPlus.png">
+                <img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png">
             </div>
         </div>
     </section>
@@ -38,6 +38,16 @@ const HeroSubtitle = 'Мы создаём креативные веб-проек
     font-size: 100px;
     line-height: 100%;
     /* or 100px */
+    color: #FFFFFF;
+}
+
+.HeroSubtitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    /* or 39px */
     color: #FFFFFF;
 }
 </style>

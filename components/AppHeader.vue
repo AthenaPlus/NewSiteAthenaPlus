@@ -7,17 +7,14 @@
             </a>
 
             <div class="flex flex-initial border_l_1 h_51 pl-4">
-                <div class="my-auto">+7 (775) 393 8855</div>
+                <div class="my-auto"><p class="Source_Sans_Pro">+7 (775) 393 8855</p></div>
                 <!-- Icons -->
                     <div class="flex items-center border_l_1 h_51 ml_18 pl-4">
                     <a class="text-gray-500">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            class="w-5 h-5" viewBox="0 0 24 24">
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
+                        <IconPaperplan class="w-5 h-5"/>
                     </a>
                     <a class="ml-3 text-gray-100">
-                        <IconChat class="w-5 h-5"/>
+                        <IconChat class="w-5 h-5 mx-9"/>
                     </a>
                     <a class="ml-3 text-gray-100">
                         <IconInstagram class="w-5 h-5"/>
@@ -32,8 +29,9 @@
 
 <script setup>
 import IconLogo from '~/assets/icons/logo.svg'
-import IconChat from '~/assets/icons/chat.svg'
-import IconInstagram from '~/assets/icons/instagram.svg'
+import IconPaperplan from '~/assets/icons/paperplan.svg'
+import IconChat from '~/assets/icons/chat2.svg'
+import IconInstagram from '~/assets/icons/instagram2.svg'
 
 </script>
 
