@@ -1,8 +1,8 @@
 <template>
     <div>
+        <HomeHero/>
         <IconHome class="w-10 h-10 stroke-pink-500" />
         <h1 class="text-pink-500">NewSiteAthenaPlus</h1>
-        <p class="font-normal">Continually communicate high standards in collaboration and idea-sharing through quality.</p>
     </div>
 </template>
 
