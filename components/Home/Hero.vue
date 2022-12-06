@@ -6,15 +6,14 @@
                 <h1 class="HeroTitle">
                     {{ HeroTitle }}
                 </h1>
-                <h2 class="HeroSubtitle">{{ HeroSubtitle }}</h2>
-                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-                    plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken
-                    authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <h2 class="HeroSubtitle mb-2.5 mt-5">{{ HeroSubtitle }}</h2>
+                <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
                 <div class="flex justify-center">
                     <button
-                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                    <button
-                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+                        class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
+                </div>
+                <div class="flex justify-center mt-11">
+                    <button class="font_Airborne border-gradient-to-b p-5">#webdevelopment</button>
                 </div>
             </div>
             <div class="md:w-1/2">
@@ -27,6 +26,7 @@
 <script setup>
 const HeroTitle = 'веб-проекты со стилем'
 const HeroSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
+const HeroDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  еще тут текст и всякие крутые штуки и тд veniam, quis.'
 
 </script>
 
@@ -50,4 +50,55 @@ const HeroSubtitle = 'Мы создаём креативные веб-проек
     /* or 39px */
     color: #FFFFFF;
 }
+
+.LineHeight_30 {
+    line-height: 150%;
+}
+
+/* Border Gradient */
+.Border-Gradient {
+    border: 2px solid #FF2BFF;
+    border-radius: 100px;
+    border-image: linear-gradient(to bottom, #FCB040, #FF2BFF);
+    border-image-slice: 1;
+}
+
+.border-gradient-to-b {
+    border: 2px solid #FF2BFF;
+    border-image: -moz-linear-gradient(to bottom, #FCB040, #FF2BFF );
+    border-image: -webkit-linear-gradient(to bottom, #FCB040, #FF2BFF );
+    border-image: linear-gradient(to bottom, #FCB040 , #FF2BFF );
+    border-image-slice: 1;
+}
+/* Border Gradient variant-2 */
+.btn {
+  position: relative;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: inherit;
+  color: inherit;
+  background: none;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  border: var(--border-w) solid transparent;
+  background: linear-gradient(45deg, purple, orange) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.btn:hover::before {
+}
+
 </style>
