@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <nuxt-img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png" width="748" height="849" />
+                    <img class="object-cover object-center rounded" alt="hero" src="/img/HeroImg.png" width="748" height="849" />
                 </div>
             </div>
         </div>
