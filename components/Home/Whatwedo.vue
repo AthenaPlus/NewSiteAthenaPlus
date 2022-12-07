@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
-                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#1</span></div>
                     <div class="text-right pr-7">
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
