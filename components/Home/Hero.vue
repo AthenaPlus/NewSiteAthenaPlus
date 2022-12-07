@@ -11,7 +11,7 @@
                     <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
                     <div class="flex justify-center">
                         <button
-                            class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться
+                            class="bg-btn inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться
                             на интервью</button>
                     </div>
                     <div class="flex flex-wrap justify-start gap-2.5 mt-28">
