@@ -12,12 +12,12 @@
                     <button
                         class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
                 </div>
-                <div class="flex justify-center mt-11">
-                    <button class="font_Airborne border-gradient-to-b p-5">#webdevelopment</button>
+                <div class="flex flex-wrap justify-center gap-6 mt-28">
+                    <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url" class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
                 </div>
             </div>
             <div class="md:w-1/2">
-                <img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png">
+                <nuxt-img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png" width="748" height="849"/>
             </div>
         </div>
     </section>
@@ -27,6 +27,42 @@
 const HeroTitle = 'веб-проекты со стилем'
 const HeroSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
 const HeroDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  еще тут текст и всякие крутые штуки и тд veniam, quis.'
+
+const HeroLabels = [
+    {
+        title: '#webdevelopment',
+        url: '/'
+    },
+    {
+        title: '#ux/ui',
+        url: '/'
+    },
+    {
+        title: '#coding',
+        url: '/'
+    },
+    {
+        title: '#webdesign',
+        url: '/'
+    },
+    {
+        title: '#projectsuport',
+        url: '/'
+    },
+    {
+        title: '#seo',
+        url: '/'
+    },
+    {
+        title: '#brandmanagement',
+        url: '/'
+    },
+    {
+        title: '#digitalmarketing',
+        url: '/'
+    },
+
+]
 
 </script>
 
@@ -65,6 +101,7 @@ const HeroDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 .border-gradient-to-b {
     border: 2px solid #FF2BFF;
+    border-radius: 100px;
     border-image: -moz-linear-gradient(to bottom, #FCB040, #FF2BFF );
     border-image: -webkit-linear-gradient(to bottom, #FCB040, #FF2BFF );
     border-image: linear-gradient(to bottom, #FCB040 , #FF2BFF );
