@@ -19,10 +19,10 @@
                     <img class="object-center" alt="hero" src="/img/bg_frame_3.png" width="" height="" />
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14">
-                <div class="flex justify-between w-full border-t-2 border-white">
-                    <div class=""><span class="Namber">#1</span></div>
-                    <div class="text-right">
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#1</span></div>
+                    <div class="text-right pr-7">
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
                         <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -33,6 +33,75 @@
                         <IconIcon1 class="w-52 h-52"/>
                     </div>
                 </div>
+
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#2</span></div>
+                    <div class="text-right pr-7">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
+
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon2 class="w-52 h-52"/>
+                    </div>
+                </div>
+
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#3</span></div>
+                    <div class="text-right pr-7">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
+
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon3 class="w-52 h-52"/>
+                    </div>
+                </div>
+
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#4</span></div>
+                    <div class="text-right pr-7">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
+
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon4 class="w-52 h-52"/>
+                    </div>
+                </div>
+
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#5</span></div>
+                    <div class="text-right pr-7">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
+
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon5 class="w-52 h-52"/>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-between gap-x-1 w-full border-t-2 border-white">
+                    <div class="w-28"><span class="Namber">#6</span></div>
+                    <div class="text-right pr-7">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
+
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon6 class="w-52 h-52"/>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -40,9 +109,17 @@
 
 <script setup>
 import IconIcon1 from '~/assets/icons/icon1.svg'
+import IconIcon2 from '~/assets/icons/icon2.svg'
+import IconIcon3 from '~/assets/icons/icon3.svg'
+import IconIcon4 from '~/assets/icons/icon4.svg'
+import IconIcon5 from '~/assets/icons/icon5.svg'
+import IconIcon6 from '~/assets/icons/icon6.svg'
+
 const WhatwedoTitle = 'чем мы занимаемся'
 const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+
+
 
 </script>
 
@@ -79,6 +156,8 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
     font-size: 80px;
     line-height: 102.99%;
     /* or 82px */
+
+    text-align: left;
 
 
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
