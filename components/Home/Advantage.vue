@@ -1,5 +1,5 @@
 <template>
-<section class="text-gray-100 flex h-screen bg-[url('/img/bg_second_freim.webp')]">
+<section class="text-gray-100 flex min-h-screen bg-[url('/img/bg_second_freim.webp')]">
     <div class="container mx-auto flex px-5 pb-24 pt-60 md:flex-row flex-col items-center ">
         <div class="w-full h-full max-w-3xl">
             <h1 class="HeroTitle">
@@ -13,7 +13,7 @@
                 </p>
                 <div class="flex justify-start">
                     <button
-                        class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
+                        class="bg-btn inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
                 </div>
         </div>
     <!-- <div class="bg-pink-500/50 w-1/2 h-screen"></div> -->

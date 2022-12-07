@@ -2,6 +2,7 @@
     <div>
         <HomeHero/>
         <HomeAdvantage/>
+        <HomeWhatwedo/>
         <IconHome class="w-10 h-10 stroke-pink-500" />
         <h1 class="text-pink-500">NewSiteAthenaPlus</h1>
         <p class="w-1/2 text-gray-100">Holisticly develop synergistic web-readiness whereas intuitive benefits. Holisticly unleash efficient sources vis-a-vis e-business collaboration and idea-sharing. Completely formulate tactical customer service through an expanded array of catalysts for change. Conveniently seize mission-critical intellectual capital with standardized paradigms. Enthusiastically revolutionize fully tested testing procedures with flexible vortals.

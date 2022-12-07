@@ -1,23 +1,27 @@
 <template>
     <section class="text-white body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div
-                class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="HeroTitle">
-                    {{ HeroTitle }}
-                </h1>
-                <h2 class="HeroSubtitle mb-2.5 mt-5">{{ HeroSubtitle }}</h2>
-                <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
-                <div class="flex justify-center">
-                    <button
-                        class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
+        <div class="container mx-auto px-5 py-24 ">
+            <div class=" flex  md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="HeroTitle">
+                        {{ HeroTitle }}
+                    </h1>
+                    <h2 class="HeroSubtitle mb-2.5 mt-5">{{ HeroSubtitle }}</h2>
+                    <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
+                    <div class="flex justify-center">
+                        <button
+                            class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться
+                            на интервью</button>
+                    </div>
+                    <div class="flex flex-wrap justify-start gap-2.5 mt-28">
+                        <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
+                            class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
+                    </div>
                 </div>
-                <div class="flex flex-wrap justify-start gap-2.5 mt-28">
-                    <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url" class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
+                <div class="md:w-1/2">
+                    <nuxt-img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png" width="748" height="849" />
                 </div>
-            </div>
-            <div class="md:w-1/2">
-                <nuxt-img class="object-cover object-center rounded" alt="hero" src="img/HeroImg.png" width="748" height="849"/>
             </div>
         </div>
     </section>
