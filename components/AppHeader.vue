@@ -127,7 +127,7 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
 }
 .blur {
     background: rgba(11, 11, 11, 0);
-    backdrop-filter: blur(0);
+    transition: all 0.5s ease-out;
 }
 .navbar__scrolled .blur {
     background: rgba(11, 11, 11, 0.1);
