@@ -7,8 +7,8 @@
                     <h1 class="WhatwedoTitle">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <h2 class="WhatwedoSubtitle mb-2.5 mt-5">{{ WhatwedoSubtitle }}</h2>
-                    <p class="mb-12 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
+                    <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
+                    <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center">
                         <button
                             class="bg-btn inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14">
-                <div class="w-full   bg-pink-500">
+                <div class="w-full   bg-pink-500 border-t-2 border-white">
 
                     <h3>Создание веб-сайтов</h3>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -30,7 +30,7 @@
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     </p>
                 </div>
-                <div class="w-full   bg-pink-500">
+                <div class="w-full   bg-pink-500 border-t-2 border-white">
 
                     <h3>Создание веб-сайтов</h3>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -46,9 +46,11 @@
 </template>
 
 <script setup>
-const WhatwedoTitle = 'веб-проекты со стилем'
+const WhatwedoTitle = 'чем мы занимаемся'
 const WhatwedoSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
-const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  еще тут текст и всякие крутые штуки и тд veniam, quis.'
+const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+
 </script>
 
 <style scoped>
