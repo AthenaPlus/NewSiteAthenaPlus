@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <img class="object-center" alt="hero" src="img/bg_frame_3.png" width="" height="" />
+                    <img class="object-center" alt="hero" src="/img/bg_frame_3.png" width="" height="" />
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14">
