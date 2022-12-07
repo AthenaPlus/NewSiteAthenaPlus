@@ -20,25 +20,18 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14">
-                <div class="w-full   bg-pink-500 border-t-2 border-white">
+                <div class="flex justify-between w-full border-t-2 border-white">
+                    <div class=""><span class="Namber">#1</span></div>
+                    <div class="text-right">
+                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        </p>
 
-                    <h3>Создание веб-сайтов</h3>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    </p>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    </p>
-                </div>
-                <div class="w-full   bg-pink-500 border-t-2 border-white">
-
-                    <h3>Создание веб-сайтов</h3>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    </p>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    </p>
+                    </div>
+                    <div class="mt-9">
+                        <IconIcon1 class="w-52 h-52"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,8 +39,8 @@
 </template>
 
 <script setup>
+import IconIcon1 from '~/assets/icons/icon1.svg'
 const WhatwedoTitle = 'чем мы занимаемся'
-const WhatwedoSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
 const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
 
@@ -76,5 +69,22 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
 
 .LineHeight_30 {
     line-height: 150%;
+}
+
+
+.Namber {
+    font-family: 'Airborne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 102.99%;
+    /* or 82px */
+
+
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 </style>
