@@ -1,5 +1,6 @@
 <template>
-    <header class="text-white body-font border_b_1">
+    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container">
+        <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-col md:flex-row items-center justify-between">
             <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <IconKube class="w-10 h-10" />
@@ -120,4 +121,19 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
     fill:url(#g1);
   }
 
+/* For fixed AppHeader */
+.navbar__scrolled {
+    
+}
+.blur {
+    background: rgba(11, 11, 11, 0);
+    backdrop-filter: blur(0);
+}
+.navbar__scrolled .blur {
+    background: rgba(11, 11, 11, 0.1);
+    backdrop-filter: blur(2px);
+}
+.z-one {
+    z-index: -1;
+}
 </style>

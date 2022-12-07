@@ -12,7 +12,7 @@
                     <button
                         class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
                 </div>
-                <div class="flex flex-wrap justify-center gap-6 mt-28">
+                <div class="flex flex-wrap justify-start gap-6 mt-28">
                     <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url" class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
                 </div>
             </div>
