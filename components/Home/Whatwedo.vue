@@ -16,8 +16,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <SvgPicterFrame3 class="object-center" width="" height="" />
-                    <!-- <img class="object-center" alt="hero" src="/img/bg_frame_3.png" width="" height="" /> -->
+                    <SvgPicterFrame3 class="object-center" width="762" height="651"/>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
