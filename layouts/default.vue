@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="scroll-my-3">
         <AppHeader/>
         <slot />
     </div>

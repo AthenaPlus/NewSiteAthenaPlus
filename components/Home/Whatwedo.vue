@@ -16,7 +16,10 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <div>
+                    <div class="relative">
+                        <div class="">
+                            <img src="/img/png_frame3.png" class="absolute inset-0 img-layout"/>
+                        </div>
                         <Picterframe3/>
                         <!-- <img src="/img/bg_frame_3.png"/> -->
                     </div>
@@ -158,5 +161,10 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+.img-layout {
+    left: 36.18px;
+top: 50.49px;
 }
 </style>
