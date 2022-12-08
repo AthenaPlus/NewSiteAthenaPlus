@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <IconPicterFrame3 class=""/>
+                    
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
@@ -108,7 +108,7 @@
 </template>
 
 <script setup>
-import IconPicterFrame3 from '~/assets/icons/PicterFrame3.svg'
+
 import IconIcon1 from '~/assets/icons/icon1.svg'
 import IconIcon2 from '~/assets/icons/icon2.svg'
 import IconIcon3 from '~/assets/icons/icon3.svg'
