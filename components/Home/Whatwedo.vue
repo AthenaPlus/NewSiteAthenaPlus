@@ -17,7 +17,7 @@
                 </div>
                 <div class="md:w-1/2">
                     <div>
-                        <SvgPicterframe3 />
+                        <Picterframe3 />
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
 
                     </div>
                     <div class="mt-9">
-                        <IconIcon5 class="w-52 h-52"/>
+                        <IconIcon6 class="w-52 h-52"/>
                     </div>
                 </div>
             </div>
