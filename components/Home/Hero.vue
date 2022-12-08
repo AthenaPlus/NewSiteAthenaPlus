@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    
+                    <IconPicterFrame1/>
                 </div>
             </div>
         </div>
@@ -28,6 +28,8 @@
 </template>
 
 <script setup>
+import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
+
 const HeroTitle = 'веб-проекты со стилем'
 const HeroSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
 const HeroDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  еще тут текст и всякие крутые штуки и тд veniam, quis.'
