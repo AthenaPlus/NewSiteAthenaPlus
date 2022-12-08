@@ -17,7 +17,7 @@
                 </div>
                 <div class="md:w-1/2">
                     <div>
-                        <IconPicterFrame1/>
+                        <img src="/img/bg_frame_3.png"/>
                     </div>
                 </div>
             </div>
@@ -111,23 +111,15 @@
 
 <script setup>
 import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
-
 import IconIcon1 from '~/assets/icons/icon1.svg'
 import IconIcon2 from '~/assets/icons/icon2.svg'
 import IconIcon3 from '~/assets/icons/icon3.svg'
 import IconIcon4 from '~/assets/icons/icon4.svg'
 import IconIcon5 from '~/assets/icons/icon5.svg'
 import IconIcon6 from '~/assets/icons/icon6.svg'
-
-
-
-
 const WhatwedoTitle = 'чем мы занимаемся'
 const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
-
-
-
 </script>
 
 <style>
@@ -140,7 +132,6 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
     /* or 100px */
     color: #FFFFFF;
 }
-
 .WhatwedoSubtitle {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -150,12 +141,9 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
     /* or 39px */
     color: #FFFFFF;
 }
-
 .LineHeight_30 {
     line-height: 150%;
 }
-
-
 .Namber {
     font-family: 'Airborne';
     font-style: normal;
@@ -163,10 +151,7 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
     font-size: 80px;
     line-height: 102.99%;
     /* or 82px */
-
     text-align: left;
-
-
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
