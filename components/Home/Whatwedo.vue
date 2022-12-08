@@ -17,7 +17,7 @@
                 </div>
                 <div class="md:w-1/2">
                     <div>
-                        <Picterframe3 />
+                        <IconPicterFramenew3/>
                     </div>
                 </div>
             </div>
@@ -110,6 +110,7 @@
 </template>
 
 <script setup>
+import IconPicterFramenew3 from '~/assets/icons/PicterFramenew3.svg'
 import IconIcon1 from '~/assets/icons/icon1.svg'
 import IconIcon2 from '~/assets/icons/icon2.svg'
 import IconIcon3 from '~/assets/icons/icon3.svg'
