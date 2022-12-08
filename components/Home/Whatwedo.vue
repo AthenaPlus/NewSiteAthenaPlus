@@ -164,7 +164,7 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
 }
 
 .img-layout {
-    left: 36.18px;
-top: 50.49px;
+    left: 50.18px;
+    top: 30.49px;
 }
 </style>
