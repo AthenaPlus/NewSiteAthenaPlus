@@ -17,7 +17,8 @@
                 </div>
                 <div class="md:w-1/2">
                     <div>
-                        <img src="/img/bg_frame_3.png"/>
+                        <Picterframe3/>
+                        <!-- <img src="/img/bg_frame_3.png"/> -->
                     </div>
                 </div>
             </div>
