@@ -1,0 +1,17 @@
+<template>
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="200" rx="10" fill="white" />
+        <path d="M170 82.5H105.833V117.5H170V82.5Z" fill="#0B0B0B" />
+        <path d="M170 30H105.833V70.8332H170V30Z" fill="#0B0B0B" />
+        <path d="M94.1668 30H30V170H94.1668V30Z" fill="#0B0B0B" />
+        <path d="M170 129.167H105.833V170H170V129.167Z" fill="#0B0B0B" />
+    </svg>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+
+</style>

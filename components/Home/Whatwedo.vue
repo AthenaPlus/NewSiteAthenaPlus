@@ -16,7 +16,8 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <img class="object-center" alt="hero" src="/img/bg_frame_3.png" width="" height="" />
+                    <SvgPicterFrame3 class="object-center" width="" height="" />
+                    <!-- <img class="object-center" alt="hero" src="/img/bg_frame_3.png" width="" height="" /> -->
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
@@ -95,11 +96,12 @@
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
                         <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            
                         </p>
 
                     </div>
                     <div class="mt-9">
-                        <IconIcon6 class="w-52 h-52"/>
+                        <IconIcon5 class="w-52 h-52"/>
                     </div>
                 </div>
             </div>
@@ -114,6 +116,7 @@ import IconIcon3 from '~/assets/icons/icon3.svg'
 import IconIcon4 from '~/assets/icons/icon4.svg'
 import IconIcon5 from '~/assets/icons/icon5.svg'
 import IconIcon6 from '~/assets/icons/icon6.svg'
+
 
 const WhatwedoTitle = 'чем мы занимаемся'
 const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
