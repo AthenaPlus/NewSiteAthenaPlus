@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    <img class="object-cover object-center rounded" alt="hero" src="/img/HeroImg.png" width="748" height="849" />
+                    <SvgPicterFrame1 class="object-cover object-center rounded" width="837" height="951" />
                 </div>
             </div>
         </div>
