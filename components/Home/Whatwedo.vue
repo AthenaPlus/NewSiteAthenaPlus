@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2">
-                    
+                    <SvgPicterFrame3/>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-x-14 gap-y-20">
@@ -95,7 +95,6 @@
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
                         <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            
                         </p>
 
                     </div>
@@ -109,12 +108,14 @@
 </template>
 
 <script setup>
+import IconPicterFrame3 from '~/assets/icons/PicterFrame3.svg'
 import IconIcon1 from '~/assets/icons/icon1.svg'
 import IconIcon2 from '~/assets/icons/icon2.svg'
 import IconIcon3 from '~/assets/icons/icon3.svg'
 import IconIcon4 from '~/assets/icons/icon4.svg'
 import IconIcon5 from '~/assets/icons/icon5.svg'
 import IconIcon6 from '~/assets/icons/icon6.svg'
+
 
 
 const WhatwedoTitle = 'чем мы занимаемся'
