@@ -1,5 +1,5 @@
 <template>
-    <section class="text-gray-600 body-font relative min-h-screen bg-[url('/img/bg_frame4.jpg')]">
+    <section class="text-white body-font relative min-h-screen bg-[url('/img/bg_frame4.jpg')]">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="title mt-16">Есть проект?</h1>
@@ -19,19 +19,19 @@
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя"
-                                        class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                        class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="p-2 w-1/2">
                                 <div class="relative">
-                                    <input type="email" id="email" name="email" placeholder="Ваш телефон"
-                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон"
+                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="p-2 w-full">
                                 <div class="relative">
                                     <textarea id="message" name="message" placeholder="Кратко опишите проект"
-                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                    
                                 </div>
                             </div>
@@ -43,7 +43,9 @@
                         </form>
                     </div>
                     <div class="">
-                        
+                        <p class="text-white">
+                            Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта. Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки рассчитываете? Мы всегда рады сотрудничеству.
+                        </p>
                     </div>
                 </div>
             </div>
