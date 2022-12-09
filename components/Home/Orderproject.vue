@@ -2,20 +2,20 @@
     <section class="text-white body-font relative min-h-screen bg-center bg-cover bg-[url('/img/bg_frame4.jpg')] z-0">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="title mt-16">Есть проект?</h1>
+                <h1 class="h1-title mt-16">Есть проект?</h1>
                 <div class="flex items-center justify-end gap-8 mr-32">
-                    <IconArrow/>
-                    <h2 class="subtitle">Оставте заявку</h2>
+                    <IconArrow class="hidden md:block"/>
+                    <h2 class="text-4xl md:text-5xl lg:text-7xl">Оставте заявку</h2>
                 </div>
-                <div class="flex flex-row items-center">
+                <div class="flex flex-col md:flex-row items-start md:items-center w-full">
                     <div class="">
                         <h3 class="text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите?</h3>
-                        <div class="flex gap-5">
+                        <div class="flex flex-wrap justify-start  gap-5">
                             <button v-for="batton in battons" class="btn text-white">
                                     {{ batton.title }}
                             </button>
                         </div>
-                        <form action="" class="flex flex-wrap mt-10">
+                        <form action="" class="flex flex-wrap my-10">
                             <div class="pr-5 w-1/2">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя"
@@ -41,7 +41,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="ml-16">
+                    <div class="ml-0 md:ml-16">
                         <p class="text-white text-lg text-left w-96">
                             Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта. Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки рассчитываете? Мы всегда рады сотрудничеству.
                         </p>
@@ -105,7 +105,7 @@
 </template>
 
 <script setup>
-
+import IconArrow from '~/assets/icons/arrow.svg'
 
 
 const battons = [

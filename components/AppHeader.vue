@@ -1,14 +1,14 @@
 <template>
     <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-20">
         <div class="absolute inset-0 z-one blur"></div>
-        <div class="mx-auto flex flex-wrap px-5 py-0 flex-col md:flex-row items-center justify-between">
+        <div class="mx-auto flex flex-wrap px-5 py-0 flex-row items-center justify-between">
             <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <IconKube class="w-10 h-10" />
                 <h1 class="ml_18 pl_18 text-34 uppercase border_l_1">Athena <span class="text-gradient">plus</span></h1>
             </a>
 
             <div class="flex flex-initial border_l_1 h_51 pl-4">
-                <div class="my-auto"><a href="tel: +77753938855" class="Source_Sans_Pro text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393 8855</a></div>
+                <div class="hidden md:block my-auto"><a href="tel: +77753938855" class="Source_Sans_Pro text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393 8855</a></div>
                 <!-- Icons -->
                     <div class="flex items-center border_l_1 h_51 ml_18 pl-4">
                     <a href="/" class="text-gray-100 link-to-svg mr-9">

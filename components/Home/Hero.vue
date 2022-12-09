@@ -3,8 +3,8 @@
         <div class="container mx-auto px-5 py-24 ">
             <div class=" flex  md:flex-row flex-col items-center">
                 <div
-                    class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="HeroTitle">
+                    class="lg:flex-grow w-full md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="h1-title">
                         {{ HeroTitle }}
                     </h1>
                     <h2 class="HeroSubtitle mb-2.5 mt-5">{{ HeroSubtitle }}</h2>
@@ -19,7 +19,7 @@
                             class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
                     </div>
                 </div>
-                <div class="md:w-1/2">
+                <div class="w-full md:w-1/2">
                     <IconPicterFrame1/>
                 </div>
             </div>
