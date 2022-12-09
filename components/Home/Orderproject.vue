@@ -19,19 +19,19 @@
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя"
-                                        class="w-full bg-gray-100 bg-opacity-10  border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                        class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <input type="email" id="email" name="email" placeholder="Ваш телефон"
-                                        class="w-full bg-gray-100 bg-opacity-10  border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="p-2 w-full">
                                 <div class="relative">
                                     <textarea id="message" name="message" placeholder="Кратко опишите проект"
-                                        class="w-full bg-gray-100 bg-opacity-10 border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                    
                                 </div>
                             </div>
@@ -98,6 +98,11 @@ const battons = [
     background: rgba(11, 11, 11, 0.1);
     border: 2px solid #FFFFFF;
     backdrop-filter: blur(2px);
+}
+
+.btn:hover {
+    border: none;
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
 }
 
 .btn-send:hover {
