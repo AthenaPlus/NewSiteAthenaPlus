@@ -7,7 +7,7 @@
                     <IconArrow/>
                     <h2 class="subtitle">Оставте заявку</h2>
                 </div>
-                <div class="flex flex-row">
+                <div class="flex flex-row items-center">
                     <div class="">
                         <h3 class="text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите?</h3>
                         <div class="flex gap-5">
@@ -16,34 +16,33 @@
                             </button>
                         </div>
                         <form action="" class="flex flex-wrap mt-10">
-                            <div class="p-2 w-1/2">
+                            <div class="pr-5 w-1/2">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
-                            <div class="p-2 w-1/2">
+                            <div class="pr-5 w-1/2">
                                 <div class="relative">
                                     <input type="tel" id="phone" name="phone" placeholder="Ваш телефон"
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
-                            <div class="p-2 w-full">
+                            <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
                                     <textarea id="message" name="message" placeholder="Кратко опишите проект"
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
-                                   
                                 </div>
                             </div>
-                            <div class="p-2">
+                            <div class="pt-10">
                                 <button
                                     class="btn-send shadow-pink-500/50 flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 text-lg">Оставить заявку</button>
 
                             </div>
                         </form>
                     </div>
-                    <div class="">
-                        <p class="text-white">
+                    <div class="ml-16">
+                        <p class="text-white text-left w-96">
                             Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта. Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки рассчитываете? Мы всегда рады сотрудничеству.
                         </p>
                     </div>
