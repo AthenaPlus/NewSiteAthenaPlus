@@ -1,5 +1,5 @@
 <template>
-    <section class="text-white body-font relative min-h-screen bg-[url('/img/bg_frame4.jpg')]">
+    <section class="text-white body-font relative min-h-screen bg-center bg-cover bg-[url('/img/bg_frame4.jpg')] z-0">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="title mt-16">Есть проект?</h1>
@@ -42,9 +42,15 @@
                         </form>
                     </div>
                     <div class="ml-16">
-                        <p class="text-white text-left w-96">
+                        <p class="text-white text-lg text-left w-96">
                             Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта. Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки рассчитываете? Мы всегда рады сотрудничеству.
                         </p>
+                        <div class="flex gap-6 mt-4">
+                            <IconPlaner/>
+                            <IconWhatsapp/>
+                            <IconInstagram/>
+                            <IconLinkidin/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,6 +60,11 @@
 
 <script setup>
 import IconArrow from '~/assets/icons/arrow.svg'
+import IconPlaner from '~/assets/icons/planer.svg'
+import IconWhatsapp from '~/assets/icons/whatsapp.svg'
+import IconInstagram from '~/assets/icons/instagram.svg'
+import IconLinkidin from '~/assets/icons/linkidin.svg'
+
 
 const battons = [
     {

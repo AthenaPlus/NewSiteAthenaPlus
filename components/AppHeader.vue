@@ -1,5 +1,5 @@
 <template>
-    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container">
+    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-20">
         <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-col md:flex-row items-center justify-between">
             <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
