@@ -33,4 +33,14 @@
       background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
       color: #fff
     }
+
+    .title {
+      font-family: 'Airborne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+    color: #FFFFFF;
+    }
   }
