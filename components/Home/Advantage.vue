@@ -1,5 +1,5 @@
 <template>
-<section class="text-gray-100 flex min-h-max bg-no-repeat bg-left-top lg:bg-center bg-[url('/img/bg_second_freim.webp')]">
+<section class="text-gray-100 flex min-h-max bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/bg_second_freim.webp')]">
     <div class="container mx-auto flex px-5 pb-24 pt-60 md:flex-row flex-col items-center ">
         <div class="w-full h-full max-w-3xl">
             <h1 class="h1-title">
