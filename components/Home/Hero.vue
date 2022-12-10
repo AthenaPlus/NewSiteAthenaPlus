@@ -16,7 +16,7 @@
                     </div>
                     <div class="flex flex-wrap justify-start gap-2.5 mt-28">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
-                            class="font_Airborne border-gradient-to-b p-5">{{ HeroLabel.title }}</Nuxt-link>
+                            class="font_Airborne rounded-full border-2 border-white py-5 px-6">{{ HeroLabel.title }}</Nuxt-link>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
