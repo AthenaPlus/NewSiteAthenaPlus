@@ -3,7 +3,7 @@
         <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-row items-center justify-between">
             <div class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <button>
+                <button @click="toggle">
                     <IconKube class="w-10 h-10" />
                 </button>
                 <Nuxt-link to="/">
@@ -57,6 +57,7 @@
 
         </div>
     </header>
+    <!-- Mobaile Menu -->
 </template>
 
 <script setup>
@@ -66,6 +67,7 @@ import IconChat from '~/assets/icons/chat2.svg'
 import IconInstagram from '~/assets/icons/instagram2.svg'
 
 </script>
+
 
 <style scoped>
 .text-34 {
@@ -147,4 +149,5 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
 .z-one {
     z-index: -1;
 }
+
 </style>
