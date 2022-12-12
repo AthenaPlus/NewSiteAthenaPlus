@@ -1,17 +1,38 @@
 <template>
-    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-20">
+
+    <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
+    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-5 pt-2 z-index-10000">
+        <!-- Button First -->
+        <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-10 w-10']" class="transition ease-in-out duration-700"
+            width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M0 0H10.5263V10.5263H0V0Z" fill="white" />
+            <path d="M14.7368 0H25.2632V10.5263H14.7368V0Z" fill="white" />
+            <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M29.4737 0H40V10.5263H29.4737V0Z"
+                fill="white" />
+            <path d="M29.4737 14.7368H40V25.2632H29.4737V14.7368Z" fill="white" />
+            <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M29.4737 29.4737H40V40H29.4737V29.4737Z"
+                fill="white" />
+            <path d="M14.7368 14.7368H25.2632V25.2632H14.7368V14.7368Z" fill="white" />
+            <path d="M14.7368 29.4737H25.2632V40H14.7368V29.4737Z" fill="white" />
+            <path d="M0 14.7368H10.5263V25.2632H0V14.7368Z" fill="white" />
+            <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M0 29.4737H10.5263V40H0V29.4737Z"
+                fill="white" />
+        </svg>
+    </button>
+    <!-- Hte End --- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
+    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-10">
         <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-row items-center justify-between">
-            <div class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <button @click="toggle">
-                    <IconKube class="w-10 h-10" />
-                </button>
+            <div class="flex title-font font-medium items-center text-white mb-0">
+                <div class="h-14 w-10">
+                    <!-- Резерв для кнопки -->
+                </div>
                 <Nuxt-link to="/">
-                    <h1 class="ml_18 pl_18 text-34 uppercase border_l_1">Athena <span class="text-gradient">plus</span></h1>
+                    <h1 class="ml_18 pl_18 text-34 uppercase border_l_1">Athena <span class="text-gradient">plus</span>
+                    </h1>
                 </Nuxt-link>
             </div>
-
-            <div class="flex flex-initial border_l_1 h_51 pl-4">
+            <div class="hidden sm:flex flex-initial border_l_1 h_51 pl-4">
                 <div class="hidden md:block my-auto"><a href="tel: +77753938855"
                         class="Source_Sans_Pro text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393
                         8855</a></div>
@@ -54,10 +75,39 @@
                 </div>
                 <!-- End-Icons -->
             </div>
-
         </div>
     </header>
-    <!-- Mobaile Menu -->
+
+    <!-- Код для мобильного меню  Меню выезжает с левой стороны. -->
+    <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']"
+        class="transition ease-in-out duration-700 fixed inset-0 z-30">
+        <div @click="toggle" class="fixed bg-blur w-full h-full -z-10"></div>
+        <div class="bg-black px-0 py-0 w-max min-h-screen flex">
+            <div class="hidden sm:block text-xl text-white border-r border-white/30 pt-20 w-20 z-30">
+                <div :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
+                    class="-rotate-90 mt-10">
+                    <span class="font_Airborne">свернуть</span>
+                    <!-- <IconVertlink class="" /> -->
+                </div>
+            </div>
+            <div class="flex flex-col justify-between pt-40 sm:pt-64 overscroll-y-contain">
+                <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
+                    class="flex flex-col text-3xl text-white font_Airborne pl-10">
+                    <NuxtLink v-for="Link in Links" :to="Link.urlTo" class="Link text-3xl mb-7 uppercase">
+                        {{ Link.title }}
+                    </NuxtLink>
+
+                </nav>
+                <div class="self-end">
+                    <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
+                        class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">©2022 Athena Plus. Все
+                        права защищены. Копирование
+                        дизайна/контента преследуется по закону</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The End --- Код для мобильного меню  Меню выезжает с левой стороны. -->
 </template>
 
 <script setup>
@@ -65,11 +115,51 @@ import IconKube from '~/assets/icons/kube.svg'
 import IconPaperplan from '~/assets/icons/paperplan.svg'
 import IconChat from '~/assets/icons/chat2.svg'
 import IconInstagram from '~/assets/icons/instagram2.svg'
+import IconVertlink from '~/assets/icons/vertlink.svg'
+
+const Links = [
+    {
+        title: 'главная',
+        urlTo: '/'
+    },
+    {
+        title: 'о компании',
+        urlTo: '/'
+    },
+    {
+        title: 'портфолио',
+        urlTo: '/'
+    },
+    {
+        title: 'услуги и цены',
+        urlTo: '/'
+    },
+    {
+        title: 'контакты',
+        urlTo: '/'
+    }
+]
+
+</script>
+<script>
+
+export default {
+    data: function () {
+        return {
+            isOpenMenu: false,
+        }
+    },
+    methods: {
+        toggle() {
+            this.isOpenMenu = !this.isOpenMenu
+        }
+    }
+}
 
 </script>
 
 
-<style scoped>
+<style>
 .text-34 {
     font-size: 34px;
 }
@@ -150,4 +240,34 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
     z-index: -1;
 }
 
+/* CSS For Mobaile Menu */
+
+.-translate-x-130 {
+    transform: translateX(-130%);
+}
+
+.bg-blur {
+    background: #121212d9;
+    backdrop-filter: blur(2px);
+}
+
+.span-border {
+    border: 2px solid #FFFFFF;
+}
+
+.z-index-10000 {
+    z-index: 100000 !important;
+}
+
+.z-index-5000 {
+    z-index: 5000 !important;
+}
+
+.Link:hover {
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 </style>
