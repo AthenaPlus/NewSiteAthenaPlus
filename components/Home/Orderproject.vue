@@ -2,10 +2,10 @@
     <section class="text-white body-font relative min-h-screen bg-center bg-cover bg-[url('/img/bg_frame4.jpg')] z-0">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="h1-title mt-16">Есть проект?</h1>
+                <h1 class="SuperTitle text-left mt-16">Есть проект?</h1>
                 <div class="flex items-center justify-end gap-8 mr-32">
                     <IconArrow class="hidden md:block"/>
-                    <h2 class="text-4xl md:text-5xl lg:text-7xl">Оставте заявку</h2>
+                    <h2 class="text-4xl md:text-5xl lg:text-7xl">Оставьте заявку</h2>
                 </div>
                 <div class="flex flex-col md:flex-row items-start md:items-center w-full">
                     <div class="">
@@ -126,6 +126,15 @@ const battons = [
 </script>
 
 <style scoped>
+.SuperTitle {
+    font-family: 'Airborne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
 .subtitle {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -173,4 +182,16 @@ const battons = [
   .link-to-svg:hover .st0 {
     fill:url(#g1);
   }
+
+@media (min-width: 768px) {
+    .SuperTitle {
+        font-family: 'Airborne';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 140px;
+        line-height: 161px;
+
+        color: #FFFFFF;
+    }
+}
 </style>

@@ -1,9 +1,9 @@
 <template>
     <section class="text-white body-font">
         <div class="container mx-auto px-5 py-24 ">
-            <div class=" flex  md:flex-row flex-col items-center">
+            <div class=" flex  lg:flex-row flex-col items-center">
                 <div
-                    class="order-2 md:order-1 lg:flex-grow w-full md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 class="h1-title">
                         {{ HeroTitle }}
                     </h1>
@@ -19,7 +19,7 @@
                             class="font_Airborne rounded-full border-2 border-white py-5 px-6">{{ HeroLabel.title }}</Nuxt-link>
                     </div>
                 </div>
-                <div class="order-1 md:order-2 w-full md:w-1/2">
+                <div class="order-1 lg:order-2 w-full lg:w-1/2">
                     <IconPicterFrame1/>
                 </div>
             </div>

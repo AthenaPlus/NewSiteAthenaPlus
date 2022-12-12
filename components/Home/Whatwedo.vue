@@ -3,7 +3,7 @@
         <div class="container mx-auto px-5 py-24">
             <div class=" flex flex-col md:flex-row md:flex-wrap items-center">
                 <div
-                    class="lg:flex-grow w-full md:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 class="h1-title">
                         {{ WhatwedoTitle }}
                     </h1>
@@ -15,10 +15,10 @@
                             на интервью</button>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2">
+                <div class="w-full lg:w-1/2">
                     <div class="relative">
                         <div class="">
-                            <img src="/img/png_frame3.png" class="hidden xl:block absolute inset-0 img-layout w-full"/>
+                            <img src="/img/Frame_3.png" class="hidden xl:block absolute inset-0 img-layout w-full"/>
                         </div>
                         <Picterframe3 class="hidden xl:block w-full"/>
                         <img src="/img/bg_frame_3.png" class="xl:hidden w-full"/>
@@ -164,7 +164,7 @@ const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptat
 }
 
 .img-layout {
-    left: 50.18px;
-    top: 30.49px;
+    left: 5px;
+    top: 30px;
 }
 </style>
