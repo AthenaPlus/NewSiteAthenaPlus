@@ -77,9 +77,37 @@
             </div>
         </div>
     </header>
-
+     <!-- Kode Menu NEW -->
+     <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']" class="fixed flex flex-col-3 items-stretch transition ease-in-out duration-700 min-h-screen  z-20 overscroll-none">
+            <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
+                <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
+                    class="-rotate-90 -ml-0 mt-28 font_Airborne">
+                    Свернуть
+                </p>
+            </div>
+            <div
+                class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
+                <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
+                    class="flex flex-col text-3xl text-white font_Airborne pl-10">
+                    <NuxtLink v-for="Link in Links" :to="Link.urlTo" :class="Link.class" class="Link text-3xl mb-7 uppercase flex items-center gap-4">
+                        {{ Link.title }} <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/>
+                    </NuxtLink>
+                </nav>
+                <div class="">
+                    <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
+                        class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">
+                        ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
+                    </p>
+                </div>
+            </div>
+            <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out']"
+                class="bg-filter text-white flex-1 -z-10 w- right-0">
+                    <MenuframeAboutMenu/>
+            </div>
+        </div>
+        <!-- The End --- Код для мобильного меню  Меню выезжает с левой стороны. -->
     <!-- Код для мобильного меню  Меню выезжает с левой стороны. -->
-    <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']"
+    <!-- <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']"
         class="transition ease-in-out duration-700 fixed inset-0 z-30">
         <div @click="toggle" class="fixed bg-blur w-full h-full -z-10"></div>
         <div class="bg-black px-0 py-0 w-max min-h-screen flex">
@@ -87,7 +115,6 @@
                 <div :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
                     class="-rotate-90 mt-10">
                     <span class="font_Airborne">свернуть</span>
-                    <!-- <IconVertlink class="" /> -->
                 </div>
             </div>
             <div class="flex flex-col justify-between pt-40 sm:pt-64 overscroll-y-contain">
@@ -106,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- The End --- Код для мобильного меню  Меню выезжает с левой стороны. -->
 </template>
 
@@ -116,27 +143,33 @@ import IconPaperplan from '~/assets/icons/paperplan.svg'
 import IconChat from '~/assets/icons/chat2.svg'
 import IconInstagram from '~/assets/icons/instagram2.svg'
 import IconVertlink from '~/assets/icons/vertlink.svg'
+import IconArrowmenu from '~/assets/icons/arrowmenu.svg'
 
 const Links = [
     {
         title: 'главная',
-        urlTo: '/'
+        urlTo: '/',
+        class: ''
     },
     {
         title: 'о компании',
-        urlTo: '/'
+        urlTo: '/',
+        class: 'Active'
     },
     {
         title: 'портфолио',
-        urlTo: '/'
+        urlTo: '/',
+        class: ''
     },
     {
         title: 'услуги и цены',
-        urlTo: '/'
+        urlTo: '/',
+        class: ''
     },
     {
         title: 'контакты',
-        urlTo: '/'
+        urlTo: '/',
+        class: ''
     }
 ]
 
@@ -160,6 +193,35 @@ export default {
 
 
 <style>
+
+.-translate-x-130 {
+    transform: translateX(-130%);
+}
+
+.-translate-x-200 {
+    transform: translateX(-200%);
+}
+
+.bg-blur {
+    background: #1212129c;
+    backdrop-filter: blur(2px);
+}
+.span-border {
+    border: 2px solid #FFFFFF;
+}
+
+.p-500 {
+    padding-left: 500px;
+}
+
+.bg-filter {
+    background: #121212;
+    backdrop-filter: blur(2px);
+}
+
+
+
+/* ============== */
 .text-34 {
     font-size: 34px;
 }
@@ -270,4 +332,37 @@ export default {
     background-clip: text;
     text-fill-color: transparent;
 }
+.ArrowMenu {
+    transform: translateX(-40px);
+    opacity: 0;
+}
+.Link:hover .ArrowMenu {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.Active {
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.Active .ArrowMenu {
+    transform: translateX(0);
+    opacity: 1;
+}
+/* .Link:before {
+	content:" ";
+	position: absolute;
+    background-image: url(/img/ArrowMenu.png);
+    background-repeat: no-repeat;
+	top: 11px;
+    right: 100px;
+	transition: all 200ms ease;
+}
+.Link:hover:before {
+	left: 7px;
+} */
 </style>
