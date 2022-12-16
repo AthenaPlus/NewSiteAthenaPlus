@@ -151,13 +151,12 @@ export default {
         },
         mouseleavePortfolio() {
             this.isOpenPortfolio = false
-            
+           
         
         },
         mouseoverPrice(){
             this.isOpenPrice = !this.isOpenPrice
             this.isActive = !this.isActive
-       
         },
         mouseleavePrice() {
             this.isOpenPrice = false
