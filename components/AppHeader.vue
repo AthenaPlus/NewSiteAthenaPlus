@@ -103,15 +103,15 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out duration-500']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-500 fixed']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu/>
             </div>
-            <!-- <div @mouseenter="mouseoverPortfolio"
-                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000' : '-translate-x-130 transition ease-in-out duration-1000 delay-300']"
-                class="inset-0 bg-filter text-pink-500 -z-10 pl-[500px]">
-                    <h3 class="title">Portfolio</h3>
-            </div> -->
+            <div @mouseenter="mouseoverPortfolio"
+                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 block' : '-translate-x-130 transition ease-in-out duration-500  fixed']"
+                class="bg-filter text-pink-500 -z-10 w-full right-0">
+                    <MenuframeAboutMenu/>
+            </div>
             <!-- <div @mouseenter="mouseoverPrice"
                 :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000' : '-translate-x-130 transition ease-in-out duration-1000 delay-300']"
                 class="inset-0 bg-filter text-pink-500 -z-10 pl-[500px]">
