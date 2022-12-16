@@ -89,9 +89,11 @@
                 class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
                 <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                     class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink v-for="Link in Links" :to="Link.urlTo" :class="Link.class" class="Link text-3xl mb-7 uppercase flex items-center gap-4">
-                        {{ Link.title }} <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/>
-                    </NuxtLink>
+                    <NuxtLink to="" class="Link text-3xl mb-7 uppercase flex items-center gap-4">Главная <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" class="Link text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isOpenPortfolio  ? '' : 'Active']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @mouseover="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="Link text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" class="Link text-3xl mb-7 uppercase flex items-center gap-4" @mouseover="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" class="Link text-3xl mb-7 uppercase flex items-center gap-4">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
                     <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
@@ -100,41 +102,22 @@
                     </p>
                 </div>
             </div>
-            <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out']"
+            <div 
+                :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out']"
                 class="bg-filter text-white flex-1 -z-10 w- right-0">
                     <MenuframeAboutMenu/>
             </div>
-        </div>
-        <!-- The End --- Код для мобильного меню  Меню выезжает с левой стороны. -->
-    <!-- Код для мобильного меню  Меню выезжает с левой стороны. -->
-    <!-- <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']"
-        class="transition ease-in-out duration-700 fixed inset-0 z-30">
-        <div @click="toggle" class="fixed bg-blur w-full h-full -z-10"></div>
-        <div class="bg-black px-0 py-0 w-max min-h-screen flex">
-            <div class="hidden sm:block text-xl text-white border-r border-white/30 pt-20 w-20 z-30">
-                <div :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
-                    class="-rotate-90 mt-10">
-                    <span class="font_Airborne">свернуть</span>
-                </div>
+            <div @mouseover="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
+                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000' : '-translate-x-130 transition ease-in-out duration-1000 delay-300']"
+                class="absolute inset-0 bg-filter text-pink-500 -z-10 pl-[500px]">
+                    <h3 class="title">Portfolio</h3>
             </div>
-            <div class="flex flex-col justify-between pt-40 sm:pt-64 overscroll-y-contain">
-                <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
-                    class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink v-for="Link in Links" :to="Link.urlTo" class="Link text-3xl mb-7 uppercase">
-                        {{ Link.title }}
-                    </NuxtLink>
-
-                </nav>
-                <div class="self-end">
-                    <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
-                        class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">©2022 Athena Plus. Все
-                        права защищены. Копирование
-                        дизайна/контента преследуется по закону</p>
-                </div>
+            <div @mouseover="mouseoverPrice" @mouseleave="mouseleavePrice"
+                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000' : '-translate-x-130 transition ease-in-out duration-1000 delay-300']"
+                class="absolute inset-0 bg-filter text-pink-500 -z-10 pl-[500px]">
+                    <h3 class="title">Price</h3>
             </div>
         </div>
-    </div> -->
-    <!-- The End --- Код для мобильного меню  Меню выезжает с левой стороны. -->
 </template>
 
 <script setup>
@@ -145,34 +128,6 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
 import IconVertlink from '~/assets/icons/vertlink.svg'
 import IconArrowmenu from '~/assets/icons/arrowmenu.svg'
 
-const Links = [
-    {
-        title: 'главная',
-        urlTo: '/',
-        class: ''
-    },
-    {
-        title: 'о компании',
-        urlTo: '/',
-        class: 'Active'
-    },
-    {
-        title: 'портфолио',
-        urlTo: '/',
-        class: ''
-    },
-    {
-        title: 'услуги и цены',
-        urlTo: '/',
-        class: ''
-    },
-    {
-        title: 'контакты',
-        urlTo: '/',
-        class: ''
-    }
-]
-
 </script>
 <script>
 
@@ -180,11 +135,25 @@ export default {
     data: function () {
         return {
             isOpenMenu: false,
+            isOpenPortfolio: false,
+            isOpenPrice: false,
         }
     },
     methods: {
         toggle() {
             this.isOpenMenu = !this.isOpenMenu
+        },
+        mouseoverPortfolio() {
+            this.isOpenPortfolio = !this.isOpenPortfolio
+        },
+        mouseleavePortfolio() {
+            this.isOpenPortfolio = false
+        },
+        mouseoverPrice(){
+            this.isOpenPrice = !this.isOpenPrice
+        },
+        mouseleavePrice() {
+            this.isOpenPrice = false
         }
     }
 }
@@ -352,6 +321,10 @@ export default {
 .Active .ArrowMenu {
     transform: translateX(0);
     opacity: 1;
+}
+
+a { 
+    cursor: pointer;
 }
 /* .Link:before {
 	content:" ";
