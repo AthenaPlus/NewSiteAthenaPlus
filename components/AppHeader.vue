@@ -107,7 +107,7 @@
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu/>
             </div>
-            <div @mouseenter="mouseoverPortfolio"
+            <div @mouseenter="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
                 :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 block' : '-translate-x-130 transition ease-in-out duration-500  absolute']"
                 class="bg-filter text-pink-500 -z-10 w-full right-0">
                     <MenuframePortfolioMenu/>
@@ -154,8 +154,8 @@ export default {
         },
         mouseleavePortfolio() {
             this.isOpenPortfolio = false
-           
-        
+            this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
         },
         mouseoverPrice(){
             this.isOpenPrice = !this.isOpenPrice
