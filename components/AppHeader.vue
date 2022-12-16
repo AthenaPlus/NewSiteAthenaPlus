@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000' : '-translate-x-130 transition ease-in-out duration-500']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu/>
             </div>
@@ -135,6 +135,7 @@ export default {
     data: function () {
         return {
             isOpenMenu: false,
+            isOpenAbout: false,
             isOpenPortfolio: false,
             isOpenPrice: false,
             isActive: 'Active',
@@ -143,11 +144,13 @@ export default {
     methods: {
         toggle() {
             this.isOpenMenu = !this.isOpenMenu
+            this.isOpenAbout = !this.isOpenAbout
         },
 
         mouseoverPortfolio() {
             this.isOpenPortfolio = !this.isOpenPortfolio
             this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
         },
         mouseleavePortfolio() {
             this.isOpenPortfolio = false
@@ -157,6 +160,7 @@ export default {
         mouseoverPrice(){
             this.isOpenPrice = !this.isOpenPrice
             this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
         },
         mouseleavePrice() {
             this.isOpenPrice = false
