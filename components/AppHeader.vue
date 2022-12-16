@@ -78,7 +78,7 @@
         </div>
     </header>
      <!-- Kode Menu NEW -->
-     <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']" class="fixed flex flex-col-3 items-stretch transition ease-in-out duration-700 min-h-screen  z-20 overscroll-none">
+     <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']" class="fixed flex flex-col-3 items-stretch transition ease-in-out duration-700 min-h-screen w-full  z-20 overscroll-none">
             <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
                 <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
                     class="-rotate-90 -ml-0 mt-28 font_Airborne">
@@ -103,17 +103,17 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0 absolute']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu/>
             </div>
             <div @mouseenter="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
-                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0  absolute']"
+                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframePortfolioMenu/>
             </div>
             <div @mouseenter="mouseoverPrice" @mouseleave="mouseleavePrice"
-                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0  absolute']"
+                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframePriceMenu/>
             </div>
