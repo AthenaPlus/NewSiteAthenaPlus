@@ -93,7 +93,7 @@
                     <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                     <NuxtLink to="" @click="toggle" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                     <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
                     <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
@@ -117,6 +117,11 @@
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframePriceMenu/>
             </div>
+            <div @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts"
+                :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                class="bg-filter text-white flex-1 -z-10 w-full right-0">
+                    <MenuframeContactsMenu/>
+            </div>
         </div>
 </template>
 
@@ -138,6 +143,7 @@ export default {
             isOpenAbout: false,
             isOpenPortfolio: false,
             isOpenPrice: false,
+            isOpenContacts: false,
             isActive: 'Active',
         }
     },
@@ -164,6 +170,16 @@ export default {
         },
         mouseleavePrice() {
             this.isOpenPrice = false
+            this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
+        },
+        mouseoverContacts() {
+            this.isOpenContacts = !this.isOpenContacts
+            this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
+        },
+        mouseleaveContacts() {
+            this.isOpenContacts = false
             this.isActive = !this.isActive
             this.isOpenAbout = !this.isOpenAbout
         }
