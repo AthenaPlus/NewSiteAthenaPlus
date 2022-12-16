@@ -2,7 +2,7 @@
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
-                <h2 class="title uppercase">Услуги и цены</h2>
+                <h2 class="title uppercase">Контакты</h2>
             </div>
             <p class="text-white mt-5 mb-12">Узнайте подробнее о нашей структуре и методах работы</p>
 

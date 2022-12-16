@@ -166,7 +166,6 @@ export default {
             this.isOpenPrice = false
             this.isActive = !this.isActive
             this.isOpenAbout = !this.isOpenAbout
-
         }
     }
 }
