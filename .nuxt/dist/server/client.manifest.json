@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/poliweb/Документы/www/AthenaPlus/NewSiteAthenaPlusOld/node_modules/nuxt/dist/app/entry.mjs": {
+  "/home/poliweb/Документы/www/AthenaPlus/NewSiteAthenaPlus/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/home/poliweb/Документы/www/AthenaPlus/NewSiteAthenaPlusOld/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/home/poliweb/Документы/www/AthenaPlus/NewSiteAthenaPlus/node_modules/nuxt/dist/app/entry.mjs"
   }
 }
