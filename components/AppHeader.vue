@@ -89,11 +89,11 @@
                 class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
                 <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                     class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink to="" class="text-3xl mb-7 uppercase flex items-center gap-4">Главная <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" class="text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" class="text-3xl mb-7 uppercase flex items-center gap-4">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4">Главная <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
                     <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
@@ -103,20 +103,20 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu/>
             </div>
             <div @mouseenter="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
-                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 block' : '-translate-x-130 transition ease-in-out duration-500  absolute']"
+                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0  absolute']"
                 class="bg-filter text-pink-500 -z-10 w-full right-0">
                     <MenuframePortfolioMenu/>
             </div>
-            <!-- <div @mouseenter="mouseoverPrice"
-                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000' : '-translate-x-130 transition ease-in-out duration-1000 delay-300']"
-                class="inset-0 bg-filter text-pink-500 -z-10 pl-[500px]">
-                    <h3 class="title">Price</h3>
-            </div> -->
+            <div @mouseenter="mouseoverPrice" @mouseleave="mouseleavePrice"
+                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 opacity-100 block' : '-translate-x-130 transition ease-in-out duration-500 opacity-0  absolute']"
+                class="bg-filter text-pink-500 -z-10 w-full right-0">
+                    <MenuframePriceMenu/>
+            </div>
         </div>
 </template>
 
@@ -164,6 +164,8 @@ export default {
         },
         mouseleavePrice() {
             this.isOpenPrice = false
+            this.isActive = !this.isActive
+            this.isOpenAbout = !this.isOpenAbout
 
         }
     }
