@@ -1,50 +1,51 @@
 <template>
-    <section class="text-white body-font overflow-hidden">
-        <div class="container px-9 py-10 mx-auto">
+    <section class="text-white body-font w-full">
+        <div class="container px-9 py-10 mx-auto max-h-screen  overflow-y-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
                 <h2 class="title uppercase">Портфолио</h2>
             </div>
-            <p class="text-white mt-5">Узнайте подробнее о нашей структуре и методах работы</p>
-            <div class="flex flex-row flex-wrap -mx-12">
-                <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
-                    <div class="flex flexp-row  lg:gap-[18px]">
-                        <div class="w-full md:min-w-[300px]">
-                            <img src="https://dummyimage.com/350x250" alt="" class="w-full lg:w-[350px]">
-                        </div>
-                        <div class="w-full lg:w-[200px]">
-                            <h3 class="text-2xl">Всё о нас</h3>
-                            <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                            <p class="text-base font-light pb-4">История становления студии, миссия, методы работы и
-                                многое другое.</p>
-                            <button class="bg-white text-black text-lg py-[10px] w-full">
-                                открыть
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
-                    <div class="flex flex-row  lg:gap-[18px]">
-                        <div class="w-full md:min-w-[300px]">
-                            <img src="https://dummyimage.com/350x250" alt="" class="w-full lg:w-[350px]">
-                        </div>
-                        <div class="w-full lg:w-[200px]">
-                            <h3 class="text-2xl">Карьера</h3>
-                            <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                            <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской
-                                веб-студии!</p>
-                            <button class="bg-white text-black text-lg py-[10px] w-full">
-                                открыть
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <p class="text-white mt-5 mb-[60px]">Узнайте подробнее о нашей структуре и методах работы</p>
+            <NuxtLink  :to="item.toLink" v-for="item in items" :key="item.index" class="flex flex-row flex-wrap justify-between border-b-2 border-white pt-[50px] pb-10 text--hover">
+                <h3 class="title">{{ item.title }}</h3>
+                <span class="title">{{ item.number }}</span>
+            </NuxtLink>
         </div>
     </section>
 </template>
 
 <script setup>
+
+const items = ([
+    {
+        title: 'чек маркет',
+        number: '#1',
+        toLink: '/about'
+    },
+    {
+        title: 'midas event',
+        number: '#2',
+        toLink: '/'
+    },
+    {
+        title: 'як',
+        number: '#3',
+        toLink: '/'
+    },
+    {
+        title: 'торгсофт',
+        number: '#4',
+        toLink: '/'
+    },
+    {
+        title: 'название',
+        number: '#5',
+        toLink: '/'
+    },
+])
+
+</script>
+<script>
+
 
 </script>
 
@@ -59,5 +60,13 @@
 
 
     color: #FFFFFF;
+}
+
+.text--hover:hover {
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 </style>
