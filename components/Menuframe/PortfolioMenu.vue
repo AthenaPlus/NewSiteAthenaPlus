@@ -5,7 +5,7 @@
                 <h2 class="title uppercase">Портфолио</h2>
             </div>
             <p class="text-white mt-5 mb-[60px]">Узнайте подробнее о нашей структуре и методах работы</p>
-            <NuxtLink  :to="item.toLink" v-for="item in items" :key="item.index" class="flex flex-row flex-wrap justify-between border-b-2 border-white pt-[50px] pb-10 text--hover">
+            <NuxtLink @click="addToggle" :to="item.toLink" v-for="item in items" :key="item.index" class="flex flex-row flex-wrap justify-between border-b-2 border-white pt-[50px] pb-10 text--hover">
                 <h3 class="title">{{ item.title }}</h3>
                 <span class="title">{{ item.number }}</span>
             </NuxtLink>
@@ -15,38 +15,45 @@
 
 <script setup>
 
+
 const items = ([
     {
         title: 'чек маркет',
         number: '#1',
-        toLink: '/about'
+        toLink: '/portfolio'
     },
     {
         title: 'midas event',
         number: '#2',
-        toLink: '/'
+        toLink: '/portfolio'
     },
     {
         title: 'як',
         number: '#3',
-        toLink: '/'
+        toLink: '/portfolio'
     },
     {
         title: 'торгсофт',
         number: '#4',
-        toLink: '/'
+        toLink: '/portfolio'
     },
     {
         title: 'название',
         number: '#5',
-        toLink: '/'
+        toLink: '/portfolio'
     },
 ])
 
 </script>
 <script>
 
-
+export default {
+    methods: {
+        addToggle() {
+            this.$emit('addToggle')
+        }
+    }
+}
 </script>
 
 <style scoped>

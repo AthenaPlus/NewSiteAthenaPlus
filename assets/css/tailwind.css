@@ -28,11 +28,19 @@
     .Source_Sans_Pro {
       font-family: 'Source Sans Pro', sans-serif;
     }
-    
-    .bg-btn:hover {
-      background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
-      color: #fff
+
+    .btn {
+      @apply inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase transition duration-700 ease-in-out
     }
+    .btn:hover {
+      background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+      color: #fff;
+    }
+
+    .btn--shadow {
+      @apply hover:shadow-lg hover:shadow-pink-500/50
+    }
+
 
     .title {
       font-family: 'Airborne';
@@ -45,6 +53,9 @@
     }
   }
 
-  .h1-title {
+.h1-title {
   @apply text-4xl md:text-7xl lg:text-8xl ;
 }
+
+
+

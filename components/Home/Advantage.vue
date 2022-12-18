@@ -13,7 +13,7 @@
                 </p>
                 <div class="flex justify-start">
                     <button
-                        class="bg-btn inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться на интервью</button>
+                        class="btn btn--shadow">записаться на интервью</button>
                 </div>
         </div>
     <!-- <div class="bg-pink-500/50 w-1/2 h-screen"></div> -->

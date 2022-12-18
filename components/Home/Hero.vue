@@ -11,7 +11,7 @@
                     <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
                     <div class="flex justify-center">
                         <button
-                            class="bg-btn inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 font_Airborne text-xl uppercase">записаться
+                            class="btn btn--shadow">записаться
                             на интервью</button>
                     </div>
                     <div class="flex flex-wrap justify-start gap-2.5 mt-28">
@@ -124,36 +124,6 @@ const HeroLabels = [
     border-image: linear-gradient(to bottom, #FF2BFF, #FCB040  );
     border-image-slice: 1;
     transition: all 0.5s ease-out;
-}
-/* Border Gradient variant-2 */
-.btn {
-  position: relative;
-  padding: 15px 20px;
-  margin-top: 20px;
-  border: 0;
-  border-radius: 50px;
-  font-size: 20px;
-  font-family: inherit;
-  color: inherit;
-  background: none;
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 50px;
-  border: var(--border-w) solid transparent;
-  background: linear-gradient(45deg, purple, orange) border-box;
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-.btn:hover::before {
 }
 
 </style>

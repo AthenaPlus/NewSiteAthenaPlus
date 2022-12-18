@@ -89,11 +89,11 @@
                 class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
                 <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                     class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4">Главная <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="toggle" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/" @click="toggle" @mouseenter="mouseoverHome" @mouseleave="mouseoverHome"  class="text-3xl mb-7 uppercase flex items-center gap-4" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
+                    <NuxtLink to="/about" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/portfolio" @click="toggle" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl mb-7 uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/contacts" @click="toggle" class="text-3xl mb-7 uppercase flex items-center gap-4" @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
                     <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
@@ -103,22 +103,22 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-700 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                    <MenuframeAboutMenu/>
+                    <MenuframeAboutMenu @addToggle="addToggle"/>
             </div>
             <div @mouseenter="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
-                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                    <MenuframePortfolioMenu/>
+                <MenuframePortfolioMenu @addToggle="addToggle"/>
             </div>
             <div @mouseenter="mouseoverPrice" @mouseleave="mouseleavePrice"
-                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframePriceMenu/>
             </div>
             <div @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts"
-                :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000  block' : '-translate-x-130 transition ease-in-out duration-500 absolute']"
+                :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeContactsMenu/>
             </div>
@@ -133,6 +133,33 @@ import IconInstagram from '~/assets/icons/instagram2.svg'
 import IconVertlink from '~/assets/icons/vertlink.svg'
 import IconArrowmenu from '~/assets/icons/arrowmenu.svg'
 
+const items = ([
+    {
+        title: 'чек маркет',
+        number: '#1',
+        toLink: '/about'
+    },
+    {
+        title: 'midas event',
+        number: '#2',
+        toLink: '/'
+    },
+    {
+        title: 'як',
+        number: '#3',
+        toLink: '/'
+    },
+    {
+        title: 'торгсофт',
+        number: '#4',
+        toLink: '/'
+    },
+    {
+        title: 'название',
+        number: '#5',
+        toLink: '/'
+    },
+])
 </script>
 <script>
 
@@ -144,6 +171,7 @@ export default {
             isOpenPortfolio: false,
             isOpenPrice: false,
             isOpenContacts: false,
+            isHome: false,
             isActive: 'Active',
         }
     },
@@ -151,6 +179,16 @@ export default {
         toggle() {
             this.isOpenMenu = !this.isOpenMenu
             this.isOpenAbout = !this.isOpenAbout
+        },
+
+        mouseoverHome() {
+            this.isHome = !this.isHome
+            this.isActive = !this.isActive
+        },
+
+        mouseleaveHome() {
+            this.isHome = false
+            this.isActive = !this.isActive
         },
 
         mouseoverPortfolio() {
@@ -182,8 +220,13 @@ export default {
             this.isOpenContacts = false
             this.isActive = !this.isActive
             this.isOpenAbout = !this.isOpenAbout
+        },
+        addToggle() {
+            this.isOpenMenu = !this.isOpenMenu
+            this.isOpenAbout = !this.isOpenAbout
         }
-    }
+    },
+
 }
 
 </script>

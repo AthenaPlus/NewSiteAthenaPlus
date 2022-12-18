@@ -2,6 +2,7 @@
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'AppHeader': typeof import("../components/AppHeader.vue")['default']
+    'AppSocialButtons': typeof import("../components/AppSocialButtons.vue")['default']
     'HomeAdvantage': typeof import("../components/Home/Advantage.vue")['default']
     'HomeHero': typeof import("../components/Home/Hero.vue")['default']
     'HomeOrderproject': typeof import("../components/Home/Orderproject.vue")['default']
@@ -34,6 +35,7 @@ declare module '@vue/runtime-core' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyAppHeader': typeof import("../components/AppHeader.vue")['default']
+    'LazyAppSocialButtons': typeof import("../components/AppSocialButtons.vue")['default']
     'LazyHomeAdvantage': typeof import("../components/Home/Advantage.vue")['default']
     'LazyHomeHero': typeof import("../components/Home/Hero.vue")['default']
     'LazyHomeOrderproject': typeof import("../components/Home/Orderproject.vue")['default']
@@ -69,6 +71,7 @@ declare module '@vue/runtime-core' {
 }
 
 export const AppHeader: typeof import("../components/AppHeader.vue")['default']
+export const AppSocialButtons: typeof import("../components/AppSocialButtons.vue")['default']
 export const HomeAdvantage: typeof import("../components/Home/Advantage.vue")['default']
 export const HomeHero: typeof import("../components/Home/Hero.vue")['default']
 export const HomeOrderproject: typeof import("../components/Home/Orderproject.vue")['default']
@@ -101,6 +104,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyAppHeader: typeof import("../components/AppHeader.vue")['default']
+export const LazyAppSocialButtons: typeof import("../components/AppSocialButtons.vue")['default']
 export const LazyHomeAdvantage: typeof import("../components/Home/Advantage.vue")['default']
 export const LazyHomeHero: typeof import("../components/Home/Hero.vue")['default']
 export const LazyHomeOrderproject: typeof import("../components/Home/Orderproject.vue")['default']

@@ -1,5 +1,5 @@
 <template>
-    <section class="text-white body-font overflow-hidden">
+    <section class="text-white body-font overflow-hidden transition ease-in-out duration-500">
         <div class="container px-9 py-10 mx-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
                 <h2 class="title uppercase">О компании</h2>
@@ -15,9 +15,9 @@
                             <h3 class="text-2xl">Всё о нас</h3>
                             <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                             <p class="text-base font-light pb-4">История становления студии, миссия, методы работы и многое другое.</p>
-                            <button class="bg-white text-black text-lg py-[10px] w-full">
+                            <NuxtLink to="/about" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
                                 открыть
-                            </button>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -30,9 +30,9 @@
                             <h3 class="text-2xl">Карьера</h3>
                             <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                             <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской веб-студии!</p>
-                            <button class="bg-white text-black text-lg py-[10px] w-full">
+                            <NuxtLink to="/about" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
                                 открыть
-                            </button>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -42,8 +42,14 @@
     </section>
 </template>
 
-<script setup>
-
+<script>
+export default {
+    methods: {
+        addToggle() {
+            this.$emit('addToggle')
+        }
+    }
+}
 </script>
 
 <style scoped>
@@ -58,4 +64,9 @@ line-height: 77%;
 
 color: #FFFFFF;
 }
+
+.bg--btn:hover {
+      background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+      color: #fff;
+    }
 </style>
