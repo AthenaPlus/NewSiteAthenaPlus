@@ -9,7 +9,7 @@
                 <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
                     <div class="flex flexp-row  lg:gap-[18px]">
                         <div class="w-full md:min-w-[300px]">
-                            <img src="https://dummyimage.com/350x250" alt="" class="w-full lg:w-[350px]">
+                            <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
                         </div>
                         <div class="w-full lg:w-[200px]">
                             <h3 class="text-2xl">Всё о нас</h3>
@@ -24,7 +24,7 @@
                 <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
                     <div class="flex flex-row  lg:gap-[18px]">
                         <div class="w-full md:min-w-[300px]">
-                            <img src="https://dummyimage.com/350x250" alt="" class="w-full lg:w-[350px]">
+                            <img src="/img/About_photo2.png" alt="" class="w-full lg:w-[350px] object-cover">
                         </div>
                         <div class="w-full lg:w-[200px]">
                             <h3 class="text-2xl">Карьера</h3>
@@ -36,7 +36,36 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
+                    <div class="flex flex-row  lg:gap-[18px]">
+                        <div class="w-full md:min-w-[300px]">
+                            <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
+                        </div>
+                        <div class="w-full lg:w-[200px]">
+                            <h3 class="text-2xl">Рефералка</h3>
+                            <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
+                            <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
+                            <NuxtLink to="/about" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
+                                открыть
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-12 w-full lg:w-1/2 flex flex-col items-start">
+                    <div class="flex flex-row  lg:gap-[18px]">
+                        <div class="w-full md:min-w-[300px]">
+                            <img src="/img/About_photo4.png" alt="" class="w-full lg:w-[350px] object-cover">
+                        </div>
+                        <div class="w-full lg:w-[200px]">
+                            <h3 class="text-2xl">Блог</h3>
+                            <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
+                            <p class="text-base font-light pb-4">Читайте полезные статьи о веб-индустрии на нашей платформе.</p>
+                            <NuxtLink to="/about" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
+                                открыть
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
