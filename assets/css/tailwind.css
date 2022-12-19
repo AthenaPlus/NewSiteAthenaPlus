@@ -11,6 +11,8 @@
   @layer base {
     body {
       background: #0B0B0B;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
     }
     h1 {
       font-family: Airborne, system-ui, sans-serif;
