@@ -1,4 +1,5 @@
 <template>
+    <ServicespricesServicesHero/>
     <section class="text-white body-font">
         <div class="container px-5 py-24 mx-auto">
             <!-- Blok Header -->

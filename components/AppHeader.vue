@@ -78,7 +78,7 @@
         </div>
     </header>
      <!-- Kode Menu NEW -->
-     <div :class="[isOpenMenu ? 'translate-x-0' : '-translate-x-130']" class="fixed flex flex-col-3 items-stretch transition ease-in-out duration-700 min-h-screen w-full  z-20 overscroll-none">
+     <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']" class="fixed flex flex-col-3 items-stretch  min-h-screen w-full  z-20 overscroll-none">
             <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
                 <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
                     class="-rotate-90 -ml-0 mt-28 font_Airborne">
@@ -91,7 +91,7 @@
                     class="flex flex-col text-3xl text-white font_Airborne pl-10">
                     <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
                     <NuxtLink to="" @click="clickAbout" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAbout ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="clickPortfolio"  :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="clickPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                     <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
                     <NuxtLink to="" @click="clickContacts" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
@@ -181,6 +181,7 @@ export default {
             this.isOpenAbout = true
             this.isOpenPortfolio = false
             this.isOpenContacts = false
+
         },
 
         clickAbout() {
@@ -205,7 +206,7 @@ export default {
         },
         addToggle() {
             this.isOpenMenu = !this.isOpenMenu
-            this.isOpenAbout = !this.isOpenAbout
+            this.isOpenAbout = false
         }
     },
 
