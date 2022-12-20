@@ -92,7 +92,7 @@
                     <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
                     <NuxtLink to="" @click="clickAbout" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAbout ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                     <NuxtLink to="" @click="clickPortfolio"  :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
                     <NuxtLink to="" @click="clickContacts" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
@@ -182,13 +182,7 @@ export default {
             this.isOpenPortfolio = false
             this.isOpenContacts = false
         },
-        mouseoverHome() {
-            this.isHome = !this.isHome
-        },
-        mouseleaveHome() {
-            this.isHome = false
-            this.isActive = !this.isActive
-        },
+
         clickAbout() {
             this.isOpenAbout = true
             this.isActive = true
@@ -202,32 +196,12 @@ export default {
             this.isOpenAbout = false
             this.isOpenContacts = false
         },
-        onclickPortfolio() {
-            this.isOpenPortfolio = false
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
-        },
-        // mouseoverPrice(){
-        //     this.isOpenPrice = !this.isOpenPrice
-        //     this.isActive = !this.isActive
-        //     this.isOpenAbout = !this.isOpenAbout
-        // },
-        // mouseleavePrice() {
-        //     this.isOpenPrice = false
-        //     this.isActive = !this.isActive
-        //     this.isOpenAbout = !this.isOpenAbout
-        // },
         clickContacts() {
             this.isOpenContacts = true
             this.isActive = true
             this.isOpenAbout = false
             this.isOpenPortfolio = false
 
-        },
-        mouseleaveContacts() {
-            this.isOpenContacts = false
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
         },
         addToggle() {
             this.isOpenMenu = !this.isOpenMenu
