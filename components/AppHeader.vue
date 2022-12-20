@@ -19,7 +19,7 @@
                 fill="white" />
         </svg>
     </button>
-    <!-- Hte End --- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
+    <!-- Hte End - Диномичная SVG кнопка для управления выезда боковой панели с меню -->
     <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-10">
         <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-row items-center justify-between">
@@ -89,11 +89,11 @@
                 class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
                 <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                     class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink to="/" @click="toggle" @mouseenter="mouseoverHome" @mouseleave="mouseoverHome"  class="text-3xl py-[15px] uppercase flex items-center gap-4" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
-                    <NuxtLink to="/about" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 " :class="[isActive ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="/portfolio" @click="toggle" @mouseenter="mouseoverPortfolio" @mouseleave="mouseoverPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4" @mouseenter="mouseoverPrice" @mouseleave="mouseoverPrice" :class="[isOpenPrice ? 'Active' : '']">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="/contacts" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4" @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
+                    <NuxtLink to="" @click="clickAbout" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAbout ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="clickPortfolio"  :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
+                    <NuxtLink to="" @click="clickContacts" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
                 </nav>
                 <div class="">
                     <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
@@ -103,21 +103,21 @@
                 </div>
             </div>
             <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-700 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
+                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeAboutMenu @addToggle="addToggle"/>
             </div>
-            <div @mouseenter="mouseoverPortfolio" @mouseleave="mouseleavePortfolio"
+            <div
                 :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                 <MenuframePortfolioMenu @addToggle="addToggle"/>
             </div>
-            <div @mouseenter="mouseoverPrice" @mouseleave="mouseleavePrice"
+            <div
                 :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframePriceMenu/>
             </div>
-            <div @mouseenter="mouseoverContacts" @mouseleave="mouseleaveContacts"
+            <div
                 :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
                 class="bg-filter text-white flex-1 -z-10 w-full right-0">
                     <MenuframeContactsMenu/>
@@ -178,43 +178,51 @@ export default {
     methods: {
         toggle() {
             this.isOpenMenu = !this.isOpenMenu
-            this.isOpenAbout = !this.isOpenAbout
+            this.isOpenAbout = true
+            this.isOpenPortfolio = false
+            this.isOpenContacts = false
         },
-
         mouseoverHome() {
             this.isHome = !this.isHome
-            this.isActive = !this.isActive
         },
-
         mouseleaveHome() {
             this.isHome = false
             this.isActive = !this.isActive
         },
+        clickAbout() {
+            this.isOpenAbout = true
+            this.isActive = true
+            this.isOpenPortfolio = false
+            this.isOpenContacts = false
 
-        mouseoverPortfolio() {
-            this.isOpenPortfolio = !this.isOpenPortfolio
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
         },
-        mouseleavePortfolio() {
+        clickPortfolio() {
+            this.isOpenPortfolio = true
+            this.isActive = true
+            this.isOpenAbout = false
+            this.isOpenContacts = false
+        },
+        onclickPortfolio() {
             this.isOpenPortfolio = false
             this.isActive = !this.isActive
             this.isOpenAbout = !this.isOpenAbout
         },
-        mouseoverPrice(){
-            this.isOpenPrice = !this.isOpenPrice
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
-        },
-        mouseleavePrice() {
-            this.isOpenPrice = false
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
-        },
-        mouseoverContacts() {
-            this.isOpenContacts = !this.isOpenContacts
-            this.isActive = !this.isActive
-            this.isOpenAbout = !this.isOpenAbout
+        // mouseoverPrice(){
+        //     this.isOpenPrice = !this.isOpenPrice
+        //     this.isActive = !this.isActive
+        //     this.isOpenAbout = !this.isOpenAbout
+        // },
+        // mouseleavePrice() {
+        //     this.isOpenPrice = false
+        //     this.isActive = !this.isActive
+        //     this.isOpenAbout = !this.isOpenAbout
+        // },
+        clickContacts() {
+            this.isOpenContacts = true
+            this.isActive = true
+            this.isOpenAbout = false
+            this.isOpenPortfolio = false
+
         },
         mouseleaveContacts() {
             this.isOpenContacts = false
@@ -380,7 +388,13 @@ export default {
     transform: translateX(0);
     opacity: 1;
 }
-
+.Nuxt--Link:hover {
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 .Active {
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
     -webkit-background-clip: text;
