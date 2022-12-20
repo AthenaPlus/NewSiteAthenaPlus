@@ -4,46 +4,180 @@
         <div class="container px-5 py-24 mx-auto">
             <!-- Blok Header -->
             <div class="border-b-2 border-white pb-[60px]">
-                <h1 class="text-4xl sm:text-6xl md:text-[86px] text-white">Что мы предлагаем</h1>
+                <h1 class="text-4xl sm:text-6xl md:text-[86px] text-white mb-[50px]">Что мы предлагаем</h1>
                 <p class="text-2xl sm:text-3xl text-white md:leading-[45px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
             </div>
             <!-- End Blok Header -->
-            <!-- Blok Веб-Сайты -->
-            <div class="mt-[60px] flex flex-row flex-wrap">
+            <!-- Blok Веб-Сайты переменная websiteItems -->
+            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
-                    <h2 class="font_Airborne text-4xl md:text-6xl uppercase">Веб-Сайты</h2>
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Веб-Сайты</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div class="w-full lg:w-1/2 p-8">
-                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Landing page</h3>
-                        <p class="text-lg">Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.</p>
-                        <button class="w-full py-[10px] text-right text-2xl">Заказать</button>
+                    <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ websiteItem.title }}</h3>
+                        <p class="text-lg">{{ websiteItem.description }}</p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
                     </div>
-                    <div class="w-full lg:w-1/2 p-8">
-                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Интернет-магазин</h3>
-                        <p class="text-lg">Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.</p>
-                        <button class="w-full py-[10px] text-right text-2xl">Заказать</button>
-                    </div>
-                    <div class="w-full lg:w-1/2 p-8">
-                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Сайт-визитка</h3>
-                        <p class="text-lg">Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.</p>
-                        <button class="w-full py-[10px] text-right text-2xl">Заказать</button>
-                    </div>
-                    <div class="w-full lg:w-1/2 p-8">
-                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Индивидуальный сайт</h3>
-                        <p class="text-lg">Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.</p>
-                        <button class="w-full py-[10px] text-right text-2xl">Заказать</button>
-                    </div>
+
                 </div>
             </div>
             <!-- End Blok Веб-Сайты -->
+            <!-- Blok Приложение -->
+            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+                <div class="w-full md:w-1/4">
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Приложение</h2>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-row flex-wrap">
+                    <div class="w-full p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Заголовок </h3>
+                        <p class="text-lg"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Blok Приложение -->
+            <!-- Blok SEO Услуги  переменная seoItems -->
+            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+                <div class="w-full md:w-1/4">
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">seo услуги</h2>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-row flex-wrap">
+                    <div v-for="seoItem in seoItems" :key="seoItem.index" class="w-full lg:w-1/2 p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ seoItem.title }}</h3>
+                        <p class="text-lg">{{ seoItem.description }}</p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Blok SEO Услуги -->
+            <!-- Blok КОНТЕКСТНАЯ РЕКЛАМА -->
+            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+                <div class="w-full md:w-1/4">
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Контекстная реклама</h2>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-row flex-wrap">
+                    <div class="w-full p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Контекстно медийная реклама </h3>
+                        <p class="text-lg"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Blok КОНТЕКСТНАЯ РЕКЛАМА -->
+            <!-- Blok  ГРАФИЧЕСКИЙ ДИЗАЙН переменная designItems -->
+            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+                <div class="w-full md:w-1/4">
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Графический дизайн</h2>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-row flex-wrap">
+                    <div v-for="designItem in designItems" :key="designItem.index" class="w-full lg:w-1/2 p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ designItem.title }}</h3>
+                        <p class="text-lg">{{ designItem.description }}</p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Blok  ГРАФИЧЕСКИЙ ДИЗАЙН -->
+            <!-- Blok поддержка проектов -->
+            <div class="my-[60px] flex flex-row flex-wrap">
+                <div class="w-full md:w-1/4">
+                    <h2 class="font_Airborne text-4xl md:text-5xl uppercase">поддержка проектов</h2>
+                </div>
+                <div class="w-full md:w-3/4 flex flex-row flex-wrap">
+                    <div class="w-full p-8">
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Профессиональная поддержка проектов</h3>
+                        <p class="text-lg"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Blok поддержка проектов -->
         </div>
     </section>
 </template>
 
 <script setup>
+import IconArrowright from '~/assets/icons/arrow__right.svg'
+
+
+const websiteItems = [
+    {
+        title: 'Landing page',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Интернет-магазин',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Сайт-визитка',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Индивидуальный сайт',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Корпоративный сайт',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Веб-портал',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    }
+]
+
+const seoItems = [
+    {
+        title: 'SEO Landing page',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'SEO Интернет-магазин',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'SEO Сайт-визитка',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'SEO Индивидуальный сайт',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    }
+]
+
+const designItems = [
+{
+        title: 'Дезайн Landing page',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Дезайн Интернет-магазин',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Дезайн Сайт-визитка',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    },
+    {
+        title: 'Дезайн Индивидуальный сайт',
+        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+    }
+]
 
 </script>
 
