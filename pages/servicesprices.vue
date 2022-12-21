@@ -17,7 +17,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Веб-Сайты</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8">
+                    <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ websiteItem.title }}</h3>
                         <p class="text-lg">{{ websiteItem.description }}</p>
                         <button
@@ -35,7 +35,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Приложение</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div class="w-full p-8">
+                    <div class="w-full p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Заголовок </h3>
                         <p class="text-lg">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -61,7 +61,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">seo услуги</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div v-for="seoItem in seoItems" :key="seoItem.index" class="w-full lg:w-1/2 p-8">
+                    <div v-for="seoItem in seoItems" :key="seoItem.index" class="w-full lg:w-1/2 p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ seoItem.title }}</h3>
                         <p class="text-lg">{{ seoItem.description }}</p>
                         <button
@@ -79,7 +79,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Контекстная реклама</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div class="w-full p-8">
+                    <div class="w-full p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Контекстно медийная реклама </h3>
                         <p class="text-lg">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -105,7 +105,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Графический дизайн</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div v-for="designItem in designItems" :key="designItem.index" class="w-full lg:w-1/2 p-8">
+                    <div v-for="designItem in designItems" :key="designItem.index" class="w-full lg:w-1/2 p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ designItem.title }}</h3>
                         <p class="text-lg">{{ designItem.description }}</p>
                         <button
@@ -123,7 +123,7 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">поддержка проектов</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div class="w-full p-8">
+                    <div class="w-full p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Профессиональная поддержка проектов
                         </h3>
                         <p class="text-lg">
@@ -226,5 +226,8 @@ useHead({
 </script>
 
 <style scoped>
-
+.block__items:hover {
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    border-radius: 10px;
+}
 </style>
