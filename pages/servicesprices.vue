@@ -17,11 +17,11 @@
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Веб-Сайты</h2>
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
-                    <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8 block__items">
+                    <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8 block__items transition duration-700 ease-in-out ">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ websiteItem.title }}</h3>
                         <p class="text-lg">{{ websiteItem.description }}</p>
                         <button
-                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4 transition duration-700 ease-in-out">Заказать
                             <IconArrowright class="w-20" />
                         </button>
                     </div>
