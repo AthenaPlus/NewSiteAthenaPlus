@@ -9,7 +9,7 @@
 
 <script setup>
 useHead({
-    title: 'Athena My App',
+    title: 'Athena Веб-проекты со стилем',
     meta: [
         { name: 'description', content: 'веб-проекты со стилем Мы создаём креативные веб-проекты для вашего бизнеса' }
     ],
