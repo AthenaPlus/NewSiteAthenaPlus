@@ -1,11 +1,12 @@
 <template>
-    <ServicespricesServicesHero/>
+    <ServicespricesServicesHero />
     <section class="text-white body-font">
         <div class="container px-5 py-24 mx-auto">
             <!-- Blok Header -->
             <div class="border-b-2 border-white pb-[60px]">
                 <h1 class="text-4xl sm:text-6xl md:text-[86px] text-white mb-[50px]">Что мы предлагаем</h1>
-                <p class="text-2xl sm:text-3xl text-white md:leading-[45px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p class="text-2xl sm:text-3xl text-white md:leading-[45px]">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
             </div>
@@ -19,7 +20,10 @@
                     <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ websiteItem.title }}</h3>
                         <p class="text-lg">{{ websiteItem.description }}</p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -33,10 +37,19 @@
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
                     <div class="w-full p-8">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Заголовок </h3>
-                        <p class="text-lg"> 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
                         </p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -51,7 +64,10 @@
                     <div v-for="seoItem in seoItems" :key="seoItem.index" class="w-full lg:w-1/2 p-8">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ seoItem.title }}</h3>
                         <p class="text-lg">{{ seoItem.description }}</p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -65,10 +81,19 @@
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
                     <div class="w-full p-8">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Контекстно медийная реклама </h3>
-                        <p class="text-lg"> 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
                         </p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -83,7 +108,10 @@
                     <div v-for="designItem in designItems" :key="designItem.index" class="w-full lg:w-1/2 p-8">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ designItem.title }}</h3>
                         <p class="text-lg">{{ designItem.description }}</p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -96,11 +124,21 @@
                 </div>
                 <div class="w-full md:w-3/4 flex flex-row flex-wrap">
                     <div class="w-full p-8">
-                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Профессиональная поддержка проектов</h3>
-                        <p class="text-lg"> 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Профессиональная поддержка проектов
+                        </h3>
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
                         </p>
-                        <button class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать<IconArrowright class="w-20"/></button>
+                        <button
+                            class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
+                            <IconArrowright class="w-20" />
+                        </button>
                     </div>
 
                 </div>
@@ -161,7 +199,7 @@ const seoItems = [
 ]
 
 const designItems = [
-{
+    {
         title: 'Дезайн Landing page',
         description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
     },
@@ -179,6 +217,12 @@ const designItems = [
     }
 ]
 
+useHead({
+    title: 'Athena Услуги и Цены',
+    meta: [
+        { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
+    ],
+})
 </script>
 
 <style scoped>
