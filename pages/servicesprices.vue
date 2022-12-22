@@ -39,8 +39,8 @@
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Заголовок </h3>
                         <p class="text-lg">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            labore et dolore magna aliqua. <span id="triggerSpan" class="triggerSpan">Tenim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</span> U Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -83,8 +83,8 @@
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">Контекстно медийная реклама </h3>
                         <p class="text-lg">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            labore et dolore magna aliqua. <span id="triggerSpan" class="triggerSpan">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</span> Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -155,7 +155,7 @@ import IconArrowright from '~/assets/icons/arrow__right.svg'
 const websiteItems = [
     {
         title: 'Landing page',
-        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+        description: "Одностраничный сайт Landing Page так называют  промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может."
     },
     {
         title: 'Интернет-магазин',
@@ -223,11 +223,25 @@ useHead({
         { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
     ],
 })
+
+
 </script>
 
-<style scoped>
+<style>
 .block__items:hover {
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
     border-radius: 10px;
+}
+
+.triggerSpan{
+	background-image: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+	background-size: 0% 100%;
+	background-repeat: no-repeat;
+	padding: 5px;
+	transition: background-size 1s ease-in-out;
+}
+
+.active {
+	background-size: 100% 100%;
 }
 </style>
