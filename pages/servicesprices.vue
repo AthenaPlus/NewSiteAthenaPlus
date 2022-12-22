@@ -218,6 +218,7 @@ const designItems = [
     }
 ]
 
+
 useHead({
     title: 'Athena Услуги и Цены',
     meta: [
