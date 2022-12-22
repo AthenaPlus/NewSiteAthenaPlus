@@ -152,6 +152,7 @@
 import IconArrowright from '~/assets/icons/arrow__right.svg'
 
 
+
 const websiteItems = [
     {
         title: 'Landing page',
@@ -223,9 +224,8 @@ useHead({
         { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
     ],
 })
-
-
 </script>
+
 
 <style>
 .block__items:hover {
