@@ -12,7 +12,7 @@
             </div>
             <!-- End Blok Header -->
             <!-- Blok Веб-Сайты переменная websiteItems -->
-            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+            <div class="my-[60px] pb-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Веб-Сайты</h2>
                 </div>
@@ -30,7 +30,7 @@
             </div>
             <!-- End Blok Веб-Сайты -->
             <!-- Blok Приложение -->
-            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+            <div class="my-[60px] pb-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Приложение</h2>
                 </div>
@@ -56,7 +56,7 @@
             </div>
             <!-- End Blok Приложение -->
             <!-- Blok SEO Услуги  переменная seoItems -->
-            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+            <div class="my-[60px] pb-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">seo услуги</h2>
                 </div>
@@ -74,7 +74,7 @@
             </div>
             <!-- End Blok SEO Услуги -->
             <!-- Blok КОНТЕКСТНАЯ РЕКЛАМА -->
-            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+            <div class="my-[60px] pb-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Контекстная реклама</h2>
                 </div>
@@ -100,7 +100,7 @@
             </div>
             <!-- End Blok КОНТЕКСТНАЯ РЕКЛАМА -->
             <!-- Blok  ГРАФИЧЕСКИЙ ДИЗАЙН переменная designItems -->
-            <div class="my-[60px] flex flex-row flex-wrap border-b-2 border-white">
+            <div class="my-[60px] pb-[60px] flex flex-row flex-wrap border-b-2 border-white">
                 <div class="w-full md:w-1/4">
                     <h2 class="font_Airborne text-4xl md:text-5xl uppercase">Графический дизайн</h2>
                 </div>
