@@ -20,7 +20,7 @@
                     <div v-for="websiteItem in websiteItems" :key="websiteItem.index" class="w-full lg:w-1/2 p-8 block__items transition duration-700 ease-in-out ">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ websiteItem.title }}</h3>
                         <p class="text-lg">{{ websiteItem.description }}</p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4 transition duration-700 ease-in-out">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -46,7 +46,7 @@
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea commodo consequat.
                         </p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -64,7 +64,7 @@
                     <div v-for="seoItem in seoItems" :key="seoItem.index" class="w-full lg:w-1/2 p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ seoItem.title }}</h3>
                         <p class="text-lg">{{ seoItem.description }}</p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -90,7 +90,7 @@
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea commodo consequat.
                         </p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -108,7 +108,7 @@
                     <div v-for="designItem in designItems" :key="designItem.index" class="w-full lg:w-1/2 p-8 block__items">
                         <h3 class="text-3xl md:text-[32px] mb-2.5 Source_Sans_Pro">{{ designItem.title }}</h3>
                         <p class="text-lg">{{ designItem.description }}</p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -135,7 +135,7 @@
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea commodo consequat.
                         </p>
-                        <button @click="openModal"
+                        <button  @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -144,14 +144,72 @@
                 </div>
             </div>
             <!-- End Blok поддержка проектов -->
-            <AppModal @addModal="openModal"/>
+            <!-- Modal Block -->
+            <TransitionRoot appear :show="isOpen" as="template">
+                <Dialog as="div" @close="closeModal" class="relative z-10">
+                    <TransitionChild as="template" enter="duration-300 ease-out" enter-from="opacity-0" enter-to="opacity-100"
+                        leave="duration-200 ease-in" leave-from="opacity-100" leave-to="opacity-0">
+                        <div class="fixed inset-0 bg-black bg-opacity-90" />
+                    </TransitionChild>
+            
+                    <div class="fixed inset-0 overflow-y-auto">
+                        <div class="flex min-h-full items-center justify-center p-4 text-center">
+                            <TransitionChild as="template" enter="duration-300 ease-out" enter-from="opacity-0 scale-95"
+                                enter-to="opacity-100 scale-100" leave="duration-200 ease-in" leave-from="opacity-100 scale-100"
+                                leave-to="opacity-0 scale-95">
+                                <DialogPanel
+                                    class="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                                    <DialogTitle as="h3" class="text-lg font-medium leading-6 text-gray-900">
+                                        Форма для заказа услуг
+                                    </DialogTitle>
+                                    <div class="mt-2">
+                                        <p class="text-sm text-gray-500">
+                                            Your payment has been successfully submitted. We’ve sent you
+                                            an email with all of the details of your order.
+                                        </p>
+                                    </div>
+            
+                                    <div class="mt-4">
+                                        <button type="button"
+                                            class="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                                            @click="closeModal">
+                                            Заказать услуги
+                                        </button>
+                                    </div>
+                                </DialogPanel>
+                            </TransitionChild>
+                        </div>
+                    </div>
+                </Dialog>
+            </TransitionRoot>
+            <!-- End Modal Block -->
         </div>
     </section>
 </template>
 
 <script setup>
 import IconArrowright from '~/assets/icons/arrow__right.svg'
+import { ref } from 'vue'
+import {
+    TransitionRoot,
+    TransitionChild,
+    Dialog,
+    DialogPanel,
+    DialogTitle,
+} from '@headlessui/vue'
 
+const isOpen = ref(false)
+
+function closeModal() {
+    isOpen.value = false
+}
+function openModal() {
+    isOpen.value = true
+}
+
+/**
+ * Константы для заполнения контента
+ */
 
 const websiteItems = [
     {
@@ -225,9 +283,7 @@ useHead({
         { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
     ],
 })
-function openModal() {
-    isOpen.value = true
-  }
+
 </script>
 
 <script>
@@ -250,11 +306,6 @@ export default {
     beforeDestroy() {
         this.triggerSpan.pause().kill();
     },
-    methods: {
-        openModal() {
-              this.$emit('openModal')
-          }
-      }
 }
 </script>
 

@@ -74,29 +74,26 @@
       </Dialog>
     </TransitionRoot>
   </template>
-  <script>
-  export default {
 
-  }
-  </script>
-  <script setup>
-  import { ref } from 'vue'
-  import {
+<script setup>
+import { ref } from 'vue'
+import {
     TransitionRoot,
     TransitionChild,
     Dialog,
     DialogPanel,
     DialogTitle,
-  } from '@headlessui/vue'
-  
-  const isOpen = ref(false)
-  
-  function closeModal() {
-    isOpen.value = false
-  }
-  function openModal() {
-    isOpen.value = true
-  }
+} from '@headlessui/vue'
 
-  </script>
+const isOpen = ref(false)
+
+function closeModal() {
+    isOpen.value = false
+}
+function openModal() {
+    isOpen.value = true
+}
+
+
+</script>
   
