@@ -152,7 +152,6 @@
 import IconArrowright from '~/assets/icons/arrow__right.svg'
 
 
-
 const websiteItems = [
     {
         title: 'Landing page',
@@ -225,6 +224,29 @@ useHead({
         { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
     ],
 })
+
+</script>
+
+<script>
+if (process.client) {
+gsap.utils.toArray('#triggerSpan').forEach((triggerSpan) => {
+	ScrollTrigger.create({
+		trigger: triggerSpan,
+		start: 'top center',
+		toggleClass: 'active',
+		markers: true
+	})
+})
+ScrollTrigger.refresh()
+}
+export default {
+    mounted() {
+    this.triggerSpan = gsap.timeline({ /* Configuration Here */ });
+  },
+ beforeDestroy() {
+    this.triggerSpan.pause().kill();
+  },
+}
 </script>
 
 

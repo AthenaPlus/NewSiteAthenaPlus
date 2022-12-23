@@ -30,6 +30,14 @@ useHead({
       src: '/js/main.js',
       body: true
     },
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js',
+      body: true
+    },
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js',
+      body: true
+    },
   ]
 
 })
