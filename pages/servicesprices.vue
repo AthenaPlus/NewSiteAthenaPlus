@@ -232,6 +232,7 @@ function openModal() {
 
 <script>
 if (process.client) {
+    gsap.registerPlugin(ScrollTrigger);
     gsap.utils.toArray('#triggerSpan').forEach((triggerSpan) => {
         ScrollTrigger.create({
             trigger: triggerSpan,

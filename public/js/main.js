@@ -14,4 +14,3 @@
     else navbar.remove(active__class)
 })
 
-gsap.registerPlugin(ScrollTrigger);
