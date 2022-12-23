@@ -135,7 +135,7 @@
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea commodo consequat.
                         </p>
-                        <button
+                        <button @click="openModal"
                             class="w-full py-[10px] text-right text-2xl inline-flex items-center justify-end gap-4">Заказать
                             <IconArrowright class="w-20" />
                         </button>
@@ -144,6 +144,7 @@
                 </div>
             </div>
             <!-- End Blok поддержка проектов -->
+            <AppModal @addModal="openModal"/>
         </div>
     </section>
 </template>
@@ -224,28 +225,35 @@ useHead({
         { name: 'description', content: 'Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.' }
     ],
 })
-
+function openModal() {
+    isOpen.value = true
+  }
 </script>
 
 <script>
 if (process.client) {
-gsap.utils.toArray('#triggerSpan').forEach((triggerSpan) => {
-	ScrollTrigger.create({
-		trigger: triggerSpan,
-		start: 'top center',
-		toggleClass: 'active',
-		markers: true
-	})
-})
-ScrollTrigger.refresh()
+    gsap.utils.toArray('#triggerSpan').forEach((triggerSpan) => {
+        ScrollTrigger.create({
+            trigger: triggerSpan,
+            start: 'top center',
+            toggleClass: 'active',
+            markers: true
+        })
+    })
+    ScrollTrigger.refresh()
 }
 export default {
     mounted() {
-    this.triggerSpan = gsap.timeline({ /* Configuration Here */ });
-  },
- beforeDestroy() {
-    this.triggerSpan.pause().kill();
-  },
+        this.triggerSpan = gsap.timeline({ /* Configuration Here */ });
+    },
+    beforeDestroy() {
+        this.triggerSpan.pause().kill();
+    },
+    methods: {
+        openModal() {
+              this.$emit('openModal')
+          }
+      }
 }
 </script>
 
