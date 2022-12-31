@@ -2,7 +2,7 @@
     <div>
         <HomeHero/>
         <HomeAdvantage/>
-        <HomeWhatwedo/>
+        <ServicespricesServicesHero />
         <HomeOrderproject/>
     </div>
 </template>
