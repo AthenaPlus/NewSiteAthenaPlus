@@ -73,6 +73,28 @@
                     </div>
                 </div>
             </div>
+            <!-- Блок Портфолио -->
+            <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
+                <div class="w-full md:w-1/2">
+                    <ul>
+                        <li class="text-[70px] font_Airborne ">
+                            <a href="" class="link-gradient">чек маркет</a>
+                        </li>
+                        <li class="text-[70px] font_Airborne ">
+                            <a href="" class="link-gradient">midas event</a>
+                        </li>
+                        <li class="text-[70px] font_Airborne ">
+                            <a href="" class="link-gradient">як</a>
+                        </li>
+                        <li class="text-[70px] font_Airborne ">
+                            <a href="" class="link-gradient">торгсофт</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="/img/about_portfolio.jpg" alt="">
+                </div>
+            </div>
         </div>
     </section>
 </template>
