@@ -1,6 +1,5 @@
 <template>
     <HomeWhatwedo/>
-
 </template>
 
 <script setup>
