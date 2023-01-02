@@ -11,7 +11,7 @@ useHead({
 
 <template>
 <div
-  class="antialiased bg-white dark:bg-black text-black dark:text-white grid min-h-screen place-content-center overflow-hidden bg-gradient-to-b from-white to-pink-300">
+  class="antialiased bg-black text-white grid min-h-screen place-content-center overflow-hidden bg-gradient-to-b from-black to-gray-700">
   <div class="fixed left-0 right-0 z-10"></div>
   <div class="max-w-520px text-center z-20">
     <h1 class="text-8xl sm:text-10xl font-medium mb-8">404 Athina Plus</h1>
