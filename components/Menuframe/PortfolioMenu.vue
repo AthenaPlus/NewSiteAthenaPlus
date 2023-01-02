@@ -20,27 +20,27 @@ const items = ([
     {
         title: 'чек маркет',
         number: '#1',
-        toLink: '/portfolio'
+        toLink: '/development'
     },
     {
         title: 'midas event',
         number: '#2',
-        toLink: '/portfolio'
+        toLink: '/development'
     },
     {
         title: 'як',
         number: '#3',
-        toLink: '/portfolio'
+        toLink: '/development'
     },
     {
         title: 'торгсофт',
         number: '#4',
-        toLink: '/portfolio'
+        toLink: '/development'
     },
     {
         title: 'название',
         number: '#5',
-        toLink: '/portfolio'
+        toLink: '/development'
     },
 ])
 

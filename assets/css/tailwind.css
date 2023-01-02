@@ -60,8 +60,13 @@
 }
 
 .btn-primary {
-    @apply inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 hover:shadow-lg hover:shadow-pink-500/50  rounded-full  text-lg transition ease-in-out ;
+    @apply inline-flex text-gray-900 bg-white border-0 py-5 px-10  text-xl transition ease-in-out ;
 }
+
+.btn-primary:hover {
+      background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+      color: #fff;
+    }
 
 
 
