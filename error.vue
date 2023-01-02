@@ -17,7 +17,7 @@ useHead({
                 <p class="text-xl px-8 sm:px-0 sm:text-4xl font-light mb-16 leading-tight">Page - "{{ $route.path }}"
                     not found </p>
                 <div class="w-full flex items-center justify-center">
-                    <NuxtLink to="/" class="btn-primary uppercase">назад на главную</NuxtLink>
+                    <NuxtLink to="/" class="btn-primary hover:btn--shadow uppercase">назад на главную</NuxtLink>
                 </div>
             </div>
         </div>
