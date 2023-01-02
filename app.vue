@@ -39,6 +39,10 @@ useHead({
       body: true
     },
   ]
-
 })
+
+const nuxtApp = useNuxtApp()
+  nuxtApp.hook("page:finish", () => {
+     window.scrollTo(0, 0)
+  })
 </script>
