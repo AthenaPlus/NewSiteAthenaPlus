@@ -1,8 +1,8 @@
 <script setup>
 useHead({
-  title: '404 Error - Page Not Found ',
+  title: 'Страница в разработке',
   meta: [
-  { name: 'description', content: 'A great 404 page can be a smart way to show off your brand’s personality.' }
+  { name: 'description', content: 'СТРАНИЦА В РАЗРАБОТКЕ Скоро тут будет много интересного' }
 ],
 })
 </script>
