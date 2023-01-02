@@ -45,7 +45,7 @@
                             <h3 class="text-2xl">Рефералка</h3>
                             <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                             <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
-                            <NuxtLink to="/about" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
+                            <NuxtLink to="/referral" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
                                 открыть
                             </NuxtLink>
                         </div>
