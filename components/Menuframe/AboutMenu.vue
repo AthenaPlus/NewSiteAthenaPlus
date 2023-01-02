@@ -30,7 +30,7 @@
                             <h3 class="text-2xl">Карьера</h3>
                             <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                             <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской веб-студии!</p>
-                            <NuxtLink to="/career" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
+                            <NuxtLink to="/vacancy" @click="addToggle" class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
                                 открыть
                             </NuxtLink>
                         </div>

@@ -1,6 +1,6 @@
 <template>
     <section class="text-white body-font overflow-hidden bg-[url('/img/bg_referral.jpg')] bg-no-repeat bg-center bg-cover relative z-[5]">
-        <div class="absolute bg-[url('/public/img/bg_referral_mask.png')] inset-0 -z"></div>
+        <div class="absolute bg-[url('/img/bg_referral_mask.png')] inset-0 -z"></div>
         <div class="container px-5 py-24 mx-auto grid min-h-screen place-content-center ">
             <div class="flex flex-wrap ">
                 <div class="w-full md:w-1/2 mb-10 md:mb-0">
