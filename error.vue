@@ -14,7 +14,7 @@ useHead({
             <div class="fixed left-0 right-0 z-10"></div>
             <div class="max-w-520px text-center z-20 -mt-[180px]">
                 <h1 class="text-8xl sm:text-10xl font-medium mb-8">404</h1>
-                <p class="text-xl px-8 sm:px-0 sm:text-4xl font-light mb-16 leading-tight">Page - "{{ $route.path }}"
+                <p class="text-xl px-8 sm:px-0 sm:text-4xl font-light mb-16 leading-tight bg-gray-900/50">Page - "{{ $route.path }}"
                     not found </p>
                 <div class="w-full flex items-center justify-center">
                     <NuxtLink to="/" class="btn-primary hover:btn--shadow uppercase">назад на главную</NuxtLink>
