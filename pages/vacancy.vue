@@ -17,7 +17,7 @@
         <div class="container px-5 py-24 mx-auto">
             <div class="w-full px-4 pt-16">
                 <div class="mx-auto w-full p-2">
-
+                    <VacancyVkladki/>
                 </div>
             </div>
         </div>
