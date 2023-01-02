@@ -5,7 +5,7 @@
                 <h1 class="sticky top-20 text-4xl md:text-6xl lg:text-[66px]">Построй карьеру вместе с Athena Plus</h1>
             </div>
             <div class="w-full md:w-1/2">
-                
+                <img src="/img/career.png" alt="" class="max-w-full" />
                 <p class="my-4 max-w-[600px]">
                     Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
