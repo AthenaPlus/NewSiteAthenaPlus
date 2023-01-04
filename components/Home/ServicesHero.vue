@@ -1,11 +1,11 @@
 <template>
     <section class="text-white relative min-h-screen bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-cover">
         <div class="container px-5 py-24 mx-auto">
-            <div class="mt-11 w-[700px]">
+            <div class="mt-11 w-full lg:w-[700px]">
                 <span class="text-xl leading-6 plan">Услуги и цены</span>
-                <h1 class="text-[80px] leading-[92px] my-5 uppercase">Каждый проект</h1>
-                <h2 class="font_Airborne uppercase text-[50px] leading-[57px] text-right pr-6 mb-[30px]">как арт-объект</h2>
-                <p class="w-[470px] text-lg">Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.</p>
+                <h2 class="font_Airborne text-4xl md:text-7xl lg:text-[80px] leading-[92px] my-5 uppercase">Каждый проект</h2>
+                <h2 class="font_Airborne uppercase text-2xl md:text-4xl lg:text-[50px] leading-[57px] text-right pr-6 mb-[30px]">как арт-объект</h2>
+                <p class="w-full lg:w-[470px] text-lg">Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.</p>
             </div>
             <div class="flex flex-wrap mt-[230px]">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 ">
