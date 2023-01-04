@@ -3,8 +3,9 @@
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
     <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-5 pt-2 z-index-10000">
         <!-- Button First -->
-        <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-5 w-5 md:h-10 md:w-10']" class="transition ease-in-out duration-700"
-            width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-5 w-5 md:h-10 md:w-10']"
+            class="transition ease-in-out duration-700" width="40" height="40" viewBox="0 0 40 40" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M0 0H10.5263V10.5263H0V0Z" fill="white" />
             <path d="M14.7368 0H25.2632V10.5263H14.7368V0Z" fill="white" />
             <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M29.4737 0H40V10.5263H29.4737V0Z"
@@ -28,13 +29,15 @@
                     <!-- Резерв для кнопки -->
                 </div>
                 <Nuxt-link to="/">
-                    <h1 class="ml_18 pl_18 text-base md:text-[34px] uppercase border_l_1">Athena <span class="text-gradient">plus</span>
+                    <h1 class="ml_18 pl_18 text-base md:text-[34px] uppercase border_l_1">Athena <span
+                            class="text-gradient">plus</span>
                     </h1>
                 </Nuxt-link>
             </div>
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto"><a href="tel: +77753938855"
-                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393
+                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out">+7
+                        (775) 393
                         8855</a></div>
                 <!-- Icons -->
                 <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-4">
@@ -77,52 +80,62 @@
             </div>
         </div>
     </header>
-     <!-- Kode Menu NEW -->
-     <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']" class="fixed flex flex-col-3 items-stretch  min-h-screen w-full  z-20 overscroll-none">
-            <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
-                <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
-                    class="-rotate-90 -ml-0 mt-28 font_Airborne">
-                    Свернуть
+    <!-- Kode Menu NEW -->
+    <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']"
+        class="fixed flex flex-col-3 items-stretch  min-h-screen w-full  z-20 overscroll-none">
+        <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
+            <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
+                class="-rotate-90 -ml-0 mt-28 font_Airborne">
+                Свернуть
+            </p>
+        </div>
+        <div
+            class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
+            <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
+                class="flex flex-col text-3xl text-white font_Airborne pl-10">
+                <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
+                    :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
+                <NuxtLink to="" @click="clickAbout"
+                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
+                    :class="[isOpenAbout ? 'Active' : '']">О компании
+                    <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
+                </NuxtLink>
+                <NuxtLink to="" @click="clickPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"
+                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
+                    <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
+                </NuxtLink>
+                <NuxtLink to="/servicesprices" @click="toggle"
+                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
+                <NuxtLink to="" @click="clickContacts"
+                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
+                    :class="[isOpenContacts ? 'Active' : '']">Контакты
+                    <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
+                </NuxtLink>
+            </nav>
+            <div class="">
+                <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
+                    class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">
+                    ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
                 </p>
             </div>
-            <div
-                class="flex flex-col justify-between bg-black w-[350px]  pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
-                <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
-                    class="flex flex-col text-3xl text-white font_Airborne pl-10">
-                    <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
-                    <NuxtLink to="" @click="clickAbout" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAbout ? 'Active' : '']"  >О компании <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="" @click="clickPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"  class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                    <NuxtLink to="/servicesprices" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
-                    <NuxtLink to="" @click="clickContacts" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenContacts ? 'Active' : '']">Контакты <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300"/></NuxtLink>
-                </nav>
-                <div class="">
-                    <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
-                        class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">
-                        ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
-                    </p>
-                </div>
-            </div>
-            <div 
-                :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-                class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                    <MenuframeAboutMenu @addToggle="addToggle"/>
-            </div>
-            <div
-                :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-                class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                <MenuframePortfolioMenu @addToggle="addToggle"/>
-            </div>
-            <div
-                :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-                class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                    <MenuframePriceMenu/>
-            </div>
-            <div
-                :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-                class="bg-filter text-white flex-1 -z-10 w-full right-0">
-                    <MenuframeContactsMenu/>
-            </div>
         </div>
+        <div :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
+            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            <MenuframeAboutMenu @addToggle="addToggle" />
+        </div>
+        <div :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
+            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            <MenuframePortfolioMenu @addToggle="addToggle" />
+        </div>
+        <div :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
+            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            <MenuframePriceMenu />
+        </div>
+        <div :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
+            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            <MenuframeContactsMenu />
+        </div>
+    </div>
 </template>
 
 <script setup>

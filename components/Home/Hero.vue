@@ -7,11 +7,11 @@
                     <h1 class="hidden lg:contents h1-title animate__animated animate__bounce">
                         {{ HeroTitle }}
                     </h1>
-                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-5">{{ HeroSubtitle }}</h2>
+                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-5 mr-auto">{{ HeroSubtitle }}</h2>
                     <p class="mb-12 text-base lg:text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
-                    <div class="flex justify-center">
+                    <div class="mr-auto">
                         <button
-                            class="btn btn--shadow">записаться
+                            class="btn btn--shadow ">записаться
                             на интервью</button>
                     </div>
                     <div class="flex flex-wrap justify-start gap-2.5 mt-28">
