@@ -1,18 +1,18 @@
 <template>
-    <section class="text-white body-font overflow-x-hidden overflow-y-auto transition ease-in-out duration-500">
+    <section class="text-white body-font overflow-x-hidden transition ease-in-out duration-500">
         <div class="container px-9 py-10 mx-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
                 <h2 class="title uppercase">О компании</h2>
             </div>
             <p class="text-white mt-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
-                <div class="flex flex-col lg:flex-row flex-wrap -mx-12">
+                <div class="flex flex-col lg:flex-row flex-wrap -mx-12 overflow-y-auto  max-h-screen">
                     <div class="p-12 w-full 2xl:w-1/2">
                         <div class="flex flexp-row  lg:gap-[18px]">
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
-                            <div class="w-full lg:w-[200px]">
+                            <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Всё о нас</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">История становления студии, миссия, методы работы и
@@ -29,7 +29,7 @@
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo2.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
-                            <div class="w-full lg:w-[200px]">
+                            <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Карьера</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской
@@ -46,7 +46,7 @@
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
-                            <div class="w-full lg:w-[200px]">
+                            <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Рефералка</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
@@ -62,7 +62,7 @@
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo4.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
-                            <div class="w-full lg:w-[200px]">
+                            <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Блог</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">Читайте полезные статьи о веб-индустрии на нашей
