@@ -20,7 +20,7 @@
                         <div class="">
                             <img src="/img/Frame_3.png" class="hidden xl:block absolute inset-0 img-layout w-full"/>
                         </div>
-                        <Picterframe3 class="hidden xl:block w-full"/>
+                        <UiPicterframe3 class="hidden xl:block w-full"/>
                         <img src="/img/bg_frame_3.png" class="xl:hidden w-full"/>
                     </div>
                 </div>

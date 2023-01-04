@@ -1,5 +1,5 @@
 <template>
-    <HomeWhatwedo/>
+    <ServicespricesWhatwedo/>
 </template>
 
 <script setup>
