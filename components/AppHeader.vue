@@ -91,7 +91,7 @@
         </div>
 
         <div
-            class="flex flex-col justify-between bg-black w-[350px] pt-5   md:pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
+            class="flex flex-col justify-between bg-black w-full md:w-[350px] pt-5   md:pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
              <!-- Nav for Disctop Menu-->
             <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                 class="md:flex flex-col text-3xl text-white font_Airborne pl-10 hidden">
@@ -116,11 +116,11 @@
             </nav>
              <!-- End Nav for Disctop Menu-->
              <!-- Nav for Mobail Menu -->
-            <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
+            <nav :class="[isOpenMobMenu ? 'translate-x-0 opacity-100 transition ease-in-out duration-1000 delay-700' : '-translate-x-130 opacity-0 transition ease-in-out']"
                 class="flex flex-col text-xl text-white font_Airborne pl-10 md:hidden">
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Главная
                 </NuxtLink>
-                <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">О компании
+                <NuxtLink to="" @click="clickAboutmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAboutmob ? 'Active' : '']">О компании
                 </NuxtLink>
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
                 </NuxtLink>
@@ -129,29 +129,32 @@
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
                 </NuxtLink>
             </nav>
+            <div :class="[isOpenAboutmob ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-1000 absolute']" class="text-white bg-black">
+                <h1>This Mob About</h1>
+            </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
                 <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
-                    class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64  sm:w-96">
+                    class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64 sm:w-96">
                     ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
                 </p>
             </div>
         </div>
         <!-- Menuframe SubMenu for Disctop -->
         <div :class="[isOpenAbout ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-            class="bg-filter text-white flex-1 -z-10 w-full right-0 hidden ">
+            class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px  hidden md:block">
             <MenuframeAboutMenu @addToggle="addToggle" />
         </div>
         <div :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
             <MenuframePortfolioMenu @addToggle="addToggle" />
         </div>
         <div :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
             <MenuframePriceMenu />
         </div>
         <div :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
-            class="bg-filter text-white flex-1 -z-10 w-full right-0">
+            class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
             <MenuframeContactsMenu />
         </div>
         <!-- End Menuframe SubMenu for Disctop -->
@@ -200,7 +203,10 @@ export default {
     data: function () {
         return {
             isOpenMenu: false,
+            isOpenMobMenu: false,
             isOpenAbout: false,
+            isOpenAboutmob: false,
+            clickMobAbout: true,
             isOpenPortfolio: false,
             isOpenPrice: false,
             isOpenContacts: false,
@@ -211,7 +217,9 @@ export default {
     methods: {
         toggle() {
             this.isOpenMenu = !this.isOpenMenu
+            this.isOpenMobMenu = !this.isOpenMobMenu
             this.isOpenAbout = true
+            this.isOpenAboutmob = false
             this.isOpenPortfolio = false
             this.isOpenContacts = false
 
@@ -240,6 +248,10 @@ export default {
         addToggle() {
             this.isOpenMenu = !this.isOpenMenu
             this.isOpenAbout = false
+        },
+        clickAboutmob(){
+            this.isOpenAboutmob = true
+            console.log('Klik Mob About')
         }
     },
 
@@ -362,6 +374,10 @@ export default {
 
 .-translate-x-130 {
     transform: translateX(-130%);
+}
+
+.-translate-x-180 {
+    transform: translateX(-180%);
 }
 
 .bg-blur {
