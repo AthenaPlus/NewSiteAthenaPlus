@@ -3,12 +3,12 @@
         <div class="container mx-auto px-5 py-24 ">
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
-                    class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="h1-title animate__animated animate__bounce">
+                    class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
+                    <h1 class="hidden lg:contents h1-title animate__animated animate__bounce">
                         {{ HeroTitle }}
                     </h1>
-                    <h2 class="HeroSubtitle mb-2.5 mt-5">{{ HeroSubtitle }}</h2>
-                    <p class="mb-12 text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
+                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-5">{{ HeroSubtitle }}</h2>
+                    <p class="mb-12 text-base lg:text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
                     <div class="flex justify-center">
                         <button
                             class="btn btn--shadow">записаться
@@ -20,7 +20,12 @@
                     </div>
                 </div>
                 <div class="order-1 lg:order-2 w-full lg:w-1/2">
-                    <IconPicterFrame1/>
+                    <h1 class="contents lg:hidden font_Airborne text-[40px] animate__animated animate__bounce">
+                        {{ HeroTitle }}
+                    </h1>
+                    <div class="pt-5 lg:pt-0">
+                        <IconPicterFrame1/>
+                    </div>
                 </div>
             </div>
         </div>
