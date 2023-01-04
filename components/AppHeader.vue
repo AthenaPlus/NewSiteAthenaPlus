@@ -3,7 +3,7 @@
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
     <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-5 pt-2 z-index-10000">
         <!-- Button First -->
-        <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-10 w-10']" class="transition ease-in-out duration-700"
+        <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-5 w-5 md:h-10 md:w-10']" class="transition ease-in-out duration-700"
             width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path :class="[isOpenMenu ? 'opacity-0' : 'opacity-100']" d="M0 0H10.5263V10.5263H0V0Z" fill="white" />
             <path d="M14.7368 0H25.2632V10.5263H14.7368V0Z" fill="white" />
@@ -24,20 +24,20 @@
         <div class="absolute inset-0 z-one blur"></div>
         <div class="mx-auto flex flex-wrap px-5 py-0 flex-row items-center justify-between">
             <div class="flex title-font font-medium items-center text-white mb-0">
-                <div class="h-14 w-10">
+                <div class="w-2 h-8 md:h-14 md:w-10">
                     <!-- Резерв для кнопки -->
                 </div>
                 <Nuxt-link to="/">
-                    <h1 class="ml_18 pl_18 text-34 uppercase border_l_1">Athena <span class="text-gradient">plus</span>
+                    <h1 class="ml_18 pl_18 text-base md:text-[34px] uppercase border_l_1">Athena <span class="text-gradient">plus</span>
                     </h1>
                 </Nuxt-link>
             </div>
-            <div class="hidden sm:flex flex-initial border_l_1 h_51 pl-4">
-                <div class="hidden md:block my-auto"><a href="tel: +77753938855"
-                        class="Source_Sans_Pro text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393
+            <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
+                <div class=" my-auto"><a href="tel: +77753938855"
+                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out">+7 (775) 393
                         8855</a></div>
                 <!-- Icons -->
-                <div class="flex items-center border_l_1 h_51 ml_18 pl-4">
+                <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-4">
                     <a href="/" class="text-gray-100 link-to-svg mr-9">
                         <svg viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
