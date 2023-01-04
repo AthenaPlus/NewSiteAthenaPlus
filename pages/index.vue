@@ -2,7 +2,7 @@
     <div>
         <HomeHero/>
         <HomeAdvantage/>
-        <ServicespricesServicesHero />
+        <HomeServicesHero />
         <HomeOrderproject/>
     </div>
 </template>
@@ -22,6 +22,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
