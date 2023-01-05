@@ -1,10 +1,11 @@
 <template>
 <section class="text-gray-100 flex min-h-max bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/bg_second_freim.webp')]">
-    <div class="container mx-auto flex px-5 pb-24 pt-60 md:flex-row flex-col items-center ">
+    <div class="container mx-auto flex px-5 pb-24 lg:pt-60 md:flex-row flex-col items-center ">
         <div class="w-full h-full max-w-3xl">
             <h1 class="h1-title">
                 ПРЕВОСХОДСТВО ИДЕИ И ЛОГИКИ
                 </h1>
+                <img src="/img/photo_section2.jpg" alt="" class="md:hidden" />
                 <h2 class="HeroSubtitle mb-2.5 mt-5">
                     Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                 </h2>
