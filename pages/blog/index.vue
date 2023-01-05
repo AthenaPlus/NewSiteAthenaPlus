@@ -2,7 +2,7 @@
     <section class="text-white body-font">
         <div class="container mx-auto px-5 py-24">
             <div class="flex flex-wrap flex-col md:flex-row items-center justify-between">
-                <h1 class="text-[66px]">Blog!</h1>
+                <h1 class="text-[66px] mr-auto">Blog!</h1>
                 <div class="flex flex-wrap gap-4 font_Airborne">
                     <buton class="text-lg p-[15px] border-2 border-white rounded-full">все</buton>
                     <buton class="text-lg p-[15px] border-2 border-white rounded-full">новости</buton>
