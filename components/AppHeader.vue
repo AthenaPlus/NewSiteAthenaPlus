@@ -83,7 +83,7 @@
     <!-- Kode Menu NEW -->
     <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']"
         class="fixed flex flex-col-3 items-stretch  min-h-screen w-full  z-20 overscroll-none">
-        <div class="bg-black text-white border-r border-white/30 w-[44px] md:w-[76px] sticky top-0">
+        <div class="bg-black text-white border-r border-gray-500 w-[44px] md:w-[76px] sticky top-0">
             <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
                 class="-rotate-90 -ml-0 mt-28 font_Airborne">
                 Свернуть
@@ -120,17 +120,23 @@
                 class="flex flex-col text-xl text-white font_Airborne pl-10 md:hidden">
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Главная
                 </NuxtLink>
-                <NuxtLink to="" @click="clickAboutmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAboutmob ? 'Active' : '']">О компании
+                <NuxtLink to="" @click="clickAboutmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAboutMob ? 'Active' : '']">О компании
                 </NuxtLink>
-                <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
+                <NuxtLink to="" @click="clickPortfoliomob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
                 </NuxtLink>
                 <NuxtLink to="/servicesprices" @click="toggle"
                     class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены</NuxtLink>
-                <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
+                <NuxtLink to="/" @click="clickContactsmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
                 </NuxtLink>
             </nav>
-            <div :class="[isOpenAboutmob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden">
+            <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
                 <MenuframemobAboutMenumob @addToggle="addToggle" />
+            </div>
+            <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
+                <MenuframemobPortfolioMenumob @addToggle="addToggle"  />
+            </div>
+            <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
+                <MenuframemobContactsMenumob />
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
@@ -147,7 +153,7 @@
         </div>
         <div :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
-            <MenuframePortfolioMenu @addToggle="addToggle" />
+            <MenuframePortfolioMenu />
         </div>
         <div :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
@@ -205,11 +211,13 @@ export default {
             isOpenMenu: false,
             isOpenMobMenu: false,
             isOpenAbout: false,
-            isOpenAboutmob: false,
+            isOpenAboutMob: false,
             clickMobAbout: true,
             isOpenPortfolio: false,
+            isOpenPortfolioMob: false,
             isOpenPrice: false,
             isOpenContacts: false,
+            isOpenContactsMob: false,
             isHome: false,
             isActive: 'Active',
         }
@@ -219,9 +227,11 @@ export default {
             this.isOpenMenu = !this.isOpenMenu
             this.isOpenMobMenu = !this.isOpenMobMenu
             this.isOpenAbout = true
-            this.isOpenAboutmob = false
+            this.isOpenAboutMob = false
             this.isOpenPortfolio = false
+            this.isOpenPortfolioMob = false
             this.isOpenContacts = false
+            this.isOpenContactsMob = false
 
         },
 
@@ -250,9 +260,15 @@ export default {
             this.isOpenMobMenu = !this.isOpenMobMenu
             this.isOpenAbout = false
         },
+        // Mob Menu
         clickAboutmob(){
-            this.isOpenAboutmob = true
-            console.log('Klik Mob About')
+            this.isOpenAboutMob = true
+        },
+        clickPortfoliomob(){
+            this.isOpenPortfolioMob = true
+        },
+        clickContactsmob(){
+            this.isOpenContactsMob = true
         }
     },
 
