@@ -8,7 +8,7 @@
 
                 <div class="flex flex-col lg:flex-row flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px]">
                     <div class="p-12 w-full 2xl:w-1/2">
-                        <div class="flex flexp-row  lg:gap-[18px]">
+                        <div class="flex flexp-row  gap-[18px]">
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="p-12 w-full 2xl:w-1/2">
-                        <div class="flex flex-row  lg:gap-[18px]">
+                        <div class="flex flex-row  gap-[18px]">
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo2.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="p-12 w-full 2xl:w-1/2">
-                        <div class="flex flex-row  lg:gap-[18px]">
+                        <div class="flex flex-row  gap-[18px]">
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="p-12 w-full 2xl:w-1/2">
-                        <div class="flex flex-row  lg:gap-[18px]">
+                        <div class="flex flex-row  gap-[18px]">
                             <div class="w-full md:min-w-[300px]">
                                 <img src="/img/About_photo4.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
