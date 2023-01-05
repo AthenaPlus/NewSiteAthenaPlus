@@ -31,8 +31,8 @@
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Карьера</h3>
-                                <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                                <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской
+                                <div class="border-b-2 w-full my-[10px]"></div>
+                                <p class="text-xs font-normal pb-4">Постройте свою карьеру в лучшей казахстанской
                                     веб-студии!</p>
                             </div>
                         </div>
@@ -48,8 +48,8 @@
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Рефералка</h3>
-                                <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                                <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
+                                <div class="border-b-2 w-full my-[10px]"></div>
+                                <p class="text-xs font-normal pb-4">Приводите клиентов и получайте 10% от сделки!</p>
                             </div>
                         </div>
                         <NuxtLink to="/referral" @click="addToggle"
@@ -64,8 +64,8 @@
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Блог</h3>
-                                <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                                <p class="text-base font-light pb-4">Читайте полезные статьи о веб-индустрии на нашей
+                                <div class="border-b-2 w-full my-[10px]"></div>
+                                <p class="text-xs font-normal pb-4">Читайте полезные статьи о веб-индустрии на нашей
                                     платформе.</p>
                             </div>
                         </div>
