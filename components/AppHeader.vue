@@ -91,7 +91,7 @@
         </div>
 
         <div
-            class="flex flex-col justify-between bg-black w-full md:w-[350px] pt-5   md:pt-64 z-20 transition ease-in-out duration-700 sticky top-0">
+            class="flex flex-col justify-between bg-black w-full md:w-[350px] pt-5   md:pt-64 z-20 transition ease-in-out duration-700 max-h-screen overflow-x-hidden  overflow-y-auto">
              <!-- Nav for Disctop Menu-->
             <nav :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-700' : 'opacity-0 transition ease-in-out']"
                 class="md:flex flex-col text-3xl text-white font_Airborne pl-10 hidden">
