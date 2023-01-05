@@ -153,7 +153,7 @@
         </div>
         <div :class="[isOpenPortfolio ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
-            <MenuframePortfolioMenu />
+            <MenuframePortfolioMenu @addToggle="addToggle" />
         </div>
         <div :class="[isOpenPrice ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
