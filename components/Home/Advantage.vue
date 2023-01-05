@@ -5,7 +5,7 @@
             <h1 class="h1-title">
                 ПРЕВОСХОДСТВО ИДЕИ И ЛОГИКИ
                 </h1>
-                <img src="/img/photo_section2.jpg" alt="" class="md:hidden" />
+                <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5" />
                 <h2 class="HeroSubtitle mb-2.5 mt-5">
                     Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                 </h2>
