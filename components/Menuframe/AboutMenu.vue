@@ -6,7 +6,7 @@
             </div>
             <p class="text-white mt-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
-                <div class="flex flex-col lg:flex-row flex-wrap -mx-12 overflow-y-auto  max-h-screen">
+                <div class="flex flex-col lg:flex-row flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px]">
                     <div class="p-12 w-full 2xl:w-1/2">
                         <div class="flex flexp-row  lg:gap-[18px]">
                             <div class="w-full md:min-w-[300px]">

@@ -1,7 +1,7 @@
 <template>
 
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
-    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-5 pt-2 z-index-10000">
+    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-3 md:pl-5 pt-2 z-index-10000">
         <!-- Button First -->
         <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-5 w-5 md:h-10 md:w-10']"
             class="transition ease-in-out duration-700" width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -83,7 +83,7 @@
     <!-- Kode Menu NEW -->
     <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']"
         class="fixed flex flex-col-3 items-stretch  min-h-screen w-full  z-20 overscroll-none">
-        <div class="bg-black text-white border-r border-white/30 w-[76px] sticky top-0">
+        <div class="bg-black text-white border-r border-white/30 w-[44px] md:w-[76px] sticky top-0">
             <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-500' : 'opacity-0']"
                 class="-rotate-90 -ml-0 mt-28 font_Airborne">
                 Свернуть
@@ -129,8 +129,8 @@
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
                 </NuxtLink>
             </nav>
-            <div :class="[isOpenAboutmob ? 'translate-x-0 transition ease-in-out duration-1000 delay-1000 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-1000 absolute']" class="text-white bg-black">
-                <h1>This Mob About</h1>
+            <div :class="[isOpenAboutmob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden">
+                <MenuframemobAboutMenumob @addToggle="addToggle" />
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
@@ -247,6 +247,7 @@ export default {
         },
         addToggle() {
             this.isOpenMenu = !this.isOpenMenu
+            this.isOpenMobMenu = !this.isOpenMobMenu
             this.isOpenAbout = false
         },
         clickAboutmob(){
