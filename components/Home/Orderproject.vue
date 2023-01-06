@@ -12,9 +12,14 @@
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите?</h3>
                         <div class="hidden md:flex flex-wrap justify-start  gap-5">
-                            <button v-for="batton in battons" class="btn--label text-white">
+                            <!-- <button v-for="batton in battons" @click="clickButton" class="btn--label text-white" :class="[isClickButton ? 'bg-pink-500' : 'bg-blue-500 transition ease-in-out duration-1000']">
                                     {{ batton.title }}
-                            </button>
+                            </button> -->
+                            <!-- ==== Button  -->
+                            <button @click="clickButton1" class="btn--label text-white" :class="[isClickButton1 ? 'btn--click' : '']">веб-сайт</button>
+                            <button @click="clickButton2" class="btn--label text-white" :class="[isClickButton2 ? 'btn--click' : '']">приложение</button>
+                            <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">графика</button>
+                            <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">smm</button>
                         </div>
                         <form action="" class="flex flex-wrap my-10">
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
@@ -77,6 +82,38 @@ const battons = [
 
 </script>
 
+<script>
+
+export default {
+
+    data(){
+        return {
+            isClickButton1: false,
+            isClickButton2: false,
+            isClickButton3: false,
+            isClickButton4: false
+
+        }
+    },
+
+    methods: {
+        clickButton1(){
+            this.isClickButton1 = !this.isClickButton1
+        },
+        clickButton2(){
+            this.isClickButton2 = !this.isClickButton2
+        },
+        clickButton3(){
+            this.isClickButton3 = !this.isClickButton3
+        },
+        clickButton4(){
+            this.isClickButton4 = !this.isClickButton4
+        }
+    }
+}
+console.log()
+</script>
+
 <style scoped>
 .SuperTitle {
     font-family: 'Airborne';
@@ -119,6 +156,12 @@ const battons = [
 }
 
 .btn--label:hover {
+    border: none;
+    background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+    box-shadow: 0 10px 15px -3px rgba(248, 4, 220, 0.5), 0 4px 6px -4px rgba(237, 161, 8, 0.5);
+}
+
+.btn--click {
     border: none;
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
     box-shadow: 0 10px 15px -3px rgba(248, 4, 220, 0.5), 0 4px 6px -4px rgba(237, 161, 8, 0.5);
