@@ -29,10 +29,6 @@
                             <p class="text-base mb-2">
                                 {{ agencyItem.description }}
                             </p>
-                            <button
-                                class="text-xl font-semibold inline-flex items-center justify-end gap-4 w-full mb-2">Заказать
-                                <IconArrowright class="w-[60px]" />
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -50,10 +46,6 @@
                             <p class="text-base mb-2">
                                 {{ methodItem.description }}
                             </p>
-                            <button
-                                class="text-xl font-semibold inline-flex items-center justify-end gap-4 w-full mb-2">Заказать
-                                <IconArrowright class="w-[60px]" />
-                            </button>
                         </div>
                     </div>
                 </div>
