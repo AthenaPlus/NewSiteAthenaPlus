@@ -99,15 +99,27 @@ export default {
     methods: {
         clickButton1(){
             this.isClickButton1 = !this.isClickButton1
+            this.isClickButton2 = false
+            this.isClickButton3 = false
+            this.isClickButton4 = false
         },
         clickButton2(){
             this.isClickButton2 = !this.isClickButton2
+            this.isClickButton1 = false
+            this.isClickButton3 = false
+            this.isClickButton4 = false
         },
         clickButton3(){
             this.isClickButton3 = !this.isClickButton3
+            this.isClickButton2 = false
+            this.isClickButton1 = false
+            this.isClickButton4 = false
         },
         clickButton4(){
             this.isClickButton4 = !this.isClickButton4
+            this.isClickButton2 = false
+            this.isClickButton3 = false
+            this.isClickButton1 = false
         }
     }
 }
