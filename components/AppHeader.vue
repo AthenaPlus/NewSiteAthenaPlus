@@ -129,13 +129,13 @@
                 <NuxtLink to="/" @click="clickContactsmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
                 </NuxtLink>
             </nav>
-            <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
+            <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
                 <MenuframemobAboutMenumob @addToggle="addToggle" />
             </div>
-            <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
+            <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
                 <MenuframemobPortfolioMenumob @addToggle="addToggle"  />
             </div>
-            <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ">
+            <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
                 <MenuframemobContactsMenumob />
             </div>
              <!-- End Nav for Mobail Menu -->
