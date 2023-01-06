@@ -9,7 +9,7 @@
                     </h1>
                     <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto">{{ HeroSubtitle }}</h2>
                     <p class="hidden md:contents mb-12 text-base lg:text-xl LineHeight_30 font-normal">{{ HeroDescription }}</p>
-                    <div class="mr-auto">
+                    <div class="mr-auto mt-[50px]">
                         <button
                             class="btn btn--shadow ">записаться
                             на интервью</button>
@@ -24,7 +24,7 @@
                         {{ HeroTitle }}
                     </h1>
                     <div class="pt-5 lg:pt-0">
-                        <IconPicterFrame1/>
+                        <img src="/img/AthenaFirst.png" alt="" class="">
                     </div>
                 </div>
             </div>
