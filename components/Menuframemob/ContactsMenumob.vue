@@ -18,7 +18,7 @@
 
         </div>
         <div id="map" class="text-white w-full min-h-[395px] px-4 mb-5">
-            <iframe width="100%" height="395" frameborder="0" marginheight="0" marginwidth="0" title="map ATHENA PLUS" scrolling="no" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.88590669868!2d76.93077687605032!3d43.25620394820366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f5cf96a6ba7%3A0x45cef4270df56f93!2z0JLQtdCxLdCh0YLRg9C00LjRjyAtIEF0aGVuYSBQbHVz!5e0!3m2!1sru!2skz!4v1671342926791!5m2!1sru!2skz" style="filter: grayscale(1) contrast(1.2) opacity(0.4); "></iframe>
+            <iframe width="100%" height="395" frameborder="0" marginheight="0" marginwidth="0" title="map ATHENA PLUS" scrolling="no" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.88590669868!2d76.93077687605032!3d43.25620394820366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f5cf96a6ba7%3A0x45cef4270df56f93!2z0JLQtdCxLdCh0YLRg9C00LjRjyAtIEF0aGVuYSBQbHVz!5e0!3m2!1sru!2skz!4v1671342926791!5m2!1sru!2skz"></iframe>
         </div>
     </section>
 </template>
