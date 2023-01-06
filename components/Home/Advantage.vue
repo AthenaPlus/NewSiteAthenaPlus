@@ -1,7 +1,7 @@
 <template>
     <section
         class="text-gray-100 flex min-h-screen bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/bg_second_freim.webp')]">
-        <div class="w-full md:w-1/2 bg-[#0B0B0B] text-white min-h-screen pl-[90px] pt-[200px]">
+        <div class="w-full md:w-1/2 min-w-min bg-[#0B0B0B] text-white min-h-screen px-5 md:pl-[90px] py-14 md:pt-[200px]">
 
             <div class="w-full h-full max-w-3xl">
                 <h1 class="text-[32px] md:text-[80px] leading-none md:leading-[92px]">
@@ -25,26 +25,7 @@
             </div>
         </div>
 
-        <div class="hidden  w-1/2 bg-cover bg-right bg-[url('/img/bg_second_freim.webp')] min-h-screen">R</div>
-        <!-- <div class="container mx-auto flex px-5 pb-24 lg:pt-60 md:flex-row flex-col items-center ">
-        <div class="w-full h-full max-w-3xl">
-            <h1 class="h1-title">
-                ПРЕВОСХОДСТВО ИДЕИ И ЛОГИКИ
-                </h1>
-                <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5" />
-                <h2 class="HeroSubtitle mb-2.5 mt-5">
-                    Мы являемся самой прогрессивной веб-студией на казахстанском рынке
-                </h2>
-                <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal">
-                    Мы создали Athena Plus объединив наши навыки веб-разработки, контент-стратегии и социальных сетей в мощную и гибкую команду. Наша команда дизайнеров, стратегов брендов и менеджеров проектов сотрудничает с вами, чтобы создать дальновидный пользовательский опыт, чтобы вы могли сосредоточиться на результате. Сотрудничество с нами гарантирует вам приобретение лучшего диджитал-продукта.
-                </p>
-                <div class="flex justify-start">
-                    <button
-                        class="btn btn--shadow">записаться на интервью</button>
-                </div>
-        </div>
-        <div class="bg-pink-500/50 w-1/2 h-screen"></div>
-    </div> -->
+        <!-- <div class="w-1/2 bg-cover bg-right bg-[url('/img/bg_second_freim.webp')] min-h-screen">R</div> -->
     </section>
 </template>
 
