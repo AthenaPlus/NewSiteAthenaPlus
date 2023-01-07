@@ -4,10 +4,9 @@
             <!-- Blok Header -->
             <div class="border-b-2 border-white pb-[60px]">
                 <h1 class="text-4xl sm:text-6xl md:text-[86px] text-white mb-[50px]">Что мы предлагаем</h1>
-                <p class="text-2xl sm:text-3xl text-white md:leading-[45px]">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <p class="text-2xl sm:text-3xl text-white md:leading-[45px]">Создаем не-шаблонные сетевые решения. От сайтов до мобильных приложений. Запишитесь к нам
+                    на интервью и получите бесплатный SEO и Маркетинговый аудит вашего бизнеса.
+                </p>
             </div>
             <!-- End Blok Header -->
             <!-- Blok Веб-Сайты переменная websiteItems -->
