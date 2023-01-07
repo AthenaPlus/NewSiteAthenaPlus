@@ -10,13 +10,13 @@
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
                     <h3 class="font_Airborne uppercase text-3xl mb-[20px]">Этапы разработки</h3>
                     <p class="text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                       Проекты имеют жизненные циклы. Правильное выстроение жизненных циклов ведет к успешному запуску. Ведя проект совместно с нами, вы гарантируете себе качественный запуск.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
                     <h4 class="text-[28px] mb-[20px] inline-flex items-center gap-4"><IconUnion1/> Бриф и интервью</h4>
                     <p class="text-base">
-                        Обговариваем детали заказа. На этом этапе устанавливаются ваши предпочтения и формируется концепция будущего пректа. КРАЙНЕ важный этап для понимания ваших предпочтений в будущем проекте.
+                        Обговариваем детали заказа. На этом этапе устанавливаются ваши предпочтения и формируется концепция будущего пректа. Совместно формируем техническое задание и бриф.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
