@@ -13,7 +13,7 @@
                                 <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
-                                <h3 class="text-2xl">Всё о нас</h3>
+                                <h3 class="text-2xl">Всё о Нас</h3>
                                 <div class="border-b-2 w-full my-[10px]"></div>
                                 <p class="text-xs font-normal pb-4">История становления студии, миссия, методы работы и
                                     многое другое.</p>
@@ -21,7 +21,7 @@
                         </div>
                         <NuxtLink to="/about" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg py-[10px] inline-flex items-center justify-center  w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                         </NuxtLink>
                     </div>
                     <div class="w-full mb-20">
@@ -38,7 +38,7 @@
                         </div>
                         <NuxtLink to="/vacancy" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] inline-flex items-center justify-center w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                         </NuxtLink>
                     </div>
                     <div class="w-full mb-20">
@@ -54,7 +54,7 @@
                         </div>
                         <NuxtLink to="/referral" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] inline-flex items-center justify-center w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                     </div>
                     <div class="w-full mb-20">
@@ -71,7 +71,7 @@
                         </div>
                         <NuxtLink to="/development" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] inline-flex items-center justify-center w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                     </div>
                 </div>
