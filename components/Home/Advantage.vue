@@ -19,9 +19,9 @@
                     результате.
                     Сотрудничество с нами гарантирует вам приобретение лучшего диджитал-продукта.
                 </p>
-                <!-- <div class="flex justify-start"> -->
-                    <!-- <button class="btn btn--shadow">записаться на интервью</button> -->
-                </div>
+                <!-- <div class="flex justify-start">
+                    <button class="btn btn--shadow">записаться на интервью</button>
+                </div> -->
             </div>
         </div>
 
