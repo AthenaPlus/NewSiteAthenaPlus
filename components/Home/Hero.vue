@@ -41,7 +41,7 @@
 import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
 
 
-const HeroTitle = 'Интеграция Стильных Digital-Решений'
+const HeroTitle = 'Стильные Digital-Решения'
 const HeroSubtitle = 'От студии разработчиков нового поколения.'
 const HeroDescription = 'Создаем сайты и мобильные приложения с сильным UX/UI на основе стратегии и здравого смысла. Оставьте заявку на интервью и получите Бесплатный SEO и Маркетинговый Аудит вашего Бизнеса.'
 
