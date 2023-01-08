@@ -19,7 +19,7 @@
                                     многое другое.</p>
                                 <NuxtLink to="/about" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                                     веб-студии!</p>
                                 <NuxtLink to="/vacancy" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                                 <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
                                 <NuxtLink to="/referral" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                                     платформе.</p>
                                 <NuxtLink to="/development" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
-                                    открыть
+                                    Открыть
                                 </NuxtLink>
                             </div>
                         </div>
