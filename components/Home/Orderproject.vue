@@ -16,9 +16,9 @@
                                     {{ batton.title }}
                             </button> -->
                             <!-- ==== Button  -->
-                            <button @click="clickButton1" class="btn--label text-white" :class="[isClickButton1 ? 'btn--click' : '']">веб-сайт</button>
-                            <button @click="clickButton2" class="btn--label text-white" :class="[isClickButton2 ? 'btn--click' : '']">приложение</button>
-                            <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">графика</button>
+                            <button @click="clickButton1" class="btn--label text-white" :class="[isClickButton1 ? 'btn--click' : '']">Дизайн</button>
+                            <button @click="clickButton2" class="btn--label text-white" :class="[isClickButton2 ? 'btn--click' : '']">Разработка</button>
+                            <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</button>
                             <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</button>
                         </div>
                         <form action="" class="flex flex-wrap my-10">
@@ -67,13 +67,13 @@ import IconArrowright from '~/assets/icons/arrow__right.svg'
 
 const battons = [
     {
-        title: 'веб-сайт'
+        title: 'Дизайн'
     },
     {
-        title: 'приложение'
+        title: 'Разработка'
     },
     {
-        title: 'графика'
+        title: 'Внедрение CRM'
     },
     {
         title: 'Реклама/SEO'
