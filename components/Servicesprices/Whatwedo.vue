@@ -11,7 +11,7 @@
                     <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
                         <button
-                            class="btn btn--shadow"></button>
+                            class="btn btn--shadow">Тест</button>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2">
@@ -41,8 +41,8 @@
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#2</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Digital-Стратегия</h3>
-                        <p class="max-w-sm ml-auto">Совместно создаем план действий для вывода диджитал-продукта на рынок. Оценки эффективности, расчет ресурсов и расходов.
+                        <h3 class="text-3xl font-semibold mt-16">Внедрение CRM-систем</h3>
+                        <p class="max-w-sm ml-auto">Совместно создаем план действий для ввода CRM-системы в digital-продукт. Подготавливаем Вас и Ваших сотрудников к переменам.
         
                         </p>
 
@@ -83,7 +83,7 @@
                     <div class="w-28"><span class="Namber">#5</span></div>
                     <div class="text-right pr-7">
                         <h3 class="text-3xl font-semibold mt-16">Разработка мобильных приложений</h3>
-                        <p class="max-w-sm ml-auto"> Мобильная разработка PWA, Flutter, React Native, созданная для удобства пользователя
+                        <p class="max-w-sm ml-auto"> Мобильная разработка PWA, Flutter, React Native. Создаем приложения, удобные для конечного пользователя.
                         </p>
 
                     </div>
@@ -95,7 +95,7 @@
                     <div class="w-28"><span class="Namber">#6</span></div>
                     <div class="text-right pr-7">
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">LРазрабатываем веб-сайты на передовых фреймворках. Понимаем важность чистого кода и правильной архитектуры.
+                        <p class="max-w-sm ml-auto">Разрабатываем веб-сайты на передовых фреймворках. Понимаем важность чистого кода и правильной архитектуры.
                             Мы способны создавать как привлекающие внимание landing-page, так и массивные интернет-порталы.
                         </p>
 
@@ -118,8 +118,8 @@ import IconIcon4 from '~/assets/icons/icon4.svg'
 import IconIcon5 from '~/assets/icons/icon5.svg'
 import IconIcon6 from '~/assets/icons/icon6.svg'
 const WhatwedoTitle = 'чем мы занимаемся'
-const WhatwedoDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-const WhatwedoDescription2 = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+const WhatwedoDescription = 'Веб-разработка это не только дизайн и вёрстка. Мы решаем ряд маркетинговых бизнес-задач для создания качественного digital-продукта.'
+const WhatwedoDescription2 = 'Мы работаем с такими концепциями как Design Thinking и MVP concept and thinking. Эти концепты упрощают создание лидеров каждой сферы рынка.'
 </script>
 
 <style>

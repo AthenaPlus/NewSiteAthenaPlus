@@ -19,7 +19,7 @@
                             <button @click="clickButton1" class="btn--label text-white" :class="[isClickButton1 ? 'btn--click' : '']">веб-сайт</button>
                             <button @click="clickButton2" class="btn--label text-white" :class="[isClickButton2 ? 'btn--click' : '']">приложение</button>
                             <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">графика</button>
-                            <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">smm</button>
+                            <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</button>
                         </div>
                         <form action="" class="flex flex-wrap my-10">
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
