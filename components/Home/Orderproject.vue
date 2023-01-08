@@ -76,7 +76,7 @@ const battons = [
         title: 'графика'
     },
     {
-        title: 'smm'
+        title: 'Реклама/SEO'
     }
 ]
 
