@@ -13,7 +13,7 @@
                                 <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
-                                <h3 class="text-2xl">Всё о нас</h3>
+                                <h3 class="text-2xl">Всё о Нас</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">История становления студии, миссия, методы работы и
                                     многое другое.</p>
@@ -47,7 +47,7 @@
                                 <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
-                                <h3 class="text-2xl">Рефералы</h3>
+                                <h3 class="text-2xl">Реферал</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">Приводите клиентов и получайте 10% от сделки!</p>
                                 <NuxtLink to="/referral" @click="addToggle"
