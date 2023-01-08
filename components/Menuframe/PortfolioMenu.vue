@@ -33,12 +33,12 @@ const items = ([
         toLink: '/development'
     },
     {
-        title: 'торгсофт',
+        title: '9Global',
         number: '#4',
         toLink: '/development'
     },
     {
-        title: 'название',
+        title: 'Dostyk Trans Terminal',
         number: '#5',
         toLink: '/development'
     },

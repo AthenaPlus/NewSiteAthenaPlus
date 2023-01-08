@@ -11,8 +11,7 @@
                     <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
                         <button
-                            class="btn btn--shadow">записаться
-                            на интервью</button>
+                            class="btn btn--shadow"></button>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2">
@@ -29,9 +28,8 @@
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#1</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <h3 class="text-3xl font-semibold mt-16">UX/UI</h3>
+                        <p class="max-w-sm ml-auto">Визуальные элементы, предназначенные для удобного взаимодействия пользователя с платформой. Мы поможем удержать клиентов и повысить коэффицент конверсии.
                         </p>
 
                     </div>
@@ -43,9 +41,9 @@
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#2</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <h3 class="text-3xl font-semibold mt-16">Digital-Стратегия</h3>
+                        <p class="max-w-sm ml-auto">Совместно создаем план действий для вывода диджитал-продукта на рынок. Оценки эффективности, расчет ресурсов и расходов.
+        
                         </p>
 
                     </div>
@@ -57,9 +55,9 @@
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#3</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <h3 class="text-3xl font-semibold mt-16">Контекстная Реклама и SEO</h3>
+                        <p class="max-w-sm ml-auto">Создаем оптимальную рекламную стратегию в Google и Yandex. Мастера digital-маркетинга и SEO стоявшие за крупными брендами, приведут лидов на Ваш продукт.
+
                         </p>
 
                     </div>
@@ -71,9 +69,8 @@
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#4</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <h3 class="text-3xl font-semibold mt-16">Графический Дизайн</h3>
+                        <p class="max-w-sm ml-auto"> Запоминающиеся логотипы, брендбуки и гайдлайны. Анимированные коммерческие презентации. Весь пакет услуг дизайнера в одной студии.
                         </p>
 
                     </div>
@@ -85,9 +82,8 @@
                 <div class="flex flex-col md:flex-row  justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#5</span></div>
                     <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <h3 class="text-3xl font-semibold mt-16">Разработка мобильных приложений</h3>
+                        <p class="max-w-sm ml-auto"> Мобильная разработка PWA, Flutter, React Native, созданная для удобства пользователя
                         </p>
 
                     </div>
@@ -99,8 +95,8 @@
                     <div class="w-28"><span class="Namber">#6</span></div>
                     <div class="text-right pr-7">
                         <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
-                        <p class="max-w-sm ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        <p class="max-w-sm ml-auto">LРазрабатываем веб-сайты на передовых фреймворках. Понимаем важность чистого кода и правильной архитектуры.
+                            Мы способны создавать как привлекающие внимание landing-page, так и массивные интернет-порталы.
                         </p>
 
                     </div>

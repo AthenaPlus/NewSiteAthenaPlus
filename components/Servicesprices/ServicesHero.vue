@@ -5,19 +5,19 @@
                 <span class="text-xl leading-6 plan">Услуги и цены</span>
                 <h1 class="text-[80px] leading-[92px] my-5 uppercase">Каждый проект</h1>
                 <h2 class="font_Airborne uppercase text-[50px] leading-[57px] text-right pr-6 mb-[30px]">как арт-объект</h2>
-                <p class="w-[470px] text-lg">Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.</p>
+                <p class="w-[470px] text-lg">Мы крайне негативно относимся к сайтам-однодневкам с шаблонным дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.</p>
             </div>
             <div class="flex flex-wrap mt-[230px]">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 ">
                     <h3 class="font_Airborne uppercase text-3xl mb-[20px]">Этапы разработки</h3>
                     <p class="text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        Проекты имеют жизненные циклы. Правильное выстроение жизненных циклов ведет к успешному запуску. Ведя проект совместно с нами, вы гарантируете себе качественный запуск.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 ">
                     <h4 class="text-[28px] mb-[20px] inline-flex items-center gap-4"><IconUnion1/> Бриф и интервью</h4>
                     <p class="text-base">
-                        Обговариваем детали заказа. На этом этапе устанавливаются ваши предпочтения и формируется концепция будущего пректа. КРАЙНЕ важный этап для понимания ваших предпочтений в будущем проекте.
+                        Обговариваем детали заказа. На этом этапе устанавливаются ваши предпочтения и формируется концепция будущего пректа. Совместно формируем техническое задание и бриф.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 ">

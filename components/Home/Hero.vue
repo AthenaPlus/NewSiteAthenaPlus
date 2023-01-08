@@ -4,7 +4,7 @@
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
                     class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
-                    <h1 class="hidden lg:block h1-title animate__animated animate__backInDown">
+                    <h1 class="hidden lg:block h1-title animate__animated animate__bounceInRight">
                         {{ HeroTitle }}
                     </h1>
 
@@ -41,9 +41,9 @@
 import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
 
 
-const HeroTitle = 'веб-проекты со стилем'
-const HeroSubtitle = 'Мы создаём креативные веб-проекты для вашего бизнеса'
-const HeroDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  еще тут текст и всякие крутые штуки и тд veniam, quis.'
+const HeroTitle = 'Веб-Проекты Со Стилем'
+const HeroSubtitle = 'От студии разработчиков нового поколения.'
+const HeroDescription = 'Создаем интересный UX/UI, от сайтов до мобильных приложений. Оставьте заявку на интервью и получите бесплатный SEO и Маркетинговый Аудит вашего Бизнеса.'
 
 const HeroLabels = [
     {

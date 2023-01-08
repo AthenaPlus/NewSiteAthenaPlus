@@ -36,7 +36,7 @@
                             </div>
                             <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
-                                    <textarea id="message" name="message" placeholder="Кратко опишите проект"
+                                    <textarea id="message" name="message" placeholder="Опишите проект"
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
