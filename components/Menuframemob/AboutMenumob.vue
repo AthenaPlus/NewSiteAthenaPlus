@@ -2,7 +2,7 @@
     <section class="text-white body-font overflow-x-hidden transition ease-in-out duration-500">
         <div class="container px-4 py-3 mx-auto">
             <div class="border-b-2 border-white pb-[10px] w-full">
-                <h2 class="text-[32px] font_Airborne uppercase">О компании</h2>
+                <h2 class="text-[32px] font_Airborne uppercase">О Компании</h2>
             </div>
             <p class="text-white my-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
@@ -33,7 +33,7 @@
                                 <h3 class="text-2xl">Карьера</h3>
                                 <div class="border-b-2 w-full my-[10px]"></div>
                                 <p class="text-xs font-normal pb-4">Постройте свою карьеру в лучшей казахстанской
-                                    веб-студии!</p>
+                                    веб-студии</p>
                             </div>
                         </div>
                         <NuxtLink to="/vacancy" @click="addToggle"
@@ -47,7 +47,7 @@
                                 <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
-                                <h3 class="text-2xl">Рефералка</h3>
+                                <h3 class="text-2xl">Рефералы</h3>
                                 <div class="border-b-2 w-full my-[10px]"></div>
                                 <p class="text-xs font-normal pb-4">Приводите клиентов и получайте 10% от сделки!</p>
                             </div>

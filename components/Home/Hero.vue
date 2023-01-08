@@ -13,8 +13,8 @@
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[50px]">
-                        <button class="btn btn--shadow">записаться
-                            на интервью</button>
+                        <button class="btn btn--shadow">Записаться
+                            на Интервью</button>
                     </div>
                     <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-28">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
@@ -41,9 +41,9 @@
 import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
 
 
-const HeroTitle = 'Веб-Проекты Со Стилем'
+const HeroTitle = 'Интеграция Стильных Digital-Решений'
 const HeroSubtitle = 'От студии разработчиков нового поколения.'
-const HeroDescription = 'Создаем интересный UX/UI, от сайтов до мобильных приложений. Оставьте заявку на интервью и получите бесплатный SEO и Маркетинговый Аудит вашего Бизнеса.'
+const HeroDescription = 'Создаем интересный UX/UI, от сайтов до мобильных приложений. Оставьте заявку на интервью и получите Бесплатный SEO и Маркетинговый Аудит вашего Бизнеса.'
 
 const HeroLabels = [
     {
