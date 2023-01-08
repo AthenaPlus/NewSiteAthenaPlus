@@ -57,7 +57,7 @@
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
                         <div class="">
                             <p class="text-[20px] md:text-[26px] font-semibold">
-                                Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ex ea commodo consequat. 
+                               Презентуем наши последние работы. Данные компании достойны внимания и мы верим в их успех. 
                             </p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ const agencyItems = [
     {
         subTitle: 'Людей',
         title: '11',
-        description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
+        description: 'Первоклассные дизайнеры, разработчики, маркетологи и бренд-специалисты. .'
     },
     {
         subTitle: 'На рынке',
