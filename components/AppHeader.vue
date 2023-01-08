@@ -192,12 +192,12 @@ const items = ([
         toLink: '/'
     },
     {
-        title: 'торгсофт',
+        title: '9Global',
         number: '#4',
         toLink: '/'
     },
     {
-        title: 'название',
+        title: 'Dostyk Trans Terminal',
         number: '#5',
         toLink: '/'
     },

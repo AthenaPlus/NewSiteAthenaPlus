@@ -9,10 +9,8 @@
                 <div class="w-full lg:w-1/2">
                     <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
                             class="hidden lg:inline-block" /> ваш дизайн</h2>
-                    <p class="text-xl md:text-[26px] font-semibold leading-8">Athena Plus это Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="text-xl md:text-[26px] font-semibold leading-8">Athena Plus - это мечта двух студентов создавать сайты мирового уровня. Повышение качества сайтов и уровня разработчиков, является нашим кредо и первостепенной задачей.
+                                Наша цель - попасть в топ мировых веб-студий. Наша миссия - помогать бизнесу при помощи качественного UX/UI и чистого кода. 
                     </p>
                 </div>
             </div>
@@ -70,16 +68,16 @@
                 <div class="w-full md:w-1/2">
                     <ul>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">чек маркет</button>
+                            <button href="" class="link-gradient">Чек Маркет</button>
                         </li>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">midas event</button>
+                            <button href="" class="link-gradient">Midas Event</button>
                         </li>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">як</button>
+                            <button href="" class="link-gradient">Як</button>
                         </li>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">торгсофт</button>
+                            <button href="" class="link-gradient">9Global</button>
                         </li>
                     </ul>
                 </div>
@@ -96,13 +94,14 @@
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
                         <div class="">
                             <p class="text-[20px] md:text-[26px] font-semibold">
-                                Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ex ea commodo consequat. 
+                                В нашу команду входят только специалисты высокого уровня. Мы собираем команду не только смотря на hard skills, но также и на soft skills. От навыков общения, до общей эрудированности.
+                                Со специалистами "Athena Plus" можно поговорить на любую тематику.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Блок Портфолио Каманды -->
+            <!-- Блок Портфолио Команды -->
             <div class="flex flex-wrap -m-4 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div v-for="employee in employees" :key="employee.index" class="p-4 lg:w-1/4 md:w-1/2">
                     <div class="h-full flex flex-col items-center text-center">
@@ -153,12 +152,12 @@ import IconArrowright from '~/assets/icons/arrow__right.svg'
 const agencyItems = [
     {
         subTitle: 'Людей',
-        title: '20',
+        title: '11',
         description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
     },
     {
         subTitle: 'На рынке',
-        title: 'много лет',
+        title: '2 года',
         description: 'Одностраничный сайт (Landing Page) – так называют промо-сайты для презентации товара, услуги и организации мгновенных продаж. Одна-единственная страница принесёт колоссальную прибыль: иначе и быть не может.'
     },
     {
@@ -198,27 +197,27 @@ const methodItems = [
 
 const employees = [
     {
-        name: 'The Invisible Man',
-        job: 'Директор',
-        description: 'DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.',
+        name: 'Санжар',
+        job: 'Генеральный Директор',
+        description: 'Основатель Веб-Студии. Универсал. Опыт работы в крупных компаниях позволяет видеть их боли.',
         urlImg: 'https://dummyimage.com/200x200'
     },
     {
-        name: 'The Invisible Man',
-        job: 'UI Дизайнер',
-        description: 'DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.',
+        name: 'Даурен',
+        job: 'Креативный Директор',
+        description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
         urlImg: 'https://dummyimage.com/200x200'
     },
     {
-        name: 'The Invisible Man',
-        job: 'Прорграмист',
-        description: 'DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.',
+        name: 'Павел',
+        job: 'Ведущий-Разработчик',
+        description: 'Гуру Frontend-разработки со стажем более 20 лет.',
         urlImg: 'https://dummyimage.com/200x200'
     },
     {
-        name: 'The Invisible Man',
+        name: 'Али-Султан',
         job: 'Маркетолог',
-        description: 'DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.',
+        description: 'Топовый специалист, оптимизирует рекламу любого направления.',
         urlImg: 'https://dummyimage.com/200x200'
     }
 ]

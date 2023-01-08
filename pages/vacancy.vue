@@ -7,9 +7,9 @@
             <div class="w-full md:w-1/2">
                 <img src="/img/career.png" alt="" class="max-w-full" />
                 <p class="my-4 max-w-[600px]">
-                    Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Являешься фанатом веба? Считаешь что разработка сайтов это не просто входная дверь в IT и Дизайн?
+                    Понимаешь разницу между "хорошо" и "как надо"? Хочешь создать что-то особенное?
+                    Нам по пути. Подавай заявку.
                 </p>
                 <button class="btn-primary hover:btn--shadow">Подать заявку</button>
             </div>
