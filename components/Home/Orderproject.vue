@@ -24,19 +24,19 @@
                         <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
-                                    <input type="text" id="name" name="name" placeholder="Ваше имя"
+                                    <input type="text" id="name" name="name" placeholder="Ваше имя" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон"
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
-                                    <textarea id="message" name="message" placeholder="Опишите проект"
+                                    <textarea id="message" name="message" placeholder="Опишите проект" required
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
