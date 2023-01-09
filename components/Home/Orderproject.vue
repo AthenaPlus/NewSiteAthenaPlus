@@ -11,17 +11,30 @@
                 <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите?</h3>
-                        <div class="hidden md:flex flex-wrap justify-start  gap-5">
-                            <!-- <button v-for="batton in battons" @click="clickButton" class="btn--label text-white" :class="[isClickButton ? 'bg-pink-500' : 'bg-blue-500 transition ease-in-out duration-1000']">
-                                    {{ batton.title }}
-                            </button> -->
-                            <!-- ==== Button  -->
-                            <button @click="clickButton1" class="btn--label text-white" :class="[isClickButton1 ? 'btn--click' : '']">Дизайн</button>
-                            <button @click="clickButton2" class="btn--label text-white" :class="[isClickButton2 ? 'btn--click' : '']">Разработка</button>
-                            <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</button>
-                            <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</button>
-                        </div>
+                        
                         <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
+                            <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
+                                <!-- <button v-for="batton in battons" @click="clickButton" class="btn--label text-white" :class="[isClickButton ? 'bg-pink-500' : 'bg-blue-500 transition ease-in-out duration-1000']">
+                                                            {{ batton.title }}
+                                                    </button> -->
+                                <!-- ==== Button  -->
+                                <input type="radio" id="design" name="project_type" value="Дизайн" class="hidden" />
+                                <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
+                                    :class="[isClickButton1 ? 'btn--click' : '']"> Дизайн</label>
+
+
+                                <input type="radio" id="development" name="project_type" value="Разработка" class="hidden" />
+                                <label for="development" @click="clickButton2" class="btn--label text-white py-3"
+                                    :class="[isClickButton2 ? 'btn--click' : '']"> Разработка</label>
+
+                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="hidden" />
+                                <label for="CRM" @click="clickButton3" class="btn--label text-white py-3"
+                                    :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</label>
+
+                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="hidden" />
+                                <label for="SEO" @click="clickButton4" class="btn--label text-white py-3"
+                                    :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</label>
+                            </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя" required
@@ -31,23 +44,23 @@
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
                                     <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required
-                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                        class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
                                     <textarea id="message" name="message" placeholder="Опишите проект" required
-                                    class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+                                        class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
                             <div>
-                                <input type="hidden" name="_subject" value="Новая заявка на проект сайта"/>
-                                <input type="hidden" name="_next" value="https://athena-plus.netlify.app"/>
+                                <input type="hidden" name="_subject" value="Новая заявка на проект сайта" />
+                                <input type="hidden" name="_next" value="https://athena-plus.netlify.app" />
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
-                                    class="btn btn-send flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none text-lg">Оставить заявку</button>
-
+                                    class="btn btn-send flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none text-lg">Оставить
+                                    заявку</button>
                             </div>
                         </form>
                     </div>
@@ -102,25 +115,25 @@ export default {
 
     methods: {
         clickButton1(){
-            this.isClickButton1 = !this.isClickButton1
+            this.isClickButton1 = true
             this.isClickButton2 = false
             this.isClickButton3 = false
             this.isClickButton4 = false
         },
         clickButton2(){
-            this.isClickButton2 = !this.isClickButton2
+            this.isClickButton2 = true
             this.isClickButton1 = false
             this.isClickButton3 = false
             this.isClickButton4 = false
         },
         clickButton3(){
-            this.isClickButton3 = !this.isClickButton3
+            this.isClickButton3 = true
             this.isClickButton2 = false
             this.isClickButton1 = false
             this.isClickButton4 = false
         },
         clickButton4(){
-            this.isClickButton4 = !this.isClickButton4
+            this.isClickButton4 = true
             this.isClickButton2 = false
             this.isClickButton3 = false
             this.isClickButton1 = false
