@@ -14,14 +14,9 @@
                         
                         <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
-                                <!-- <button v-for="batton in battons" @click="clickButton" class="btn--label text-white" :class="[isClickButton ? 'bg-pink-500' : 'bg-blue-500 transition ease-in-out duration-1000']">
-                                                            {{ batton.title }}
-                                                    </button> -->
-                                <!-- ==== Button  -->
-                                <input type="radio" id="design" name="project_type" value="Дизайн" class="hidden" />
+                                <input type="radio" id="design" name="project_type" value="Дизайн" required class="hidden" />
                                 <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Дизайн</label>
-
 
                                 <input type="radio" id="development" name="project_type" value="Разработка" class="hidden" />
                                 <label for="development" @click="clickButton2" class="btn--label text-white py-3"
