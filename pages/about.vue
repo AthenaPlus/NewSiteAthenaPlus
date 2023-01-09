@@ -57,7 +57,7 @@
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
                         <div class="">
                             <p class="text-[20px] md:text-[26px] font-semibold">
-                               Презентуем наши последние работы. Данные компании достойны внимания и мы верим в их успех. 
+                               Лучшие работы нашей компании.
                             </p>
                         </div>
                     </div>
