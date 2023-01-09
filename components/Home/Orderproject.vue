@@ -21,7 +21,7 @@
                             <button @click="clickButton3" class="btn--label text-white" :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</button>
                             <button @click="clickButton4" class="btn--label text-white" :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</button>
                         </div>
-                        <form action="" class="flex flex-wrap my-10">
+                        <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
                                     <input type="text" id="name" name="name" placeholder="Ваше имя"
@@ -40,8 +40,12 @@
                                     class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
+                            <div>
+                                <input type="hidden" name="_subject" value="Новая заявка на проект сайта"/>
+                                <input type="hidden" name="_next" value="https://athena-plus.netlify.app"/>
+                            </div>
                             <div class="pt-10">
-                                <button
+                                <button type="submit"
                                     class="btn btn-send flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none text-lg">Оставить заявку</button>
 
                             </div>

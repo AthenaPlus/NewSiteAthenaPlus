@@ -13,4 +13,3 @@
     if (scrollY > 300) navbar.add(active__class)
     else navbar.remove(active__class)
 })
-
