@@ -41,7 +41,7 @@
 import IconPicterFrame1 from '~/assets/icons/PicterFrame1.svg'
 
 
-const HeroTitle = 'Уникальный Дизайн Сайтов'
+const HeroTitle = 'Веб-Сайты UX/UI Айдентика'
 const HeroSubtitle = 'От студии разработчиков нового поколения.'
 const HeroDescription = 'Создадим уникальный сайт,  достойный диджитал-наград. Покажем зависимость конверсий от визуала.'
 
