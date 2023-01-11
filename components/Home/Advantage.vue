@@ -12,7 +12,7 @@
                     <h2 class="HeroSubtitle mb-2.5 mt-5">
                         Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                     </h2>
-                    <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal">
+                    <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal pr-4">
                         Мы создали Athena Plus объединив наши навыки веб-разработки, контент-стратегии и социальных
                         сетей в
                         мощную и гибкую команду. Дизайнеры, стратеги брендов и менеджеры проектов
