@@ -6,7 +6,7 @@
                 class="w-full md:w-1/2 min-w-min bg-[#0B0B0B] text-white min-h-screen  py-14 md:pt-[200px]">
                 <div class="w-full h-full max-w-3xl">
                     <h1 class="text-[32px] md:text-[80px] leading-none md:leading-[92px]">
-                        ПРЕВОСХОДСТВО ИДЕИ И ЛОГИКИ
+                        О веб-студии
                     </h1>
                     <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5" />
                     <h2 class="HeroSubtitle mb-2.5 mt-5">
