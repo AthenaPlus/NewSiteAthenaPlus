@@ -4,13 +4,13 @@
             <div class="mt-11 w-full lg:w-[700px]">
                 <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 uppercase">Каждый проект</h2>
                 <h2 class="font_Airborne uppercase text-[20px] md:text-4xl lg:text-[50px] md:leading-[57px] text-right pr-0 md:pr-6 mb-[20px] md:mb-[30px]">как арт-объект</h2>
-                <p class="w-full lg:w-[470px] text-base md:text-lg">Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать вашему проекту уникальную айдентику.</p>
+                <p class="w-full lg:w-[470px] text-base md:text-lg">Мы крайне негативно относимся к сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать проекту уникальную айдентику.</p>
             </div>
             <div class="flex flex-wrap items-start mt-[20px] md:mt-[230px]">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:pl-0 md:pr-8 py-6 ">
                     <h3 class="font_Airborne uppercase text-3xl mb-[20px]">Этапы разработки</h3>
                     <p class="text-base">
-                       Проекты имеют жизненные циклы. Правильное выстроение жизненных циклов ведет к успешному запуску. Ведя проект совместно с нами, вы гарантируете себе качественный запуск.
+                       Мы ведем проекты по специальному авторскому алгоритму. Ведя проект совместно с нами, вы гарантируете качественный запуск.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
