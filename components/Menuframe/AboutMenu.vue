@@ -1,12 +1,12 @@
 <template>
     <section class="text-white body-font overflow-x-hidden transition ease-in-out duration-500">
-        <div class="container xl:px-4 2xl:px-9 py-10 mx-auto">
+        <div class="container px-4 px-9 py-10 mx-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
                 <h2 class="title uppercase">О компании</h2>
             </div>
             <p class="text-white mt-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
-                <div class="flex flex-col lg:flex-row lg:flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px]">
+                <div class="flex flex-col lg:flex-row lg:flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px] p-[22px] 2xl:p-0">
                     <div class="p-6 2xl:p-12 w-full xl:w-1/2">
                         <div class="flex flexp-row  gap-[18px]">
                             <div class="w-full md:min-w-[150px]">
