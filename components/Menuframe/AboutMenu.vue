@@ -1,16 +1,16 @@
 <template>
     <section class="text-white body-font overflow-x-hidden transition ease-in-out duration-500">
-        <div class="container px-9 py-10 mx-auto">
+        <div class="container xl:px-4 2xl:px-9 py-10 mx-auto">
             <div class="border-b-2 border-white pb-[30px] w-full">
                 <h2 class="title uppercase">О компании</h2>
             </div>
             <p class="text-white mt-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
-                <div class="flex flex-col lg:flex-row flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px]">
-                    <div class="p-12 w-full 2xl:w-1/2">
+                <div class="flex flex-col lg:flex-row lg:flex-wrap -mx-12 overflow-y-auto  max-h-screen pb-[150px]">
+                    <div class="p-6 2xl:p-12 w-full xl:w-1/2">
                         <div class="flex flexp-row  gap-[18px]">
-                            <div class="w-full md:min-w-[300px]">
-                                <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
+                            <div class="w-full md:min-w-[150px]">
+                                <img src="/img/About_photo1.png" alt="" class="w-full xl:w-[200px] 2xl:w-[350px] object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Всё о Нас</h3>
@@ -24,15 +24,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-12 w-full 2xl:w-1/2">
+                    <div class="p-6 2xl:p-12 w-full xl:w-1/2">
                         <div class="flex flex-row  gap-[18px]">
-                            <div class="w-full md:min-w-[300px]">
-                                <img src="/img/About_photo2.png" alt="" class="w-full lg:w-[350px] object-cover">
+                            <div class="w-full md:min-w-[150px]">
+                                <img src="/img/About_photo2.png" alt="" class="w-full xl:w-[200px]  2xl:w-[350px] object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Карьера</h3>
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
-                                <p class="text-base font-light pb-4">Постройте свою карьеру в лучшей казахстанской
+                                <p class="text-base font-light pb-4">Постройте свою карьеру лучшей казахстанской
                                     веб-студии!</p>
                                 <NuxtLink to="/vacancy" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
@@ -41,10 +41,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-12 w-full 2xl:w-1/2">
+                    <div class="p-6 2xl:p-12 w-full xl:w-1/2">
                         <div class="flex flex-row  gap-[18px]">
-                            <div class="w-full md:min-w-[300px]">
-                                <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
+                            <div class="w-full md:min-w-[150px]">
+                                <img src="/img/About_photo3.png" alt="" class="w-full xl:w-[200px]  2xl:w-[350px]  object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Реферал</h3>
@@ -57,10 +57,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-12 w-full 2xl:w-1/2">
+                    <div class="p-6 2xl:p-12 w-full xl:w-1/2">
                         <div class="flex flex-row  gap-[18px]">
-                            <div class="w-full md:min-w-[300px]">
-                                <img src="/img/About_photo4.png" alt="" class="w-full lg:w-[350px] object-cover">
+                            <div class="w-full md:min-w-[150px]">
+                                <img src="/img/About_photo4.png" alt="" class="w-full xl:w-[200px]  2xl:w-[350px]  object-cover">
                             </div>
                             <div class="w-full lg:min-w-[200px]">
                                 <h3 class="text-2xl">Блог</h3>
