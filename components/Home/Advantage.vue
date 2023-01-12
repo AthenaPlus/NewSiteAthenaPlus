@@ -4,7 +4,7 @@
         <div class="container px-5 mx-auto">
             <div
                 class="w-full md:w-1/2 min-w-min bg-[#0B0B0B] text-white min-h-screen  py-14 md:pt-[200px]">
-                <div class="w-full h-full max-w-3xl">
+                <div class="w-full h-full max-w-3xl pr-10">
                     <h1 class="text-[32px] md:text-[80px] leading-none md:leading-[92px]">
                         О веб-студии
                     </h1>
@@ -12,7 +12,7 @@
                     <h2 class="HeroSubtitle mb-2.5 mt-5">
                         Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                     </h2>
-                    <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal pr-8">
+                    <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal">
                         Мы создали Athena Plus объединив наши навыки веб-разработки, контент-стратегии и социальных
                         сетей в
                         мощную и гибкую команду. Дизайнеры, стратеги брендов и менеджеры проектов
