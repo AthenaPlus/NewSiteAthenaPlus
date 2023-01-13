@@ -11,7 +11,7 @@
                     <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
                         <button
-                            class="btn btn--shadow">Тест</button>
+                            class="btn btn--shadow">Задать Вопрос</button>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2">
