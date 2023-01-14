@@ -9,13 +9,13 @@
                     class="h-10 w-10 text-gradient transition duration-500 ease-in-out" />
             </DisclosureButton>
             <Transition name="slide-fade">
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-200">
-                    <div class="w-full md:max-w-[600px] ml-auto">
+                <DisclosurePanel class="px-4 pt-4 pb-10 text-sm text-gray-200">
+                    <div class="w-full md:max-w-[600px] ml-auto pb-10">
                         <h4 class="text-4xl font-semibold mb-6">{{ vacancy.vacancyTitle }}</h4>
                         <p class="text-2xl font-normal py-5">
                             {{ vacancy.vacancyDescription }}
                         </p>
-                        <button class="btn-primary hover:btn--shadow">Подать заявку</button>
+                        <button class="btn-primary hover:btn--shadow ">Подать заявку</button>
                     </div>
                 </DisclosurePanel>
             </Transition>
