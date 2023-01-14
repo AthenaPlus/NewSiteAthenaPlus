@@ -12,7 +12,7 @@
                     <p class="hidden md:contents mb-12 text-base lg:text-xl LineHeight_30 font-normal">{{
                         HeroDescription
                     }}</p>
-                    <div class="mr-auto md:mt-[50px]">
+                    <div class="mr-auto md:mt-[43px]">
                         <button class="btn btn--shadow">Записаться
                             на Интервью</button>
                     </div>

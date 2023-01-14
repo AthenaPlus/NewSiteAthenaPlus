@@ -4,7 +4,7 @@
             <div class=" flex flex-col md:flex-row md:flex-wrap items-center">
                 <div
                     class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
-                    <h1 class="h1-title mr-auto">
+                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto">
                         {{ WhatwedoTitle }}
                     </h1>
                     <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>

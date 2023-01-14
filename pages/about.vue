@@ -2,13 +2,13 @@
     <section class="text-white body-font">
         <div class="container px-5 py-24 mx-auto">
             <!-- Блок СОВРЕМЕННАЯ ВЕБ СТУДИО -->
-            <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pb-10">
+            <div class="flex flex-col lg:flex-row items-center gap-10 border-b-2 border-white/70 pb-10">
                 <div class="w-full lg:w-1/2">
                     <h1 class="sticky top-10 uppercase text-[32px] md:text-[80px]">Современная веб студио</h1>
                 </div>
                 <div class="w-full lg:w-1/2">
-                    <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
-                            class="hidden lg:inline-block" /> ваш дизайн</h2>
+                    <!-- <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
+                            class="hidden lg:inline-block" /> ваш дизайн</h2> -->
                     <p class="text-xl md:text-[26px] font-semibold leading-8">Athena Plus - это мечта двух студентов создавать сайты мирового уровня. Повышение качества сайтов и уровня разработчиков, является нашим кредо и первостепенной задачей.
                                 Наша цель - попасть в топ мировых веб-студий. Наша миссия - помогать бизнесу при помощи качественного UX/UI и чистого кода. 
                     </p>
