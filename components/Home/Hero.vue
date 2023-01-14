@@ -55,10 +55,6 @@ const HeroLabels = [
         url: '/'
     },
     {
-        title: '#coding',
-        url: '/'
-    },
-    {
         title: '#webdesign',
         url: '/'
     },
