@@ -9,7 +9,7 @@
                     </h1>
 
                     <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto">{{ HeroSubtitle }}</h2>
-                    <p class="hidden md:contents mb-12 text-base lg:text-xl LineHeight_30 font-normal">{{
+                    <p class="hidden md:contents text-base lg:text-xl LineHeight_30 font-normal">{{
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[43px]">

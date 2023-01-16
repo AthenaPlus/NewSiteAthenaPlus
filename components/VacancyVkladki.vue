@@ -30,7 +30,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
 const vacancys = [
     {
         title: 'Дизайн/Ui',
-        subTitle: '         2 открытых вакансии',
+        subTitle: '2 открытых вакансии ',
         vacancyTitle: 'UI - Дизайн',
         vacancyDescription: 'Proactively e-enable customer directed e-business vis-a-vis low-risk high-yield synergy. Distinctively empower proactive leadership and flexible internal or "organic" sources. Enthusiastically target an.'
     },
