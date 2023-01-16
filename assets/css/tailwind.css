@@ -32,7 +32,7 @@
     }
 
     .btn {
-      @apply inline-flex text-gray-700 bg-gray-100 border-0 py-5 px-8 md:px-10 focus:outline-none hover:bg-gray-300 font_Airborne text-base md:text-xl uppercase transition duration-700 ease-in-out
+      @apply inline-flex text-gray-700 bg-gray-100 border-0 py-4 px-8 md:px-10 focus:outline-none hover:bg-gray-300 font_Airborne text-base md:text-xl uppercase transition duration-700 ease-in-out
     }
     .btn:hover {
       background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
