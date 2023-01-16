@@ -1,7 +1,7 @@
 <template>
 
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
-    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-3 md:pl-5 pt-2 z-index-10000">
+    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-2.5 md:pl-5 pt-[7px] z-index-10000">
         <!-- Button First -->
         <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-7 w-7 md:h-10 md:w-10']"
             class="transition ease-in-out duration-700" width="40" height="40" viewBox="0 0 40 40" fill="none"
