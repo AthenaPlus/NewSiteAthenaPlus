@@ -14,8 +14,8 @@
                 <button class="btn-primary hover:btn--shadow">Подать заявку</button>
             </div>
         </div>
-        <div class="container py-4 mx-auto">
-            <div class="w-full px-4">
+        <div class="container px-5 py-4 mx-auto">
+            <div class="w-full">
                 <div class="mx-auto w-full">
                     <VacancyVkladki/>
                 </div>
