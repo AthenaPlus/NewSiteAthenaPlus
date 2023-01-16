@@ -34,7 +34,7 @@
             <!-- Блок Методы работы -->
             <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px]">Методы работы</h3>
+                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Методы работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
@@ -51,7 +51,7 @@
             <!-- Блок Лучшие работы -->
             <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px]">Лучшие работы</h3>
+                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
@@ -88,7 +88,7 @@
             <!-- Блок Команда -->
             <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px]">Команда</h3>
+                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
