@@ -29,7 +29,7 @@
                     <!-- Резерв для кнопки -->
                 </div>
                 <Nuxt-link to="/">
-                    <h1 class="ml_18 pl_18 text-base md:text-[34px] uppercase border_l_1">Athena <span
+                    <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
                             class="text-gradient">plus</span>
                     </h1>
                 </Nuxt-link>

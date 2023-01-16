@@ -29,7 +29,7 @@
                         {{ HeroTitle }}
                     </h1>
                     <div class="pt-5 lg:pt-0">
-                        <img src="/img/AthenaFirst.png" alt="" class="">
+                        <img src="/img/Frame_177.png" alt="" class="">
                     </div>
                 </div>
             </div>
