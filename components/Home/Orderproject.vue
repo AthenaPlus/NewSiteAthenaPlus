@@ -54,7 +54,7 @@
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
-                                    class="btn btn-send flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none text-lg">Оставить
+                                    class="btn btn-send flex mx-auto text-black bg-white border-0 focus:outline-none text-lg">Оставить
                                     заявку</button>
                             </div>
                         </form>
