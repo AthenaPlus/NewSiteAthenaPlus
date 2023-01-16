@@ -12,11 +12,11 @@
                     <p class="hidden md:contents text-base lg:text-xl LineHeight_30 font-normal">{{
                         HeroDescription
                     }}</p>
-                    <div class="mr-auto md:mt-[43px]">
+                    <div class="mr-auto md:mt-[25px]">
                         <button class="btn btn--shadow">Записаться
                             на Интервью</button>
                     </div>
-                    <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[50px]">
+                    <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
                             class="font_Airborne rounded-full border-2 border-white py-[13px] px-[13px] leading-[21px]">
                             {{HeroLabel.title}}
