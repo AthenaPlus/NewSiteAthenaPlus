@@ -23,37 +23,50 @@
     </div>
 </template>
 
-<script setup>
+
+<script>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ChevronUpIcon } from '@heroicons/vue/20/solid'
 
-const vacancys = [
-    {
-        title: 'Дизайн/Ui',
-        subTitle: '2 открытых вакансии ',
-        vacancyTitle: 'UI - Дизайн',
-        vacancyDescription: 'Proactively e-enable customer directed e-business vis-a-vis low-risk high-yield synergy. Distinctively empower proactive leadership and flexible internal or "organic" sources. Enthusiastically target an.'
-    },
-    {
-        title: 'дизайн/ux',
-        subTitle: '3 открытых вакансии',
-        vacancyTitle: 'UX - Дизайнер',
-        vacancyDescription: 'Rapidiously strategize process-centric supply chains vis-a-vis long-term high-impact bandwidth. Collaboratively parallel task go forward customer service through sticky process improvements. Dynamically morph.'
-    },
-    {
-        title: 'Маркетолог',
-        subTitle: '1 открытых вакансии',
-        vacancyTitle: 'Продажа услуг',
-        vacancyDescription: 'Energistically reinvent reliable leadership rather than collaborative partnerships. Competently exploit highly efficient opportunities whereas multimedia based ideas. Assertively utilize global potentialities with.'
-    },
-    {
-        title: 'Програмист',
-        subTitle: '4 открытых вакансии',
-        vacancyTitle: 'Web Developer',
-        vacancyDescription: 'Objectively fashion 24/7 solutions via enterprise-wide markets. Compellingly morph B2B catalysts for change after collaborative infrastructures. Dramatically generate multidisciplinary customer service whereas.'
-    },
-]
 
+export default {
+    components: {
+        Disclosure,
+        DisclosureButton,
+        DisclosurePanel,
+        ChevronUpIcon
+    },
+    data: function () {
+        return {
+            vacancys: [
+                {
+                    title: 'Дизайн/Ui',
+                    subTitle: '2 открытых вакансии ',
+                    vacancyTitle: 'UI - Дизайн',
+                    vacancyDescription: 'Proactively e-enable customer directed e-business vis-a-vis low-risk high-yield synergy. Distinctively empower proactive leadership and flexible internal or "organic" sources. Enthusiastically target an.'
+                },
+                {
+                    title: 'дизайн/ux',
+                    subTitle: '3 открытых вакансии',
+                    vacancyTitle: 'UX - Дизайнер',
+                    vacancyDescription: 'Rapidiously strategize process-centric supply chains vis-a-vis long-term high-impact bandwidth. Collaboratively parallel task go forward customer service through sticky process improvements. Dynamically morph.'
+                },
+                {
+                    title: 'Маркетолог',
+                    subTitle: '1 открытых вакансии',
+                    vacancyTitle: 'Продажа услуг',
+                    vacancyDescription: 'Energistically reinvent reliable leadership rather than collaborative partnerships. Competently exploit highly efficient opportunities whereas multimedia based ideas. Assertively utilize global potentialities with.'
+                },
+                {
+                    title: 'Програмист',
+                    subTitle: '4 открытых вакансии',
+                    vacancyTitle: 'Web Developer',
+                    vacancyDescription: 'Objectively fashion 24/7 solutions via enterprise-wide markets. Compellingly morph B2B catalysts for change after collaborative infrastructures. Dramatically generate multidisciplinary customer service whereas.'
+                },
+            ]
+        }
+    }
+}
 </script>
 
 <style scoped>
