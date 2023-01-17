@@ -1,9 +1,9 @@
 <template>
-    <div class="">
-        <HomeHero class=""/>
-        <HomeAdvantage class=""/>
-        <HomeServicesHero class="" />
-        <HomeOrderproject class=""/>
+    <div class="scroll-py-0 snap-y">
+        <HomeHero class="snap-start"/>
+        <HomeAdvantage class="snap-start"/>
+        <HomeServicesHero class="snap-start" />
+        <HomeOrderproject class="snap-start"/>
     </div>
 </template>
 
