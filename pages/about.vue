@@ -20,7 +20,7 @@
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агенство</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
-                    <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
+                    <div class="grid grid-flow-col-1 md:grid-cols-2 gap-5  md:gap-[75px]">
                         <div v-for="agencyItem in agencyItems" :key="agencyItem.index" class="">
                             <span class="text-[20px] md:text-[26px] font-semibold">{{ agencyItem.subTitle }}</span>
                             <h3 class="font_Airborne text-[30px] md:text-[50px]">{{ agencyItem.title }}</h3>
