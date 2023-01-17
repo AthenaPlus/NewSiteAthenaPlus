@@ -37,7 +37,7 @@
     </section>
 </template>
 
-<script setup>
+<script>
 import IconUnion1 from '~/assets/icons/Union1.svg'
 import IconUnion2 from '~/assets/icons/Union2.svg'
 import IconUnion3 from '~/assets/icons/Union3.svg'

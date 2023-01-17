@@ -36,7 +36,7 @@
 
 </script>
 
-<style scoped>
+<style>
 .HeroTitle {
     font-family: 'Airborne';
     font-style: normal;

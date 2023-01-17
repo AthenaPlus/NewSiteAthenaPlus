@@ -139,7 +139,7 @@ export default {
 console.log()
 </script>
 
-<style scoped>
+<style>
 .SuperTitle {
     font-family: 'Airborne';
     font-style: normal;
