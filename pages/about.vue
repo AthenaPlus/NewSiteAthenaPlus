@@ -4,7 +4,7 @@
             <!-- Блок СОВРЕМЕННАЯ ВЕБ СТУДИО -->
             <div class="flex flex-col lg:flex-row items-center gap-10 border-b-2 border-white/70 pb-10">
                 <div class="w-full lg:w-1/2">
-                    <h1 class="sticky top-10 uppercase text-[32px] md:text-[80px] leading-[92px]">Современная веб студио</h1>
+                    <h1 class="sticky top-14 uppercase text-[32px] md:text-[80px] leading-[92px]">Современная веб студио</h1>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <!-- <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
@@ -15,9 +15,9 @@
                 </div>
             </div>
             <!-- Блок  НАШЕ АГЕНСТВО -->
-            <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
+            <div class="flex flex-col lg:flex-row gap-12 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агенство</h3>
+                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агенство</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
@@ -34,7 +34,7 @@
             <!-- Блок Методы работы -->
             <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Методы работы</h3>
+                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Методы работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
@@ -51,7 +51,7 @@
             <!-- Блок Лучшие работы -->
             <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
+                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
@@ -88,7 +88,7 @@
             <!-- Блок Команда -->
             <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-10 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
+                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
