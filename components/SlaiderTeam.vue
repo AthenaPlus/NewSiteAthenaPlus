@@ -57,65 +57,6 @@
     </swiper>
 </template>
 
-<script setup>
-const employees = [
-    {
-        name: 'Санжар',
-        job: 'Генеральный Директор',
-        description: 'Основатель Веб-Студии. Универсал. Фанат Web-Production.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Даурен',
-        job: 'Креативный Директор',
-        description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Павел',
-        job: 'Ведущий-Разработчик',
-        description: 'Гуру Frontend-разработки со стажем более 20 лет.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Али-Султан',
-        job: 'Маркетолог',
-        description: 'Digital-Гений, оптимизирует рекламу любого направления.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Сотрудник 5',
-        job: 'Дизайн',
-        description: 'Holisticly negotiate reliable services without.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Сотрудник 6',
-        job: 'Дизайн',
-        description: 'Objectively impact magnetic core competencies.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Сотрудник 7',
-        job: 'Дизайн',
-        description: 'Progressively synergize seamless initiatives vis-a-vis.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Сотрудник 8',
-        job: 'Дизайн',
-        description: 'Rapidiously disseminate scalable methodologies via.',
-        urlImg: 'https://dummyimage.com/200x200'
-    },
-    {
-        name: 'Сотрудник 9',
-        job: 'Маркетолог',
-        description: 'Continually evisculate intermandated communities through.',
-        urlImg: 'https://dummyimage.com/200x200'
-    }
-]
-</script>
-
 <script>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -127,6 +68,66 @@ export default {
     components: {
         Swiper,
         SwiperSlide,
+    },
+    data: function () {
+        return {
+            employees: [
+                {
+                    name: 'Санжар',
+                    job: 'Генеральный Директор',
+                    description: 'Основатель Веб-Студии. Универсал. Фанат Web-Production.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Даурен',
+                    job: 'Креативный Директор',
+                    description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Павел',
+                    job: 'Ведущий-Разработчик',
+                    description: 'Гуру Frontend-разработки со стажем более 20 лет.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Али-Султан',
+                    job: 'Маркетолог',
+                    description: 'Digital-Гений, оптимизирует рекламу любого направления.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Сотрудник 5',
+                    job: 'Дизайн',
+                    description: 'Holisticly negotiate reliable services without.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Сотрудник 6',
+                    job: 'Дизайн',
+                    description: 'Objectively impact magnetic core competencies.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Сотрудник 7',
+                    job: 'Дизайн',
+                    description: 'Progressively synergize seamless initiatives vis-a-vis.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Сотрудник 8',
+                    job: 'Дизайн',
+                    description: 'Rapidiously disseminate scalable methodologies via.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Сотрудник 9',
+                    job: 'Маркетолог',
+                    description: 'Continually evisculate intermandated communities through.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                }
+            ]
+        }
     },
     setup() {
         const onSwiper = (swiper) => {
