@@ -7,37 +7,6 @@
         </div>
     </section>
 </template>
-<script setup>
- const employees = [
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    },
-    {
-      title: 'Slaide'
-    }
-  ]
-</script>
 
 <script>
   // Import Swiper Vue.js components
@@ -52,6 +21,39 @@
       Swiper,
       SwiperSlide,
     },
+  data: function () {
+    return {
+      employees: [
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        },
+        {
+          title: 'Slaide'
+        }
+      ]
+    }
+  },
     setup() {
       const onSwiper = (swiper) => {
         console.log(swiper);
