@@ -51,6 +51,7 @@
                             <div>
                                 <input type="hidden" name="_subject" value="Новая заявка на проект сайта" />
                                 <input type="hidden" name="_next" value="https://athena-plus.netlify.app" />
+                                <input type="hidden" name="_captcha" value="false" />
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
