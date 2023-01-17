@@ -29,7 +29,7 @@
                         {{ HeroTitle }}
                     </h1>
                     <div class="pt-5 lg:pt-0">
-                        <img src="/img/Frame_177.png" alt="" class="animate__animated animate__zoomIn animate__delay-1s">
+                        <img src="/img/AthenaFirst.png" alt="" class="animate__animated animate__zoomIn animate__delay-1s">
                     </div>
                 </div>
             </div>
