@@ -9,7 +9,7 @@
                         О веб-студии
                     </h1>
                     <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5" />
-                    <h2 class="HeroSubtitle text-[20px] md:text-[26px] leading-[100%] md:leading-[150%] mb-2.5 mt-5">
+                    <h2 class="text-[20px] md:text-[26px] leading-[100%] md:leading-[150%] font-semibold mb-2.5 mt-5">
                         Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                     </h2>
                     <p class="mb-12 text-base md:text-xl LineHeight_30 font-normal pr-0 md:pr-5">
