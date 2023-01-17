@@ -1,5 +1,5 @@
 <template>
-    <div class="snap-y scroll__y">
+    <div class="scroll__y">
         <HomeHero class="scroll-my-0 snap-start min-h-screen"/>
         <HomeAdvantage class="scroll-my-0 snap-start min-h-screen"/>
         <HomeServicesHero class="scroll-my-0 snap-start min-h-screen" />
