@@ -1,5 +1,5 @@
 <template>
-    <swiper @swiper="onSwiper" @slideChange="onSlideChange" :breakpoints="{
+    <swiper @swiper="onSwiper" @slideChange="onSlideChange" :grabCursor="true" :breakpoints="{
       '640': {
         slidesPerView: 1,
         spaceBetween: 20,
