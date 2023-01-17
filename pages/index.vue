@@ -24,6 +24,6 @@ export default {
 
 <style>
     .scroll__y {
-        scroll-snap-type: mandatory;
+        scroll-snap-type: y mandatory;
     }
 </style>
