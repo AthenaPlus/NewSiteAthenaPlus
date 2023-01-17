@@ -51,8 +51,6 @@
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
-    line-height: 150%;
     /* or 39px */
     color: #FFFFFF;
 }
