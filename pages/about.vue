@@ -1,6 +1,6 @@
 <template>
     <section class="text-white body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-16 md:py-24 mx-auto">
             <!-- Блок СОВРЕМЕННАЯ ВЕБ СТУДИО -->
             <div class="flex flex-col lg:flex-row items-center gap-5 lg:gap-10 border-b-2 border-white/70 pb-10">
                 <div class="w-full lg:w-1/2">
