@@ -37,7 +37,7 @@
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Методы работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
-                    <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
+                    <div class="grid grid-flow-col-1 md:grid-cols-2 gap-5  gap-[75px]">
                         <div v-for="methodItem in methodItems" :key="methodItem.index" class="">
                             <span class="text-[20px] md:text-[26px] font-semibold">{{ methodItem.subTitle }}</span>
                             <h3 class="font_Airborne text-[30px] md:text-[50px]">{{ methodItem.title }}</h3>
@@ -54,7 +54,7 @@
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
-                    <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
+                    <div class="grid grid-flow-col-1 md:grid-cols-2 gap-5  gap-[75px]">
                         <div class="">
                             <p class="text-[20px] md:text-[26px] font-semibold">
                                Лучшие работы нашей компании.
