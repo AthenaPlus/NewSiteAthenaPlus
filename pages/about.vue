@@ -15,7 +15,7 @@
                 </div>
             </div>
             <!-- Блок  НАШЕ АГЕНСТВО -->
-            <div class="flex flex-col lg:flex-row gap-12 border-b-2 border-white/70 py-10  md:pt-[50px] md:pb-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 py-10  md:pt-[50px] md:pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агенство</h3>
                 </div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <!-- Блок Методы работы -->
-            <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Методы работы</h3>
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <!-- Блок Лучшие работы -->
-            <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <!-- Блок Портфолио ссылки на картинки -->
-            <div class="flex flex-col lg:flex-row gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full md:w-1/2">
                     <ul>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <!-- Блок Команда -->
-            <div class="flex flex-col lg:flex-row gap-10 pt-[50px] pb-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
                 </div>
