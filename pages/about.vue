@@ -129,7 +129,7 @@
                             <p class="mb-4">
                                 {{ employee.description }}
                             </p>
-                            <!-- <span class="inline-flex">
+                            <span class="inline-flex">
                                 <a class="text-gray-500">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -152,7 +152,7 @@
                                         </path>
                                     </svg>
                                 </a>
-                            </span> -->
+                            </span>
                         </div>
                     </div>
                 </swiper-slide>
