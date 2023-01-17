@@ -13,8 +13,8 @@
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[25px]">
-                        <button class="btn btn--shadow">Записаться
-                            на Интервью</button>
+                        <a href="#SignInterview" class="btn btn--shadow">Записаться
+                            на Интервью</a>
                     </div>
                     <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
