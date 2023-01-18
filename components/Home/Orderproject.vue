@@ -14,19 +14,19 @@
 
                         <form id="form" action="mailto:midas.polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
-                                <input type="radio" id="design" name="project_type" value="Дизайн" required class="hidden" />
+                                <input type="radio" id="design" name="project_type" value="Дизайн" required class="w-0" />
                                 <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Дизайн</label>
 
-                                <input type="radio" id="development" name="project_type" value="Разработка" class="hidden" />
+                                <input type="radio" id="development" name="project_type" value="Разработка" class="w-0" />
                                 <label for="development" @click="clickButton2" class="btn--label text-white py-3"
                                     :class="[isClickButton2 ? 'btn--click' : '']"> Разработка</label>
 
-                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="hidden" />
+                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="w-0" />
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3"
                                     :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</label>
 
-                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="hidden" />
+                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="w-0" />
                                 <label for="SEO" @click="clickButton4" class="btn--label text-white py-3"
                                     :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</label>
                             </div>
@@ -38,7 +38,7 @@
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" pattern="^\d{3}?\d{4}?\d{2}?\d{2}$" required
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
@@ -55,8 +55,11 @@
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
-                                    class="btn btn-send flex mx-auto text-black bg-white border-0 focus:outline-none text-lg">Оставить
-                                    заявку</button>
+                                    class="btn btn-send flex items-center mx-auto text-black bg-white border-0 focus:outline-none text-lg">
+                                    <img src="/img/loading.svg" alt="loading" id="loading">
+                                    <img src="/img/success.svg" alt="success" id="success">
+                                    <p id="btn-text" class="button-text">Отправить заявку</p>
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -189,6 +192,12 @@ console.log()
   .link-to-svg:hover .st0 {
     fill:url(#g1);
   }
+
+#signInterview .btn img {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+}
 
 @media (min-width: 768px) {
     .SuperTitle {
