@@ -38,11 +38,21 @@ useHead({
       src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js',
       body: true
     },
-  ]
+    {
+      src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js',
+      body: true
+    },
+    {
+      src: '/js/myemailjs.js',
+      body: true
+    }
+
+  ],
+
 })
 
-const nuxtApp = useNuxtApp()
-  nuxtApp.hook("page:finish", () => {
-     window.scrollTo(0, 0)
-  })
+// const nuxtApp = useNuxtApp()
+//   nuxtApp.hook("page:finish", () => {
+//      window.scrollTo(0, 0)
+//   })
 </script>

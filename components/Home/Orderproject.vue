@@ -1,5 +1,5 @@
 <template>
-    <section id="SignInterview" class="text-white body-font relative min-h-screen bg-top bg-contain bg-no-repeat bg-[url('/img/bg_frame4_mob.png')] md:bg-center md:bg-cover  md:bg-[url('/img/bg_frame4.jpg')] z-0">
+    <section class="text-white body-font relative min-h-screen bg-top bg-contain bg-no-repeat bg-[url('/img/bg_frame4_mob.png')] md:bg-center md:bg-cover  md:bg-[url('/img/bg_frame4.jpg')] z-0">
         <div class="container px-5 py-16  md:py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="text-[32px] SuperTitle text-left md:mt-16">Есть проект?</h1>
@@ -10,9 +10,9 @@
                 </div>
                 <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
                     <div class="">
-                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите?</h3>
-                        
-                        <form action="https://formsubmit.co/sain.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
+                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите<span class="text-red-500">*</span>?</h3>
+
+                        <form id="form" action="mailto:midas.polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
                                 <input type="radio" id="design" name="project_type" value="Дизайн" required class="hidden" />
                                 <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
@@ -32,19 +32,19 @@
                             </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
-                                    <input type="text" id="name" name="name" placeholder="Ваше имя" required
+                                    <input type="text" id="name" name="name" placeholder="Ваше имя *" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" pattern="^\d{3}?\d{4}?\d{2}?\d{2}$" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
-                                    <textarea id="message" name="message" placeholder="Опишите проект" required
+                                    <textarea id="message" name="message" placeholder="Опишите проект *" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
