@@ -77,22 +77,6 @@
 import IconArrow from '~/assets/icons/arrow.svg'
 import IconArrowright from '~/assets/icons/arrow__right.svg'
 
-
-const battons = [
-    {
-        title: 'Дизайн'
-    },
-    {
-        title: 'Разработка'
-    },
-    {
-        title: 'Внедрение CRM'
-    },
-    {
-        title: 'Реклама/SEO'
-    }
-]
-
 </script>
 
 <script>
