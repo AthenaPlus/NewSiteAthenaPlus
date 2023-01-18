@@ -13,7 +13,7 @@
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[25px]">
-                        <a  class="btn btn--shadow">Записаться
+                        <a href="#signInterview" class="btn btn--shadow">Записаться
                             на Интервью</a>
                     </div>
                     <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
