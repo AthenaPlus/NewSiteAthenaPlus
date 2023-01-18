@@ -111,7 +111,7 @@ export default {
                 {
                     name: 'Владимир',
                     job: 'Менеджер',
-                    description: 'Оптимизатор всех бизнес-процессов',
+                    description: 'Оптимизатор всех бизнес-процессов, от B2B до B2C',
                     urlImg: 'https://dummyimage.com/200x200'
                 },
                 {
