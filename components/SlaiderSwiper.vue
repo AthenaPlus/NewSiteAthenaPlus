@@ -47,9 +47,6 @@
         },
         {
           title: 'Slaide'
-        },
-        {
-          title: 'Slaide'
         }
       ]
     }

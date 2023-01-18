@@ -93,37 +93,31 @@ export default {
                 {
                     name: 'Али-Султан',
                     job: 'Маркетолог',
-                    description: 'Digital-Гений, оптимизирует рекламу любого направления.',
+                    description: 'Digital-Buyer, оптимизирует рекламу любого направления.',
                     urlImg: 'https://dummyimage.com/200x200'
                 },
                 {
-                    name: 'Сотрудник 5',
+                    name: 'Камила',
+                    job: 'UX/UI-артист',
+                    description: 'Автор качественного UX/UI и крутых анимаций.',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Атия',
+                    job: 'Графический Дизайнер',
+                    description: 'Солнышко компании, автор стильных логотипов и нашего Instagram',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Владимир',
+                    job: 'Менеджер',
+                    description: 'Оптимизатор всех бизнес-процессов',
+                    urlImg: 'https://dummyimage.com/200x200'
+                },
+                {
+                    name: 'Алексей',
                     job: 'Дизайн',
-                    description: 'Holisticly negotiate reliable services without.',
-                    urlImg: 'https://dummyimage.com/200x200'
-                },
-                {
-                    name: 'Сотрудник 6',
-                    job: 'Дизайн',
-                    description: 'Objectively impact magnetic core competencies.',
-                    urlImg: 'https://dummyimage.com/200x200'
-                },
-                {
-                    name: 'Сотрудник 7',
-                    job: 'Дизайн',
-                    description: 'Progressively synergize seamless initiatives vis-a-vis.',
-                    urlImg: 'https://dummyimage.com/200x200'
-                },
-                {
-                    name: 'Сотрудник 8',
-                    job: 'Дизайн',
-                    description: 'Rapidiously disseminate scalable methodologies via.',
-                    urlImg: 'https://dummyimage.com/200x200'
-                },
-                {
-                    name: 'Сотрудник 9',
-                    job: 'Маркетолог',
-                    description: 'Continually evisculate intermandated communities through.',
+                    description: 'Мощный Fullstack-разработчик. Авторствует технически тяжелые проекты.',
                     urlImg: 'https://dummyimage.com/200x200'
                 }
             ]
