@@ -3,8 +3,8 @@
         <div class="container mx-auto px-5 py-24">
             <div class=" flex flex-col md:flex-row md:flex-wrap items-center">
                 <div
-                    class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
-                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto">
+                    class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center order-2 lg:order-1">
+                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto hidden lg:block">
                         {{ WhatwedoTitle }}
                     </h1>
                     <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
@@ -13,15 +13,12 @@
                         <button
                             class="btn btn--shadow">Задать Вопрос</button>
                     </div>
-                </div>
-                <div class="w-full lg:w-1/2">
-                    <div class="relative">
-                        <div class="">
-                            <img src="/img/Frame_3.png" class="hidden xl:block absolute inset-0 img-layout w-full"/>
-                        </div>
-                        <UiPicterframe3 class="hidden xl:block w-full"/>
-                        <img src="/img/bg_frame_3.png" class="xl:hidden w-full"/>
-                    </div>
+                </div>                                    
+                <div class="w-full lg:w-1/2 order-1 lg:order-2">
+                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden">
+                        {{ WhatwedoTitle }}
+                    </h1>
+                    <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0" />
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
