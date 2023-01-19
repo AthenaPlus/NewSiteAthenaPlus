@@ -23,8 +23,16 @@
                      text.textContent = "Ваша заявка оформлена!";
                  }, 3000);
 
+                 form: new Form({
+                    name : '',
+                    project_type: '',
+                    phone:'',
+                    message:''
+                  })
+
              }, function (error) {
                  console.log('FAILED...', error);
              });
+
      });
  }

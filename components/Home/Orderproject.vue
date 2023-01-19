@@ -38,7 +38,7 @@
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" required
+                                    <input type="tel" id="phone" name="n" placeholder="Ваш телефон *" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                 <input type="hidden" name="_captcha" value="false" />
                             </div>
                             <div class="pt-10">
-                                <button type="submit"
+                                <button type="submit" @click="sendForm"
                                     class="btn btn-send flex items-center mx-auto text-black bg-white border-0 focus:outline-none text-lg">
                                     <img src="/img/loading.svg" alt="loading" id="loading">
                                     <img src="/img/success.svg" alt="success" id="success">
@@ -120,6 +120,15 @@ export default {
             this.isClickButton2 = false
             this.isClickButton3 = false
             this.isClickButton1 = false
+        },
+        sendForm(){
+
+            return {
+                project_type: '',
+                name: '',
+                phone: '',
+                message: ''
+            }
         }
     }
 }
