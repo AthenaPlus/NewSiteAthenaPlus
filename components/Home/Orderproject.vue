@@ -38,7 +38,7 @@
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="n" placeholder="Ваш телефон *" required
+                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" required
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
@@ -49,9 +49,9 @@
                                 </div>
                             </div>
                             <div>
-                                <input type="hidden" name="_subject" value="Новая заявка на проект сайта" />
+                                <!-- <input type="hidden" name="_subject" value="Новая заявка на проект сайта" />
                                 <input type="hidden" name="_next" value="https://athena-plus.netlify.app" />
-                                <input type="hidden" name="_captcha" value="false" />
+                                <input type="hidden" name="_captcha" value="false" /> -->
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
@@ -91,7 +91,13 @@ export default {
             isClickButton1: false,
             isClickButton2: false,
             isClickButton3: false,
-            isClickButton4: false
+            isClickButton4: false,
+            project_type: '',
+            name: '',
+            phone: '',
+            message: ''
+
+
 
         }
     },
