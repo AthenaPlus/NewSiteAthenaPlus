@@ -12,7 +12,7 @@
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите<span class="text-red-500">*</span>?</h3>
 
-                        <form id="form" action="mailto:midas.polistovskiy.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
+                        <form id="form" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
                                 <input type="radio" id="design" name="project_type" value="Дизайн" required class="w-0" />
                                 <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
