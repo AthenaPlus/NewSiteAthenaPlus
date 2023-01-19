@@ -23,7 +23,7 @@
                      text.textContent = "Ваша заявка оформлена!";
                  }, 3000);
 
-                 console.log("success", res.status);
+                 console.log("success");
 
              }, function (error) {
                  console.log('FAILED...', error);
