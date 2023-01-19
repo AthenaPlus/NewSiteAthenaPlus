@@ -13,7 +13,7 @@
         //  this.contact_number.value = Math.random() * 100000 | 0;
          // these IDs from the previous steps
          emailjs.sendForm('service_y5rx3nf', 'template_ef05pji', this)
-             .then(function () {
+             .then(function (response) {
                  loading.style.display = "block";
                  loading.style.animation = "spin 5000ms linear infinite";
                  text.textContent = "Ваша заявка отправляется...";
@@ -23,6 +23,7 @@
                      text.textContent = "Ваша заявка оформлена!";
                  }, 3000);
 
+                 console.log("success", res.status);
 
              }, function (error) {
                  console.log('FAILED...', error);
@@ -30,3 +31,20 @@
 
      });
  }
+
+
+// window.onload = function() {
+//     document.getElementById('form').addEventListener('submit', function(event) {
+//         event.preventDefault();
+//         // generate a five digit number for the contact_number variable
+//         // this.contact_number.value = Math.random() * 100000 | 0;
+//         // these IDs from the previous steps
+//         emailjs.sendForm('service_y5rx3nf', 'template_ef05pji', this)
+//             .then(function() {
+//                 console.log('SUCCESS!');
+                
+//             }, function(error) {
+//                 console.log('FAILED...', error);
+//             });
+//     });
+// }
