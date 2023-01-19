@@ -21,12 +21,6 @@
                      loading.style.display = "none";
                      success.style.display = "block";
                      text.textContent = "Ваша заявка оформлена!";
-                     form: new Form({
-                        name : '',
-                        project_type: '',
-                        phone:'',
-                        message:''
-                      })
                  }, 3000);
 
 
