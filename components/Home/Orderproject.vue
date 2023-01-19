@@ -55,7 +55,7 @@
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
-                                    class="btn btn-send flex items-center mx-auto text-black bg-white border-0 focus:outline-none text-lg">
+                                    class="btn btn-send flex items-center gap-2 mx-auto text-black bg-white border-0 focus:outline-none text-lg">
                                     <img src="/img/loading.svg" alt="loading" id="loading">
                                     <img src="/img/success.svg" alt="success" id="success">
                                     <p id="btn-text" class="button-text">Отправить заявку</p>
