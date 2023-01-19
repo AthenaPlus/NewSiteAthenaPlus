@@ -10,7 +10,7 @@
                 </div>
                 <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
                     <div class="">
-                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услуги вы выберите<span class="text-red-500">*</span>?</h3>
+                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую услугу вы выберете<span class="text-red-500">*</span>?</h3>
 
                         <form id="form" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
