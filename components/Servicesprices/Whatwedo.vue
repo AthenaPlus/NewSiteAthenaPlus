@@ -3,12 +3,12 @@
         <div class="container mx-auto px-5 py-24">
             <div class=" flex flex-col md:flex-row md:flex-wrap items-center">
                 <div
-                    class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center order-2 lg:order-1">
+                    class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 lg:mb-0 items-center order-2 lg:order-1">
                     <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto hidden lg:block">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
-                    <p class="mb-10 text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
+                    <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
+                    <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
                         <button
                             class="btn btn--shadow">Задать Вопрос</button>
@@ -21,7 +21,7 @@
                     <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0" />
                 </div>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
+            <div class="hidden lg:grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
                 <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
                     <div class="w-28"><span class="Namber">#1</span></div>
                     <div class="text-right pr-7">
@@ -102,6 +102,8 @@
                     </div>
                 </div>
             </div>
+            <!-- Slaider WhatWeDo -->
+            <SlaiderWhatwedo class="block lg:hidden"/>
         </div>
     </section>
 </template>

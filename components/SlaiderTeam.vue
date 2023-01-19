@@ -16,7 +16,12 @@
         slidesPerView: 4,
         spaceBetween: 50,
       }
-    }" class="flex flex-wrap -m-4 border-b-2 border-white/70 pt-[50px] pb-10 swiper">
+    }"
+    :pagination="{
+      dynamicBullets: true,
+    }"
+    :modules="modules"
+     class="flex flex-wrap -m-4 border-b-2 border-white/70 pt-[50px] pb-10 swiper">
         <swiper-slide v-for="employee in employees" :key="employee.index" class="p-4 ">
             <div class="h-full flex flex-col items-center text-center">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-full h-[300px] object-cover object-center mb-4"
@@ -62,6 +67,10 @@
 import { Swiper, SwiperSlide } from 'swiper/vue';
 // Import Swiper styles
 import 'swiper/css';
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
 
 
 export default {
@@ -136,6 +145,7 @@ export default {
 
             onSwiper,
             onSlideChange,
+            modules: [Pagination],
         };
     },
 };
