@@ -18,7 +18,7 @@
                     <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <img src="/img/WhatWeDo.png" class="w-full" />
+                    <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0" />
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
