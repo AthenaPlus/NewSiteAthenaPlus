@@ -32,7 +32,7 @@
                     </p>
                 </div>
             </div>
-            <SlaiderServiceshero class="block md:hidden"/>
+            <!-- <SlaiderServiceshero class="block md:hidden"/> -->
         </div>
     </section>
 </template>
