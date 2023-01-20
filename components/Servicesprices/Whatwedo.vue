@@ -4,7 +4,7 @@
             <div class=" flex flex-col md:flex-row md:flex-wrap items-center">
                 <div
                     class="lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 lg:mb-0 items-center order-2 lg:order-1">
-                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto hidden lg:block">
+                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto hidden lg:block animate__animated animate__zoomIn">
                         {{ WhatwedoTitle }}
                     </h1>
                     <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
@@ -18,7 +18,7 @@
                     <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0" />
+                    <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0 animate__animated animate__zoomIn animate__delay-1s" />
                 </div>
             </div>
             <div class="hidden lg:grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
