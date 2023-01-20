@@ -130,10 +130,10 @@
                 </NuxtLink>
             </nav>
             <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobAboutMenumob @addToggle="addToggle" @clickAboutmob="clickAboutmob" />
+                <MenuframemobAboutMenumob @addToggle="addToggle"/>
             </div>
             <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobPortfolioMenumob @addToggle="addToggle" @clickPortfoliomob="clickPortfoliomob" />
+                <MenuframemobPortfolioMenumob @addToggle="addToggle" />
             </div>
             <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
                 <MenuframemobContactsMenumob @clickContactsmob="clickContactsmob" />
