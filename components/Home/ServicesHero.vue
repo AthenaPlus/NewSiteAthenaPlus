@@ -13,26 +13,26 @@
                        Мы ведем проекты по специальному авторскому алгоритму. Ведя проект совместно с нами, вы гарантируете качественный запуск.
                     </p>
                 </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 hidden md:block">
                     <h4 class="text-[28px] mb-[20px] inline-flex items-center gap-4"><IconUnion1/> Интервью</h4>
                     <p class="text-base">
                         Устанавливаются ваши предпочтения. Формируется концепция будущего проекта. Совместно составляем техническое задание и бриф.
                     </p>
                 </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 hidden md:block">
                     <h4 class="text-[28px] mb-[20px] inline-flex items-center gap-4"><IconUnion2/> Разработка</h4>
                     <p class="text-base">
                         Выстроим логическую структуру и архитектуру проекта. Далее создадим уникальный дизайн, а после передадим макет на вёрстку, где сайт “оживает”.
                     </p>
                 </div>
-                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 ">
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:px-8 py-6 hidden md:block">
                     <h4 class="text-[28px] mb-[20px] inline-flex items-center gap-4"><IconUnion3/> Тесты и SEO</h4>
                     <p class="text-base">
                         Проверим проект. Узнаем как сайт будет работать в разных ситуациях. После, проводим первичную оптимизацию и выводим сайт в диджитал-сферу
                     </p>
                 </div>
             </div>
-            
+            <SlaiderServiceshero class="block md:hidden"/>
         </div>
     </section>
 </template>
