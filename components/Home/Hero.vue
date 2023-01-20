@@ -4,7 +4,7 @@
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
                     class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
-                    <h1 class="hidden lg:block h1-title animate__animated animate__bounceInRight">
+                    <h1 class="hidden lg:block h1-title animate__animated animate__zoomIn animate__delay-1s">
                         {{ HeroTitle }}
                     </h1>
 
@@ -25,11 +25,11 @@
                 </div>
                 <div class="order-1 lg:order-2 w-full lg:w-1/2">
                     <h1
-                        class="contents lg:hidden font_Airborne text-[30px] md:text-[40px] leading-none _anim-items animat_Title">
+                        class="contents lg:hidden font_Airborne text-[30px] md:text-[40px] leading-none animate__animated animate__zoomIn animate__delay-1s">
                         {{ HeroTitle }}
                     </h1>
                     <div class="pt-5 lg:pt-0">
-                        <img src="/img/AthenaFirst.png" alt="" class="animate__animated animate__zoomIn animate__delay-1s">
+                        <img src="/img/AthenaFirst.png" alt="" class="animate__animated animate__zoomIn animate__delay-2s">
                     </div>
                 </div>
             </div>
