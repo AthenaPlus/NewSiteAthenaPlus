@@ -262,13 +262,13 @@ export default {
         },
         // Mob Menu
         clickAboutmob(){
-            this.isOpenAboutMob = !this.isOpenAboutMob
+            this.isOpenAboutMob = true
         },
         clickPortfoliomob(){
-            this.isOpenPortfolioMob = !this.isOpenPortfolioMob
+            this.isOpenPortfolioMob = true
         },
         clickContactsmob(){
-            this.isOpenContactsMob = !this.isOpenContactsMob
+            this.isOpenContactsMob = true
         },
 
     },
