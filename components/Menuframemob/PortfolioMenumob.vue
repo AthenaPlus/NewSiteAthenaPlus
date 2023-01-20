@@ -3,7 +3,7 @@
         <div class="container px-4 py-3 mx-auto max-h-screen  overflow-y-auto">
             <div class="flex flex-wrap justify-between border-b-2 border-white pb-[10px] w-full">
                 <h2 class="text-[32px] font_Airborne uppercase">Портфолио</h2>
-                <button @click="clickPortfoliomob"  class="text-white">
+                <button  class="text-white">
                     <XMarkIcon class="h-6 w-6 text-white"/>
                 </button>
             </div>
@@ -58,9 +58,6 @@ export default {
     methods: {
         addToggle() {
             this.$emit('addToggle')
-        },
-        clickPortfoliomob() {
-            this.$emit('clickPortfoliomob')
         }
     }
 }

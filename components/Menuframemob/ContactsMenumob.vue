@@ -3,7 +3,7 @@
         <div class=" px-4 pb-3 mx-auto w-full">
             <div class="flex flex-wrap justify-between border-b-2 border-white pb-[10px] w-full">
                 <h2 class="text-[32px] font_Airborne uppercase">Контакты</h2>
-                <button @click="clickContactsmob" class="text-white">
+                <button  class="text-white">
                     <XMarkIcon class="h-6 w-6 text-white" />
                 </button>
             </div>
@@ -37,11 +37,10 @@ import { XMarkIcon } from '@heroicons/vue/24/solid'
 
     export default {
         methods: {
-            clickContactsmob() {
-            this.$emit('clickContactsmob')
+
         }
     }
-    }
+
 </script>
 
 <style scoped>
