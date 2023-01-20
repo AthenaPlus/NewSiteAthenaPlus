@@ -3,8 +3,8 @@
         <Disclosure v-for="vacancy in vacancys" :key="vacancy.index" v-slot="{ open }">
             <DisclosureButton
                 class="flex flex-wrap justify-between items-center  w-full border-t-2 border-white  px-4 py-2 text-left  hover:bg-white/10 transition duration-700 ease-in-out ">
-                <h2 class="text-[50px] font-normal font_Airborne">{{ vacancy.title }}</h2>
-                <h3 class="text-[40px]">{{ vacancy.subTitle }}</h3>
+                <h2 class="text-3xl md:text-[50px] font-normal font_Airborne">{{ vacancy.title }}</h2>
+                <h3 class="text-xl md:text-[40px]">{{ vacancy.subTitle }}</h3>
                 <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''"
                     class="h-10 w-10 text-gradient transition duration-500 ease-in-out" />
             </DisclosureButton>
@@ -12,7 +12,7 @@
                 <DisclosurePanel class="px-4 py-4 text-sm text-gray-200">
                     <div class="w-full md:max-w-[600px] ml-auto pb-10">
                         <h4 class="text-4xl font-semibold">{{ vacancy.vacancyTitle }}</h4>
-                        <p class="text-2xl font-normal py-5">
+                        <p class="text-lg md:text-2xl font-normal py-5">
                             {{ vacancy.vacancyDescription }}
                         </p>
                         <button class="btn-primary hover:btn--shadow ">Подать заявку</button>
