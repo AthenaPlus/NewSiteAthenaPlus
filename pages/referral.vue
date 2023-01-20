@@ -10,7 +10,7 @@
                     <p class="text-[26px] mb-4 animate__animated animate__zoomIn animate__delay-2s">
                         Приведи клиента и получи до 10% от суммы договора. Без дополнительных комиссий и подводных камней.
                     </p>
-                    <button class="btn-primary hover:btn--shadow uppercase">Подать заявку</button>
+                    <button class="btn-primary hover:btn--shadow uppercase animate__animated animate__fadeInUp animate__delay-3s">Подать заявку</button>
                 </div>
             </div>
         </div>
