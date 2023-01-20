@@ -1,11 +1,8 @@
 <template>
     <section class="text-white body-font overflow-x-hidden transition ease-in-out duration-500">
         <div class="container px-4 py-3 mx-auto">
-            <div class="flex flex-wrap justify-between border-b-2 border-white pb-[10px] w-full">
+            <div class="border-b-2 border-white pb-[10px] w-full">
                 <h2 class="text-[32px] font_Airborne uppercase">О Компании</h2>
-                <button class="text-white">
-                    <XMarkIcon class="h-6 w-6 text-white"/>
-                </button>
             </div>
             <p class="text-white my-5">Узнайте подробнее о нашей структуре и методах работы</p>
 
@@ -83,15 +80,11 @@
 </template>
 
 <script>
-import { XMarkIcon } from '@heroicons/vue/24/solid'
 export default {
-    components: { XMarkIcon },
-
     methods: {
         addToggle() {
             this.$emit('addToggle')
-        },
-
+        }
     }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
 
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
-    <button @click="toggle" class="btn-mob transition ease-in-out duration-700 fixed pl-2.5 md:pl-5 pt-[7px] z-index-10000">
+    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-2.5 md:pl-5 pt-[7px] z-index-10000">
         <!-- Button First -->
         <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-7 w-7 md:h-10 md:w-10']"
             class="transition ease-in-out duration-700" width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -130,13 +130,13 @@
                 </NuxtLink>
             </nav>
             <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobAboutMenumob @addToggle="addToggle"/>
+                <MenuframemobAboutMenumob @addToggle="addToggle" />
             </div>
             <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobPortfolioMenumob @addToggle="addToggle" />
+                <MenuframemobPortfolioMenumob @addToggle="addToggle"  />
             </div>
             <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobContactsMenumob @clickContactsmob="clickContactsmob" />
+                <MenuframemobContactsMenumob />
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
@@ -161,7 +161,7 @@
         </div>
         <div :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
-            <MenuframeContactsMenu/>
+            <MenuframeContactsMenu />
         </div>
         <!-- End Menuframe SubMenu for Disctop -->
     </div>
@@ -269,8 +269,7 @@ export default {
         },
         clickContactsmob(){
             this.isOpenContactsMob = true
-        },
-
+        }
     },
 
 }
@@ -452,10 +451,6 @@ export default {
 
 a { 
     cursor: pointer;
-}
-
-.btn-mob:focus {
-  outline: none;
 }
 /* .Link:before {
 	content:" ";

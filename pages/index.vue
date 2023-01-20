@@ -8,7 +8,6 @@
 </template>
 
 <script setup>
-
 useHead({
     title: 'Athena Веб-проекты со стилем',
     meta: [
