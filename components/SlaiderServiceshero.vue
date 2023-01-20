@@ -72,11 +72,7 @@ import { Pagination } from "swiper";
     },
     setup() {
       const onSwiper = (swiper) => {
-<<<<<<< HEAD
-
-=======
-     
->>>>>>> e66336f25ede0a6dcc9840d4ff4b5adc9f4eb69d
+        
       };
       const onSlideChange = () => {
         
