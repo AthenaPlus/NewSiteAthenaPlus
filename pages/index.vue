@@ -2,8 +2,8 @@
     <div class="scroll__y">
         <HomeHero class="scroll-my-0 snap-start min-h-screen"/>
         <HomeAdvantage class="scroll-my-0 snap-start min-h-screen"/>
-        <HomeServicesHero class="scroll-my-0 snap-start min-h-screen" />
-        <HomeOrderproject class="scroll-my-0 snap-start min-h-screen"/>
+        <!-- <HomeServicesHero class="scroll-my-0 snap-start min-h-screen" /> -->
+        <!-- <HomeOrderproject class="scroll-my-0 snap-start min-h-screen"/> -->
     </div>
 </template>
 
