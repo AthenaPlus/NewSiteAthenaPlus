@@ -15,7 +15,7 @@
                     </div>
                 </div>                                    
                 <div class="w-full lg:w-1/2 order-1 lg:order-2">
-                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden">
+                    <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden animate__animated animate__zoomIn">
                         {{ WhatwedoTitle }}
                     </h1>
                     <img src="/img/WhatWeDo.png" class="w-full my-5 lg:my-0 animate__animated animate__zoomIn animate__delay-1s" />
