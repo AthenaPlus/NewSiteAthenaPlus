@@ -1,8 +1,11 @@
 <template>
     <section class="text-white body-font w-full">
         <div class="container px-4 py-3 mx-auto max-h-screen  overflow-y-auto">
-            <div class="border-b-2 border-white pb-[10px] w-full">
+            <div class="flex flex-wrap justify-between border-b-2 border-white pb-[10px] w-full">
                 <h2 class="text-[32px] font_Airborne uppercase">Портфолио</h2>
+                <button @click="clickPortfoliomob"  class="text-white">
+                    <XMarkIcon class="h-6 w-6 text-white"/>
+                </button>
             </div>
             <p class="text-white mt-5 my-5">Узнайте подробнее о нашей структуре и методах работы</p>
             <div class="block">
@@ -49,11 +52,15 @@ const items = ([
 
 </script>
 <script>
-
+import { XMarkIcon } from '@heroicons/vue/24/solid'
 export default {
+    components: { XMarkIcon },
     methods: {
         addToggle() {
             this.$emit('addToggle')
+        },
+        clickPortfoliomob() {
+            this.$emit('clickPortfoliomob')
         }
     }
 }

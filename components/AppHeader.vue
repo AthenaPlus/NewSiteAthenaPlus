@@ -130,13 +130,13 @@
                 </NuxtLink>
             </nav>
             <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobAboutMenumob @addToggle="addToggle" />
+                <MenuframemobAboutMenumob @addToggle="addToggle" @clickAboutmob="clickAboutmob" />
             </div>
             <div :class="[isOpenPortfolioMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobPortfolioMenumob @addToggle="addToggle"  />
+                <MenuframemobPortfolioMenumob @addToggle="addToggle" @clickPortfoliomob="clickPortfoliomob" />
             </div>
             <div :class="[isOpenContactsMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
-                <MenuframemobContactsMenumob />
+                <MenuframemobContactsMenumob @clickContactsmob="clickContactsmob" />
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
@@ -161,7 +161,7 @@
         </div>
         <div :class="[isOpenContacts ? 'translate-x-0 transition ease-in-out duration-1000 delay-500  block' : '-translate-x-130 transition ease-in-out duration-1000 absolute']"
             class="bg-filter text-white flex-1 -z-10 w-full right-0 -ml-px ">
-            <MenuframeContactsMenu />
+            <MenuframeContactsMenu/>
         </div>
         <!-- End Menuframe SubMenu for Disctop -->
     </div>
@@ -262,14 +262,15 @@ export default {
         },
         // Mob Menu
         clickAboutmob(){
-            this.isOpenAboutMob = true
+            this.isOpenAboutMob = !this.isOpenAboutMob
         },
         clickPortfoliomob(){
-            this.isOpenPortfolioMob = true
+            this.isOpenPortfolioMob = !this.isOpenPortfolioMob
         },
         clickContactsmob(){
-            this.isOpenContactsMob = true
-        }
+            this.isOpenContactsMob = !this.isOpenContactsMob
+        },
+
     },
 
 }
