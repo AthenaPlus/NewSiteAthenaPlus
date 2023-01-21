@@ -96,7 +96,7 @@ export default {
                 {
                     name: 'Павел',
                     job: 'Ведущий-Разработчик',
-                    description: 'Гуру Frontend-разработки со стажем более 20 лет.',
+                    description: 'Цифровой Пионер Frontend-разработки со стажем более 20 лет.',
                     urlImg: 'https://dummyimage.com/200x200'
                 },
                 {
