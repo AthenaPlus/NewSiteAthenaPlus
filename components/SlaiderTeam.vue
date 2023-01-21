@@ -169,7 +169,7 @@ export default {
     height: 0%;
     top: 50%;
     left: 50%;
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .face:hover .bg--face {
