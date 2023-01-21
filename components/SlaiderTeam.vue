@@ -95,7 +95,7 @@ export default {
                     name: 'Даурен',
                     job: 'Креативный Директор',
                     description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
-                    urlImg: 'https://dummyimage.com/200x200',
+                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285791/team/dauren_c8qsgq.webp',
                     bgImg: 'dauren'
                 },
                 {
@@ -109,7 +109,7 @@ export default {
                     name: 'Али-Султан',
                     job: 'Маркетолог',
                     description: 'Digital-Buyer, оптимизирует рекламу любого направления.',
-                    urlImg: 'https://dummyimage.com/200x200',
+                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285787/team/alisultan_hy38nq.webp',
                     bgImg: 'alisultan'
                 },
                 {
@@ -123,7 +123,7 @@ export default {
                     name: 'Атия',
                     job: 'Графический Дизайнер',
                     description: 'Солнышко компании, автор стильных логотипов и нашего Instagram',
-                    urlImg: 'https://dummyimage.com/200x200',
+                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285786/team/atiy_mqn4yw.webp',
                     bgImg: 'atiy'
                 },
                 {
@@ -184,13 +184,13 @@ export default {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285793/team/sanjar2_oawbpy.webp);
 }
 .dauren {
-    background-image: url();
+    background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285790/team/dauren2_ex3gkx.webp);
 }
 .pavel {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,e_auto_contrast,g_face,h_300,w_300/v1674285791/team/pavel2_pu8ba0.webp);
 }
 .alisultan {
-    background-image: url();
+    background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285790/team/alisultan2_aoxpfn.webp);
 }
 .kamila {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285787/team/kamila2_bnrhxy.webp);
