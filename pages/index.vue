@@ -16,11 +16,6 @@ useHead({
 })
 </script>
 
-<script>
-export default {
-
-}
-</script>
 
 <style>
 
