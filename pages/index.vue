@@ -1,9 +1,9 @@
 <template>
-    <div class="scroll__y">
-        <HomeHero class="scroll-my-0 snap-start min-h-screen"/>
-        <HomeAdvantage class="scroll-my-0 snap-start min-h-screen"/>
-        <HomeServicesHero class="scroll-my-0 snap-start min-h-screen" />
-        <HomeOrderproject class="scroll-my-0 snap-start min-h-screen"/>
+    <div class="snap-y snap-mandatory h-screen overflow-y-auto overflow-x-hidden">
+        <HomeHero class="snap-start min-h-screen"/>
+        <HomeAdvantage class="snap-start min-h-screen"/>
+        <HomeServicesHero class="snap-start min-h-screen" />
+        <HomeOrderproject class="snap-start min-h-screen"/>
     </div>
 </template>
 
@@ -23,7 +23,5 @@ export default {
 </script>
 
 <style>
-    .scroll__y {
-        scroll-snap-type: y mandatory;
-    }
+
 </style>
