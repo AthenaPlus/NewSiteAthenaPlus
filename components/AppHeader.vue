@@ -370,15 +370,13 @@ export default {
     fill: url(#g1);
 }
 
-/* For fixed AppHeader */
-.navbar__scrolled {}
 
-.blur {
+/* .blur {
     background: rgba(11, 11, 11, 0);
     transition: all 0.5s ease-out;
-}
+} */
 
-.navbar__scrolled .blur {
+.blur {
     background: rgba(11, 11, 11, 0.1);
     backdrop-filter: blur(2px);
 }
