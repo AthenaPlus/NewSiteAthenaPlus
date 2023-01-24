@@ -2,7 +2,7 @@
     <section class="text-white body-font">
         <div class="container flex flex-wrap px-5 pb-12 pt-16 md:py-24 mx-auto">
             <div class="w-full md:w-1/2 mb-10 md:mb-0">
-                <h1 class="sticky top-20 text-4xl md:text-6xl lg:text-[66px] animate__animated animate__zoomIn animate__delay-1s">Построй карьеру вместе с Athena Plus</h1>
+                <h1 class="sticky top-20 text-4xl md:text-6xl lg:text-[66px] animate__animated animate__fadeInLeft animate__delay-1s">Построй карьеру вместе с Athena Plus</h1>
             </div>
             <div class="w-full md:w-1/2">
                 <img src="/img/career.png" alt="" class="max-w-full animate__animated animate__zoomIn animate__delay-2s" />

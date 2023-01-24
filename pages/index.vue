@@ -1,9 +1,9 @@
 <template>
-    <div class="snap-y snap-mandatory h-screen overflow-y-auto overflow-x-hidden">
-        <HomeHero class="snap-start min-h-screen"/>
-        <HomeAdvantage class="snap-start min-h-screen"/>
-        <HomeServicesHero class="snap-start min-h-screen" />
-        <HomeOrderproject class="snap-start min-h-screen"/>
+    <div class="snap-y snap-mandatory w-full h-screen overflow-y-auto overflow-x-hidden">
+        <HomeHero class="snap-start w-full min-h-screen"/>
+        <HomeAdvantage class="snap-start w-full min-h-screen"/>
+        <HomeServicesHero class="snap-start w-full min-h-screen" />
+        <HomeOrderproject class="snap-start w-full min-h-screen"/>
     </div>
 </template>
 

@@ -4,13 +4,12 @@
             <!-- Блок СОВРЕМЕННАЯ ВЕБ СТУДИО -->
             <div class="flex flex-col lg:flex-row items-center gap-5 lg:gap-10 border-b-2 border-white/70 pb-10">
                 <div class="w-full lg:w-1/2">
-                    <h1 class="sticky top-14 uppercase text-[32px] leading-[40px] lg:text-[80px] lg:leading-[92px] animate__animated animate__zoomIn animate__delay-1s
-animate__animated animate__zoomIn animate__delay-1s">Современная веб студио</h1>
+                    <h1 class="sticky top-14 uppercase text-[32px] leading-[40px] lg:text-[80px] lg:leading-[92px] animate__animated animate__fadeInLeft animate__delay-1s">Современная веб студио</h1>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <!-- <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
                             class="hidden lg:inline-block" /> ваш дизайн</h2> -->
-                    <p class="text-xl md:text-[20px] font-normal leading-8 animate__animated animate__zoomIn animate__delay-2s">Athena Plus - это мечта двух студентов создавать сайты мирового уровня. Повышение качества сайтов и уровня разработчиков, является нашим кредо и первостепенной задачей.
+                    <p class="text-xl md:text-[20px] font-normal leading-8 animate__animated animate__fadeInRight animate__delay-2s">Athena Plus - это мечта двух студентов создавать сайты мирового уровня. Повышение качества сайтов и уровня разработчиков, является нашим кредо и первостепенной задачей.
                                 Наша цель - попасть в топ мировых веб-студий. Наша миссия - помогать бизнесу при помощи качественного UX/UI и чистого кода. 
                     </p>
                 </div>
