@@ -136,7 +136,7 @@ const HeroLabels = [
 /* CSS для Анимации Заголовка и под заголовка */
 
 .animat_Title {
-	transform: translate(0px, 120%);
+	transform: translate(-120%, 0%);
 	opacity: 0;
 	transition: all 0.5s ease 0s;
 }
@@ -149,7 +149,7 @@ const HeroLabels = [
 }
 
 .animat_Title._active {
-	transform: translate(0px, 0);
+	transform: translate(0, 0);
 	opacity: 1;
 }
 
