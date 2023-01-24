@@ -1,5 +1,5 @@
 <template>
-    <div class="snap-y snap-mandatory w-full h-screen overflow-y-auto overflow-x-hidden">
+    <div class="snap-y snap-mandatory w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
         <HomeHero class="snap-start w-full min-h-screen"/>
         <HomeAdvantage class="snap-start w-full min-h-screen"/>
         <HomeServicesHero class="snap-start w-full min-h-screen" />
