@@ -14,21 +14,20 @@
 
                         <form id="form" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
-                                <input type="radio" id="design" name="project_type" value="Дизайн" class="w-0" />
                                 <label for="design"  @click="clickButton1" class="btn--label text-white py-3"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Дизайн</label>
+                                <input type="radio" id="design" name="project_type" value="Дизайн" class="w-0" />
 
-                                <input type="radio" id="development" name="project_type" value="Разработка" class="w-0" />
                                 <label for="development" @click="clickButton2" class="btn--label text-white py-3"
                                     :class="[isClickButton2 ? 'btn--click' : '']"> Разработка</label>
-
-                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="w-0" />
+                                <input type="radio" id="development" name="project_type" value="Разработка" class="w-0" />
+                                
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3"
                                     :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</label>
-
-                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="w-0" />
+                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="w-0" />
                                 <label for="SEO" @click="clickButton4" class="btn--label text-white py-3"
                                     :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</label>
+                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="w-0" />
                             </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">

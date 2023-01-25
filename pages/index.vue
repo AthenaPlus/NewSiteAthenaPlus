@@ -1,10 +1,12 @@
 <template>
-    <div class="snap-y snap-mandatory w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
-        <HomeHero class="snap-start w-full min-h-screen"/>
-        <HomeAdvantage class="snap-start w-full min-h-screen"/>
-        <HomeServicesHero class="snap-start w-full min-h-screen" />
-        <HomeOrderproject class="snap-start w-full min-h-screen"/>
-    </div>
+    <!-- <div class="snap-y snap-mandatory w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth"> -->
+    <full-page ref="fullpage" :options="options">
+        <HomeHero class="snap-start w-full min-h-screen section" />
+        <HomeAdvantage class="snap-start w-full min-h-screen section" />
+        <HomeServicesHero class="snap-start w-full min-h-screen section" />
+        <HomeOrderproject class="snap-start w-full min-h-screen section" />
+    </full-page>
+    <!-- </div> -->
 </template>
 
 <script setup>
@@ -16,6 +18,23 @@ useHead({
 })
 </script>
 
+<script>
+  export default {
+    data() {
+      return {
+        options: {
+          afterLoad: this.afterLoad,
+        },
+      }
+    },
+
+    methods: {
+      afterLoad() {
+        console.log("Emitted 'after load' event.")
+      },
+    },
+  }
+</script>
 
 <style>
 
