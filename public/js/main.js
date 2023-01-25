@@ -10,6 +10,8 @@
 
 
     // 	Скрипт для скролла блока id="navbar"
-    if (scrollY > 300) navbar.add(active__class)
+    if (scrollY > 100) navbar.add(active__class)
     else navbar.remove(active__class)
 })
+
+

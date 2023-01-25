@@ -1,3 +1,13 @@
+// window.addEventListener('scroll', e => {
+
+//     const animItems = document.querySelectorAll('_anim-items')
+
+//     if(clientY = 0) {
+//         animItems.add('article')
+//     }
+//     console.log(clientY)
+// })
+
 /**
  * Анемирование блока с контейнером "Наши достижения в цифрах"
  * источник https://codepen.io/poliweb/pen/rNrxpYr
@@ -14,7 +24,7 @@ setTimeout(() => {
                 const animItem = animItems[index];
                 const animItemHeight = animItem.offsetHeight;
                 const animItemOffset = offset(animItem).top;
-                const animStart = 200;
+                const animStart = 100;
 
                 let animItemPoint = window.innerHeight - animItemHeight / animStart;
                 if (animItemHeight > window.innerHeight) {

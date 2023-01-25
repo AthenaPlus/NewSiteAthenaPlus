@@ -13,7 +13,7 @@
                         <button
                             class="btn btn--shadow">Задать Вопрос</button>
                     </div>
-                </div>                                    
+                </div>
                 <div class="w-full lg:w-1/2 order-1 lg:order-2">
                     <h1 class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden animate__animated animate__fadeInLeft animate__delay-0.5s">
                         {{ WhatwedoTitle }}
