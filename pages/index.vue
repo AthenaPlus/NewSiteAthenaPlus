@@ -24,6 +24,7 @@ useHead({
       return {
         options: {
           afterLoad: this.afterLoad,
+          navigation: 'true'
         },
       }
     },
