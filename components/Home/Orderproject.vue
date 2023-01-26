@@ -2,8 +2,8 @@
     <section id="signInterview" class="text-white body-font relative min-h-screen bg-top bg-contain bg-no-repeat bg-[url('/img/bg_frame4_mob.png')] md:bg-center md:bg-cover  md:bg-[url('/img/bg_frame4.jpg')] z-0">
         <div class="container px-5 py-16  md:py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="text-[32px] SuperTitle text-left md:mt-16">Есть проект?</h1>
-                <div class="flex items-center md:justify-end gap-2  md:mr-32">
+                <h1 class="text-[32px] SuperTitle text-left md:mt-16 anime__left1">Есть проект?</h1>
+                <div class="flex items-center md:justify-end gap-2  md:mr-32 anime__right1">
                     <IconArrow class="hidden md:block"/>
                     <h2 class="text-xl font_Airborne md:Source_Sans_Pro md:text-5xl lg:text-7xl">Оставьте заявку</h2>
                     <IconArrowright class="block md:hidden w-10" />

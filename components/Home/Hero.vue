@@ -8,8 +8,8 @@
                         {{ HeroTitle }}
                     </h1>
 
-                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto">{{ HeroSubtitle }}</h2>
-                    <p class="hidden md:contents text-base lg:text-xl LineHeight_30 font-normal">{{
+                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto anime__left2">{{ HeroSubtitle }}</h2>
+                    <p class="hidden md:block text-base lg:text-xl LineHeight_30 font-normal anime__left3">{{
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[25px]">

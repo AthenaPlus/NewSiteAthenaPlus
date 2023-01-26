@@ -72,5 +72,43 @@ html {
       color: #fff;
     }
 
+.anime__left1 {
+    transform: translateX(-120%);
+    transition: all .8s ease 0.5s;
+    transition-delay: 100ms;
+    opacity: 0;
+}
+
+.anime__left2 {
+    transform: translateX(-150%);
+    transition: all .8s ease 0.5s;
+    transition-delay: 500ms;
+    opacity: 0;
+}
+
+.anime__left3 {
+    transform: translateX(-150%);
+    transition: all .8s ease 0.5s;
+    transition-delay: 1000ms;
+    opacity: 0;
+}
+
+.anime__right1 {
+    transform: translateX(350%);
+    transition: all .8s ease 0.5s;
+    transition-delay: 100ms;
+    opacity: 0;
+}
+
+.active .anime__right1,
+.active .anime__left1,
+.active .anime__left2,
+.active .anime__left3 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+
 
 
