@@ -24,6 +24,7 @@ useHead({
       return {
         options: {
           afterLoad: this.afterLoad,
+          licenseKey: 'YOUR_KEY_HERE',
           navigation: 'true',
           scrollOverflow: true,
           scrollBar: false,
