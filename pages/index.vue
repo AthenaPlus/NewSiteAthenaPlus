@@ -24,7 +24,11 @@ useHead({
       return {
         options: {
           afterLoad: this.afterLoad,
-          navigation: 'true'
+          navigation: 'true',
+          scrollOverflow: true,
+          scrollBar: false,
+          menu: '#menu',
+          anchors: ['page1', 'page2', 'page3', 'page4'],
         },
       }
     },
