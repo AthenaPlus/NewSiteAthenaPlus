@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@fullpage/nuxt-fullpage": "^0.2.3",
-    "@gtm-support/vue-gtm": "^2.0.0",
     "@heroicons/vue": "^2.0.13",
     "animate.css": "^4.1.1",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "vue-gtag-next": "^1.14.0"
   }
 }
