@@ -79,6 +79,15 @@
                 <!-- End-Icons -->
             </div>
         </div>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8YR9PLKHX"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z8YR9PLKHX');
+        </script>
     </header>
     <!-- Kode Menu NEW -->
     <div :class="[isOpenMenu ? 'translate-x-0 transition ease-in-out duration-700' : '-translate-x-130 transition ease-in-out duration-700']"
@@ -275,7 +284,6 @@ export default {
 }
 
 </script>
-
 
 <style>
 
