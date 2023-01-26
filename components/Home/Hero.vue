@@ -13,7 +13,7 @@
                         HeroDescription
                     }}</p>
                     <div class="mr-auto md:mt-[25px]">
-                        <a data-menuanchor="page4" href="#page4" class="btn btn--shadow">Записаться
+                        <a data-menuanchor="order" href="#order" class="btn btn--shadow">Записаться
                             на Интервью</a>
                     </div>
                     <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
