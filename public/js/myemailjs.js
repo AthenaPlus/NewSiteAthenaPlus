@@ -14,7 +14,6 @@
          // these IDs from the previous steps
          emailjs.sendForm('service_4kyuqo8', 'template_n1013y4', this)
              .then(function (response) {
-                 loading.style.display = "block";
                  loading.style.animation = "spin 5000ms linear infinite";
                  text.textContent = "Ваша заявка отправляется...";
                  setTimeout(function () {
