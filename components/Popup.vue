@@ -2,16 +2,17 @@
     <div class="popup_wrapper absolute inset-0 flex justify-center items-center bg-slate-900/90" ref="popup_wrapper">
         <div class="popup mx-auto">
             <div class="popup-header flex flex-row items-center justify-between p-3">
-                <span>{{ popupTitle }}</span>
-                <button @click="closePopup">
-                    <XMarkIcon class="w-6 h-6" />
+                <h2 class="text-2xl">{{ popupTitle }}</h2>
+                <button @click="closePopup" class="flex items-center">
+                    <span>close</span>
+                    <XMarkIcon class="w-6 h-6 ml-2" />
                 </button>
             </div>
             <div class="popup-content">
                 <slot></slot>
             </div>
             <div class="popup-footer flex flex-row items-center justify-end p-3">
-                <button @click="closePopup" class="bg-pink-500 text-white px-6 py-2">Закрыть</button>
+                <button @click="closePopup" class="btn">Закрыть</button>
             </div>
         </div>
     </div>
