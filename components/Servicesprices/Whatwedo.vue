@@ -10,7 +10,7 @@
                     <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
                     <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
-                        <button
+                        <button @click="showPopupInfo"
                             class="btn btn--shadow">Задать Вопрос</button>
                     </div>
                 </div>
@@ -104,6 +104,10 @@
             </div>
             <!-- Slaider WhatWeDo -->
             <SlaiderWhatwedo class="block lg:hidden"/>
+            <Popup v-if="isInfoPopupVisible" @closePopup="closeInfoPopup">
+                Примеры Слота
+                <input type="text" class="text-black p-2">
+            </Popup>
         </div>
     </section>
 </template>
@@ -119,6 +123,25 @@ import IconIcon6 from '~/assets/icons/icon6.svg'
 const WhatwedoTitle = 'чем мы занимаемся'
 const WhatwedoDescription = 'Веб-разработка это не только дизайн и вёрстка. Мы решаем ряд маркетинговых бизнес-задач для создания качественного digital-продукта.'
 const WhatwedoDescription2 = 'Мы работаем с такими концепциями как Design Thinking и MVP concept and thinking. Эти концепты упрощают создание лидеров каждой сферы рынка.'
+</script>
+
+<script>
+
+export default {
+    data() {
+        return {
+            isInfoPopupVisible: false,
+        }
+    },
+    methods: {
+        showPopupInfo(){
+            this.isInfoPopupVisible = true
+        },
+        closeInfoPopup() {
+            this.isInfoPopupVisible = false
+        }
+    }
+}
 </script>
 
 <style>
