@@ -1,7 +1,7 @@
 <template>
     <div class="popup mx-auto">
         <div class="popup-header flex flex-row items-center justify-between p-3">
-            <span>Popup Name</span>
+            <span>{{ popupTitle }}</span>
             <span @click="closePopup">
                 <XMarkIcon class="w-6 h-6"/>
             </span>
@@ -20,6 +20,12 @@ import { XMarkIcon } from '@heroicons/vue/20/solid'
 export default {
     components: {
         XMarkIcon
+    },
+    props: {
+        popupTitle: {
+            type: String,
+            default: 'PopUp Окно'
+        }
     },
     methods: {
         closePopup() {

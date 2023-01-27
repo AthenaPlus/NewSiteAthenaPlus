@@ -104,7 +104,7 @@
             </div>
             <!-- Slaider WhatWeDo -->
             <SlaiderWhatwedo class="block lg:hidden"/>
-            <Popup v-if="isInfoPopupVisible" @closePopup="closeInfoPopup">
+            <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup">
                 Примеры Слота
                 <input type="text" class="text-black p-2">
             </Popup>
