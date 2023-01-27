@@ -2,9 +2,9 @@
     <div class="popup mx-auto">
         <div class="popup-header flex flex-row items-center justify-between p-3">
             <span>{{ popupTitle }}</span>
-            <span @click="closePopup">
+            <button @click="closePopup">
                 <XMarkIcon class="w-6 h-6"/>
-            </span>
+            </button>
         </div>
         <div class="popup-content">
             <slot></slot>
