@@ -1,19 +1,19 @@
 <template>
-    <div class="popup_wrapper absolute inset-0 flex justify-center items-center bg-slate-900/90" ref="popup_wrapper">
-        <div class="popup mx-auto">
+    <div class="popup_wrapper fixed inset-0 flex justify-center items-center bg-[#0B0B0B] min-h-screen" ref="popup_wrapper">
+        <button @click="closePopup" class="flex items-center right-[76px] top-[60px] fixed">
+            <span class="text-[26px] font-semibold">Закрыть</span>
+            <XMarkIcon class="w-6 h-6 ml-2" />
+        </button>
+        <div class="max-w-[856px] mx-auto w-full">
             <div class="popup-header flex flex-row items-center justify-between p-3">
-                <h2 class="text-2xl">{{ popupTitle }}</h2>
-                <button @click="closePopup" class="flex items-center">
-                    <span>close</span>
-                    <XMarkIcon class="w-6 h-6 ml-2" />
-                </button>
+                <!-- <h2 class="text-2xl">{{ popupTitle }}</h2> -->
             </div>
             <div class="popup-content">
                 <slot></slot>
             </div>
-            <div class="popup-footer flex flex-row items-center justify-end p-3">
+            <!-- <div class="popup-footer flex flex-row items-center justify-end p-3">
                 <button @click="closePopup" class="btn">Закрыть</button>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
@@ -51,14 +51,14 @@ export default {
     .popup_wrapper {
         z-index: 100000;
     }
-    .popup {
+    /* .popup {
         padding: 16px;
         position: fixed;
         top: 40%;
         right: 0;
         left: 0;
         width: 50%;
-    }
+    } */
     .popup-content{
         display: flex;
         justify-content: center;

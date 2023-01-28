@@ -67,10 +67,18 @@ html {
     @apply inline-flex text-gray-900 bg-white border-0 py-5 px-10  text-xl transition ease-in-out ;
 }
 
+.input {
+  @apply w-full bg-gray-900 bg-opacity-5 border-b border-gray-300 focus:border-pink-300 focus:bg-gray-400 focus:bg-opacity-10 text-[26px] outline-none text-white py-5 px-0 mb-[30px] leading-4 transition-colors duration-200 ease-in-out
+}
+
 .btn-primary:hover {
       background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
       color: #fff;
     }
+.button-hover:hover {
+  background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
+      color: #fff;
+}
 
 .anime__left1 {
     transform: translateX(-120%);
