@@ -1,6 +1,6 @@
 <template>
     <div class="popup_wrapper fixed inset-0 flex justify-center items-center bg-[#0B0B0B] min-h-screen" ref="popup_wrapper">
-        <button @click="closePopup" class="flex items-center right-2 top-2 md:right-[76px] md:top-[60px] fixed">
+        <button @click="closePopup" class="flex items-center right-2 top-2 md:right-[76px] md:top-[60px] fixed z-50">
             <span class="text-[26px] font-semibold">Закрыть</span>
             <XMarkIcon class="w-6 h-6 ml-2" />
         </button>
