@@ -31,7 +31,7 @@
         </div>
       </swiper-slide>
     </swiper>
-    <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup">
+    <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup" class="fixed">
       <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST"
         class="w-full animate__animated animate__backInDown">
         <input type="text" id="name" name="name" placeholder="Ваше имя*" required class="input" />
