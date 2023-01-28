@@ -124,7 +124,7 @@
                 <input type="hidden" name="_captcha" value="false"/>
                 <input type="text" name="_honey" style="display:none"/>
                 <input type="hidden" name="_template" value="table"/>
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
+                <input type="hidden" name="_next" value="https://athenaplus.kz/thanks"/>
                 <input type="submit" placeholder="Отправить" class="text-xl leading-[23px] py-5 px-10 mt-[30px] bg-white text-black cursor-pointer button-hover" />
             </form>
         </Popup>
