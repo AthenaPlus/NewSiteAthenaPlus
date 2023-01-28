@@ -33,10 +33,10 @@
     </swiper>
     <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup">
       <form class="w-full animate__animated animate__backInDown" method="post">
-        <input type="text" id="name" name="name" placeholder="Ваше имя" class="input" />
-        <input type="tel" id="tel" name="tel" placeholder="Ваш телефон" class="input" />
-        <input type="email" id="email" name="email" placeholder="Ваш e-mail" class="input" />
-        <textarea id="message" name="message" placeholder="Ваша заявка" class="input h-32"></textarea>
+        <input type="text" id="name" name="name" placeholder="Ваше имя*" required  class="input" />
+        <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required  class="input" />
+        <input type="email" id="email" name="email" placeholder="Ваш e-mail*" required  class="input" />
+        <textarea id="message" name="message" placeholder="Ваша заявка*" required  class="input h-32"></textarea>
         <button type="submit"
           class="text-xl leading-[23px] py-5 px-10 mt-[30px] bg-white text-black cursor-pointer button-hover">Отправить заявку</button>
       </form>
