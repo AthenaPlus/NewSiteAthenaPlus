@@ -1,6 +1,6 @@
 <template>
-    <swiper :slides-per-view="1" :space-between="30" 
-    :grabCursor="true" :breakpoints="{
+  <div class="">
+    <swiper :slides-per-view="1" :space-between="30" :grabCursor="true" :breakpoints="{
       '320': {
         slidesPerView: 1,
         spaceBetween: 30,
@@ -17,19 +17,31 @@
         slidesPerView: 4,
         spaceBetween: 50,
       }
-    }"
-    :pagination="{
-      dynamicBullets: true,
-    }"
-    :modules="modules" @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide v-for="employee in employees" :key="employee.index" class="pb-10">
-            <div class="border-t-2 border-white pt-4">
-                <h2 class="flex flex-wrap gap-4 text-xl font-semibold"><span class="NamberSlader text-2xl">{{  employee.number  }}</span> {{ employee.title }} </h2>
-                <p class="py-4 text-sm">{{ employee.description }}</p>
-                <button class="grid place-items-center w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
-            </div>
-        </swiper-slide>
+    }" :pagination="{
+  dynamicBullets: true,
+}" :modules="modules" @swiper="onSwiper" @slideChange="onSlideChange">
+      <swiper-slide v-for="employee in employees" :key="employee.index" class="pb-10">
+        <div class="border-t-2 border-white pt-4">
+          <h2 class="flex flex-wrap gap-4 text-xl font-semibold"><span class="NamberSlader text-2xl">{{
+            employee.number
+          }}</span> {{ employee.title }} </h2>
+          <p class="py-4 text-sm">{{ employee.description }}</p>
+          <button @click="showPopupInfo"
+            class="grid place-items-center w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+        </div>
+      </swiper-slide>
     </swiper>
+    <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup">
+      <form class="w-full animate__animated animate__backInDown" method="post">
+        <input type="text" id="name" name="name" placeholder="Ваше имя" class="input" />
+        <input type="tel" id="tel" name="tel" placeholder="Ваш телефон" class="input" />
+        <input type="email" id="email" name="email" placeholder="Ваш e-mail" class="input" />
+        <textarea id="message" name="message" placeholder="Ваша заявка" class="input h-32"></textarea>
+        <button type="submit"
+          class="text-xl leading-[23px] py-5 px-10 mt-[30px] bg-white text-black cursor-pointer button-hover">Отправить заявку</button>
+      </form>
+    </Popup>
+  </div>
 </template>
 
 <script>
@@ -82,7 +94,8 @@ import { Pagination } from "swiper";
                     description: 'Разрабатываем веб-сайты на передовых фреймворках. Понимаем важность чистого кода и правильной архитектуры. Мы способны создавать как привлекающие внимание landing-page, так и массивные интернет-порталы.',
                     number: '#6'
                 },
-            ]
+            ],
+            isInfoPopupVisible: false,
         }
     },
     setup() {
@@ -98,7 +111,15 @@ import { Pagination } from "swiper";
         modules: [Pagination],
       };
     },
-  };
+    methods: {
+        showPopupInfo(){
+            this.isInfoPopupVisible = true
+        },
+        closeInfoPopup() {
+            this.isInfoPopupVisible = false
+        }
+    }
+  }
 </script>
 
 <style>

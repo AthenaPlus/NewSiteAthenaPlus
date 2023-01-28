@@ -1,6 +1,6 @@
 <template>
     <div class="popup_wrapper fixed inset-0 flex justify-center items-center bg-[#0B0B0B] min-h-screen" ref="popup_wrapper">
-        <button @click="closePopup" class="flex items-center right-[76px] top-[60px] fixed">
+        <button @click="closePopup" class="flex items-center right-2 top-2 md:right-[76px] md:top-[60px] fixed">
             <span class="text-[26px] font-semibold">Закрыть</span>
             <XMarkIcon class="w-6 h-6 ml-2" />
         </button>
@@ -8,7 +8,7 @@
             <div class="popup-header flex flex-row items-center justify-between p-3">
                 <!-- <h2 class="text-2xl">{{ popupTitle }}</h2> -->
             </div>
-            <div class="popup-content">
+            <div class="popup-content px-5">
                 <slot></slot>
             </div>
             <!-- <div class="popup-footer flex flex-row items-center justify-end p-3">
