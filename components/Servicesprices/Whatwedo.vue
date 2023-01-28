@@ -120,7 +120,7 @@
                 <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required  class="input"  />
                 <input type="email" id="email" name="email" placeholder="Ваш e-mail*" required  class="input" />
                 <textarea id="message" name="message" placeholder="Ваш вопрос*" required  class="input h-32"></textarea>
-                <input type="hidden" name="_subject" value="Новое сообщение с сайта Athenaplus.kz"/>
+                <input type="hidden" name="_subject" value="Новое сообщение с сайта Athenaplus.kz/servicesprices Форма - Задать вопрос"/>
                 <input type="hidden" name="_captcha" value="false"/>
                 <input type="text" name="_honey" style="display:none"/>
                 <input type="hidden" name="_template" value="table"/>
