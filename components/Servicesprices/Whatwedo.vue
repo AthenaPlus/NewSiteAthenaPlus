@@ -115,7 +115,7 @@
             <SlaiderWhatwedo class="block lg:hidden" />
         </div>
         <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup">
-            <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST" class="w-full animate__animated animate__backInDown">
+            <form action="https://formsubmit.co/c4988375106cfc4d70217f5fa85c8b96" method="POST" class="w-full animate__animated animate__backInDown">
                 <input type="text" id="name" name="name" placeholder="Ваше имя*" required  class="input" />
                 <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required  class="input"  />
                 <input type="email" id="email" name="email" placeholder="Ваш e-mail*" required  class="input" />
