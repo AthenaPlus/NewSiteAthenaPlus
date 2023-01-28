@@ -4,7 +4,7 @@
             <span class="text-[26px] font-semibold">Закрыть</span>
             <XMarkIcon class="w-6 h-6 ml-2" />
         </button>
-        <div class="max-w-[856px] mx-auto w-full">
+        <div class="max-w-[856px] mx-auto w-full max-h-screen overflow-y-auto">
             <div class="popup-header flex flex-row items-center justify-between p-3">
                 <!-- <h2 class="text-2xl">{{ popupTitle }}</h2> -->
             </div>
