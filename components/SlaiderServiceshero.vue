@@ -32,7 +32,7 @@
       </swiper-slide>
     </swiper>
     <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup" class="absolute">
-      <form action="https://formsubmit.co/polistovskiy.athenaplus@gmail.com" method="POST"
+      <form action="https://formsubmit.co/sain.athenaplus@gmail.com" method="POST"
         class="w-full animate__animated animate__backInDown">
         <input type="text" id="name" name="name" placeholder="Ваше имя*" required class="input" />
         <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required class="input" />
