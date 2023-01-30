@@ -13,7 +13,7 @@
                     сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать проекту
                     уникальную айдентику.</p>
             </div>
-            <div class="flex flex-wrap items-start mt-[20px] md:mt-[230px]">
+            <div class="flex flex-wrap items-start mt-[20px] md:mt-[150px]">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:pl-0 md:pr-8 py-6 ">
                     <h3 class="font_Airborne uppercase text-3xl mb-[20px]">Этапы разработки</h3>
                     <p class="text-base">
