@@ -34,16 +34,6 @@ useHead({
       src: '/js/animeTextScroll.js',
       body: true
     },
-    {
-      src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js',
-      body: true
-    },
-    {
-      src: '/js/myemailjs.js',
-      body: true
-    },
-
-
   ],
 
 })
