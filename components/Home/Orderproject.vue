@@ -62,7 +62,7 @@
                                 <input type="hidden" name="_captcha" value="false" />
                                 <input type="text" name="_honey" style="display:none" />
                                 <input type="hidden" name="_template" value="table" />
-                                <input type="hidden" name="_next" value="https://athenaplus.kz/thanks" />
+                                <input type="hidden" name="_next" value="https://athenaplus.kz/thankshome" />
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
