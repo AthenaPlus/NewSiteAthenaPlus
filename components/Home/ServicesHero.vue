@@ -77,7 +77,7 @@ import IconUnion3 from '~/assets/icons/Union3.svg'
 }
 @media (min-width: 1300px) and (max-width:1441px) {
     .steps {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
 </style>
