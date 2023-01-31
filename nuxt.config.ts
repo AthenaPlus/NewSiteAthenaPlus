@@ -3,9 +3,9 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', '@nuxt/image-edge', 'nuxt-svgo', 'nuxt-headlessui', '@fullpage/nuxt-fullpage', 'nuxt-simple-sitemap',],
     css: ['animate.css'],
 
-    sitemap: {
-        hostname: 'https://athenaplus.kz/',
-      },
+    runtimeConfig: {
+      siteUrl: 'https://athenaplus.kz',
+    },
 
 
 })
