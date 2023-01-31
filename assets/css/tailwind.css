@@ -116,6 +116,16 @@ html {
     opacity: 1;
 }
 
+.mask {
+  transform: translate(0, 0);
+    transition: all .8s ease 0.5s;
+    transition-delay: 1800ms;
+}
+
+.active .mask {
+  transform: translate(100px, -60px);
+}
+
 
 
 

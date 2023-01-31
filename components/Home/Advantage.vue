@@ -1,9 +1,14 @@
 <template>
     <section
-        class="text-gray-100 flex min-h-screen bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/bg_second_freim.webp')]">
-        <div class="container px-5 mx-auto">
+        class="text-gray-100 flex min-h-screen relative bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
+        <div class="absolute top-0 left-0 bottom-0 bg-[#0B0B0B] w-[300px] "></div>
+        <div class="absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat bg-[url('/img/mask/Athena.png')] w-[800px] h-[826px]">
+            <img src="/img/mask/Lauot3.png" alt="" class="mask">
+            <img src="/img/mask/Lauot4.png" alt="" class="absolute inset-0 ">
+        </div>
+        <div class="container px-5 mx-auto flex flex-row">
             <div
-                class="w-full md:w-1/2 min-w-min bg-[#0B0B0B] text-white min-h-screen  py-14 md:pt-[200px]">
+                class="w-full md:w-1/2 bg-[#0B0B0B] text-white min-h-screen  py-14 md:pt-[200px]">
                 <div class="w-full h-full max-w-3xl pr-0 md:pr-10">
                     <h1 class="text-[32px] md:text-[80px] leading-none md:leading-[92px] anime__left1">
                         О веб-студии
