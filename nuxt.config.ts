@@ -7,5 +7,14 @@ export default defineNuxtConfig({
       siteUrl: 'https://athenaplus.kz',
     },
 
+    nitro: {
+      prerender: {
+        crawlLinks: true,
+        routes: [
+          '/',
+        ]
+      }
+    }
+
 
 })
