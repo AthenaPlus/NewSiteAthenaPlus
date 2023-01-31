@@ -1,19 +1,19 @@
 <template>
     <section
-        class="text-gray-100 flex min-h-screen relative bg-no-repeat bg-left-top lg:bg-center bg-cover bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
-        <div class="absolute top-0 left-0 bottom-0 bg-[#0B0B0B] w-[300px] "></div>
-        <div class="absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat bg-[url('/img/mask/Athena.png')] w-[800px] h-[826px]">
+        class="text-gray-100 flex min-h-screen relative bg-no-repeat bg-left-top lg:bg-center bg-cover md:bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
+        <div class="absolute hidden md:block top-0 left-0 bottom-0 bg-[#0B0B0B] w-[300px] z-5"></div>
+        <div class="absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat bg-[url('/img/mask/Athena.png')] hidden md:block  md:w-[400px] md:h-[414px] lg:w-[500px] lg:h-[514px] xl:w-[650px] xl:h-[670px] 2xl:w-[800px] 2xl:h-[826px]">
             <img src="/img/mask/Lauot3.png" alt="" class="mask">
-            <img src="/img/mask/Lauot4.png" alt="" class="absolute inset-0 ">
+            <img src="/img/mask/Lauot4.png" alt="" class="absolute inset-0">
         </div>
-        <div class="container px-5 mx-auto flex flex-row">
+        <div class="container px-5 mx-auto flex flex-row z-10">
             <div
                 class="w-full md:w-1/2 bg-[#0B0B0B] text-white min-h-screen  py-14 md:pt-[200px]">
                 <div class="w-full h-full max-w-3xl pr-0 md:pr-10">
                     <h1 class="text-[32px] md:text-[80px] leading-none md:leading-[92px] anime__left1">
                         О веб-студии
                     </h1>
-                    <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5" />
+                    <img src="/img/photo_section2.jpg" alt="" class="md:hidden mt-5 z-10" />
                     <h2 class="text-[20px] md:text-[26px] leading-[100%] md:leading-[150%] font-semibold mb-2.5 mt-5 anime__left2">
                         Мы являемся самой прогрессивной веб-студией на казахстанском рынке
                     </h2>

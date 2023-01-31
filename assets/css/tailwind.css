@@ -122,11 +122,22 @@ html {
     transition-delay: 1800ms;
 }
 
+
+@media (min-width: 768px) {
+  .active .mask {
+  transform: translate(92px, -56px);
+}
+}
+
+@media (min-width: 1024px) {
+  .active .mask {
+  transform: translate(117px, -70px);
+}
+}
+
 .active .mask {
   transform: translate(190px, -113px);
 }
-
-
 
 
 
