@@ -135,9 +135,10 @@ html {
 }
 }
 
-.active .mask {
+@media (min-width: 1280px) {
+  .active .mask {
   transform: translate(190px, -113px);
 }
-
+}
 
 
