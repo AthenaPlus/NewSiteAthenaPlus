@@ -114,7 +114,7 @@
             <!-- Slaider WhatWeDo -->
             <SlaiderWhatwedo class="block lg:hidden" />
         </div>
-        <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup" class="fixed">
+        <Popup v-if="isInfoPopupVisible" popupTitle="Форма обратной связи" @closePopup="closeInfoPopup" class="" :class="this.isInfoPopupVisible ? 'fixed' : 'animate__animated animate__fadeOutUp'">
             <form action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST" class="w-full animate__animated animate__backInDown">
                 <input type="text" id="name" name="name" placeholder="Ваше имя*" required  class="input" />
                 <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required  class="input"  />
