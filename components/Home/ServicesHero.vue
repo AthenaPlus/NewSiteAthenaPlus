@@ -1,7 +1,12 @@
 <template>
     <section
-        class="text-white relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-contain md:bg-cover">
-        <div class="container px-5 py-24 mx-auto">
+        class="text-white relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('')] bg-no-repeat bg-top bg-contain md:bg-cover">
+        <video autoplay loop muted plays- inline class="absolute inset-0 w-full zindex-1">
+            <source
+                src="https://res.cloudinary.com/dfevgyt2k/video/upload/c_fill,g_center,w_1920/v1675238076/video/video_athena_3frem_entqsh.webm"
+                type="video/webm">
+        </video>
+        <div class="container px-5 py-24 mx-auto zindex-1000">
             <div class="mt-11 w-full lg:w-[700px]">
                 <h2
                     class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 uppercase anime__left1">
@@ -13,7 +18,7 @@
                     сайтам-однодневкам с кривым дизайном и слабой идеей. Поэтому для нас важно предать проекту
                     уникальную айдентику.</p>
             </div>
-            <div class="steps flex flex-wrap items-start mt-[20px] md:mt-[150px]">
+            <div class="steps flex flex-wrap items-start mt-[20px] md:mt-[150px] zindex-100">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 md:pl-0 md:pr-8 py-6 ">
                     <h3 class="font_Airborne uppercase text-3xl mb-[20px]">Этапы разработки</h3>
                     <p class="text-base">
@@ -63,6 +68,13 @@ import IconUnion3 from '~/assets/icons/Union3.svg'
 
 
 <style scoped>
+
+.zindex-100 {
+    z-index:1000;
+}
+.zindex-1 {
+    z-index: -1;
+}
 .plan {
     position: relative;
 }
