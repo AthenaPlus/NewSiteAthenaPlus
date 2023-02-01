@@ -2,7 +2,7 @@
     <section
         class="text-gray-100 flex min-h-screen relative bg-no-repeat bg-left-top lg:bg-center bg-cover md:bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
         <div class="absolute hidden md:block top-0 left-0 bottom-0 bg-[#0B0B0B] w-[25%] z-5"></div>
-        <div class="absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat bg-[url('/img/mask/Athena.png')] hidden md:block  md:w-[400px] md:h-[414px] lg:w-[500px] lg:h-[514px] xl:w-[650px] xl:h-[670px] 2xl:w-[800px] 2xl:h-[826px]">
+        <div class="athena absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat bg-[url('/img/mask/Athena.png')] hidden md:block  md:w-[400px] md:h-[414px] lg:w-[500px] lg:h-[514px] xl:w-[650px] xl:h-[670px] 2xl:w-[800px] 2xl:h-[826px]">
             <img src="/img/mask/Lauot3.png" alt="" class="mask">
             <img src="/img/mask/Lauot4.png" alt="" class="absolute inset-0">
         </div>
