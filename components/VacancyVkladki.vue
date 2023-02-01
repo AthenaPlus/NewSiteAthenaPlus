@@ -55,14 +55,14 @@ export default {
         return {
             vacancys: [
                 {
-                    title: 'Дизайн/Ui',
+                    title: 'Специалист по B2B',
                     subTitle: '2 открытых вакансии ',
                     vacancyTitle: 'UI - Дизайн',
                     vacancyDescription: 'Proactively e-enable customer directed e-business vis-a-vis low-risk high-yield synergy. Distinctively empower proactive leadership and flexible internal or "organic" sources. Enthusiastically target an.'
                 },
                 {
-                    title: 'дизайн/ux',
-                    subTitle: '3 открытых вакансии',
+                    title: 'Мобильный Разработчик',
+                    subTitle: '1 открытая вакансия',
                     vacancyTitle: 'UX - Дизайнер',
                     vacancyDescription: 'Rapidiously strategize process-centric supply chains vis-a-vis long-term high-impact bandwidth. Collaboratively parallel task go forward customer service through sticky process improvements. Dynamically morph.'
                 },
