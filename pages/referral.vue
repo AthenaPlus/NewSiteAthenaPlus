@@ -28,7 +28,7 @@
                 <input type="text" id="name" name="name" placeholder="Ваше имя*" required class="input" />
                 <input type="tel" id="tel" name="tel" placeholder="Ваш телефон*" required class="input" />
                 <input type="email" id="email" name="email" placeholder="Ваш e-mail*" required class="input" />
-                <textarea id="message" name="message" placeholder="Ваш вопрос*" required class="input h-32"></textarea>
+                <textarea id="message" name="message" placeholder="Подать заявку на партнёрство*" required class="input h-32"></textarea>
                 <input type="hidden" name="_subject"
                     value="Новое сообщение с сайта Athenaplus.kz/referral Форма - Заявка на партнёрство" />
                 <input type="hidden" name="_captcha" value="false" />
