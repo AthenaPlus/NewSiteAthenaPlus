@@ -119,25 +119,32 @@ html {
 .mask {
   transform: translate(0, 0);
     transition: all .8s ease 0.5s;
-    transition-delay: 1800ms;
+
 }
 
+.athena:hover .mask {
+  transform: translate(0, 0);
+  transition-delay: 100ms;
+}
 
 @media (min-width: 768px) {
   .active .mask {
   transform: translate(92px, -56px);
+  transition-delay: 1800ms;
 }
 }
 
 @media (min-width: 1024px) {
   .active .mask {
   transform: translate(117px, -70px);
+  transition-delay: 1800ms;
 }
 }
 
 @media (min-width: 1280px) {
   .active .mask {
   transform: translate(190px, -113px);
+  transition-delay: 1800ms;
 }
 }
 
