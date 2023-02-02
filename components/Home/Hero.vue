@@ -25,7 +25,7 @@
                 </div>
                 <div class="order-1 lg:order-2 w-full lg:w-1/2">
                     <h1
-                        class="block lg:hidden font_Airborne mt-5 text-[30px] md:text-[40px] leading-none animate__animated animate__fadeInLeft animate__delay-0.5s">
+                        class="block lg:hidden font_Airborne mt-10 text-[30px] md:text-[40px] leading-none animate__animated animate__fadeInLeft animate__delay-0.5s">
                         {{ HeroTitle }}
                     </h1>
                     <div class="pt-5 lg:pt-0">
