@@ -6,7 +6,7 @@
                 src="https://res.cloudinary.com/dfevgyt2k/video/upload/c_fill,g_center,w_1920/v1675238076/video/video_athena_3frem_entqsh.webm"
                 type="video/webm">
         </video> -->
-        <div class="container px-5 py-24 mx-auto zindex-1000">
+        <div class="container px-5 py-24 mx-auto zindex-1000 overflow-x-hidden">
             <div class="mt-11 w-full lg:w-[700px]">
                 <h2
                     class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 uppercase anime__left1">
