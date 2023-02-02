@@ -1,8 +1,8 @@
+# robots.txt for https://athenaplus.kz/sitemap.xml
 User-agent: *
-Allow: /
+
 
 User-agent: Yandex
-Allow: /
+
 
 User-agent: Googlebot
-Allow: /
