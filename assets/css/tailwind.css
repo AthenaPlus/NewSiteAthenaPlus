@@ -59,6 +59,13 @@ html {
     }
   }
 
+.zindex-100 {
+    z-index:1000;
+}
+.zindex-1 {
+    z-index: -1;
+}
+
 .h1-title {
   @apply text-4xl md:text-7xl lg:text-8xl ;
 }

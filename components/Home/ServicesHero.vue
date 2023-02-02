@@ -1,11 +1,11 @@
 <template>
     <section
-        class="text-white relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-contain md:bg-cover">
-        <!-- <video autoplay loop muted plays- inline class="absolute inset-0 w-full zindex-1">
+        class="text-white relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('')] bg-no-repeat bg-top bg-contain md:bg-cover">
+        <video autoplay loop muted plays- inline class="absolute inset-0 w-full zindex-1">
             <source
-                src="https://res.cloudinary.com/dfevgyt2k/video/upload/c_fill,g_center,w_1920/v1675238076/video/video_athena_3frem_entqsh.webm"
+                src="https://res.cloudinary.com/dfevgyt2k/video/upload/f_webm,g_center/v1675310690/video/video_athena_3frem_ukin8j.webm"
                 type="video/webm">
-        </video> -->
+        </video>
         <div class="container px-5 py-24 mx-auto zindex-1000">
             <div class="mt-11 w-full lg:w-[700px]">
                 <h2
@@ -69,12 +69,7 @@ import IconUnion3 from '~/assets/icons/Union3.svg'
 
 <style scoped>
 
-.zindex-100 {
-    z-index:1000;
-}
-.zindex-1 {
-    z-index: -1;
-}
+
 .plan {
     position: relative;
 }
