@@ -57,26 +57,26 @@ export default {
                 {
                     title: 'Специалист по B2B',
                     subTitle: '2 открытых вакансии ',
-                    vacancyTitle: 'UI - Дизайн',
-                    vacancyDescription: 'Proactively e-enable customer directed e-business vis-a-vis low-risk high-yield synergy. Distinctively empower proactive leadership and flexible internal or "organic" sources. Enthusiastically target an.'
+                    vacancyTitle: 'Продажи',
+                    vacancyDescription: 'Хочешь поработать с первыми лицами и топ-менеджерами компаний? Хочешь приложить руку к лучшим digital-продуктам? Любишь помогать клиенту и хорошо зарабатывать? Подавай заявку. Мы найдем общий язык.'
                 },
                 {
-                    title: 'Мобильный Разработчик',
+                    title: 'UX/UI-Дизайнер',
                     subTitle: '1 открытая вакансия',
-                    vacancyTitle: 'UX - Дизайнер',
-                    vacancyDescription: 'Rapidiously strategize process-centric supply chains vis-a-vis long-term high-impact bandwidth. Collaboratively parallel task go forward customer service through sticky process improvements. Dynamically morph.'
+                    vacancyTitle: 'Дизайнер',
+                    vacancyDescription: 'Тщетно относишься к дизайну и работаешь с подходом pixel-perfect? Ежедневно тренируешь насмотренность? Готовы создавать дизайн для лучших сайтов? Пробей дорогу в нашей студии.'
                 },
                 {
-                    title: 'Маркетолог',
+                    title: 'SMM-специалист',
                     subTitle: '1 открытых вакансии',
-                    vacancyTitle: 'Продажа услуг',
-                    vacancyDescription: 'Energistically reinvent reliable leadership rather than collaborative partnerships. Competently exploit highly efficient opportunities whereas multimedia based ideas. Assertively utilize global potentialities with.'
+                    vacancyTitle: 'Social Media Marketing',
+                    vacancyDescription: 'Знаешь как привлечь аудиторию и продать услуги и товары любого формата? Умеешь грамотно преподнести себя? Знаешь цену качественного контента? Покажи Нам'
                 },
                 {
-                    title: 'Програмист',
+                    title: 'Project Manager',
                     subTitle: '4 открытых вакансии',
-                    vacancyTitle: 'Web Developer',
-                    vacancyDescription: 'Objectively fashion 24/7 solutions via enterprise-wide markets. Compellingly morph B2B catalysts for change after collaborative infrastructures. Dramatically generate multidisciplinary customer service whereas.'
+                    vacancyTitle: 'Project Management',
+                    vacancyDescription: 'Умеешь работать как с дизайнерами, маркетологами, разработчиками? Сдаешь проекты своевременно и с высоким cost-efficiency? Вырасти компанию вместе с нами.'
                 },
             ],
             isInfoPopupVisible: false,
