@@ -110,6 +110,16 @@
 <script setup>
 import IconArrowright from '~/assets/icons/arrow__right.svg'
 
+useHead({
+  title: 'О Нас AthenaPlus',
+  htmlAttrs: {
+      lang: 'ru',
+    },
+  meta: [
+    { name: 'description', content: 'Athena Plus - это мечта двух студентов создавать сайты мирового уровня. Повышение качества сайтов и уровня разработчиков, является нашим кредо и первостепенной задачей. Наша цель - попасть в топ мировых веб-студий. Наша миссия - помогать бизнесу при помощи качественного UX/UI и чистого кода.' }
+  ]
+})
+
 const agencyItems = [
     {
         subTitle: 'Людей',
