@@ -8,12 +8,12 @@
 
 <script setup>
 useHead({
-  title: 'My App',
+  title: 'Athena Plus Разработка и дизайн сайтов',
   htmlAttrs: {
       lang: 'ru',
     },
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'description', content: 'Современный дизайн, инновационная технология, результативный маркетинг - все это в нашей веб-студии' }
   ],
   bodyAttrs: {
     class: 'test'
