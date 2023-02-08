@@ -35,7 +35,7 @@
                         <p class="max-w-sm ml-auto">Визуальные элементы, предназначенные для удобного взаимодействия
                             пользователя с платформой. Мы поможем удержать клиентов и повысить коэффицент конверсии.
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@
                             digital-продукт. Подготавливаем Вас и Ваших сотрудников к переменам.
 
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@
                             digital-маркетинга и SEO стоявшие за крупными брендами, приведут лидов на Ваш продукт.
 
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@
                         <p class="max-w-sm ml-auto"> Запоминающиеся логотипы, брендбуки и гайдлайны. Анимированные
                             коммерческие презентации. Весь пакет услуг дизайнера в одной студии.
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
                         <p class="max-w-sm ml-auto"> Мобильная разработка PWA, Flutter, React Native. Создаем
                             приложения, удобные для конечного пользователя.
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
                 
@@ -114,7 +114,7 @@
                             Мы способны создавать как привлекающие внимание landing-page, так и массивные
                             интернет-порталы.
                         </p>
-                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white button-hover">Оставить заявку</button>
                     </div>
                 </div>
             </div>
