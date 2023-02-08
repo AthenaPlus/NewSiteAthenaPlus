@@ -24,90 +24,97 @@
                 </div>
             </div>
             <div class="hidden lg:grid grid-cols-1 lg:grid-cols-2 mt-40 gap-x-14 gap-y-20">
-                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#1</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">UX/UI</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#1</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2">
+                        <IconIcon1 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">UX/UI</h3>
                         <p class="max-w-sm ml-auto">Визуальные элементы, предназначенные для удобного взаимодействия
                             пользователя с платформой. Мы поможем удержать клиентов и повысить коэффицент конверсии.
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon1 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#2</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Внедрение CRM-систем</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#2</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2">
+                        <IconIcon2 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">Внедрение CRM-систем</h3>
                         <p class="max-w-sm ml-auto">Совместно создаем план действий для ввода CRM-системы в
                             digital-продукт. Подготавливаем Вас и Ваших сотрудников к переменам.
 
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon2 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#3</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Контекстная Реклама и SEO</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#3</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2">
+                        <IconIcon3 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">Контекстная Реклама и SEO</h3>
                         <p class="max-w-sm ml-auto">Создаем оптимальную рекламную стратегию в Google и Yandex. Мастера
                             digital-маркетинга и SEO стоявшие за крупными брендами, приведут лидов на Ваш продукт.
 
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon3 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#4</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Графический Дизайн</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#4</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2">
+                        <IconIcon4 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">Графический Дизайн</h3>
                         <p class="max-w-sm ml-auto"> Запоминающиеся логотипы, брендбуки и гайдлайны. Анимированные
                             коммерческие презентации. Весь пакет услуг дизайнера в одной студии.
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon4 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row  justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#5</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Разработка мобильных приложений</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#5</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2 mr-9">
+                        <IconIcon5 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">Разработка мобильных приложений</h3>
                         <p class="max-w-sm ml-auto"> Мобильная разработка PWA, Flutter, React Native. Создаем
                             приложения, удобные для конечного пользователя.
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon5 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row justify-between gap-x-1 w-full border-t-2 border-white">
-                    <div class="w-28"><span class="Namber">#6</span></div>
-                    <div class="text-right pr-7">
-                        <h3 class="text-3xl font-semibold mt-16">Создание веб-сайтов</h3>
+                
+                <div class="flex flex-col md:flex-row items-center justify-between gap-x-1 w-full border-t-2 border-white">
+                    <!-- <div class="w-28"><span class="Namber">#6</span></div> -->
+                    <div class="mt-9 ml-auto w-1/2">
+                        <IconIcon6 class="w-52 h-52" />
+                    </div>
+
+                    <div class="text-left pr-7">
+                        <h3 class="text-3xl font-semibold mt-16 mb-5">Создание веб-сайтов</h3>
                         <p class="max-w-sm ml-auto">Разрабатываем веб-сайты на передовых фреймворках. Понимаем важность
                             чистого кода и правильной архитектуры.
                             Мы способны создавать как привлекающие внимание landing-page, так и массивные
                             интернет-порталы.
                         </p>
-
-                    </div>
-                    <div class="mt-9 ml-auto">
-                        <IconIcon6 class="w-52 h-52" />
+                        <button @click="showPopupInfo" class="grid place-items-center text-lg font-semibold mt-5 w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
                     </div>
                 </div>
             </div>

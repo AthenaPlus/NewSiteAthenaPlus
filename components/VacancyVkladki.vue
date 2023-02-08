@@ -2,9 +2,9 @@
     <div>
         <Disclosure v-for="vacancy in vacancys" :key="vacancy.index" v-slot="{ open }">
             <DisclosureButton
-                class="flex flex-wrap justify-between items-center  w-full border-t-2 border-white  px-4 py-2 text-left  hover:bg-white/10 transition duration-700 ease-in-out ">
-                <h2 class="text-3xl md:text-[50px] font-normal font_Airborne">{{ vacancy.title }}</h2>
-                <h3 class="text-xl md:text-[40px]">{{ vacancy.subTitle }}</h3>
+                class="flex flex-wrap justify-between items-center w-full border-t-2 border-white  px-4 py-5 2xl:py-7  text-left  hover:bg-white/10 transition duration-700 ease-in-out ">
+                <h2 class="text-3xl 2xl:w-2/5 xl:w-2/4 lg:w-1/2 md:text-[50px] font-normal font_Airborne">{{ vacancy.title }}</h2>
+                <h3 class="text-xl 2xl:w-2/5 md:text-[40px]">{{ vacancy.subTitle }}</h3>
                 <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''"
                     class="h-10 w-10 text-gradient transition duration-500 ease-in-out" />
             </DisclosureButton>
