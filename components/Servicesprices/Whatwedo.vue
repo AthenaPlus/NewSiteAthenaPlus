@@ -147,8 +147,7 @@ import IconIcon4 from '~/assets/icons/icon4.svg'
 import IconIcon5 from '~/assets/icons/icon5.svg'
 import IconIcon6 from '~/assets/icons/icon6.svg'
 const WhatwedoTitle = 'чем мы занимаемся'
-const WhatwedoDescription = 'Веб-разработка это не только дизайн и вёрстка. Мы решаем ряд маркетинговых бизнес-задач для создания качественного digital-продукта.'
-const WhatwedoDescription2 = 'Мы работаем с такими концепциями как Design Thinking и MVP concept and thinking. Эти концепты упрощают создание лидеров каждой сферы рынка.'
+const WhatwedoDescription = 'Веб-разработка это не только дизайн и вёрстка. Мы решаем ряд маркетинговых бизнес-задач для создания качественного digital-продукта. Мы работаем с такими концепциями как Design Thinking и MVP concept and thinking. Эти концепты упрощают создание лидеров каждой сферы рынка.'
 </script>
 
 <script>
