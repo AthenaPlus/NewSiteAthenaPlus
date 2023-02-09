@@ -21,13 +21,13 @@
   dynamicBullets: true,
 }" :modules="modules" @swiper="onSwiper" @slideChange="onSlideChange">
       <swiper-slide v-for="employee in employees" :key="employee.index" class="pb-10">
-        <div class="border-t-2 border-white pt-4">
-          <h2 class="flex flex-wrap gap-4 text-xl font-semibold"><span class="NamberSlader text-2xl">{{
+        <div class="border-t-2 border-white pt-4 md:h-42 md:mb-2 sm:h-96 min-[600px]:h-80 min-[300px]:h-52">
+          <h2 class="flex gap-4 text-xl font-semibold"><span class="NamberSlader text-2xl md:h-10 sm:mb-1 min-[600px]:h-16 min-[300px]:h-10">{{
             employee.number
           }}</span> {{ employee.title }} </h2>
-          <p class="py-4 text-sm">{{ employee.description }}</p>
+          <p class="py-4 text-sm h-2/5">{{ employee.description }}</p>
           <button @click="showPopupInfo"
-            class="grid place-items-center w-full uppercase py-3.5 text-black bg-white">Оставить заявку</button>
+            class="grid place-items-center w-full uppercase py-3.5 text-black bg-white sm:mt-2 min-[300px]:mt-2">Оставить заявку</button>
         </div>
       </swiper-slide>
     </swiper>
@@ -130,6 +130,12 @@ import { Pagination } from "swiper";
 </script>
 
 <style>
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
 .NamberSlader {
     background: linear-gradient(180deg, #FCB040 0%, #FF2BFF 100%);
     -webkit-background-clip: text;
