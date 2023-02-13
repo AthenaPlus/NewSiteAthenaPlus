@@ -4,7 +4,7 @@
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
                     class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
-                    <h1 class="hidden lg:block h1-title animate__animated animate__fadeInLeft animate__delay-0.5s">
+                    <h1 class="hidden lg:block h1-title animate__animated animate__fadeInLeft animate__delay-0.5s lg:text-7xl xl:text-8xl">
                         {{ HeroTitle }}
                     </h1>
 
@@ -12,7 +12,7 @@
                     <p class="hidden md:block text-base lg:text-xl LineHeight_30 font-normal anime__left3">{{
                         HeroDescription
                     }}</p>
-                    <div class="mr-auto md:mt-[25px]">
+                    <div class="md:mr-auto md:mt-[25px]">
                         <a data-menuanchor="order" href="#order" class="btn btn--shadow">Записаться
                             на Интервью</a>
                     </div>
@@ -23,13 +23,15 @@
                         </Nuxt-link>
                     </div>
                 </div>
-                <div class="order-1 lg:order-2 w-full lg:w-1/2">
+                <div class="order-1 lg:order-2 w-full lg:w-11/12">
                     <h1
                         class="block lg:hidden font_Airborne mt-10 text-[30px] md:text-[40px] leading-none animate__animated animate__fadeInLeft animate__delay-0.5s">
                         {{ HeroTitle }}
                     </h1>
-                    <div class="pt-5 lg:pt-0">
-                        <img src="/img/AthenaFirst.png" alt="" class="animate__animated animate__zoomIn animate__delay-1s">
+                    <div class="pt-5 lg:pt-0 animate__animated animate__zoomIn animate__delay-1s">
+                        <img src="/img/Palm.png" alt="" class="absolute 2xl:top-16 2xl:left-0 xl:top-10 xl:left-0 lg:top-10 w-full">
+                        <img src="/img/AthenaMain.png" alt="" class="animate__animated animate__zoomIn animate__delay-1s mx-auto lg:w-4/5 2xl:w-2/3 xl:w-4/5 w-4/5">
+                        <img src="/img/Clouds.png" alt="" class="z-10 min-[300px]:top-16 min-[400px]:top-24 sm:top-36 sm:left-5 md:top-32 md:left-5 md:w-full lg:top-20 lg:left-3 xl:top-28 xl:left-5 2xl:top-32 2xl:left-20 2xl:w-4/5 absolute">
                     </div>
                 </div>
             </div>
