@@ -194,7 +194,7 @@ const HeroLabels = [
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #fff;
     white-space: nowrap;
-    animation: move-rtl 10s linear infinite;
+    animation: move-rtl 15s linear infinite;
 }
 
 @keyframes move-rtl {
