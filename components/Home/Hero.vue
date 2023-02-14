@@ -16,12 +16,12 @@
                         <a data-menuanchor="order" href="#order" class="btn btn--shadow">Записаться
                             на Интервью</a>
                     </div>
-                    <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
+                    <!-- <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
                             class="font_Airborne rounded-full border-2 border-white py-[13px] px-[13px] leading-[21px]">
                             {{HeroLabel.title}}
                         </Nuxt-link>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="order-1 lg:order-2 w-full lg:w-11/12">
                     <h1
@@ -34,6 +34,26 @@
                         <img src="/img/Clouds.png" alt="" class="z-10 min-[300px]:top-16 min-[400px]:top-24 sm:top-36 sm:left-5 md:top-32 md:left-5 md:w-full lg:top-20 lg:left-3 xl:top-28 xl:left-5 2xl:top-32 2xl:left-20 2xl:w-4/5 absolute">
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="text-wrapper">
+            <div class="flex  gap-2.5 mt-[25px]">
+                <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
+                    class="font_Airborne py-[13px] px-[13px] leading-[21px]">
+                    {{HeroLabel.title}}
+                </Nuxt-link>
+            </div>
+            <div class="flex  gap-2.5 mt-[25px]">
+                <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
+                    class="font_Airborne py-[13px] px-[13px] leading-[21px]">
+                    {{HeroLabel.title}}
+                </Nuxt-link>
+            </div>
+                <div class="flex  gap-2.5 mt-[25px]">
+                <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
+                    class="font_Airborne py-[13px] px-[13px] leading-[21px]">
+                    {{HeroLabel.title}}
+                </Nuxt-link>
             </div>
         </div>
     </section>
@@ -158,6 +178,32 @@ const HeroLabels = [
 .animat_SubTitle._active {
 	transform: translate(0px, 0);
 	opacity: 1;
+}
+
+.text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    background: #0b0b0b;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.text-wrapper div {
+    font-size: 25px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
+    white-space: nowrap;
+    animation: move-rtl 10s linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 </style>
