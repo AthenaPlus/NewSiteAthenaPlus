@@ -102,7 +102,7 @@ export default {
                     name: 'Павел',
                     job: 'Ведущий-Разработчик',
                     description: 'Цифровой Пионер Frontend-разработки со стажем более 20 лет.',
-                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,e_auto_contrast,g_face,h_300,w_300/v1674285791/team/pavel_xs7tc7.webp',
+                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1676389009/team/my_ci7hax.webp',
                     bgImg: 'pavel'
                 },
                 {
@@ -187,7 +187,7 @@ export default {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285790/team/dauren2_ex3gkx.webp);
 }
 .pavel {
-    background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,e_auto_contrast,g_face,h_300,w_300/v1674285791/team/pavel2_pu8ba0.webp);
+    background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1676389009/team/my_dev_hiyfto.webp);
 }
 .alisultan {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285790/team/alisultan2_aoxpfn.webp);
