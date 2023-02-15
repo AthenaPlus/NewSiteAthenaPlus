@@ -61,7 +61,7 @@ const HeroLabels = [
         url: '/'
     },
     {
-        title: '#projectsuport',
+        title: '#projectsupport',
         url: '/'
     },
     {
