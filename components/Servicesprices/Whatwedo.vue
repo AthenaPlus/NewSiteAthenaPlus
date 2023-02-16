@@ -8,8 +8,8 @@
                         class="text-4xl md:text-7xl 2xl:text-8xl mr-auto hidden lg:block animate__animated animate__fadeInLeft animate__delay-0.5s">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
-                    <p class="mb-10 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
+                    <p class="mt-5 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription }}</p>
+                    <p class="mb-5 text-base lg:text-xl LineHeight_30 font-normal">{{ WhatwedoDescription2 }}</p>
                     <div class="flex justify-center mr-auto">
                         <button @click="showPopupInfo" class="btn btn--shadow">Задать Вопрос</button>
                     </div>
