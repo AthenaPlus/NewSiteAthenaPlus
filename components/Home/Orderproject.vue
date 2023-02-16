@@ -1,6 +1,6 @@
 <template>
     <section id="signInterview"
-        class="text-white body-font relative min-h-screen bg-top bg-contain bg-no-repeat bg-[url('/img/bg_frame4_mob.png')] md:bg-center md:bg-cover  md:bg-[url('/img/bg_frame4.jpg')] z-0">
+        class="text-white body-font relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-contain md:bg-cover z-0">
         <div class="container px-5 py-16  md:py-24 mx-auto overflow-x-hidden">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="text-[32px] SuperTitle text-left md:mt-16 anime__left1">Есть проект?</h1>
