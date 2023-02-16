@@ -71,7 +71,7 @@ export default {
                     name: 'Даурен',
                     job: 'Креативный Директор',
                     description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
-                    urlImg: 'img/dauren.JPG',
+                    urlImg: '/img/dauren.JPG',
                     bgImg: 'dauren'
                 },
                 {
@@ -160,7 +160,7 @@ export default {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285793/team/sanjar2_oawbpy.webp);
 }
 .dauren {
-    background-image: url(img/dauren2.JPG);
+    background-image: url(/img/dauren2.JPG);
 }
 .pavel {
     background-image: url(https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1676389009/team/my_dev_hiyfto.webp);
