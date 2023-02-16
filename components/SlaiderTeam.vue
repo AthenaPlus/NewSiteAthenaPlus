@@ -64,14 +64,15 @@ export default {
                     name: 'Санжар',
                     job: 'Генеральный Директор',
                     description: 'Основатель Веб-Студии. Универсал. Фанат Web-Production.',
-                    urlImg: 'https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285787/team/sanjar_fyn1n2.webp',
+                    urlImg: '/img/sanjar.webp',
                     bgImg: 'sanjar'
+                    // https://res.cloudinary.com/dfevgyt2k/image/upload/c_fill,g_face,h_300,w_300/v1674285787/team/sanjar_fyn1n2.webp
                 },
                 {
                     name: 'Даурен',
                     job: 'Креативный Директор',
                     description: 'Со-Основатель Веб-Студии. Дизайнер. Стоял за дизайном крупных финтехов.',
-                    urlImg: '/img/dauren.JPG',
+                    urlImg: '/img/dauren.webp',
                     bgImg: 'dauren'
                 },
                 {
