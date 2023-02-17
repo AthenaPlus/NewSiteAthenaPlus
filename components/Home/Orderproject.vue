@@ -204,7 +204,7 @@ export default {
 
     background: rgba(11, 11, 11, 0.1);
     border: 2px solid #FFFFFF;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 500ms;
