@@ -47,6 +47,9 @@ html {
       @apply hover:shadow-lg hover:shadow-pink-500/50
     }
 
+    .btn--label {
+      backdrop-filter: none;
+    }
 
     .title {
       font-family: 'Airborne';
