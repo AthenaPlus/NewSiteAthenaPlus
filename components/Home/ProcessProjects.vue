@@ -8,7 +8,7 @@
             <div class="mx-10">
                 <div class="flex items-center justify-between mb-32">
                     <div>
-                        <svg viewBox="0 0 300 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="pic1 cursor-pointer">
+                        <svg viewBox="0 0 300 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo1 cursor-pointer">
                             <linearGradient id="gradient-fill1" x1="10" y1="50" x2="20"
                                 y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
@@ -28,20 +28,20 @@
                             </div>
                         </div>
                         <div class="flex items-center w-36 ml-20 mt-5">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/dot1.png" alt="" class="w-3">
                         </div>
                     </div>
                 </div>
 
                 <div class="flex items-center justify-between mb-32">
                     <div>
-                        <svg viewBox="0 0 300 135" fill="none" xmlns="http://www.w3.org/2000/svg" class="pic2 cursor-pointer">
+                        <svg viewBox="0 0 300 135" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo2 cursor-pointer">
                             <linearGradient id="gradient-fill2" x1="10" y1="50" x2="20" y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -64,20 +64,20 @@
                             </div>
                         </div>
                         <div class="flex items-center w-36 ml-20 mt-5">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/dot1.png" alt="" class="w-3">
                         </div>
                     </div>
                 </div>
 
                 <div class="flex items-center justify-between">
                     <div>
-                        <svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="pic3 cursor-pointer">
+                        <svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo3 cursor-pointer">
                             <linearGradient id="gradient-fill3" x1="0" y1="50" x2="0" y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -99,14 +99,14 @@
                             </div>
                         </div>
                         <div class="flex items-center w-36 ml-20 mt-5">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/line1.png" alt="">
-                            <img src="@/public/img/dot1.png" alt="" class="w-3">
-                            <img src="@/public/img/line2.png" alt="">
-                            <img src="@/public/img/dot2.png" alt="" class="w-3">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/line1.png" alt="">
+                            <img src="/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/line2.png" alt="">
+                            <img src="/img/dot2.png" alt="" class="w-3">
                         </div>
                     </div>
                 </div>
@@ -158,25 +158,25 @@ const ProcessProjects = [
 .process {
     color: #6F6F6F;
 }
-.pic1 {
+.logo1 {
     width: 70%;
 }
-.pic2 {
+.logo2 {
     width: 70%;
 }
-.pic3 {
+.logo3 {
     width: 70%;
 }
-.pic1:hover path {
+.logo1:hover path {
     fill: url(#gradient-fill1);
 }
-.pic2:hover path {
+.logo2:hover path {
     fill: url(#gradient-fill2);
 }
-.pic3:hover path {
+.logo3:hover path {
     fill: url(#gradient-fill3);
 }
-.pic2:hover path:nth-last-child(1) {
+.logo2:hover path:nth-last-child(1) {
     fill: #fff;
 }
 </style>
