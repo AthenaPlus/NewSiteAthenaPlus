@@ -9,6 +9,12 @@
 </template>
 
 <script setup>
+useHead({
+    title: 'Ваше сообщение отправлено!',
+    meta: [
+        { name: 'description', content: 'Ваше сообщение отправлено! Мы создаём креативные веб-проекты для вашего бизнеса' }
+    ],
+})
 
 </script>
 
