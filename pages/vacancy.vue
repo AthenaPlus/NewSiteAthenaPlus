@@ -1,4 +1,9 @@
 <template>
+    <!-- <Head>
+      <Title>{{ title }}</Title>
+      <Meta name="description" :content="description" />
+      <Style type="text/css" children="body { background-color: green; }" />
+    </Head> -->
     <section class="text-white body-font">
         <div class="container flex flex-wrap px-5 pb-12 pt-16 md:py-24 mx-auto">
             <div class="w-full md:w-1/2 mb-10 md:mb-0">
@@ -38,14 +43,17 @@
         </Popup>
     </section>
 </template>
-
-<script>
+<script setup>
 useHead({
     title: 'Карьера с Athena Plus',
     meta: [
         { name: 'description', content: 'Являешься фанатом веба? Считаешь что разработка сайтов это не просто входная дверь в IT и Дизайн.  Хочешь создать что-то особенное? Нам по пути. Подавай заявку' }
     ],
 })
+</script>
+
+<script>
+
 export default {
     data() {
         return {
