@@ -1,14 +1,14 @@
 <template>
     <section
         class="text-white min-h-screen">
-        <div class="container overflow-x-hidden my-28 mx-32">
-            <div class="px-5 mb-24">
-                <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
+        <div class="container overflow-x-hidden my-28 px-10 mx-auto">
+            <div class="px-5 xl:mb-24 lg:mb-16">
+                <h2 class="font_Airborne text-[32px] md:text-6xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
             </div>
-            <div class="mx-10">
-                <div class="logo1 flex items-center justify-between mb-32">
-                    <div class="w-1/5">
-                        <svg viewBox="0 0 300 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer">
+            <div class="mx-10 overflow-x-hidden">
+                <div class="logo1 xl:flex items-center justify-between xl:mb-32 lg:mb-20 md:mb-10">
+                    <div class="lg:w-1/4 xl:w-1/5 md:w-1/3">
+                        <svg viewBox="0 0 300 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill1" x1="10" y1="50" x2="20"
                                 y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
@@ -21,27 +21,27 @@
                             <path d="M102.923 48L51.4617 0L17.357 31.8105L28.3887 42.1216L51.3506 20.6407L51.4128 20.6986L80.5964 48L80.5782 48.017L91.7179 58.4515L102.923 48Z" fill="#6F6F6F"/>
                         </svg>
                     </div>
-                    <div class="w-2/3 cursor-pointer">
+                    <div class="md:w-full md:mt-10 xl:w-4/5 2xl:w-3/4 first-letter:cursor-pointer">
                         <div class="flex">
                             <div v-for="ProcessProject in ProcessProjects" :key="ProcessProject.index" :to="ProcessProject.url">
-                                <p class="font_Airborne text-[16px] px-[38px]">{{ProcessProject.title}}</p>
+                                <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">{{ProcessProject.title}}</p>
                             </div>
                         </div>
-                        <div class="flex items-center w-36 ml-20 mt-5">
+                        <div class="flex items-center mt-5 md:pr-1 md:ml-5 md:w-24 lg:w-36 lg:px-2 xl:px-0 xl:w-32 xl:ml-20 2xl:w-36">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
-                            <img src="/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/dot1.png" alt="" class="lg:w-3 md:w-2">
                         </div>
                     </div>
                 </div>
 
-                <div class="logo2 flex items-center justify-between mb-32">
-                    <div class="w-1/5">
-                        <svg viewBox="0 0 300 135" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer">
+                <div class="logo2 xl:flex items-center justify-between xl:mb-32 lg:mb-20 md:mb-10">
+                    <div class="lg:w-1/4 xl:w-1/5 md:w-1/3">
+                        <svg viewBox="0 0 300 135" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill2" x1="10" y1="50" x2="20" y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -57,27 +57,27 @@
                             <path class="d1" d="M130.313 122.901V108.205H132.476V121.045H139.732V122.901H130.313ZM147.377 123.088C145.976 123.088 144.764 122.782 143.738 122.171C142.712 121.546 141.915 120.67 141.347 119.545C140.792 118.405 140.515 117.071 140.515 115.542C140.515 114 140.792 112.666 141.347 111.54C141.915 110.415 142.712 109.546 143.738 108.935C144.764 108.323 145.976 108.018 147.377 108.018C148.763 108.018 149.969 108.323 150.994 108.935C152.034 109.546 152.831 110.415 153.386 111.54C153.954 112.666 154.238 113.993 154.238 115.522C154.238 117.064 153.954 118.405 153.386 119.545C152.831 120.67 152.034 121.546 150.994 122.171C149.969 122.782 148.763 123.088 147.377 123.088ZM147.377 121.212C148.832 121.212 149.962 120.719 150.766 119.732C151.583 118.732 151.992 117.335 151.992 115.542C151.992 113.75 151.59 112.36 150.787 111.374C149.982 110.387 148.846 109.894 147.377 109.894C145.921 109.894 144.784 110.387 143.967 111.374C143.163 112.36 142.761 113.75 142.761 115.542C142.761 117.335 143.163 118.732 143.967 119.732C144.784 120.719 145.921 121.212 147.377 121.212ZM163.998 123.088C162.403 123.088 161.059 122.789 159.964 122.192C158.869 121.58 158.037 120.712 157.469 119.586C156.914 118.461 156.637 117.12 156.637 115.563C156.637 114.021 156.921 112.687 157.49 111.561C158.058 110.422 158.883 109.546 159.964 108.935C161.045 108.323 162.341 108.018 163.852 108.018C164.892 108.018 165.855 108.17 166.742 108.476C167.629 108.782 168.371 109.22 168.967 109.789L168.198 111.478C167.532 110.922 166.853 110.526 166.16 110.29C165.467 110.039 164.698 109.914 163.852 109.914C162.23 109.914 160.997 110.408 160.151 111.394C159.305 112.367 158.883 113.757 158.883 115.563C158.883 117.412 159.312 118.815 160.172 119.774C161.045 120.733 162.348 121.212 164.081 121.212C165.134 121.212 166.181 121.039 167.22 120.691V116.751H163.644V115.126H169.029V122.046C168.405 122.352 167.629 122.602 166.701 122.796C165.786 122.991 164.885 123.088 163.998 123.088ZM172.344 122.901V108.205H174.507V122.901H172.344ZM182.774 123.088C181.623 123.088 180.57 122.942 179.613 122.65C178.657 122.345 177.846 121.921 177.181 121.379L177.867 119.67C178.56 120.198 179.301 120.594 180.091 120.858C180.882 121.122 181.776 121.254 182.774 121.254C183.952 121.254 184.818 121.045 185.373 120.628C185.941 120.198 186.225 119.642 186.225 118.961C186.225 118.405 186.024 117.967 185.622 117.648C185.22 117.314 184.548 117.05 183.605 116.856L181.381 116.397C180.064 116.119 179.08 115.661 178.428 115.021C177.791 114.382 177.472 113.521 177.472 112.437C177.472 111.561 177.7 110.79 178.158 110.123C178.629 109.456 179.281 108.942 180.112 108.58C180.944 108.205 181.9 108.018 182.982 108.018C183.98 108.018 184.902 108.17 185.747 108.476C186.607 108.768 187.334 109.199 187.93 109.769L187.223 111.415C186.045 110.373 184.624 109.852 182.961 109.852C181.935 109.852 181.117 110.081 180.507 110.54C179.911 110.998 179.613 111.61 179.613 112.374C179.613 112.958 179.8 113.423 180.175 113.771C180.549 114.118 181.173 114.382 182.046 114.563L184.25 115.021C185.636 115.313 186.669 115.765 187.348 116.376C188.027 116.974 188.367 117.787 188.367 118.815C188.367 119.676 188.138 120.427 187.681 121.066C187.223 121.706 186.579 122.206 185.747 122.567C184.915 122.915 183.924 123.088 182.774 123.088ZM194.093 122.901V110.019H188.895V108.205H201.433V110.019H196.235V122.901H194.093ZM203.228 122.901V108.205H205.39V122.901H203.228ZM215.341 123.088C213.858 123.088 212.59 122.782 211.537 122.171C210.483 121.56 209.672 120.691 209.104 119.565C208.549 118.426 208.272 117.085 208.272 115.542C208.272 114 208.549 112.666 209.104 111.54C209.672 110.415 210.483 109.546 211.537 108.935C212.59 108.323 213.858 108.018 215.341 108.018C216.34 108.018 217.268 108.177 218.128 108.497C219.001 108.803 219.729 109.247 220.311 109.831L219.562 111.561C218.925 110.991 218.266 110.581 217.587 110.331C216.922 110.067 216.194 109.935 215.404 109.935C213.824 109.935 212.618 110.422 211.786 111.394C210.954 112.367 210.539 113.75 210.539 115.542C210.539 117.335 210.954 118.725 211.786 119.711C212.618 120.684 213.824 121.17 215.404 121.17C216.194 121.17 216.922 121.045 217.587 120.795C218.266 120.531 218.925 120.114 219.562 119.545L220.311 121.275C219.729 121.844 219.001 122.289 218.128 122.609C217.268 122.928 216.34 123.088 215.341 123.088ZM227.424 123.088C226.273 123.088 225.22 122.942 224.264 122.65C223.307 122.345 222.496 121.921 221.831 121.379L222.517 119.67C223.21 120.198 223.952 120.594 224.742 120.858C225.532 121.122 226.426 121.254 227.424 121.254C228.602 121.254 229.469 121.045 230.023 120.628C230.591 120.198 230.876 119.642 230.876 118.961C230.876 118.405 230.674 117.967 230.273 117.648C229.87 117.314 229.198 117.05 228.256 116.856L226.031 116.397C224.714 116.119 223.73 115.661 223.079 115.021C222.441 114.382 222.122 113.521 222.122 112.437C222.122 111.561 222.351 110.79 222.808 110.123C223.279 109.456 223.931 108.942 224.763 108.58C225.594 108.205 226.551 108.018 227.632 108.018C228.63 108.018 229.552 108.17 230.397 108.476C231.257 108.768 231.984 109.199 232.581 109.769L231.874 111.415C230.695 110.373 229.275 109.852 227.611 109.852C226.585 109.852 225.768 110.081 225.158 110.54C224.562 110.998 224.264 111.61 224.264 112.374C224.264 112.958 224.451 113.423 224.825 113.771C225.199 114.118 225.823 114.382 226.696 114.563L228.9 115.021C230.286 115.313 231.319 115.765 231.998 116.376C232.677 116.974 233.017 117.787 233.017 118.815C233.017 119.676 232.788 120.427 232.331 121.066C231.874 121.706 231.229 122.206 230.397 122.567C229.566 122.915 228.574 123.088 227.424 123.088Z" fill="#FEFEFE"/>
                         </svg>
                     </div>
-                    <div class="w-2/3 cursor-pointer">
+                    <div class="md:w-full md:mt-10 xl:w-4/5 2xl:w-3/4 first-letter:cursor-pointer">
                         <div class="flex">
                             <div v-for="ProcessProject in ProcessProjects" :key="ProcessProject.index" :to="ProcessProject.url">
-                                <p class="font_Airborne text-[16px] px-[38px]">{{ProcessProject.title}}</p>
+                                <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">{{ProcessProject.title}}</p>
                             </div>
                         </div>
-                        <div class="flex items-center w-36 ml-20 mt-5">
+                        <div class="flex items-center mt-5 md:pr-1 md:ml-5 md:w-24 lg:w-36 lg:px-2 xl:px-0 xl:w-32 xl:ml-20 2xl:w-36">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
-                            <img src="/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/dot1.png" alt="" class="lg:w-3 md:w-2">
                         </div>
                     </div>
                 </div>
 
-                <div class="logo3 flex items-center justify-between mb-32">
-                    <div class="w-1/5">
-                        <svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer">
+                <div class="logo3 xl:flex items-center justify-between xl:mb-32 md:mb-0">
+                    <div class="lg:w-1/4 xl:w-1/5 md:w-1/3">
+                        <svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill3" x1="0" y1="50" x2="0" y2="100" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -86,32 +86,32 @@
                         </svg>
 
                     </div>
-                    <div class="w-2/3 cursor-pointer">
+                    <div class="md:w-full md:mt-10 xl:w-4/5 2xl:w-3/4 first-letter:cursor-pointer">
                         <div class="flex">
-                            <p class="font_Airborne text-[16px] px-[38px]">Интервью</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Анализ</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Маркетинг</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">UX/UI</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Разработка</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">MVP</p>
-                            <p class="process font_Airborne text-[16px] px-[38px]">Запуск</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Интервью</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Анализ</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Маркетинг</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">UX/UI</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Разработка</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">MVP</p>
+                            <p class="process font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Запуск</p>
                         </div>
-                        <div class="flex items-center w-36 ml-20 mt-5">
+                        <div class="flex items-center mt-5 md:pr-1 md:ml-5 md:w-24 lg:w-36 lg:px-2 xl:px-0 xl:w-32 xl:ml-20 2xl:w-36">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
-                            <img src="/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/dot1.png" alt="" class="lg:w-3 md:w-2">
                             <img src="/img/line2.png" alt="">
-                            <img src="/img/dot2.png" alt="" class="w-3">
+                            <img src="/img/dot2.png" alt="" class="lg:w-3 md:w-2">
                         </div>
                     </div>
                 </div>
 
-                <div class="logo4 flex items-center justify-between mb-32">
-                    <div class="w-1/5">
-                        <svg width="300" height="278" viewBox="0 0 300 278" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer">
+                <div class="logo4 xl:flex items-center justify-between xl:mb-20 lg:mb-20 md:mb-10">
+                    <div class="lg:w-1/4 xl:w-1/5 md:w-1/3">
+                        <svg width="300" height="278" viewBox="0 0 300 278" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill4" x1="0" y1="20" x2="0" y2="200" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -124,32 +124,32 @@
                             <path d="M101.33 228.055H98.9231V222.122C98.0972 222.413 97.3284 222.643 96.6169 222.811C95.9053 222.972 95.1497 223.053 94.3509 223.053C92.9676 223.053 91.8967 222.726 91.138 222.071C90.3793 221.411 90 220.469 90 219.247V213.255H92.417V218.681C92.417 219.443 92.6049 220.02 92.981 220.412C93.3637 220.796 93.9984 220.989 94.8844 220.989C95.5828 220.989 96.2409 220.921 96.8578 220.786C97.4756 220.645 98.1637 220.442 98.9231 220.179V213.255H101.33V228.055ZM113.545 228.055H105.207V213.255H113.545V215.3H107.624V219.318H113.173V221.353H107.624V225.999H113.545V228.055ZM128.007 228.055H125.197L119.145 220.543V228.055H116.728V213.255H119.145V220.421L125.087 213.255H127.725L121.783 220.402L128.007 228.055ZM141.673 228.055L137.434 215.694H137.343C137.363 215.971 137.387 216.348 137.413 216.828C137.44 217.307 137.464 217.82 137.483 218.367C137.504 218.914 137.514 219.437 137.514 219.936V228.055H135.319V213.255H138.712L142.792 225.068H142.852L147.071 213.255H150.455V228.055H148.148V219.814C148.148 219.362 148.156 218.873 148.169 218.346C148.189 217.82 148.209 217.321 148.229 216.848C148.256 216.376 148.276 215.998 148.29 215.714H148.209L143.809 228.055H141.673ZM163.457 228.055L162.016 223.945H156.386L154.946 228.055H152.399L157.877 213.193H160.556L166.025 228.055H163.457ZM161.391 221.859L159.992 217.81C159.938 217.635 159.861 217.388 159.76 217.071C159.66 216.747 159.559 216.42 159.458 216.089C159.357 215.752 159.274 215.468 159.206 215.238C159.14 215.515 159.055 215.825 158.955 216.17C158.86 216.508 158.767 216.824 158.673 217.121C158.586 217.419 158.518 217.648 158.471 217.81L157.061 221.859H161.391ZM172.248 213.255C174.148 213.255 175.535 213.646 176.407 214.429C177.28 215.212 177.716 216.308 177.716 217.719C177.716 218.36 177.616 218.971 177.414 219.552C177.22 220.125 176.898 220.634 176.448 221.08C175.998 221.518 175.403 221.866 174.666 222.122C173.933 222.379 173.031 222.507 171.956 222.507H170.385V228.055H167.968V213.255H172.248ZM172.087 215.269H170.385V220.483H171.704C172.463 220.483 173.107 220.395 173.638 220.22C174.169 220.037 174.571 219.75 174.846 219.358C175.122 218.967 175.259 218.451 175.259 217.81C175.259 216.952 175.001 216.315 174.484 215.897C173.974 215.479 173.175 215.269 172.087 215.269ZM191.936 228.055H189.126L183.074 220.543V228.055H180.657V213.255H183.074V220.421L189.016 213.255H191.655L185.713 220.402L191.936 228.055ZM202.229 228.055H193.89V213.255H202.229V215.3H196.308V219.318H201.856V221.353H196.308V225.999H202.229V228.055ZM210.517 228.055H208.09V215.319H203.78V213.255H214.818V215.319H210.517V228.055Z" fill="#6F6F6F"/>
                         </svg>
                     </div>
-                    <div class="w-2/3 cursor-pointer">
+                    <div class="md:w-full lg:mt-10 xl:w-4/5 2xl:w-3/4 first-letter:cursor-pointer">
                         <div class="flex">
-                            <p class="font_Airborne text-[16px] px-[38px]">Интервью</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Анализ</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Маркетинг</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">UX/UI</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">Разработка</p>
-                            <p class="font_Airborne text-[16px] px-[38px]">MVP</p>
-                            <p class="process font_Airborne text-[16px] px-[38px]">Запуск</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Интервью</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Анализ</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Маркетинг</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">UX/UI</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Разработка</p>
+                            <p class="font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">MVP</p>
+                            <p class="process font_Airborne md:pr-[35px] lg:pr-[75px] md:text-[13px] 2xl:text-[16px] xl:px-[38px]">Запуск</p>
                         </div>
-                        <div class="flex items-center w-36 ml-20 mt-5">
+                        <div class="flex items-center mt-5 md:pr-1 md:ml-5 md:w-24 lg:w-36 lg:px-2 xl:px-0 xl:w-32 xl:ml-20 2xl:w-36">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
                             <img src="/img/line1.png" alt="">
-                            <img src="/img/dot1.png" alt="" class="w-3">
+                            <img src="/img/dot1.png" alt="" class="lg:w-3 md:w-2">
                             <img src="/img/line2.png" alt="">
-                            <img src="/img/dot2.png" alt="" class="w-3">
+                            <img src="/img/dot2.png" alt="" class="lg:w-3 md:w-2">
                         </div>
                     </div>
                 </div>
 
-                <div class="logo5 flex items-center justify-between">
-                    <div class="w-1/5">
-                        <svg width="300" height="112" viewBox="0 0 300 112" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer">
+                <div class="logo5 xl:flex items-center justify-between">
+                    <div class="lg:w-1/4 xl:w-1/5 md:w-1/3">
+                        <svg width="300" height="112" viewBox="0 0 300 112" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-11/12">
                             <linearGradient id="gradient-fill5" x1="0" y1="10" x2="0" y2="50" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#ff44c3" />
                                 <stop offset="1" stop-color="#fe8624" />
@@ -175,16 +175,16 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="w-2/3">
+                    <div class="md:w-full lg:w-full 2xl:w-4/5 first-letter:cursor-pointer xl:ml-20 lg:mt-10 md:mt-5 lg:px-5 xl:mt-0 xl:px-0">
                         <div class="flex justify-between">
-                            <p class="font_Airborne text-[16px] pl-[40px]">Рефакторинг</p>
-                            <p class="font_Airborne text-[16px]">MVP</p>
-                            <p class="process font_Airborne text-[16px]">Запуск</p>
+                            <p class="font_Airborne md:text-[13px] 2xl:text-[16px] 2xl:pl-[40px]">Рефакторинг</p>
+                            <p class="font_Airborne md:text-[13px] 2xl:text-[16px] 2xl:pr-5 lg:mr-12 xl:mr-0 md:mr-10">MVP</p>
+                            <p class="process font_Airborne md:text-[13px] 2xl:text-[16px] 2xl:pr-14">Запуск</p>
                         </div>
-                        <div class="flex ml-20 mr-5 mt-5">
-                            <img src="/img/line3.png" alt="" class="w-1/2">
-                            <img src="/img/line3.png" alt="" class="w-1/2">
-                            <img src="/img/dot2.png" alt="" class="w-3">
+                        <div class="flex 2xl:ml-20 xl:ml-10 mr-5 mt-5 2xl:pr-[50px] xl:pr-[120px] md:pr-20 md:pl-5 lg:pr-3 lg:pl-0">
+                            <img src="/img/line3.png" alt="" class="2xl:w-1/2 xl:w-7/12 lg:w-1/2 md:w-7/12">
+                            <img src="/img/line3.png" alt="" class="2xl:w-1/2 xl:w-7/12 lg:w-1/2 md:w-7/12">
+                            <img src="/img/dot2.png" alt="" class="lg:w-3 md:w-2">
                         </div>
                     </div>
                 </div>
@@ -236,9 +236,6 @@ const ProcessProjects = [
 <style scoped>
 .process {
     color: #6F6F6F;
-}
-svg {
-    width: 80%;
 }
 .logo1:hover path {
     fill: url(#gradient-fill1);
