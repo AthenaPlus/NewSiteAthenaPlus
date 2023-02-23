@@ -13,7 +13,8 @@
     "nuxt": "3.0.0",
     "nuxt-headlessui": "^1.0.4",
     "nuxt-simple-sitemap": "^1.0.6",
-    "nuxt-svgo": "^1.1.0"
+    "nuxt-svgo": "^1.1.0",
+    "sass": "^1.58.3"
   },
   "dependencies": {
     "@fullpage/nuxt-fullpage": "^0.2.3",
