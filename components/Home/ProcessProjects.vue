@@ -1,9 +1,8 @@
 <template>
-    <section
-        class="text-white min-h-screen">
-        <div class="container overflow-x-hidden mx-auto px-3 md:px-10 lg:mt-44 mt-24"> 
-            <div class="mb-5 sm:mb-10">
-                <h2 class="font_Airborne min-[200px]:text-2xl sm:text-3xl md:text-6xl lg:text-7xl anime__left1">Проекты в работе</h2>
+    <section  class="text-white  min-h-screen">
+        <div class="container  overflow-x-hidden my-28 mx-32">
+            <div class="px-5 mb-24">
+                <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
             </div>
             <div class="overflow-x-hidden">
 
