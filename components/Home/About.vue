@@ -1,5 +1,4 @@
 <template>
-<<<<<<< Updated upstream
     <section class="text-gray-100 min-h-screen overflow-hidden">
         <svg width="2731" height="100" viewBox="0 0 2731 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="1365.5" cy="50" rx="1365.5" ry="50" fill="#0B0B0B" />
@@ -12,18 +11,6 @@
                         на казахстанском рынке </p>
                     <p class="AboutSubtitle xl:text-xl text-base">Сотрудничество с нами гарантирует вам
                         приобретение лучшего диджитал-продукта. Мы
-=======
-    <section
-        class="text-gray-100 flex min-h-screen overflow-hidden">
-        <!-- <div class="container w-1/2 m-auto">
-            <div>
-                <h2 class="AboutTitle text-7xl mb-8">О Веб-студии</h2>
-                <div class="w-1/2">
-                    <p class="AboutSubtitle text-xl mb-5 font-semibold">Мы являемся самой прогрессивной веб-студией 
-                    на казахстанском рынке </p>
-                    <p class="AboutSubtitle text-xl">Сотрудничество с нами гарантирует вам
-                        приобретение лучшего диджитал-продукта. Мы 
->>>>>>> Stashed changes
                         повышаем конверсию через дизайн.</p>
 
                     <div class="flex justify-between flex-wrap py-5">
@@ -45,59 +32,10 @@
             </div>
             <a href="/about" class="btn2 btn btn--shadow w-11/12 text-center mx-auto mt-10">Больше о нас</a>
         </div>
-<<<<<<< Updated upstream
 
         <svg width="2747" height="100" class="el-2" viewBox="0 0 2747 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="1373.5" cy="50" rx="1373.5" ry="50" fill="#0B0B0B" />
         </svg>
-=======
-        <div>
-        </div> -->
-
-        <div class="panorama-slider">
-      <div class="swiper">
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/LineFrame.png" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo2" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo3" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo4" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo1" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo2" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo3" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo4" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo1" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo2" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo3" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img class="slide-image" src="/img/About_photo4" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
->>>>>>> Stashed changes
     </section>
 </template>
 
