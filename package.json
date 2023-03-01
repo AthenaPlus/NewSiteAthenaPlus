@@ -13,14 +13,15 @@
     "nuxt": "3.1.0",
     "nuxt-headlessui": "^1.0.4",
     "nuxt-simple-sitemap": "^1.0.6",
-    "nuxt-svgo": "^1.1.0"
+    "nuxt-svgo": "^1.1.0",
+    "sass": "^1.58.3"
   },
   "dependencies": {
     "@fullpage/nuxt-fullpage": "^0.2.3",
     "@heroicons/vue": "^2.0.13",
     "animate.css": "^4.1.1",
     "nuxt-graphql-client": "^0.2.25",
-    "swiper": "^8.4.5",
+    "swiper": "^8.4.7",
     "vue-gtag-next": "^1.14.0"
   }
 }
