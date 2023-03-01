@@ -1,7 +1,7 @@
 <template>
     <section
         class="text-white min-h-screen">
-        <div class="container overflow-x-hidden mx-auto px-3 md:px-10 lg:mt-44 mt-20"> 
+        <div class="container overflow-x-hidden mx-auto px-3 md:px-10 lg:mt-44 mt-24"> 
             <div class="mb-5 sm:mb-10">
                 <h2 class="font_Airborne min-[200px]:text-2xl sm:text-3xl md:text-6xl lg:text-7xl anime__left1">Проекты в работе</h2>
             </div>
