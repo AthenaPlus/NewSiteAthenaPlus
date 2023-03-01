@@ -97,22 +97,22 @@
                 class="md:flex flex-col text-3xl text-white font_Airborne pl-10 hidden">
                 <NuxtLink to="/" @click="toggle" class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
                     :class="[isHome ? 'Active' : '']">Главная</NuxtLink>
-                <NuxtLink to="" @click="clickAbout"
+                <button @click="clickAbout"
                     class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
                     :class="[isOpenAbout ? 'Active' : '']">О компании
                     <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
-                </NuxtLink>
-                <NuxtLink to="" @click="clickPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"
+                </button>
+                <button @click="clickPortfolio" :class="[isOpenPortfolio ? 'Active' : '']"
                     class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
                     <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
-                </NuxtLink>
+                </button>
                 <NuxtLink to="/servicesprices" @click="toggle"
                     class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
-                <NuxtLink to="" @click="clickContacts"
+                <button @click="clickContacts"
                     class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
                     :class="[isOpenContacts ? 'Active' : '']">Контакты
                     <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
-                </NuxtLink>
+                </button>
             </nav>
              <!-- End Nav for Disctop Menu-->
              <!-- Nav for Mobail Menu -->
@@ -120,14 +120,14 @@
                 class="flex flex-col text-xl text-white font_Airborne pl-10 md:hidden">
                 <NuxtLink to="/" @click="toggle" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Главная
                 </NuxtLink>
-                <NuxtLink to="" @click="clickAboutmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAboutMob ? 'Active' : '']">О компании
-                </NuxtLink>
-                <NuxtLink to="" @click="clickPortfoliomob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
-                </NuxtLink>
+                <button  @click="clickAboutmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link" :class="[isOpenAboutMob ? 'Active' : '']">О компании
+                </button>
+                <button  @click="clickPortfoliomob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
+                </button>
                 <NuxtLink to="/servicesprices" @click="toggle"
                     class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены</NuxtLink>
-                <NuxtLink to="/" @click="clickContactsmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
-                </NuxtLink>
+                <button @click="clickContactsmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
+                </button>
             </nav>
             <div :class="[isOpenAboutMob ? 'translate-x-0 transition ease-in-out duration-500 delay-500 absolute inset-0' : '-translate-x-180 transition ease-in-out duration-500 absolute']" class="text-white bg-black block md:hidden ml-[45px]">
                 <MenuframemobAboutMenumob @addToggle="addToggle" />
