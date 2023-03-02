@@ -11,11 +11,19 @@
             class="mySwiper cursor-grab"
             :breakpoints="{
       '300': {
-        slidesPerView: 2,
+        slidesPerView: 1.5,
         spaceBetween: 20,
       },
+      '640': {
+        slidesPerView: 1.5,
+        spaceBetween: 5
+      },
       '1024': {
-        slidesPerView: 3,
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      '1280': {
+        slidesPerView: 2.5,
         spaceBetween: 30
       }
     }">
