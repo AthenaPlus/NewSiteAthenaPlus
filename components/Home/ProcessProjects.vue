@@ -1,10 +1,10 @@
 <template>
     <section  class="text-white  min-h-screen">
-        <div class="container  overflow-x-hidden my-28 mx-32">
-            <div class="px-5 mb-24">
+        <div class="container overflow-x-hidden mt-28 mb-5 mx-auto ">
+            <div class="px-5 sm:mb-20 min-[300px]:mb-10">
                 <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
             </div>
-            <div class="overflow-x-hidden">
+            <div class="overflow-x-hidden px-3  ">
 
                 <div class="logo1 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-10">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
