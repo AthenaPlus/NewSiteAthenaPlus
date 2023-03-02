@@ -97,6 +97,7 @@ svg:nth-child(1) {
     .about-main {
         margin-top: 120px;
         margin-bottom: 40px;
+        padding-bottom: 40px;
     }
     .btn1 {
         display: none;
