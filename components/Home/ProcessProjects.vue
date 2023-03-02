@@ -1,5 +1,5 @@
 <template>
-    <section  class="text-white  min-h-screen">
+    <section  class="text-white  min-h-screen overflow-hidden">
         <div class="container overflow-x-hidden mt-28 mb-5 mx-auto ">
             <div class="px-5 sm:mb-20 min-[300px]:mb-10">
                 <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
