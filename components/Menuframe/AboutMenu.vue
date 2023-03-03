@@ -67,7 +67,7 @@
                                 <div class="border-b-2 w-full mt-[25px] mb-[15px]"></div>
                                 <p class="text-base font-light pb-4">Читайте полезные статьи о веб-индустрии на нашей
                                     платформе.</p>
-                                <NuxtLink to="/blog" @click="addToggle"
+                                <NuxtLink to="/development" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] w-full transition duration-700 ease-in-out">
                                     Открыть
                                 </NuxtLink>
