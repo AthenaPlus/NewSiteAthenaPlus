@@ -17,20 +17,20 @@
                         <form action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST"
                             class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
-                                <label for="design" @click="clickButton1"
+                                <label for="app" @click="clickButton1"
                                     class="btn--label text-white py-3 cursor-pointer"
-                                    :class="[isClickButton1 ? 'btn--click' : '']"> Дизайн</label>
-                                <input type="radio" id="design" name="project_type" value="Дизайн" class="w-0" />
+                                    :class="[isClickButton1 ? 'btn--click' : '']"> Приложение</label>
+                                <input type="radio" id="app" name="project_type" value="Приложение" class="w-0" />
 
-                                <label for="development" @click="clickButton2"
+                                <label for="site" @click="clickButton2"
                                     class="btn--label text-white py-3 cursor-pointer"
-                                    :class="[isClickButton2 ? 'btn--click' : '']"> Разработка</label>
-                                <input type="radio" id="development" name="project_type" value="Разработка"
+                                    :class="[isClickButton2 ? 'btn--click' : '']"> Сайт</label>
+                                <input type="radio" id="Website" name="project_type" value="Сайт"
                                     class="w-0" />
 
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3 cursor-pointer"
-                                    :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</label>
-                                <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="w-0" />
+                                    :class="[isClickButton3 ? 'btn--click' : '']">CRM-система</label>
+                                <input type="radio" id="CRM" name="project_type" value="CRM-система" class="w-0" />
                                 <label for="Marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton4 ? 'btn--click' : '']">Маркетинг</label>
                                 <input type="radio" id="marketing" name="project_type" value="Маркетинг" class="w-0" />
