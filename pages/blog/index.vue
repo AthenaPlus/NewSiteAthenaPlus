@@ -2,7 +2,7 @@
     <section class="text-white body-font">
         <div class="container mx-auto px-5 py-24">
             <div class="flex flex-wrap flex-col md:flex-row items-center justify-between">
-                <h1 class="text-[66px] mr-auto">Blog!</h1>
+                <h1 class="text-[66px] mr-auto">Блог</h1>
                 <div class="flex flex-wrap gap-4 font_Airborne">
                     <!-- <button class="text-lg p-[15px] border-2 border-white rounded-full">все</button>
                     <button class="text-lg p-[15px] border-2 border-white rounded-full">новости</button>
@@ -12,9 +12,7 @@
             </div>
             <div class="mb-[85px]">
                 <p class="max-w-5xl text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo
+                    Читайте интересные новости из мира IT и дизайна вместе с Athena Plus. Мы регулярно постим статьи, которые помогут сделать ваши IT-продукты лучше.
                 </p>
             </div>
 
