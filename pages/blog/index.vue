@@ -4,10 +4,10 @@
             <div class="flex flex-wrap flex-col md:flex-row items-center justify-between">
                 <h1 class="text-[66px] mr-auto">Blog!</h1>
                 <div class="flex flex-wrap gap-4 font_Airborne">
-                    <button class="text-lg p-[15px] border-2 border-white rounded-full">все</button>
+                    <!-- <button class="text-lg p-[15px] border-2 border-white rounded-full">все</button>
                     <button class="text-lg p-[15px] border-2 border-white rounded-full">новости</button>
                     <button class="text-lg p-[15px] border-2 border-white rounded-full">статьи</button>
-                    <button class="text-lg p-[15px] border-2 border-white rounded-full">советы</button>
+                    <button class="text-lg p-[15px] border-2 border-white rounded-full">советы</button> -->
                 </div>
             </div>
             <div class="mb-[85px]">

@@ -69,7 +69,7 @@
                                     платформе.</p>
                             </div>
                         </div>
-                        <NuxtLink to="/development" @click="addToggle"
+                        <NuxtLink to="/blog" @click="addToggle"
                                     class="bg--btn btn--shadow bg-white text-black text-lg px-[20px] py-[10px] inline-flex items-center justify-center w-full transition duration-700 ease-in-out">
                                     Открыть
                                 </NuxtLink>
