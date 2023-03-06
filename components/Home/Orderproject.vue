@@ -12,7 +12,7 @@
                 <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какую продукт вы
-                            создаете?<span class="text-red-500"></span>?</h3>
+                            создаете<span class="text-red-500"></span>?</h3>
 
                         <form action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST"
                             class="flex flex-wrap my-10">
