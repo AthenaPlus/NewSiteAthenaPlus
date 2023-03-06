@@ -4,10 +4,10 @@
             <div class="flex flex-wrap flex-col md:flex-row items-center justify-between">
                 <h1 class="text-[66px] mr-auto">Blog!</h1>
                 <div class="flex flex-wrap gap-4 font_Airborne">
-                    <buton class="text-lg p-[15px] border-2 border-white rounded-full">все</buton>
-                    <buton class="text-lg p-[15px] border-2 border-white rounded-full">новости</buton>
-                    <buton class="text-lg p-[15px] border-2 border-white rounded-full">статьи</buton>
-                    <buton class="text-lg p-[15px] border-2 border-white rounded-full">советы</buton>
+                    <button class="text-lg p-[15px] border-2 border-white rounded-full">все</button>
+                    <button class="text-lg p-[15px] border-2 border-white rounded-full">новости</button>
+                    <button class="text-lg p-[15px] border-2 border-white rounded-full">статьи</button>
+                    <button class="text-lg p-[15px] border-2 border-white rounded-full">советы</button>
                 </div>
             </div>
             <div class="mb-[85px]">
@@ -17,25 +17,37 @@
                     aliquip ex ea commodo
                 </p>
             </div>
+
             <!-- Контейнер контент Блога -->
-            <div v-for="Post in Posts" :key="Post.index" class="flex flex-wrap place-content-between gap-[34px] border-t border-white/70 pt-[50px] pt-6 mb-[60px]">
-                <div class="">
-                    <img :src="Post.urlImg" alt="">
+
+            <div v-for="article in qc" :key="article._path" class="flex flex-wrap place-content-between gap-[34px] border-t border-white/70 pt-[50px] pt-6 mb-[60px]">
+                <div class="max-w-[380px]">
+                    <NuxtLink :to="article._path">
+                        <img v-if="article.img" :src="article.img" :alt="article.title">
+                        <img v-else class="w-full object-cover object-center" src="https://dummyimage.com/720x400" :alt="article.title" width="720" height="400">
+                    </NuxtLink>
                 </div>
                 <div class="flex flex-col">
-                    <p class="max-w-2xl">
-                        {{  Post.description  }}
+                    <h3 class="font_Airborne">{{ article.title }}</h3>
+                    <p v-if="article.description" class="max-w-2xl">
+                        {{ article.description }}
+                    </p>
+                    <p v-else class="max-w-2xl">
+                        Здесь должно быть описание статьи в блоге! Если вы это видите значит сработал <span class="text-pink-500"> v-else </span>  и не сработал <span class="text-pink-500"> v-if="article.description"</span>
                     </p>
                     <div class="mt-auto">
-                        <span class="">
-                            {{  Post.date  }}
+                        <span v-if="article.date" class="">
+                            {{ convertDate(article.date) }}
+                        </span>
+                        <span v-else class="">
+                            Время будущего
                         </span>
                     </div>
                 </div>
                 <div class="">
-                    <button class="">
+                    <NuxtLink :to="article._path" class="">
                         <IconArrowright class="w-[40px]" />
-                    </button>
+                    </NuxtLink>
                 </div>
 
             </div>
@@ -45,55 +57,23 @@
 
 <script setup>
 import IconArrowright from '~/assets/icons/arrow__right.svg'
+import { convertDate } from '~/assets/utils/index'
 
-const Posts = [
-    {
-        urlImg: '/img/blog1.jpg',
-        description: '1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog2.jpg',
-        description: '2 Collaboratively actualize ubiquitous paradigms rather than high-payoff resources. Credibly aggregate standards compliant outsourcing vis-a-vis extensible content. Professionally iterate visionary technology vis-a-vis interdependent web-readiness. Rapidiously disintermediate high-quality data via 2.0 communities. Dramatically network mission-critical portals and progressive mindshare. Professionally maintain superior vortals vis-a-vis go forward e-markets. Objectively syndicate worldwide functionalities whereas functional methodologies. Authoritatively productivate premium mindshare rather',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog3.jpg',
-        description: '3 Proactively transition mission-critical e-services after maintainable deliverables. Completely monetize end-to-end infomediaries with fully tested e-services. Enthusiastically restore cross-media deliverables and error-free ROI. Quickly create accurate infomediaries before out-of-the-box deliverables. Credibly negotiate backward-compatible products.',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog1.jpg',
-        description: '4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog2.jpg',
-        description: '5 Collaboratively actualize ubiquitous paradigms rather than high-payoff resources. Credibly aggregate standards compliant outsourcing vis-a-vis extensible content. Professionally iterate visionary technology vis-a-vis interdependent web-readiness. Rapidiously disintermediate high-quality data via 2.0 communities. Dramatically network mission-critical portals and progressive mindshare. Professionally maintain superior vortals vis-a-vis go forward e-markets. Objectively syndicate worldwide functionalities whereas functional methodologies. Authoritatively productivate premium mindshare rather',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog3.jpg',
-        description: '6 Proactively transition mission-critical e-services after maintainable deliverables. Completely monetize end-to-end infomediaries with fully tested e-services. Enthusiastically restore cross-media deliverables and error-free ROI. Quickly create accurate infomediaries before out-of-the-box deliverables. Credibly negotiate backward-compatible products.',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog1.jpg',
-        description: '7 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog2.jpg',
-        description: '8 Collaboratively actualize ubiquitous paradigms rather than high-payoff resources. Credibly aggregate standards compliant outsourcing vis-a-vis extensible content. Professionally iterate visionary technology vis-a-vis interdependent web-readiness. Rapidiously disintermediate high-quality data via 2.0 communities. Dramatically network mission-critical portals and progressive mindshare. Professionally maintain superior vortals vis-a-vis go forward e-markets. Objectively syndicate worldwide functionalities whereas functional methodologies. Authoritatively productivate premium mindshare rather',
-        date: '31.12.2022'
-    },
-    {
-        urlImg: '/img/blog3.jpg',
-        description: '9 Proactively transition mission-critical e-services after maintainable deliverables. Completely monetize end-to-end infomediaries with fully tested e-services. Enthusiastically restore cross-media deliverables and error-free ROI. Quickly create accurate infomediaries before out-of-the-box deliverables. Credibly negotiate backward-compatible products.',
-        date: '31.12.2022'
-    },
-    
-]
+
+useHead({
+  title: 'My Blog',
+  meta: [
+    { name: 'description', content: 'TВеб-Сайты UX/UI Айдентика Разработка и дизайн сайтов опережающих тренды Современный дизайн, инновационная технология, результативный маркетинг - все это в нашей веб-студии' }
+  ],
+})
+const { query } = useRoute();
+const { category } = query
+// blog?category=Tips+from+the+chef
+const qc = await queryContent('blog')
+  .where({ category })
+  .sort({ date: -1 })
+  .find()
+
 </script>
 
 <style scoped>
