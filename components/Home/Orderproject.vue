@@ -31,9 +31,9 @@
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton3 ? 'btn--click' : '']">Внедрение CRM</label>
                                 <input type="radio" id="CRM" name="project_type" value="Внедрение CRM" class="w-0" />
-                                <label for="SEO" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
-                                    :class="[isClickButton4 ? 'btn--click' : '']">SEO/Реклама</label>
-                                <input type="radio" id="SEO" name="project_type" value="SEO/Реклама" class="w-0" />
+                                <label for="Marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
+                                    :class="[isClickButton4 ? 'btn--click' : '']">Маркетинг</label>
+                                <input type="radio" id="marketing" name="project_type" value="Маркетинг" class="w-0" />
                             </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
