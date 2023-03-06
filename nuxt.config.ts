@@ -1,7 +1,15 @@
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/apollo', '@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image-edge', 'nuxt-svgo', 'nuxt-headlessui', '@fullpage/nuxt-fullpage', 'nuxt-simple-sitemap', ],
+    modules: ['@nuxtjs/apollo', '@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image-edge', 'nuxt-svgo', 'nuxt-headlessui', '@fullpage/nuxt-fullpage', 'nuxt-simple-sitemap', '@nuxtjs/yandex-metrika' 
+    {
+      id: '92703087',
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    }
+  ],
 
     css: ['animate.css'],
 

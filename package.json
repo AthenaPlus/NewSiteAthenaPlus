@@ -22,6 +22,7 @@
   "dependencies": {
     "@fullpage/nuxt-fullpage": "^0.2.3",
     "@heroicons/vue": "^2.0.13",
+    "@nuxtjs/yandex-metrika": "^1.4.0",
     "animate.css": "^4.1.1",
     "swiper": "^8.4.7",
     "vue-gtag-next": "^1.14.0"
