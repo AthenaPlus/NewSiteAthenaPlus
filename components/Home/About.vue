@@ -1,9 +1,9 @@
 <template>
     <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5">
+        <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5 xl:ml-20 2xl:ml-5">
             <div class="sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto">
-                <div class="2xl:w-2/3 py-20 xl:mx-auto">
-                    <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8">О Веб-студии</h2>
+                <div class="2xl:w-2/3 xl:mx-auto">
+                    <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
                     <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы являемся самой прогрессивной
                         веб-студией
                         на казахстанском рынке </p>

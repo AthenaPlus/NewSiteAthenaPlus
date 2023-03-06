@@ -105,7 +105,7 @@ img {
   object-fit: cover;
 }
 
-.gradient {
+/* .gradient {
 	display: inline-block;
 	position: relative;    
 	line-height: 0;
@@ -121,5 +121,5 @@ img {
 	background: transparent;
 	background-image: linear-gradient(180deg, rgba(112, 112, 112, 0.7) 0%, rgba(130, 69, 104, 0.7) 70.31%, rgba(160, 2, 92, 0.7) 100%);
     transition: all 5s !important;
-}
+} */
 </style>
