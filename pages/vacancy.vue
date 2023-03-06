@@ -38,14 +38,17 @@
         </Popup>
     </section>
 </template>
-
-<script>
+<script setup>
 useHead({
     title: 'Карьера с Athena Plus',
     meta: [
         { name: 'description', content: 'Являешься фанатом веба? Считаешь что разработка сайтов это не просто входная дверь в IT и Дизайн.  Хочешь создать что-то особенное? Нам по пути. Подавай заявку' }
     ],
 })
+</script>
+
+<script>
+
 export default {
     data() {
         return {

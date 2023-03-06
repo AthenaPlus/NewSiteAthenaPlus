@@ -41,14 +41,16 @@
         </Popup>
     </section>
 </template>
-
-<script>
+<script setup>
 useHead({
     title: 'Стань партнером Athena Plus',
     meta: [
         { name: 'description', content: 'Приведи клиента и получи до 10% от суммы договора. Без дополнительных комиссий и подводных камней.' }
     ],
 })
+</script>
+
+<script>
 
 export default {
     data() {
