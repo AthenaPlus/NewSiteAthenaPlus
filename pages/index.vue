@@ -2,7 +2,7 @@
   <full-page ref="fullpage" :options="options">
     <HomeHero class="snap-start w-full min-h-screen section" />
     <HomeAbout class="snap-start w-full min-h-screen section" />
-    <!-- <HomeServices class="snap-start w-full min-h-screen section" /> -->
+    <HomeServices class="snap-start w-full min-h-screen section" />
     <!-- <HomeAdvantage class="snap-start w-full min-h-screen section" /> -->
     <!-- <HomeServicesHero class="snap-start w-full min-h-screen section" /> -->
     <HomeProcessProjects class="snap-start w-full min-h-screen section" />

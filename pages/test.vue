@@ -26,6 +26,7 @@
             <p class="text-white text-7xl">Дональд осуждает...((</p>
             
         </div> -->
+        <!-- <Accordion /> -->
     </section>
 </template>
 

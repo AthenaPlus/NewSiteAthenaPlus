@@ -1,161 +1,83 @@
 <template>
     <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="flex justify-between py-24 px-10 overflow-hidden">
-            <div class="w-4/5">
-                <div class="w-3/4 mx-auto">
-                    <div class="w-auto">
-                    <h2 class="font_Airborne text-7xl pb-5 anime__left1">
-                        <span class="font-light">—</span> Каждый проект
-                    </h2>
-                    <h2 class="font_Airborne text-4xl ml-96 anime__right1">
-                        как арт-объект</h2>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content0">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[0].desc }}</p>
+        <div class="service-main flex sm:w-11/12  lg:w-5/6 mx-auto justify-end my-16">
+            <div class="mr-20 overflow-hidden">
+                    <div class="w-full">
+                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
+                            <span class="font-light">—</span> Каждый проект
+                        </h2>
+                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
+                            как арт-объект
+                        </h2>
                     </div>
-                    <div class="w-1/2">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32" v-show="content0">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[0].desc }}</p>
+                    </div>
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[0].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content1">
+                <div class="flex justify-between items-end mt-32" v-show="content1">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[1].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[1].desc }}</p>
                     </div>
                     <div class="w-1/2">
                         <img :src="ServiceItems[1].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content2">
+                <div class="flex justify-between items-end mt-32" v-show="content2">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[2].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[2].desc }}</p>
                     </div>
                     <div class="w-1/2">
                         <img :src="ServiceItems[2].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content3">
+                <div class="flex justify-between items-end mt-32" v-show="content3">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[3].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[3].desc }}</p>
                     </div>
                     <div class="w-1/2">
                         <img :src="ServiceItems[3].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content4">
+                <div class="flex justify-between items-end mt-32" v-show="content4">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[4].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[4].desc }}</p>
                     </div>
                     <div class="w-1/2">
                         <img :src="ServiceItems[4].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content5">
+                <div class="flex justify-between items-end mt-32" v-show="content5">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[5].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[5].desc }}</p>
                     </div>
                     <div class="w-1/2">
                         <img :src="ServiceItems[5].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content6">
+                <div class="flex justify-between items-end mt-32" v-show="content6">
                     <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[6].desc }}</p>
+                        <p class="text-lg xl:text-xl">{{ ServiceItems[6].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="lg:w-3/5 xl:w-1/2">
                         <img :src="ServiceItems[6].img" alt="">
                     </div>
                 </div>
-                </div>
             </div>
-            <div class="w-1/5">
-                <div class="11/12">
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show0">{{ ServiceItems[0].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show1">{{ ServiceItems[1].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show2">{{ ServiceItems[2].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show3">{{ ServiceItems[3].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show4">{{ ServiceItems[4].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show5">{{ ServiceItems[5].title }}</p>
-                    <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show6">{{ ServiceItems[6].title }}</p>
-                </div>
+            <div class="service-items">
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show0">{{ ServiceItems[0].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show1">{{ ServiceItems[1].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show2">{{ ServiceItems[2].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show3">{{ ServiceItems[3].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show4">{{ ServiceItems[4].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show5">{{ ServiceItems[5].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show6">{{ ServiceItems[6].title }}</p>
             </div>
         </div>
-        <!-- <div class="flex justify-between py-24 px-10 overflow-hidden">
-            <div class="w-4/5">
-                <div class="w-auto">
-                    <h2 class="font_Airborne text-7xl pb-5 anime__left1">
-                        <span class="font-light">—</span> Каждый проект
-                    </h2>
-                    <h2 class="font_Airborne text-4xl ml-96 anime__right1">
-                        как арт-объект</h2>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content0">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[0].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[0].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content1">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[1].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[1].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content2">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[2].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[2].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content3">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[3].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[3].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content4">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[4].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[4].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content5">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[5].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[5].img" alt="">
-                    </div>
-                </div>
-                <div class="flex justify-between items-end w-2/3 mt-36" v-show="content6">
-                    <div class="w-2/5">
-                        <p class="text-xl">{{ ServiceItems[6].desc }}</p>
-                    </div>
-                    <div class="w-1/2">
-                        <img :src="ServiceItems[6].img" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="w-1/3">
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show0">{{ ServiceItems[0].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show1">{{ ServiceItems[1].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show2">{{ ServiceItems[2].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show3">{{ ServiceItems[3].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show4">{{ ServiceItems[4].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show5">{{ ServiceItems[5].title }}</p>
-                <p class="service-item font_Airborne font-normal text-6xl pb-10 cursor-pointer" v-on:click="show6">{{ ServiceItems[6].title }}</p>
-            </div>
-        </div> -->
+        <Accordion class="accordion-mobile py-20" />
     </section>
 </template>
 
@@ -218,75 +140,76 @@ export default {
             content4: false,
             content5: false,
             content6: false,
+            isActive: false
         }
     },
     methods: {
         show0() {
             this.content0 = true,
-            this.content1 = false,
-            this.content2 = false,
-            this.content3 = false,
-            this.content4 = false,
-            this.content5 = false,
-            this.content6 = false
+                this.content1 = false,
+                this.content2 = false,
+                this.content3 = false,
+                this.content4 = false,
+                this.content5 = false,
+                this.content6 = false
         },
         show1() {
             this.content0 = false,
-            this.content1 = true,
-            this.content2 = false,
-            this.content3 = false,
-            this.content4 = false,
-            this.content5 = false,
-            this.content6 = false
+                this.content1 = true,
+                this.content2 = false,
+                this.content3 = false,
+                this.content4 = false,
+                this.content5 = false,
+                this.content6 = false
         },
         show2() {
             this.content0 = false,
-            this.content1 = false,
-            this.content2 = true,
-            this.content3 = false,
-            this.content4 = false,
-            this.content5 = false,
-            this.content6 = false
+                this.content1 = false,
+                this.content2 = true,
+                this.content3 = false,
+                this.content4 = false,
+                this.content5 = false,
+                this.content6 = false
         }
         ,
         show3() {
             this.content0 = false,
-            this.content1 = false,
-            this.content2 = false,
-            this.content3 = true,
-            this.content4 = false,
-            this.content5 = false,
-            this.content6 = false
+                this.content1 = false,
+                this.content2 = false,
+                this.content3 = true,
+                this.content4 = false,
+                this.content5 = false,
+                this.content6 = false
         }
         ,
         show4() {
             this.content0 = false,
-            this.content1 = false,
-            this.content2 = false,
-            this.content3 = false,
-            this.content4 = true,
-            this.content5 = false,
-            this.content6 = false
+                this.content1 = false,
+                this.content2 = false,
+                this.content3 = false,
+                this.content4 = true,
+                this.content5 = false,
+                this.content6 = false
         }
         ,
         show5() {
             this.content0 = false,
-            this.content1 = false,
-            this.content2 = false,
-            this.content3 = false,
-            this.content4 = false,
-            this.content5 = true,
-            this.content6 = false
+                this.content1 = false,
+                this.content2 = false,
+                this.content3 = false,
+                this.content4 = false,
+                this.content5 = true,
+                this.content6 = false
         }
         ,
         show6() {
             this.content0 = false,
-            this.content1 = false,
-            this.content2 = false,
-            this.content3 = false,
-            this.content4 = false,
-            this.content5 = false,
-            this.content6 = true
+                this.content1 = false,
+                this.content2 = false,
+                this.content3 = false,
+                this.content4 = false,
+                this.content5 = false,
+                this.content6 = true
         }
     }
 }
@@ -294,7 +217,6 @@ export default {
 </script>
 
 <style scoped>
-
 .service-item:hover {
     background: linear-gradient(180deg, #FF2BFF 0%, #FE7C3C 43.23%, #FE9402 100%);
     color: transparent;
@@ -302,4 +224,24 @@ export default {
     transition: all 0.3s;
 }
 
+.service-item .active {
+    background: linear-gradient(180deg, #FF2BFF 0%, #FE7C3C 43.23%, #FE9402 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+@media (min-width: 640px) {
+    .accordion-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 639px) {
+    .service-main {
+        display: none;
+    }
+    .accordion-mobile {
+        display: block;
+    }
+}
 </style>
