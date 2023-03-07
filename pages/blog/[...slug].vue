@@ -11,16 +11,16 @@ useHead({
     <section class="text-gray-100 body-font">
         <ContentDoc :path="$route.path" v-slot="{ doc }">
             <div class="relative container mx-auto">
-                <div class="absolute z-0 h-full w-full top-[60px]">
+                <div class="absolute z-0 h-full w-full">
                     <img v-if="doc.img" :src="doc.img" :alt="doc.title" class="absolute z-0 h-full w-full object-cover" />
                     <img v-else src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_384,w_1740/v1663655906/CHEF%20BREAKFAST/Baner8_Left_sp2git.webp" class="absolute z-0 h-full w-full object-cover" />
                 </div>
                 <!-- <div class="z-5 absolute h-full w-full bg-gray-900 bg-opacity-10"></div> -->
-                <div class="container px-10 mx-auto grid grid-cols-1 content-center h-96">
+                <div class="container px-10 mx-auto grid grid-cols-1 content-center h-[200px] sm:h-[300px] md:h-[510px]">
                     <h3 class="tracking-widest text-xl title-font font-medium text-gray-200 opacity-0 mb-1 uppercase z-10">
                         {{ doc.category }}
                     </h3>
-                    <h1 class="title z-10 opacity-0">{{ doc.title }}</h1>
+                    <h1 class="title-blog z-10 opacity-0">{{ doc.title }}</h1>
                 </div>
             </div>
             <div class="container px-5 py-14 mx-auto">

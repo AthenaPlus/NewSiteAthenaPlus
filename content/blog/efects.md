@@ -9,7 +9,7 @@ img: /img/GudSite.png
 
 <!-- more -->
 
-### [Советы по веб]{.title-font .font_Airborne .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase}
+### [Стратегия контента для сайта]{.title-font .font_Airborne .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase}
 
 <div class="w-full md:w-1/2 my-5">
 В этой статье мы расскажем вам о том, как создать такую стратегию и какие методы использовать.  
