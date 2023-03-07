@@ -16,7 +16,7 @@
                             камней.
                         </p>
                         <button @click="showPopupInfo"
-                            class="btn-primary hover:btn--shadow uppercase animate__animated animate__fadeInUp animate__delay-3s">Подать
+                            class="btn-primary hover:btn--shadow uppercase animate__animated animate__fadeInUp animate__delay-2s">Подать
                             заявку</button>
                     </div>
                 </div>

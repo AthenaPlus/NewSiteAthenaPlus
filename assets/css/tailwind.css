@@ -75,7 +75,7 @@ html {
 }
 
 .input {
-  @apply w-full bg-gray-900 bg-opacity-5 border-b border-gray-300 focus:border-pink-300 focus:bg-gray-400 focus:bg-opacity-10 text-[26px] outline-none text-white py-5 px-0 mb-[30px] leading-4 transition-colors duration-200 ease-in-out
+  @apply w-full bg-gray-900 bg-opacity-5 border-b border-gray-300 focus:border-pink-300 focus:bg-gray-400 focus:bg-opacity-10 text-[26px] outline-none text-white py-5 px-0 mb-[30px] leading-7 transition-colors duration-200 ease-in-out
 }
 
 .btn-primary:hover {
