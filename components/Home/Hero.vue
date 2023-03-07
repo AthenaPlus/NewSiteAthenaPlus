@@ -12,9 +12,9 @@
                     <p class="hidden md:block text-base lg:text-xl LineHeight_30 font-normal anime__left3">{{
                         HeroDescription
                     }}</p>
-                    <div class="md:mr-auto md:mt-[25px]">
-                        <a data-menuanchor="order" href="#order" class="btn btn--shadow">Записаться
-                            на Интервью</a>
+                    <div class="md:mr-auto md:mt-[25px] sbm">
+                        <a data-menuanchor="order" href="#order" class="btn btn--shadow mx-auto"><span class="mx-auto">Записаться
+                            на Интервью</span></a>
                     </div>
                     <!-- <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
@@ -203,6 +203,15 @@ const HeroLabels = [
     }
     100% {
         transform: translateX(-100%);
+    }
+}
+
+@media(min-width: 200px) and (max-width: 500px) {
+    .sbm {
+        width: 100%;
+    }
+    .sbm a {
+        width: 100%;
     }
 }
 
