@@ -28,7 +28,7 @@
                 <div class="w-2 h-8 md:h-14 md:w-10">
                     <!-- Резерв для кнопки -->
                 </div>
-                <Nuxt-link to="/">
+                <Nuxt-link to="/#top">
                     <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
                             class="text-gradient">plus</span>
                     </h1>
