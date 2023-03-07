@@ -37,7 +37,7 @@
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto">
                     <a data-menuanchor="order" href="#order"
-                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out uppercase">
+                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
                         Заявка
                     </a>
                 </div>
