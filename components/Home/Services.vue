@@ -10,7 +10,7 @@
                             как арт-объект
                         </h2>
                     </div>
-                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32" v-show="content0">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content0">
                     <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
                         <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[0].desc }}</p>
                     </div>
@@ -18,51 +18,51 @@
                         <img :src="ServiceItems[0].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content1">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[1].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content1">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[1].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[1].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content2">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[2].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content2">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[2].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[2].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content3">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[3].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content3">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[3].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[3].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content4">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[4].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content4">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[4].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[4].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content5">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[5].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content5">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[5].desc }}</p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[5].img" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-end mt-32" v-show="content6">
-                    <div class="w-2/5">
-                        <p class="text-lg xl:text-xl">{{ ServiceItems[6].desc }}</p>
+                <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content6">
+                    <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
+                        <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[6].desc }}</p>
                     </div>
-                    <div class="lg:w-3/5 xl:w-1/2">
+                    <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
                         <img :src="ServiceItems[6].img" alt="">
                     </div>
                 </div>
@@ -129,6 +129,7 @@ const ServiceItems = [{
 </script>
 
 <script scoped>
+import 'animate.css';
 
 export default {
     data: () => {

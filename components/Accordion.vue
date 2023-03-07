@@ -13,7 +13,7 @@
             <div class="accordion-header" @click="toggleItem(index)">
                 <h2 class="service-item font_Airborne text-2xl text-right">{{ item.title }}</h2>
             </div>
-            <div class="accordion-body" v-if="item.expanded">
+            <div class="accordion-body animate__animated animate__backInLeft" v-if="item.expanded">
                 <img :src="item.img" alt="">
                 <p class="text-base mt-5">{{ item.desc }}</p>
             </div>
@@ -91,7 +91,7 @@ export default {
 <style scoped>
 
 .service-item:hover {
-    background: linear-gradient(180deg, #FF2BFF 0%, #FE7C3C 43.23%, #FE9402 100%);
+    background: linear-gradient(180deg, #FF2BFF 0%, #FE9402 100%);
     color: transparent;
     background-clip: text;
     transition: all 0.3s;
