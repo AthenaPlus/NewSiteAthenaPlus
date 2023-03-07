@@ -11,7 +11,7 @@ useHead({
     <section class="text-gray-100 body-font">
         <ContentDoc :path="$route.path" v-slot="{ doc }">
             <div class="relative container mx-auto">
-                <div class="absolute z-0 h-full w-full">
+                <div class="absolute z-0 h-full w-full top-[60px]">
                     <img v-if="doc.img" :src="doc.img" :alt="doc.title" class="absolute z-0 h-full w-full object-cover" />
                     <img v-else src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_384,w_1740/v1663655906/CHEF%20BREAKFAST/Baner8_Left_sp2git.webp" class="absolute z-0 h-full w-full object-cover" />
                 </div>
