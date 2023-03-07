@@ -34,12 +34,12 @@ useHead({
       src: '/js/animeTextScroll.js',
       body: true
     },
+    {
+      src: '/js/yandex.js',
+      body: true
+    },
   ],
 
 })
 
-// const nuxtApp = useNuxtApp()
-//   nuxtApp.hook("page:finish", () => {
-//      window.scrollTo(0, 0)
-//   })
 </script>
