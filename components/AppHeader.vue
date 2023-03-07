@@ -35,10 +35,12 @@
                 </Nuxt-link>
             </div>
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
-                <div class=" my-auto"><a href="tel: +77753938855"
-                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out">+7
-                        (775) 393
-                        8855</a></div>
+                <div class=" my-auto">
+                    <a data-menuanchor="order" href="#order"
+                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out uppercase">
+                        Заявка
+                    </a>
+                </div>
                 <!-- Icons -->
                 <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-5">
                     <a href="https://t.me/AthenaPlus" target="_blank" class="text-gray-100 link-to-svg mr-9">
