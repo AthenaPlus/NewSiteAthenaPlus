@@ -57,7 +57,7 @@ const AboutItems = [
         title: 'опыта'
     },
     {
-        subTitle: 'нас 15',
+        subTitle: 'нас 11',
         title: 'людей'
     }
 ]
