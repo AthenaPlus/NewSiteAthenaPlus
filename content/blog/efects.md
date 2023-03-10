@@ -2,7 +2,7 @@
 title: Эфективная стратегия
 description: В XXI веке, разработка сайта - это только маленький шажок в увеличении продаж. Успех в digital зависит от контента на вашем сайте.
 category: web developing
-date: 2023-09-09
+date: 2023-03-09
 author: Ali-Sultan
 img: /img/GudSite.png
 ---
