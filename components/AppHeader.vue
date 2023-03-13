@@ -28,18 +28,27 @@
                 <div class="w-2 h-8 md:h-14 md:w-10">
                     <!-- Резерв для кнопки -->
                 </div>
-                <Nuxt-link to="/#top">
+                <a v-if="$route.path === '/'"  data-menuanchor="top" href="#top">
                     <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
                             class="text-gradient">plus</span>
                     </h1>
-                </Nuxt-link>
+                </a>
+                <Nuxt-Link v-else data-menuanchor="top" to="/">
+                    <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
+                            class="text-gradient">plus</span>
+                    </h1>
+                </Nuxt-Link>
             </div>
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto">
-                    <Nuxt-link data-menuanchor="order" href="/#order"
-                        class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out uppercase">
+                    <a  data-menuanchor="order" href="#order" v-if="$route.path === '/'" 
+                        class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
                         Заявка
-                    </Nuxt-link>
+                    </a>
+                    <Nuxt-Link v-else data-menuanchor="order" to="/#order"
+                        class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
+                        Заявка
+                    </Nuxt-Link>
                 </div>
                 <!-- Icons -->
                 <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-5">
@@ -451,16 +460,21 @@ export default {
 a { 
     cursor: pointer;
 }
-
 .order-title {
     font-size: 20px;
     letter-spacing: 15px;
 }
 
-@media (min-width: 200px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
     .order-title {
         font-size: 14px;
         letter-spacing: 10px;
+    }
+}
+@media (max-width: 344px) {
+    .order-title {
+        font-size: 10px;
+        letter-spacing: 5px;
     }
 }
 /* .Link:before {
