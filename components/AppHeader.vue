@@ -28,16 +28,25 @@
                 <div class="w-2 h-8 md:h-14 md:w-10">
                     <!-- Резерв для кнопки -->
                 </div>
-                <Nuxt-link to="/#top">
+                <a v-if="$route.path === '/'"  data-menuanchor="top" href="#top">
                     <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
                             class="text-gradient">plus</span>
                     </h1>
-                </Nuxt-link>
+                </a>
+                <Nuxt-Link v-else data-menuanchor="top" to="/">
+                    <h1 class="ml_18 pl_18 text-xl md:text-[34px] uppercase border_l_1">Athena <span
+                            class="text-gradient">plus</span>
+                    </h1>
+                </Nuxt-Link>
             </div>
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto">
-                    <Nuxt-Link data-menuanchor="order" to="/#order"
-                        class="Source_Sans_Pro text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
+                    <a  data-menuanchor="order" href="#order" v-if="$route.path === '/'" 
+                        class="font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
+                        Заявка
+                    </a>
+                    <Nuxt-Link v-else data-menuanchor="order" to="/#order"
+                        class="font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
                         Заявка
                     </Nuxt-Link>
                 </div>
