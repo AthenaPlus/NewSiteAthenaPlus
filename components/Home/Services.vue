@@ -68,13 +68,13 @@
                 </div>
             </div>
             <div class="service-items">
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show0">{{ ServiceItems[0].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show1">{{ ServiceItems[1].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show2">{{ ServiceItems[2].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show3">{{ ServiceItems[3].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show4">{{ ServiceItems[4].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show5">{{ ServiceItems[5].title }}</p>
-                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show6">{{ ServiceItems[6].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show0('link0')" :class="activeLink === 'link0' ? 'active1' : ''">{{ ServiceItems[0].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show1('link1')" :class="activeLink === 'link1' ? 'active1' : ''">{{ ServiceItems[1].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show2('link2')" :class="activeLink === 'link2' ? 'active1' : ''">{{ ServiceItems[2].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show3('link3')" :class="activeLink === 'link3' ? 'active1' : ''">{{ ServiceItems[3].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show4('link4')" :class="activeLink === 'link4' ? 'active1' : ''">{{ ServiceItems[4].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show5('link5')" :class="activeLink === 'link5' ? 'active1' : ''">{{ ServiceItems[5].title }}</p>
+                <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-on:click="show6('link6')" :class="activeLink === 'link6' ? 'active1' : ''">{{ ServiceItems[6].title }}</p>
             </div>
         </div>
         <Accordion class="accordion-mobile py-20" />
@@ -141,76 +141,83 @@ export default {
             content4: false,
             content5: false,
             content6: false,
-            isActive: false
+            activeLink: 'link0'
         }
     },
     methods: {
-        show0() {
+        show0(link) {
             this.content0 = true,
                 this.content1 = false,
                 this.content2 = false,
                 this.content3 = false,
                 this.content4 = false,
                 this.content5 = false,
-                this.content6 = false
-        },
-        show1() {
+                this.content6 = false,
+                this.activeLink = link;
+            },
+        show1(link) {
             this.content0 = false,
                 this.content1 = true,
                 this.content2 = false,
                 this.content3 = false,
                 this.content4 = false,
                 this.content5 = false,
-                this.content6 = false
+                this.content6 = false,
+                this.activeLink = link;
         },
-        show2() {
+        show2(link) {
             this.content0 = false,
                 this.content1 = false,
                 this.content2 = true,
                 this.content3 = false,
                 this.content4 = false,
                 this.content5 = false,
-                this.content6 = false
+                this.content6 = false,
+                this.activeLink = link;
         }
         ,
-        show3() {
+        show3(link) {
             this.content0 = false,
                 this.content1 = false,
                 this.content2 = false,
                 this.content3 = true,
                 this.content4 = false,
                 this.content5 = false,
-                this.content6 = false
+                this.content6 = false,
+                this.activeLink = link;
         }
         ,
-        show4() {
+        show4(link) {
             this.content0 = false,
                 this.content1 = false,
                 this.content2 = false,
                 this.content3 = false,
                 this.content4 = true,
                 this.content5 = false,
-                this.content6 = false
+                this.content6 = false,
+                this.activeLink = link;
         }
         ,
-        show5() {
+        show5(link) {
             this.content0 = false,
                 this.content1 = false,
                 this.content2 = false,
                 this.content3 = false,
                 this.content4 = false,
                 this.content5 = true,
-                this.content6 = false
+                this.content6 = false,
+                this.activeLink = link;
         }
         ,
-        show6() {
+        show6(link) {
             this.content0 = false,
                 this.content1 = false,
                 this.content2 = false,
                 this.content3 = false,
                 this.content4 = false,
                 this.content5 = false,
-                this.content6 = true
+                this.content6 = true,
+                this.activeLink = link;
         }
     }
 }
@@ -225,7 +232,7 @@ export default {
     transition: all 0.3s;
 }
 
-.service-item .active {
+.active1 {
     background: linear-gradient(180deg, #FF2BFF 0%, #FE7C3C 43.23%, #FE9402 100%);
     color: transparent;
     background-clip: text;
