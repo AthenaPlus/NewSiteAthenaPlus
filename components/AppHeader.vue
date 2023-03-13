@@ -42,11 +42,11 @@
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto">
                     <a  data-menuanchor="order" href="#order" v-if="$route.path === '/'" 
-                        class="font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
+                        class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
                         Заявка
                     </a>
                     <Nuxt-Link v-else data-menuanchor="order" to="/#order"
-                        class="font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
+                        class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out tracking-[0.06em] uppercase">
                         Заявка
                     </Nuxt-Link>
                 </div>
@@ -459,6 +459,23 @@ export default {
 
 a { 
     cursor: pointer;
+}
+.order-title {
+    font-size: 20px;
+    letter-spacing: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .order-title {
+        font-size: 14px;
+        letter-spacing: 10px;
+    }
+}
+@media (max-width: 344px) {
+    .order-title {
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
 }
 /* .Link:before {
 	content:" ";
