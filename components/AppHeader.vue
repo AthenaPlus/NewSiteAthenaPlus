@@ -36,10 +36,10 @@
             </div>
             <div class="flex flex-initial border_l_1 h-10 md:h-[51px] pl-4">
                 <div class=" my-auto">
-                    <a data-menuanchor="order" href="#order"
+                    <Nuxt-link data-menuanchor="order" href="/#order"
                         class="order-title font_Airborne text-sm md:text-2xl link-gradient transition duration-700 ease-in-out uppercase">
                         Заявка
-                    </a>
+                    </Nuxt-link>
                 </div>
                 <!-- Icons -->
                 <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-5">
