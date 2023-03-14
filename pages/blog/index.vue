@@ -59,7 +59,7 @@ import { convertDate } from '~/assets/utils/index'
 
 
 useHead({
-  title: 'My Blog',
+  title: 'Блог',
   meta: [
     { name: 'description', content: 'Веб-Сайты UX/UI Айдентика Разработка и дизайн сайтов опережающих тренды Современный дизайн, инновационная технология, результативный маркетинг - все это в нашей веб-студии' }
   ],
