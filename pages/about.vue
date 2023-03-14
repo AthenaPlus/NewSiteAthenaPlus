@@ -17,7 +17,7 @@
             <!-- Блок  НАШЕ АГЕНСТВО -->
             <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 py-10  md:pt-[50px] md:pb-10">
                 <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агенство</h3>
+                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Наше агентство</h3>
                 </div>
                 <div class="w-full lg:w-2/3">
                     <div class="grid grid-flow-col-1 md:grid-cols-2 gap-5  md:gap-[75px]">
