@@ -12,9 +12,9 @@
 
 <script setup>
 useHead({
-    title: 'Создаем проекты нового формата',
+    title: 'Разработка IT-Решений Нового Формата | Алматы, Athena Plus Digital',
     meta: [
-        { name: 'description', content: 'Креативные IT-решения на основе глубокой аналитики рынка. ' }
+        { name: 'description', content: 'Креативные IT-Решения на основе глубокой аналитики рынка. ' }
     ],
 })
 </script>
