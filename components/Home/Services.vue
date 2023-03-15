@@ -1,8 +1,8 @@
 <template>
     <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="service-main flex sm:w-11/12  lg:w-5/6 mx-auto justify-end my-20">
+        <div class="service-main flex sm:w-full sm:px-6  lg:w-5/6 mx-auto justify-end my-20">
             <div class="mr-20 overflow-hidden">
-                    <div class="w-full" v-show="content0">
+                    <div class="w-full">
                         <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
                             <span class="font-light">—</span> Каждый проект
                         </h2>
