@@ -1,6 +1,6 @@
 <template>
     <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5 xl:ml-20 2xl:ml-5">
+        <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5 xl:ml-20 2xl:ml-5 xl:my-20 2xl:my-0">
             <div class="sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto">
                 <div class="2xl:w-2/3 xl:mx-auto">
                     <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
@@ -22,7 +22,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="/about" class="btn1 btn btn--shadow px-20 2xl:px-32">Больше о нас</a>
+                    <a href="#" class="btn1 btn btn--shadow px-20 2xl:px-32">Больше о нас</a>
                 </div>
             </div>
             <div class="gallery 2xl:w-1/2 lg:w-7/12 sm:w-1/2 pl-5 xl:pl-10 2xl:pl-0 overflow-hidden">
