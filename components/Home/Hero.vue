@@ -13,8 +13,7 @@
                         HeroDescription
                     }}</p>
                     <div class="md:mr-auto md:mt-[25px] sbm">
-                        <a data-menuanchor="order" href="#order" class="btn btn--shadow mx-auto"><span class="mx-auto">Записаться
-                            на Интервью</span></a>
+                        <a data-menuanchor="order" href="#order" class="btn btn--shadow mx-auto"><span class="mx-auto">Обсудить проект</span></a>
                     </div>
                     <!-- <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
                         <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
