@@ -29,7 +29,7 @@ useHead({
           navigation: 'true',
           scrollOverflow: true,
           scrollBar: false,
-          anchors: ['top', 'about', 'services'  , 'order'],
+          anchors: ['top', 'about', 'services', 'order'],
         },
       }
     },
