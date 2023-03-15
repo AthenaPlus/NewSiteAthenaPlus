@@ -8,7 +8,7 @@
 
 <script setup>
 useHead({
-  title: 'Athena Plus Разработка и дизайн сайтов',
+  title: 'Athena Plus Разработка и Дизайн Сайтов',
   htmlAttrs: {
       lang: 'ru',
     },
