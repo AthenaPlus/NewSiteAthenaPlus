@@ -3,6 +3,7 @@
         <div class="w-full mb-5 overflow-hidden">
             <h2 class="font_Airborne text-3xl anime__left1">
                 <span class="font-light">—</span> Каждый проект
+                
             </h2> 
             <h2
                 class="font_Airborne text-base ml-36 anime__right1">

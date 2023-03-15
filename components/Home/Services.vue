@@ -28,7 +28,7 @@
                     </div>
                     <div class="w-full" v-show="content3">
                         <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[3].title1 }}
+                            <span class="font-light ">—</span> {{ ServiceItems[3].title1 }}
                         </h2>
                         <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
                             {{ ServiceItems[3].title2 }}

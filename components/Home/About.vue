@@ -22,7 +22,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn1 btn btn--shadow px-20 2xl:px-32">Больше о нас</a>
+                    <a href="#" class="btn1 btn btn--shadow px-20 2xl:px-32"> Больше о нас</a>
                 </div>
             </div>
             <div class="gallery 2xl:w-1/2 lg:w-7/12 sm:w-1/2 pl-5 xl:pl-10 2xl:pl-0 overflow-hidden">
