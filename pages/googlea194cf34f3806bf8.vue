@@ -1,0 +1,5 @@
+<template>
+    <div>
+        google-site-verification: googlea194cf34f3806bf8.html
+    </div>
+</template>
