@@ -10,54 +10,6 @@
                             {{ ServiceItems[0].title2 }}
                         </h2>
                     </div>
-                    <div class="w-full" v-show="content1">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[1].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[1].title2 }}
-                        </h2>
-                    </div>
-                    <div class="w-full" v-show="content2">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[2].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[2].title2 }}
-                        </h2>
-                    </div>
-                    <div class="w-full" v-show="content3">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[3].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[3].title2 }}
-                        </h2>
-                    </div>
-                    <div class="w-full" v-show="content4">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[4].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[4].title2 }}
-                        </h2>
-                    </div>
-                    <div class="w-full" v-show="content5">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[0].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[0].title2 }}
-                        </h2>
-                    </div>
-                    <div class="w-full" v-show="content6">
-                        <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[5].title1 }}
-                        </h2>
-                        <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[5].title2 }}
-                        </h2>
-                    </div>
                 <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content0">
                     <div class="md:w-4/5 lg:w-2/5 order-last lg:order-first">
                         <p class="md:text-lg lg:text-base xl:text-xl">{{ ServiceItems[6].desc }}</p>
