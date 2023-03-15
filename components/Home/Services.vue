@@ -1,13 +1,13 @@
 <template>
     <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="service-main flex sm:w-11/12  lg:w-5/6 mx-auto justify-end my-20">
+        <div class="service-main flex sm:w-full sm:px-6  lg:w-5/6 mx-auto justify-end my-20">
             <div class="mr-20 overflow-hidden">
-                    <div class="w-full" v-show="content0">
+                    <div class="w-full">
                         <h2 class="font_Airborne sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-5 anime__left1">
-                            <span class="font-light">—</span> {{ ServiceItems[0].title1 }}
+                            <span class="font-light">—</span> Каждый проект
                         </h2>
                         <h2 class="font_Airborne sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl sm:ml-36 md:ml-44 lg:ml-64 xl:ml-80 2xl:ml-96 anime__right1">
-                            {{ ServiceItems[0].title2 }}
+                            как арт-объект
                         </h2>
                     </div>
                 <div class="flex flex-wrap lg:flex-nowrap justify-between items-end mt-10 lg:mt-32 animate__animated animate__backInLeft" v-show="content0">
@@ -85,56 +85,42 @@
 
 const ServiceItems = [{
     id: 1,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'Интервью',
     desc: 'Проводим съемку интервью в профессиональной фотостудии для создания лучшего продукта. Формируем концепцию будущего проекта. Определяем сильные стороны Вашей компании.',
     img: '/img/ServicePhoto1.png'
 },
 {
     id: 2,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'Анализ',
     desc: 'Исследуем конкурентов и их сильные стороны, проверяем рыночный потенциал, проводим опрос целевой аудитории. Строим аналитику и предоставляем картину рынка. ',
     img: '/img/ServicePhoto2.png'
 },
 {
     id: 3,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'Маркетинг',
     desc: 'Составляем стратегию для улучшения имиджа бренда и максимального коэффицента конверсии. Наш целевой порог - не менее 10%.',
     img: '/img/ServicePhoto3.png'
 },
 {
     id: 4,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'UX/UI',
     desc: 'Pixel-Perfect-подход от дизайнеров из лучших школ. Повышаем рентабельность проектов при помощи премиального UX/UI, интерактивности и геймификации.',
     img: '/img/ServicePhoto4.png'
 },
 {
     id: 6,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'MVP',
     desc: ' MVP-стадия для проверки гипотез на целевой аудитории. Разрабатываем продающий подход. Внедряем его в конечную версию проекта перед запуском.',
     img: '/img/ServicePhoto6.png'   
 },
 {
     id: 5,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'Разработка',
     desc: 'От вёрстки, до посадки на передовые языки программирования и фреймворки. Доводим проект до технического совершенства.',
     img: '/img/ServicePhoto5.png'
 },
 {
     id: 7,
-    title1: 'Каждый проект',
-    title2: 'как арт-объект',
     subTitle: 'Запуск',
     desc: 'Запускаем лучший продукт в нише, имеющий уникальную ценность. Доведя каждый элемент до совершенства, задаем стандарты рынка.',
     img: '/img/ServicePhoto7.png'

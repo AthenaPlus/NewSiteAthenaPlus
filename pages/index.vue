@@ -6,6 +6,7 @@
     <!-- <HomeAdvantage class="snap-start w-full min-h-screen section" /> -->
     <!-- <HomeServicesHero class="snap-start w-full min-h-screen section" /> -->
     <!-- <HomeProcessProjects class="snap-start w-full min-h-screen section" /> -->
+    <HomePartners class="snap-start w-full min-h-screen section" />
     <HomeOrderproject class="snap-start w-full min-h-screen section" />
   </full-page>
 </template>
@@ -29,7 +30,7 @@ useHead({
           navigation: 'true',
           scrollOverflow: true,
           scrollBar: false,
-          anchors: ['top', 'about', 'services', 'order'],
+          anchors: ['top', 'about', 'services', 'partners', 'order'],
         },
       }
     },
