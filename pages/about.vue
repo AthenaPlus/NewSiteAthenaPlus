@@ -4,7 +4,7 @@
             <!-- Блок СОВРЕМЕННАЯ ВЕБ СТУДИО -->
             <div class="flex flex-col lg:flex-row items-center gap-5 lg:gap-10 border-b-2 border-white/70 pb-10">
                 <div class="w-full lg:w-1/2">
-                    <h1 class="sticky top-14 uppercase text-[32px] leading-[40px] lg:text-[80px] lg:leading-[92px] animate__animated animate__fadeInLeft animate__delay-0.5s">Современная веб студио</h1>
+                    <h1 class="sticky top-14 uppercase text-[32px] leading-[40px] lg:text-[80px] lg:leading-[92px] animate__animated animate__fadeInLeft animate__delay-0.5s">Современная веб студия</h1>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <!-- <h2 class="font_Airborne uppercase text-[32px] md:text-[80px] mt-0 lg:mt-28 mb-10 md:mb-5">мы создаем <br
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <!-- Блок Лучшие работы -->
-            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
+            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
                 </div>
@@ -62,9 +62,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Блок Портфолио ссылки на картинки -->
-            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
+            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
                 <div class="w-full md:w-1/2">
                     <ul>
                         <li class="text-[40px] md:text-[70px] font_Airborne ">
@@ -84,7 +84,7 @@
                 <div class="w-full md:w-1/2">
                     <img src="/img/about_portfolio.jpg" alt="">
                 </div>
-            </div>
+            </div> -->
             <!-- Блок Команда -->
             <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
