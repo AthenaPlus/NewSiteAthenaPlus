@@ -462,13 +462,13 @@ a {
 }
 .order-title {
     font-size: 20px;
-    letter-spacing: 15px;
+    /* letter-spacing: 15px; */
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+/* @media (min-width: 300px) and (max-width: 500px) {
     .order-title {
         font-size: 14px;
-        letter-spacing: 10px;
+        letter-spacing: 5px;
     }
 }
 @media (max-width: 344px) {
@@ -476,7 +476,7 @@ a {
         font-size: 10px;
         letter-spacing: 5px;
     }
-}
+} */
 /* .Link:before {
 	content:" ";
 	position: absolute;
