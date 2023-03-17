@@ -1,7 +1,7 @@
 <template>
-    <section class="flex min-h-screen relative bg-no-repeat bg-left-top bg-cover lg:bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
+    <section class="mainer-block flex min-h-screen relative bg-no-repeat bg-left-top bg-cover lg:bg-[url('/img/mask/bg_freme__athena.png')] overflow-hidden">
         <div class="athena-mainer absolute hidden md:block top-0 left-0 bottom-0 bg-[#0B0B0B] w-[25%] z-5"></div>
-        <div class="athena absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat lg:bg-[url('/img/mask/Athena.png')] hidden md:block  md:w-[400px] md:h-[414px] lg:w-[500px] lg:h-[514px] xl:w-[650px] xl:h-[670px] 2xl:w-[800px] 2xl:h-[826px]">
+        <div class="athena absolute right-0 bottom-0 bg-right  bg-contain bg-no-repeat lg:bg-[url('/img/mask/Athena.png')] hidden md:block  md:w-[400px] md:h-[414px] lg:w-[500px] lg:h-[514px] xl:w-[650px] xl:h-[670px] 2xl:w-[800px] 2xl:h-[826px] z-30">
             <img src="/img/mask/Lauot3.png" alt="" class="mask">
             <img src="/img/mask/Lauot4.png" alt="" class="absolute inset-0">
         </div>
@@ -40,15 +40,9 @@ useHead({
 
 <style scoped>
 @media (max-width: 1024px) {
-    .athena img {
-        display: none;
+    .mainer-block {
+        background: none;
     }
-    .thanks-mainer {
-        position: static;
-        margin: auto;
-    }
-}
-@media (max-width: 1023px) {
     .athena-mainer {
         display: none;
     }
@@ -63,4 +57,5 @@ useHead({
         margin: auto;
     }
 }
+
 </style>
