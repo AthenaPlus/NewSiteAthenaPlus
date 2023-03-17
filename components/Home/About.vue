@@ -37,7 +37,7 @@
                     <ellipse cx="1373.5" cy="50" rx="1373.5" ry="50" fill="#0B0B0B" />
                 </svg>
             </div>
-            <a href="/about" class="btn2 btn btn--shadow w-11/12 text-center mx-auto mt-10">Больше о нас</a>
+            <!-- <a href="/about" class="btn2 btn btn--shadow w-11/12 text-center mx-auto mt-10">Больше о нас</a> -->
         </div>
     </section>
 </template>
