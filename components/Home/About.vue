@@ -2,7 +2,7 @@
     <section class="text-gray-100 min-h-screen overflow-hidden">
         <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5 xl:ml-20 2xl:ml-5 xl:my-20 2xl:my-0">
             <div class="sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto">
-                <div class="2xl:w-2/3 xl:mx-auto">
+                <div class="text-block xl:mx-auto">
                     <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
                     <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы являемся самой прогрессивной
                         веб-студией
@@ -65,11 +65,11 @@ const AboutItems = [
 
 <style scoped>
 .AboutTitle {
-    font-family: 'Airborne';
+    font-family: 'Airborne', sans-serif;
 }
 
 .AboutSubtitle {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 svg:nth-child(1) {
@@ -94,7 +94,7 @@ svg:nth-child(1) {
     display: none;  
 }
 
-@media (min-width: 300px) and (max-width: 639px) {
+@media (min-width: 200px) and (max-width: 639px) {
     .about-main {
         margin-top: 120px;
         margin-bottom: 40px;
@@ -110,7 +110,10 @@ svg:nth-child(1) {
     }
 }
 
-@media (min-width: 640px) and (max-width: 1px) {
-
+@media (min-width: 1536px) {
+    .text-block {
+        width: 68%;
+    }
 }
+
 </style>
