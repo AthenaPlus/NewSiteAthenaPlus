@@ -1,12 +1,11 @@
 <template>
     <section  class="text-white  min-h-screen overflow-hidden">
-        <div class="container overflow-x-hidden mt-28 mb-10 mx-auto ">
-            <div class="px-5 sm:mb-20 min-[300px]:mb-10">
-                <h2 class="font_Airborne text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 anime__left1">Проекты в работе</h2>
+        <div class="container overflow-x-hidden mt-20 mb-10 mx-auto ">
+            <div class="px-5 sm:mb-20 min-[300px]:mb-5">
+                <h2 class="font_Airborne text-[28px] sm:text-[32px] md:text-7xl lg:text-[80px] md:leading-[92px] pt-5 md:my-5 animate__animated animate__fadeInLeft">Проекты в работе</h2>
             </div>
-            <div class="overflow-x-hidden px-3  ">
-
-                <div class="logo1 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-10">
+            <div class="overflow-x-hidden px-3">
+                <div class="logo1 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-10 cursor-pointer">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
                         <svg viewBox="0 0 300 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill1" x1="10" y1="50" x2="20"
@@ -33,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="logo2 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-10">
+                <div class="logo2 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-10 cursor-pointer">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
                         <svg viewBox="0 0 300 135" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill2" x1="10" y1="50" x2="20" y2="100" gradientUnits="userSpaceOnUse">
@@ -63,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="logo3 lg:flex items-center justify-between xl:mb-20 md:mb-10 sm:mb-5 mb-0">
+                <div class="logo3 lg:flex items-center justify-between xl:mb-20 md:mb-10 sm:mb-5 mb-0 cursor-pointer">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
                         <svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill3" x1="0" y1="50" x2="0" y2="100" gradientUnits="userSpaceOnUse">
@@ -85,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="logo4 lg:flex items-center justify-between xl:mb-20 md:mb-10 sm:mb-5 mb-0">
+                <div class="logo4 lg:flex items-center justify-between xl:mb-20 md:mb-10 sm:mb-5 mb-0 cursor-pointer">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
                         <svg width="160" height="160" viewBox="0 0 160 149" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-4/5">
                             <linearGradient id="gradient-fill4" x1="0" y1="20" x2="0" y2="200" gradientUnits="userSpaceOnUse">
@@ -112,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="logo5 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-5">
+                <div class="logo5 lg:flex items-center justify-between xl:mb-20 md:mb-10 mb-5 cursor-pointer">
                     <div class="min-[200px]:w-1/3 sm:w-1/4 lg:w-1/5 min-[200px]:my-3 sm:my-5">
                         <svg width="300" height="112" viewBox="0 0 300 112" fill="none" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer w-11/12">
                             <linearGradient id="gradient-fill5" x1="0" y1="10" x2="0" y2="50" gradientUnits="userSpaceOnUse">
@@ -158,10 +157,6 @@
 </template>
 
 <script setup>
-import IconUnion1 from '~/assets/icons/Union1.svg'
-import IconUnion2 from '~/assets/icons/Union2.svg'
-import IconUnion3 from '~/assets/icons/Union3.svg'
-
 const ProcessProjects = [
     {
         title: 'Интервью',
