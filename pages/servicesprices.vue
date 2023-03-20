@@ -1,6 +1,6 @@
 <template>
-    <ServicespricesWhatwedo/>
-
+    <!-- <ServicespricesWhatwedo/> -->
+    <HomeProcessProjects />
 </template>
 
 <script setup>
