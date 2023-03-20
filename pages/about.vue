@@ -86,7 +86,7 @@
                 </div>
             </div>
             <!-- Блок Команда -->
-            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
+            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
                 <div class="w-full lg:w-1/3">
                     <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
                 </div>
@@ -99,9 +99,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Блок Портфолио Команды -->
-            <SlaiderTeam/>
+            <!-- <SlaiderTeam/> -->
             <!-- ======================= -->
         </div>
     </section>
