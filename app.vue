@@ -38,6 +38,10 @@ useHead({
       src: '/js/yandex.js',
       body: true
     },
+    {
+      src: '/js/leadfeeder.js',
+      body: true
+    },
   ],
 
 })
