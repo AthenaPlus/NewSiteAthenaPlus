@@ -118,7 +118,7 @@
                     <IconArrowmenu class="ArrowMenu transition ease-in-out duration-300" />
                 </button>
                 <NuxtLink to="/servicesprices" @click="toggle"
-                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены </NuxtLink>
+                    class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Текущие работы </NuxtLink>
                 <button @click="clickContacts"
                     class="text-3xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link"
                     :class="[isOpenContacts ? 'Active' : '']">Контакты
@@ -136,7 +136,7 @@
                 <button  @click="clickPortfoliomob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Портфолио
                 </button>
                 <NuxtLink to="/servicesprices" @click="toggle"
-                    class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Услуги и цены</NuxtLink>
+                    class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Текущие работы</NuxtLink>
                 <button @click="clickContactsmob" class="text-xl py-[15px] uppercase flex items-center gap-4 Nuxt--Link">Контакты
                 </button>
             </nav>
