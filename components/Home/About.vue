@@ -4,9 +4,7 @@
             <div class="sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto">
                 <div class="2xl:w-2/3 xl:mx-auto">
                     <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
-                    <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы являемся самой прогрессивной
-                        веб-студией
-                        на казахстанском рынке </p>
+                    <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы создаем веб-продукты, выводящие бизнес на новый уровень </p>
                     <p class="AboutSubtitle 2xl:text-xl xl:text-lg md:text-base text-sm">Сотрудничество с нами гарантирует вам
                         приобретение лучшего диджитал-продукта. Мы
                         повышаем конверсию через дизайн.</p>
