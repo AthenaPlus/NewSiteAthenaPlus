@@ -69,17 +69,7 @@ export default {
                     title: 'Пайплайн',
                     blockDescription: 'Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
                 }
-            ],
-            isInfoPopupVisible: false,
-        }
-    },
-
-    methods: {
-        showPopupInfo(){
-            this.isInfoPopupVisible = true
-        },
-        closeInfoPopup() {
-            this.isInfoPopupVisible = false
+            ]
         }
     }
 }
