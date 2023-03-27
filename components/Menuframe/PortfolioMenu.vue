@@ -25,7 +25,7 @@ const items = ([
     {
         title: 'midas event',
         number: '#2',
-        toLink: '/cases/MidasCase'
+        toLink: '/MidasCase'
     },
     {
         title: 'як',  
@@ -35,7 +35,7 @@ const items = ([
     {
         title: 'navat',
         number: '#4',
-        toLink: '/cases/NavatCase'
+        toLink: '/NavatCase'
     },
     {
         title: '9Global',
@@ -45,7 +45,7 @@ const items = ([
     {
         title: 'Dostyk Trans Terminal',
         number: '#6',
-        toLink: '/cases/DTTCase'
+        toLink: '/DTTCase'
     },
 ])
 
