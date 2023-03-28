@@ -2,7 +2,7 @@
     <section class="text-white min-h-screen overflow-hidden">
         <div class="flex flex-col-reverse w-full sm:flex-row sm:w-11/12 mx-auto justify-between px-5 pb-12 mt-16 md:py-24">
             <div class="sm:w-2/5 lg:w-1/2 xl:w-2/5 sm:pr-5 lg:pr-10" v-for="case1 in cases" :key="case1">
-                <h2 class="font_Airborne hidden sm:block sm:text-4xl xl:text-5xl 2xl:text-7xl pb-1 md:pb-3 2xl:pb-5">Кейс:</h2>
+                <h2 class="font_Airborne hidden sm:block sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-1 md:pb-3 2xl:pb-5">Кейс:</h2>
                 <h3 class="sm:text-2xl hidden sm:block 2xl:text-3xl pb-1 md:pb-3 lg:pb-5 2xl:pb-10">{{ case1.title }}</h3>
                 <p class="hidden sm:block sm:text-xs md:text-sm 2xl:text-lg pb-1 md:pb-5 2xl:pb-10">{{ case1.desc }}</p>
                 <div class="flex sm:block my-5">
