@@ -7,11 +7,11 @@
                 <p class="hidden sm:block sm:text-xs md:text-sm 2xl:text-lg pb-1 md:pb-5 2xl:pb-10">{{ case1.desc }}</p>
                 <div class="flex sm:block my-5">
                     <h3 class="md:text-lg xl:text-xl md:pb-3 pr-3">Ссылка:</h3>
-                    <a href="somelandingpage.kz" class="font-normal underline">www.somelandingpage.kz</a>
+                    <a href="midasevent.kz" class="font-normal underline">www.midasevent.kz</a>
                 </div>
                 <div class="flex sm:block items-center">
                     <h3 class="md:text-lg xl:text-xl sm:pt-5 2xl:pt-10 pr-3">Шрифты:</h3>
-                    <p class="font-normal sm:pt-3">Название шрифта</p>
+                    <p class="font-normal sm:pt-3">Oswald/NunitoSans</p>
                 </div>
                 <h3 class="md:text-lg xl:text-xl pt-5 2xl:pt-10 pb-3">Цвета:</h3>
                 <div class="flex mr-5">
