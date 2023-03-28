@@ -25,22 +25,27 @@ const items = ([
     {
         title: 'midas event',
         number: '#2',
-        toLink: '/development'
+        toLink: '/MidasCase'
     },
     {
-        title: 'як',
+        title: 'як',  
         number: '#3',
         toLink: '/development'
     },
     {
-        title: '9Global',
+        title: 'navat',
         number: '#4',
+        toLink: '/NavatCase'
+    },
+    {
+        title: '9Global',
+        number: '#5',
         toLink: '/development'
     },
     {
         title: 'Dostyk Trans Terminal',
-        number: '#5',
-        toLink: '/development'
+        number: '#6',
+        toLink: '/DTTCase'
     },
 ])
 
