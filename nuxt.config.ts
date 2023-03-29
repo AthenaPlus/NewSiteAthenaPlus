@@ -43,6 +43,20 @@ export default defineNuxtConfig({
 
     build: {
       
+    },
+    buildModules: [
+      '@nuxtjs/tailwindcss'
+    ],
+    tailwindcss: {
+      config: {
+        theme: {
+          extend: {
+            screens: {
+              'xs': '400px'
+            }
+          }
+        }
+      }
     }
 
 })
