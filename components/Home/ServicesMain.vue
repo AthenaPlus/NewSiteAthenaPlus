@@ -1,7 +1,7 @@
 <template>
     <section
         class="text-white min-h-screen">
-        <div class="container mx-auto my-24 pl-2 md:pl-0 lg:my-20 sm:pl-5 lg:px-20 2xl:px-0 overflow-x-hidden">
+        <div class="container mx-auto my-24 md:pl-0 lg:my-20 sm:pl-5 lg:px-20 2xl:px-0 overflow-x-hidden">
             <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 px-3 md:px-0 anime__left1">Услуги</h2>
             <!-- <div v-for="item in items" :key="item">
                 <div class="lg:flex flex-wrap">
