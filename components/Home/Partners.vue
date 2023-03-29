@@ -1,7 +1,7 @@
 <template>
   <section class="text-white  min-h-screen overflow-hidden">
     <div class="my-20">
-      <div class="mainer w-5/6 mx-auto">
+      <div class="mainer w-5/6 mx-auto mr-3 sm:mr-0">
         <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl anime__left1">Наши партнеры</h2>
         <div class="logos my-10 2xl:my-16 items-center grid gap-x-12 gap-y-8 sm:grid-cols-3 sm:gap-x-16 sm:gap-y-10 md:gap-x-20 md:gap-y-16 lg:gap-x-36 lg:gap-y-24 2xl:gap-x-56 2xl:gap-y-36 sm:w-4/5 lg:w-5/6 mx-auto">
           <div>
