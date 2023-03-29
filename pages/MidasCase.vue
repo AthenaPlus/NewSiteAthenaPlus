@@ -16,27 +16,27 @@
                 <h3 class="md:text-lg xl:text-xl pt-5 2xl:pt-10 pb-3">Цвета:</h3>
                 <div class="flex mr-5">
                     <div>
-                        <p class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <p class="color-2 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-2 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <p class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <p class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <p class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <p class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></p>
+                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                 </div>
