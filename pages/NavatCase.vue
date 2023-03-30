@@ -51,7 +51,7 @@ export default {
         return {
             cases: [{
                 title: 'Navat',
-                desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+                desc: 'Navat — это лэндинг, предназначенный для того, чтобы донести аутентичный вкус среднеазиатской кухни до вашего порога. Специализируясь на блюдах в стиле «чайхана», Navat предлагает разнообразные вкусные блюда, вдохновленные богатыми кулинарными традициями Узбекистана, Таджикистана, Кыргызстана, Казахстана и других стран.',
                 img: '/img/NavatFrame.png'
             }]
         }
