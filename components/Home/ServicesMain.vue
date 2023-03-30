@@ -1,8 +1,9 @@
-<template>
+<!-- <template>
     <section
         class="text-white min-h-screen">
         <div class="container mx-auto my-24 md:pl-0 lg:my-20 sm:pl-5 lg:px-20 2xl:px-0 overflow-x-hidden">
             <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl text-3xl mb-5 xl:mb-8 px-3 md:px-0 anime__left1">Услуги</h2>
+<<<<<<< Updated upstream
             <div class="grid lg:grid-cols-2 gap-5 md:gap-12 2xl:gap-24">
                 <div v-for="(item, index) in items" :key="index"  @mousemove="handleMouseMove(index, $event)"  ref="itemRefs" class="relative">
                     <img :src="item.img" alt="" ref="imageRefs" />
@@ -215,6 +216,8 @@ p {
         class="text-white min-h-screen">
         <div class="container mx-auto my-24 md:pl-0 lg:my-20 sm:pl-5 lg:px-20 2xl:px-0 overflow-x-hidden">
             <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl text-3xl mb-5 xl:mb-8 px-3 md:px-0 anime__left1">Услуги</h2>
+=======
+>>>>>>> Stashed changes
             <div class="overflow-hidden">
                 <div class="lg:flex lg:justify-end">
                     <div class="md:py-2 lg:py-5 lg:pr-20"> 
