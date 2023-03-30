@@ -3,7 +3,7 @@
         <div class="about-main sm:flex justify-between items-center sm:mt-0 sm:mb-0 ml-5 md:ml-16 lg:ml-20 2xl:ml-5 xl:my-20 2xl:my-0">
             <div class="sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto">
                 <div class="text-block xl:mx-auto">
-                    <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
+                    <h2 class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-5xl text-3xl mb-5 xl:mb-8 anime__left1">О Веб-студии</h2>
                     <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы создаем веб-продукты, выводящие бизнес на новый уровень </p>
                     <p class="AboutSubtitle 2xl:text-xl xl:text-lg md:text-base text-sm">Сотрудничество с нами гарантирует вам
                         приобретение лучшего диджитал-продукта. Мы
@@ -12,10 +12,10 @@
                     <div class="flex justify-between flex-wrap py-5">
                         <div v-for="AboutItem in AboutItems" :key="AboutItem.index" class="w-1/2 flex py-5">
                             <div class="mt-3 mr-5">
-                                <p class="SubTitle text-2xl">&#9658;</p>
+                                <img src="/img/Arrow.png" alt="">
                             </div>
                             <div class="AboutSubtitle">
-                                <p class="SubTitle 2xl:text-4xl md:text-2xl text-xl font-semibold">{{ AboutItem.subTitle }}</p>
+                                <p class="2xl:text-4xl md:text-2xl text-xl font-semibold">{{ AboutItem.subTitle }}</p>
                                 <p class="2xl:text-xl md:text-base text-sm">{{ AboutItem.title }}</p>
                             </div>
                         </div>
