@@ -1,9 +1,9 @@
 <template>
     <div class="overflow-hidden">
         <div class="lg:flex lg:justify-end">
-            <div v-for="(item, index) in items" :key="index" class="md:py-2 lg:py-5 lg:pr-20 photo-effect" ref="itemRefs"
+            <div v-for="(item, index) in items" :key="index" class="md:py-2 lg:py-5 lg:pr-20" ref="itemRefs"
                 @mousemove="handleMouseMove(index, $event)">
-                <img :src="item.img" alt="" class="photo-effect__img" ref="imageRefs" />
+                <img :src="item.img" alt="" class="" ref="imageRefs" />
                 <div
                     class="item-div relative bottom-8 left-3 xs:bottom-10 sm:bottom-14 sm:left-10 md:bottom-16 lg:left-0 lg:bottom-20 lg:pt-3 xl:pt-0 xl:bottom-20 2xl:bottom-24">
                     <p
@@ -51,11 +51,12 @@ export default {
             const width = boundingRect.width;
             const height = boundingRect.height;
 
-            const xAxis = (width / 2 - mouseX) / 25;
-            const yAxis = (height / 2 - mouseY) / 25;
+            const xAxis = (width / 2 - mouseX) / 20;
+            const yAxis = (height / 2 - mouseY) / 20;
 
             imageRef.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
         },
+
     },
 }
 </script>
