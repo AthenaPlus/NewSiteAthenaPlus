@@ -12,10 +12,10 @@
                     <div class="flex justify-between flex-wrap py-5">
                         <div v-for="AboutItem in AboutItems" :key="AboutItem.index" class="w-1/2 flex py-5">
                             <div class="mt-3 mr-5">
-                                <p class="SubTitle text-2xl">&#9658;</p>
+                                <img src="/img/Arrow.png" alt="">
                             </div>
                             <div class="AboutSubtitle">
-                                <p class="SubTitle 2xl:text-4xl md:text-2xl text-xl font-semibold">{{ AboutItem.subTitle }}</p>
+                                <p class="2xl:text-4xl md:text-2xl text-xl font-semibold">{{ AboutItem.subTitle }}</p>
                                 <p class="2xl:text-xl md:text-base text-sm">{{ AboutItem.title }}</p>
                             </div>
                         </div>
