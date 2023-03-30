@@ -7,11 +7,11 @@
                 <p class="hidden sm:block sm:text-xs md:text-sm 2xl:text-lg pb-1 md:pb-5 2xl:pb-10">{{ case1.desc }}</p>
                 <div class="flex sm:block my-5">
                     <h3 class="md:text-lg xl:text-xl md:pb-3 pr-3">Ссылка:</h3>
-                    <a href="somelandingpage.kz" class="font-normal underline">www.somelandingpage.kz</a>
+                    <a href="https://newnavat.kz/" class="font-normal underline">https://newnavat.kz/</a>
                 </div>
                 <div class="flex sm:block items-center">
                     <h3 class="md:text-lg xl:text-xl sm:pt-5 2xl:pt-10 pr-3">Шрифты:</h3>
-                    <p class="font-normal sm:pt-3">Название шрифта</p>
+                    <p class="font-normal sm:pt-3">History Pro/Mazzard</p>
                 </div>
                 <h3 class="md:text-lg xl:text-xl pt-5 2xl:pt-10 pb-3">Цвета:</h3>
                 <div class="flex mr-5">
@@ -24,19 +24,19 @@
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <div class="color-3 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <div class="color-4 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <div class="color-5 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <div class="color-6 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                 </div>
