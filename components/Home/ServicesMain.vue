@@ -10,15 +10,15 @@
             </div> -->
             <div class="overflow-hidden">
                 <div class="lg:flex lg:justify-end">
-                    <div class="md:py-2 lg:py-5 lg:pr-20"> 
-                        <img :src="items[0].img" alt="">
+                    <div class="md:py-2 lg:py-5 lg:pr-20 photo-effect" :class="items[0].classT"> 
+                        <img :src="items[0].img" alt="" class="photo-effect__img">
                         <div class="item-div relative bottom-8 left-3 xs:bottom-10 sm:bottom-14 sm:left-10 md:bottom-16 lg:left-0 lg:bottom-20 lg:pt-3 xl:pt-0 xl:bottom-20 2xl:bottom-24">
                             <p class="item-title text-lg sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl font_Airborne lg:p-7">{{ items[0].title }}</p>
                         </div>
                     </div>
-                    <div class="lg:flex lg:justify-end">
+                    <div class="lg:flex lg:justify-end photo-effect">
                         <div class="md:py-2 lg:py-5 float-right lg:float-none"> 
-                            <img :src="items[1].img" alt="" class="lg:w-full w-11/12 float-right lg:float-none">
+                            <img :src="items[1].img" alt="" class="lg:w-full w-11/12 float-right lg:float-none photo-effect__img">
                             <div class="item-div relative bottom-9 left-10 xs:bottom-10 sm:bottom-14 sm:left-24 md:bottom-16 md:pt-5 lg:bottom-20 lg:left-0 lg:pt-3 xl:pt-0 xl:bottom-20 2xl:bottom-24">
                                 <p class="item-title1 text-lg sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl font_Airborne lg:p-7">{{ items[1].title }}</p>
                             </div>
@@ -68,7 +68,8 @@ export default {
         return { 
             items: [{
                 title: 'Мобильные приложения',
-                img: '/img/ServiceImg1.png'
+                img: '/img/ServiceImg1.png',
+                classT: 'testClass'
             },
             {
                 title: 'Сайты',
@@ -94,6 +95,7 @@ export default {
         }
     }
 }
+
 
 </script>
 

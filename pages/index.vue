@@ -1,5 +1,4 @@
 <template>
-  <full-page ref="fullpage" :options="options">
     <HomeHero class="snap-start w-full min-h-screen section" />
     <HomeServicesMain class="snap-start w-full min-h-screen section" />
     <HomeAbout class="snap-start w-full min-h-screen section" />
@@ -9,7 +8,6 @@
     <!-- <HomeProcessProjects class="snap-start w-full min-h-screen section" /> -->
     <HomePartners class="snap-start w-full min-h-screen section" />
     <HomeOrderproject class="snap-start w-full min-h-screen section" />
-  </full-page>
 </template>
 
 <script setup>
