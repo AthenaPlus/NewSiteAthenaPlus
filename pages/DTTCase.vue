@@ -7,7 +7,7 @@
                 <p class="hidden sm:block sm:text-xs md:text-sm 2xl:text-lg pb-1 md:pb-5 2xl:pb-10">{{ case1.desc }}</p>
                 <div class="flex sm:block my-5">
                     <h3 class="md:text-lg xl:text-xl md:pb-3 pr-3">Ссылка:</h3>
-                    <a href="https://dostyk-trans-terminal.netlify.app/#About" class="font-normal underline">https://dostyk-trans-terminal.netlify.app/#About</a>
+                    <a href="https://dostyk-trans-terminal.netlify.app/" class="font-normal underline">https://dostyk-trans-terminal.netlify.app/</a>
                 </div>
                 <div class="flex sm:block items-center">
                     <h3 class="md:text-lg xl:text-xl sm:pt-5 2xl:pt-10 pr-3">Шрифты:</h3>
