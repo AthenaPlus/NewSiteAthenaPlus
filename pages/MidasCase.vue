@@ -17,7 +17,7 @@
                 <div class="flex mr-5">
                     <div>
                         <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
+                        <p class="text-[10px] sm:text-lg">#FFFFFF</p>
                     </div>
                     <div>
                         <div class="color-2 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
@@ -25,7 +25,7 @@
                     </div>
                     <div>
                         <div class="color-3 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
+                        <p class="text-[10px] sm:text-lg">#DAB600</p>
                     </div>
                 </div>
             </div>
