@@ -63,7 +63,7 @@ export default {
             blocks: [
                 {
                     title: 'Фреймворк',
-                    blockDescription: 'Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+                    blockDescription: 'Vue3 — это современная и очень гибкая среда JavaScript, которая предоставляет разработчикам мощный набор инструментов для создания сложных и динамических пользовательских интерфейсов. Благодаря модульной архитектуре, реактивной привязке данных и упрощенному синтаксису Vue3 позволяет разработчикам с легкостью создавать элегантные и эффективные веб-приложения. В частности, Composition API Vue3 упрощает процесс управления состоянием и логикой в ​​крупномасштабных приложениях, что делает его идеальным выбором для таких проектов, как NewNavat, требующих высокой степени интерактивности и скорости отклика. '
                 },
                 {
                     title: 'Пайплайн',
