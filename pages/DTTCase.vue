@@ -11,33 +11,29 @@
                 </div>
                 <div class="flex sm:block items-center">
                     <h3 class="md:text-lg xl:text-xl sm:pt-5 2xl:pt-10 pr-3">Шрифты:</h3>
-                    <p class="font-normal sm:pt-3">Название шрифта</p>
+                    <p class="font-normal sm:pt-3">Nunito Sans/</p>
                 </div>
                 <h3 class="md:text-lg xl:text-xl pt-5 2xl:pt-10 pb-3">Цвета:</h3>
                 <div class="flex mr-5">
                     <div>
                         <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
+                        <p class="text-[10px] sm:text-lg">#FFFFFF</p>
                     </div>
                     <div>
                         <div class="color-2 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <p class="text-[10px] sm:text-lg">#007DD7</p>
+                    </div>
+                    <div>
+                        <div class="color-3 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <p class="text-[10px] sm:text-lg">#FFBB00</p>
+                    </div>
+                    <div>
+                        <div class="color-4 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
                     <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
-                    <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
-                    <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
-                    <div>
-                        <div class="color-1 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
+                        <div class="color-5 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
+                        <p class="text-[10px] sm:text-lg">#00FED8</p>
                     </div>
                 </div>
             </div>
@@ -59,7 +55,7 @@ export default {
         return {
             cases: [{
                 title: 'Dostyk Trans Terminal',
-                desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+                desc: 'Dostyk Trans Terminal - модерн-терминал на границе "Достык - Алашанькоу" предоставляет ряд высококачественных услуг, от стандартного хранения контейнеров и перегруза, до сложнореализуемых операций.',
                 img: '/img/DTTFrame.png'
             }]
         }
@@ -69,9 +65,18 @@ export default {
 
 <style scoped>
 .color-1 {
-    background: #D9D9D9;
+    background: #FFFFFF;
 }
 .color-2 {
-    background: #AB6949;
+    background: #007DD7;
+}
+.color-3 {
+    background: #FFBB00;
+}
+.color-4 {
+    background: #000000;
+}
+.color-5 {
+    background: #00FED8;
 }
 </style>
