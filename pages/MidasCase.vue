@@ -27,18 +27,6 @@
                         <div class="color-3 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
                         <p class="text-[10px] sm:text-lg">#000000</p>
                     </div>
-                    <div>
-                        <div class="color-4 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
-                    <div>
-                        <div class="color-5 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
-                    <div>
-                        <div class="color-6 w-5 h-5 sm:w-12 sm:h-12 2xl:w-16 2xl:h-16 rounded-full ml-[3px] mr-6 sm:mr-5 mb-2"></div>
-                        <p class="text-[10px] sm:text-lg">#000000</p>
-                    </div>
                 </div>
             </div>
             <div class="lg:pl-10 order-1" v-for="case1 in cases" :key="case1">
@@ -69,9 +57,12 @@ export default {
 
 <style scoped>
 .color-1 {
-    background: #D9D9D9;
+    background: #FFFFFF;
 }
 .color-2 {
-    background: #AB6949;
+    background: #000000;
+}
+.color-3 {
+    background: #DAB600;
 }
 </style>
