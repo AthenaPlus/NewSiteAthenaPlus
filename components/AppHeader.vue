@@ -151,10 +151,10 @@
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
-                <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
+                <NuxtLink to="/privacy" @click="toggle" :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
                     class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64 sm:w-96 hover:underline cursor-pointer">
                     ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
-                </p>
+                </NuxtLink>
             </div>
         </div>
         <!-- Menuframe SubMenu for Disctop -->

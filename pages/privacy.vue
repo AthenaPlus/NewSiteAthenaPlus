@@ -1,9 +1,9 @@
 <template>
     <section class="text-white min-h-screen overflow-hidden">
-        <div class="w-full sm:flex-row sm:w-11/12 mx-auto justify-between px-5 pb-12 mt-16 md:py-20 2xl:py-24"> 
+        <div class="w-full sm:flex-row sm:w-11/12 mx-auto justify-between px-5 pb-12 mt-16 py-5 md:py-20 2xl:py-24"> 
             <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl sm:text-3xl text-2xl">политика конфиденциальности</h2>
             <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl sm:text-3xl text-2xl pt-1 pb-3  md:pt-5 md:pb-10">Athena Plus</h2>
-            <h3 class="text-base sm:text-xl xl:text-3xl 2xl:text-4xl font-normal w-full md:w-5/12 pb-5 md:pb-16">Ваша конфиденциальность важна для нас, и мы подготовили эту Политику конфиденциальности, чтобы объяснить вам, как мы собираем, используем и передаем вашу личную информацию.</h3>
+            <h3 class="text-base sm:text-xl xl:text-3xl 2xl:text-4xl font-normal w-full lg:w-5/12 pb-5 md:pb-16">Ваша конфиденциальность важна для нас, и мы подготовили эту Политику конфиденциальности, чтобы объяснить вам, как мы собираем, используем и передаем вашу личную информацию.</h3>
             <div v-for="(rule, index) in rules" :key="index" class="md:flex justify-between">
                 <ol class="md:w-1/2 text-xl xl:text-3xl pb-3">
                     <li>{{ rule.title }}</li>
