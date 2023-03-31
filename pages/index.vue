@@ -9,6 +9,7 @@
     <!-- <HomeProcessProjects class="snap-start w-full min-h-screen section" /> -->
     <HomePartners class="snap-start w-full min-h-screen section" />
     <HomeOrderproject class="snap-start w-full min-h-screen section" />
+    <CookieBanner />
   </full-page>
 </template>
 
