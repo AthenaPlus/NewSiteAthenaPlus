@@ -1,6 +1,6 @@
 <template>
     <section id="signInterview"
-        class="text-white body-font relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-contain md:bg-cover z-0">
+        class="mainClass text-white body-font relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] bg-[url('/img/bg_ServicesHero.webp')] md:bg-none bg-no-repeat bg-top bg-contain md:bg-cover z-0  ">
         <div class="container px-5 py-16  md:py-24 mx-auto overflow-x-hidden">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="text-[32px] SuperTitle text-left md:mt-16 anime__left1">Есть проект?</h1>
@@ -169,7 +169,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .SuperTitle {
     font-family: 'Airborne';
     font-style: normal;
@@ -251,6 +251,12 @@ export default {
         line-height: 161px;
 
         color: #FFFFFF;
+    }
+     .mainClass {
+        background: url('/img/City.png'), url('/img/Sun.png');
+        background-repeat: no-repeat;
+        background-position: bottom, 50% 40%;
+        background-size: auto, auto;
     }
 }
 </style>
