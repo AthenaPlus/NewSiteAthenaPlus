@@ -4,7 +4,7 @@ description: В XXI веке, разработка сайта - это толь�
 category: web developing
 date: 2023-03-09
 author: Ali-Sultan
-img: /img/mvp.png
+img: /img/GudSite.png
 ---
 
 <!-- more -->
