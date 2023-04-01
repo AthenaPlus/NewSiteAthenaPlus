@@ -252,11 +252,11 @@ export default {
 
         color: #FFFFFF;
     }
-     .mainClass {
+     /* .mainClass {
         background: url('/img/City.png'), url('/img/Sun.png');
         background-repeat: no-repeat;
         background-position: bottom, 50% 40%;
         background-size: auto, auto;
-    }
+    } */
 }
 </style>
