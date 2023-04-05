@@ -1,16 +1,16 @@
 <template>
-  <full-page ref="fullpage" :options="options">
-    <HomeHero class="snap-start w-full min-h-screen section" />
-    <HomeServicesMain class="snap-start w-full min-h-screen section" />
-    <HomeAbout class="snap-start w-full min-h-screen section" />
-    <HomeServices class="snap-start w-full min-h-screen section" />
+  <div ref="fullpage" :options="options">
+    <HomeHero class="snap-start w-full section" />
+    <HomeServicesMain class="snap-start px-5 sm:px-0 py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 w-full section" />
+    <HomeAbout class="snap-start w-full px-5 sm:px-0  py-12 md:min-h-0 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
+    <HomeServices class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
     <!-- <HomeAdvantage class="snap-start w-full min-h-screen section" /> -->
     <!-- <HomeServicesHero class="snap-start w-full min-h-screen section" /> -->
     <!-- <HomeProcessProjects class="snap-start w-full min-h-screen section" /> -->
-    <HomePartners class="snap-start w-full min-h-screen section" />
-    <HomeOrderproject class="snap-start w-full min-h-screen section" />
+    <HomePartners class="snap-start w-full px-5 sm:px-0  sm:pt-14 md:pt-16 lg:pt-28 xl:pt-36 section" />
+    <HomeOrderproject class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
     <CookieBanner />
-  </full-page>
+  </div>
 </template>
 
 <script setup>

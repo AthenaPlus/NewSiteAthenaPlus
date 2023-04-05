@@ -1,6 +1,6 @@
 <template>
-    <section class="text-gray-100 min-h-screen overflow-hidden">
-        <div class="service-main flex sm:w-full sm:px-6  lg:w-5/6 mx-auto justify-end my-20">
+    <section class="text-gray-100 overflow-hidden">
+        <div class="service-main flex sm:w-full sm:container sm:px-5 py-0 mx-auto overflow-x-hidden">
             <div class="mr-20 overflow-hidden">
                 <transition name="fade">
                     <div class="w-full">
@@ -21,11 +21,11 @@
                     </div>
                 </div>
             </div>
-            <div class="service-items">
+            <div class="service-items sm:pr-5 md:pr-0">
                 <p class="service-item font_Airborne font-normal text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl pb-10 cursor-pointer" v-for="(item, index) in ServiceItems" :key="item.id" v-on:click="showContent(index)" :class="{ 'active1': activeLink === `link${index}` }">{{ item.subTitle }}</p>
             </div>
         </div>
-        <Accordion class="accordion-mobile py-20" />
+        <Accordion class="accordion-mobile pb-20 sm:py-20" />
     </section>
 </template>
 
@@ -113,6 +113,11 @@ export default {
 </script>
 
 <style scoped>
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .service-item:hover {
     background: linear-gradient(180deg, #FF2BFF 0%, #FE7C3C 43.23%, #FE9402 100%);
     color: transparent;

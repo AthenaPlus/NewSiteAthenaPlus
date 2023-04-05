@@ -1,6 +1,6 @@
 <template>
     <section class="text-white body-font">
-        <div class="container mx-auto px-5 sm:py-24 mt-24 sm:mt-0">
+        <div class="sm:container mx-auto md:py-24 mt-24 sm:mt-0 px-5">
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
                     class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
@@ -8,8 +8,8 @@
                         {{ HeroTitle }}
                     </h1>
 
-                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto anime__left2">{{ HeroSubtitle }}</h2>
-                    <p class="hidden md:block text-base lg:text-xl LineHeight_30 font-normal anime__left3">{{
+                    <h2 class="text-xl lg:text-[26px] font-semibold mb-4 mt-0 md:mt-5 mr-auto animate__animated animate__fadeInLeft animate__delay-1s">{{ HeroSubtitle }}</h2>
+                    <p class="hidden md:block text-base lg:text-xl LineHeight_30 font-normal animate__animated animate__fadeInLeft animate__delay-2s">{{
                         HeroDescription
                     }}</p>
                     <div class="md:mr-auto md:mt-[25px] sbm">

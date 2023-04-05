@@ -1,15 +1,15 @@
 <template>
     <section id="signInterview"
-        class="mainClass text-white body-font relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] bg-[url('/img/bg_ServicesHero.webp')] md:bg-none bg-no-repeat bg-top bg-contain md:bg-cover z-0  ">
-        <div class="container px-5 py-16  md:py-24 mx-auto overflow-x-hidden">
+        class="mainClass text-white body-font relative md:bg-none bg-no-repeat bg-top bg-contain md:bg-cover z-0">
+        <div class="sm:container px-5 mx-auto overflow-x-hidden">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="text-[32px] SuperTitle text-left md:mt-16 anime__left1">Есть проект?</h1>
-                <div class="flex items-center md:justify-end gap-2  md:mr-32 anime__right1">
+                <h1 data-aos="fade-right" class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl text-left md:mt-16">Есть проект?</h1>
+                <div data-aos="fade-left" class="flex items-center md:justify-end gap-2  md:mr-32">
                     <IconArrow class="hidden md:block" />
-                    <h2 class="text-xl font_Airborne md:Source_Sans_Pro md:text-5xl lg:text-7xl">Оставьте заявку</h2>
+                    <h2 class="font_Airborne md:Source_Sans_Pro md:mt-5 lg:mt-0 text-xl sm:text-3xl lg:text-5xl 2xl:text-7xl">Оставьте заявку</h2>
                     <IconArrowright class="block md:hidden w-10" />
                 </div>
-                <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
+                <div class="flex flex-col md:flex-row items-start lg:items-center w-full mt-">
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы хотите создать<span class="text-red-500"></span>?</h3>
 
@@ -73,7 +73,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="ml-0 md:ml-16">
+                    <div class="ml-0 md:ml-16 md:my-36 lg:my-0">
                         <p class="text-white text-lg text-left w-full md:w-96">
                             Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта.
                             Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки
