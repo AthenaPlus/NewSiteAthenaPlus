@@ -1,12 +1,12 @@
 <template>
     <section
-        class="text-white min-h-screen">
-        <div class="container mx-auto my-24 md:pl-0 lg:my-20 sm:pl-5 lg:px-20 2xl:px-0 overflow-x-hidden">
-            <h2 class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-5xl text-3xl mb-5 xl:mb-8 px-3 md:px-0 anime__left1">Услуги</h2>
+        class="text-white">
+        <div class="sm:container px-5 mx-auto overflow-x-hidden">
+            <h2 data-aos="fade-right" class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-4xl text-3xl mb-5 xl:mb-8">Услуги</h2>
             <div class="grid lg:grid-cols-2 gap-5 md:gap-12 2xl:gap-24">
                 <div v-for="(item, index) in items" :key="index"  @mousemove="handleMouseMove(index, $event)"  ref="itemRefs" class="relative">
                     <img :src="item.img" alt="" ref="imageRefs" />
-                    <p class="text-lg sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl font_Airborne" :class="item.class">{{ item.title }}</p>
+                    <!-- <p class="text-lg sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl font_Airborne" :class="item.class">{{ item.title }}</p> -->
                 </div>
             </div>
         </div>
@@ -72,6 +72,9 @@ export default {
 </script>
 
 <style scoped>
+.min-h-screen {
+    min-height: none;
+}
 p {
     position: absolute;
     left: 5%;
