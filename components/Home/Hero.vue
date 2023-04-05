@@ -1,6 +1,6 @@
 <template>
     <section class="text-white body-font">
-        <div class="sm:container mx-auto md:py-24 mt-24 sm:mt-0 px-5">
+        <div class="sm:container mx-auto md:py-24 md:mt-24 sm:mt-0 px-5">
             <div class=" flex  lg:flex-row flex-col items-center">
                 <div
                     class="order-2 lg:order-1 lg:flex-grow w-full lg:w-1/2 lg:pr-16 md:pr-14 flex flex-col md:items-start text-left mb-16 md:mb-0 items-center">
