@@ -2,7 +2,7 @@
     <section class="text-gray-100 overflow-hidden relative">
         <div class="sm:container px-5 py-0 mx-auto overflow-x-hidden">
             <div class="sm:flex justify-between items-center sm:w-full">
-                <div class="text-main sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto mr-3 sm:pr-0 z-10">
+                <div class="text-main sm:w-1/2 2xl:w-1/2 md:w-1/2 lg:w-2/5 mx-auto mr-3 md:pl-5 sm:pr-0 z-10">
                 <div class="text-block xl:mx-auto">
                     <h2 data-aos="fade-right" class="AboutTitle 2xl:text-7xl xl:text-6xl md:text-4xl text-3xl mb-5 xl:mb-8">О Веб-студии</h2>
                     <p class="AboutSubtitle xl:text-xl md:text-base text-sm mb-5 font-semibold">Мы создаем веб-продукты, выводящие бизнес на новый уровень </p>
@@ -106,7 +106,7 @@ svg:nth-child(1) {
     display: none;  
 }
 
-@media(min-width: 1280px) and (max-width: 1536px) {
+@media(min-width: 1280px) and (max-width: 1535px) {
     .text-main {
     position: relative;
     right: 60%;
