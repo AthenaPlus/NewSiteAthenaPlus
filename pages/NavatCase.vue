@@ -40,7 +40,7 @@
             </div>
         </div>
         <div>
-            <Accordion-case class="w-11/12 mx-auto mt-5 sm:mt-10" />
+            <AccordionNavat class="w-11/12 mx-auto mt-5 sm:mt-10" />
         </div>
     </section>
 </template>
