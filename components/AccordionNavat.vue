@@ -63,11 +63,11 @@ export default {
             blocks: [
                 {
                     title: 'Фреймворк',
-                    blockDescription: 'Vue3 — это современная и очень гибкая среда JavaScript, которая предоставляет разработчикам мощный набор инструментов для создания сложных и динамических пользовательских интерфейсов. Благодаря модульной архитектуре, реактивной привязке данных и упрощенному синтаксису Vue3 позволяет разработчикам с легкостью создавать элегантные и эффективные веб-приложения. В частности, Composition API Vue3 упрощает процесс управления состоянием и логикой в ​​крупномасштабных приложениях, что делает его идеальным выбором для таких проектов, требующих высокой степени интерактивности и скорости отклика. '
+                    blockDescription: 'В разработке сайта NewNavat, были использованы базовые технологии HTML/CSS/JavaScript. Использована библиотека SwiperJS, за доставку сообщений о брони от пользователей отвечает сервис EmailJS.  '
                 },
                 {
                     title: 'Пайплайн',
-                    blockDescription: 'Athena Plus это Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+                    blockDescription: 'Пайплайн нестандартен для Landing Page. Hero-Page оформлен используя технологию SwiperJS, симулируя сторис из сервиса Instagram. Дальнейшие блоки описывают различные зоны ресторана. Последняя страница закрывает вопрос с бронью столика.'
                 }
             ]
         }
