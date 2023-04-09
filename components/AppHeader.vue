@@ -1,7 +1,7 @@
 <template>
 
     <!-- Диномичная SVG кнопка для управления выезда боковой панели с меню -->
-    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-2.5 md:pl-5 pt-[7px] z-index-10000">
+    <button @click="toggle" class="transition ease-in-out duration-700 fixed pl-2.5 md:pl-5 pt-[7px] z-index-10000 animate__animated animate__pulse animate__infinite">
         <!-- Button First -->
         <svg :class="[isOpenMenu ? '-rotate-45' : 'rotate-0', 'h-7 w-7 md:h-10 md:w-10']"
             class="transition ease-in-out duration-700" width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -20,8 +20,8 @@
                 fill="white" />
         </svg>
     </button>
-    <!-- Hte End - Диномичная SVG кнопка для управления выезда боковой панели с меню -->
-    <header id="navbar" class="text-white body-font border_b_1 fixed w-full scroll-container z-10">
+    <!-- Hte End - Диномичная SVG кнопка для управления выезда боковой панели с меню/fixed позиции нет -->
+    <header id="navbar" class="text-white body-font border_b_1 w-full scroll-container z-10 fixed">
         <div class="absolute inset-0 z-one blur"></div>
         <div class="px-5 py-0 mx-auto flex flex-wrap flex-row items-center justify-between">
             <div class="flex title-font font-medium items-center text-white mb-0">
@@ -151,10 +151,10 @@
             </div>
              <!-- End Nav for Mobail Menu -->
             <div class="">
-                <p :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
-                    class="text-white/50  px-2 py-2 sm:px-10 sm:py-5 text-sm w-64 sm:w-96">
-                    ©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.
-                </p>
+                <NuxtLink to="/privacy" @click="toggle" :class="[isOpenMenu ? 'opacity-100 transition ease-in-out duration-1000 delay-1000' : 'opacity-0 transition ease-in-out']"
+                    class="text-white/50">
+                    <p class=" px-2 py-2 sm:px-10 sm:py-5 text-sm w-64 sm:w-96 hover:underline cursor-pointer">©2022 Athena Plus. Все права защищены. Копирование дизайна/контента преследуется по закону.</p>
+                </NuxtLink>
             </div>
         </div>
         <!-- Menuframe SubMenu for Disctop -->

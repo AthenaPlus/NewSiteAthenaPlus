@@ -1,15 +1,15 @@
 <template>
     <section id="signInterview"
-        class="text-white body-font relative min-h-screen bg-[url('/img/bg_frame3_mob.png')] md:bg-[url('/img/bg_ServicesHero.webp')] bg-no-repeat bg-top bg-contain md:bg-cover z-0">
-        <div class="container px-5 py-16  md:py-24 mx-auto overflow-x-hidden">
+        class="mainClass text-white body-font relative md:bg-none bg-no-repeat bg-top bg-contain md:bg-cover z-0">
+        <div id="order" class="sm:container px-5 mx-auto overflow-x-hidden">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="text-[32px] SuperTitle text-left md:mt-16 anime__left1">Есть проект?</h1>
-                <div class="flex items-center md:justify-end gap-2  md:mr-32 anime__right1">
+                <h1 data-aos="fade-right" class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl text-left md:mt-16">Есть проект?</h1>
+                <div data-aos="fade-left" class="flex items-center md:justify-end gap-2  md:mr-32">
                     <IconArrow class="hidden md:block" />
-                    <h2 class="text-xl font_Airborne md:Source_Sans_Pro md:text-5xl lg:text-7xl">Оставьте заявку</h2>
+                    <h2 class="font_Airborne md:Source_Sans_Pro md:mt-5 lg:mt-0 text-xl sm:text-3xl lg:text-5xl 2xl:text-7xl">Оставьте заявку</h2>
                     <IconArrowright class="block md:hidden w-10" />
                 </div>
-                <div class="flex flex-col md:flex-row items-start md:items-center w-full mt-">
+                <div class="flex flex-col md:flex-row items-start lg:items-center w-full mt-">
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы хотите создать<span class="text-red-500"></span>?</h3>
 
@@ -73,7 +73,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="ml-0 md:ml-16">
+                    <div class="ml-0 md:ml-16 md:my-36 lg:my-0">
                         <p class="text-white text-lg text-left w-full md:w-96">
                             Поделитесь с нами своим видением, чтобы мы могли заложить его в основу будущего проекта.
                             Каким деталям нужно уделить особое внимание? Каковы ваши ожидания и на какие сроки
@@ -85,13 +85,73 @@
                 </div>
             </div>
         </div>
+        <div class="absolute inset-0  overflow-hidden minus opacity-20">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" fill="none">
+  
+  <path class="line line3" d="M-10,348c15,17,24,43,68,47s97-43,183-12s165,73,283,49 s290-98,472-87c131.22,7.93,225.6,51.07,304,38"/>
+  <path class="line line2" d="M-10,348c15,17,24,43,68,47s97-43,183-12s165,73,283,49 s290-98,472-87c131.22,7.93,225.6,51.07,304,38"/>
+  <path class="line line1" d="M-10,348c15,17,24,43,68,47s97-43,183-12s165,73,283,49 s290-98,472-87c131.22,7.93,225.6,51.07,304,38"/>
+  
+  <path class="line line3" d="M-10,319c28-9,68.84,25.02,116,26c48,1,83.41-12.8,124-7 c42,6,84,45,161,59s144,12,263-36s234-86,371-62s216,52,279,62"/>
+  <path class="line line2" d="M-10,319c28-9,68.84,25.02,116,26c48,1,83.41-12.8,124-7 c42,6,84,45,161,59s144,12,263-36s234-86,371-62s216,52,279,62"/>
+  <path class="line line1" d="M-10,319c28-9,68.84,25.02,116,26c48,1,83.41-12.8,124-7 c42,6,84,45,161,59s144,12,263-36s234-86,371-62s216,52,279,62"/>
+  
+  <path class="line line3" d="M-10,296c27-13,59-22,107,0c71.61,32.82,113,14,175,22 s117,50,223,45s165-45,277-73s210-56,532,43"/>
+  <path class="line line2" d="M-10,296c27-13,59-22,107,0c71.61,32.82,113,14,175,22 s117,50,223,45s165-45,277-73s210-56,532,43"/>
+  <path class="line line1" d="M-10,296c27-13,59-22,107,0c71.61,32.82,113,14,175,22 s117,50,223,45s165-45,277-73s210-56,532,43"/>
+  
+  <path class="line line3" d="M-10,263c15-6,85-39,117-13c52.68,42.81,124,38,182,35 s123,63,275,32s235-75,349-72s242,13,391,64"/>
+  <path class="line line2" d="M-10,263c15-6,85-39,117-13c52.68,42.81,124,38,182,35 s123,63,275,32s235-75,349-72s242,13,391,64"/>
+  <path class="line line1" d="M-10,263c15-6,85-39,117-13c52.68,42.81,124,38,182,35 s123,63,275,32s235-75,349-72s242,13,391,64"/>
+  
+  <path class="line line3" d="M-10,225c0,0,39-33,79-38s61,24,100,44s101-7,159,19 s81,48,221,37s245-55,311-68s160-16,240-1s137,39,208,55"/>
+  <path class="line line2" d="M-10,225c0,0,39-33,79-38s61,24,100,44s101-7,159,19 s81,48,221,37s245-55,311-68s160-16,240-1s137,39,208,55"/>
+  <path class="line line1" d="M-10,225c0,0,39-33,79-38s61,24,100,44s101-7,159,19 s81,48,221,37s245-55,311-68s160-16,240-1s137,39,208,55"/>
+  
+  <path class="line line3" d="M-10,192c0,0,51-54,91-59s60,8,99,28s83,24,141,50 s152,48,292,37s203-51,269-64s142-15,222,0s136,37,207,53"/>
+  <path class="line line2" d="M-10,192c0,0,51-54,91-59s60,8,99,28s83,24,141,50 s152,48,292,37s203-51,269-64s142-15,222,0s136,37,207,53"/>
+  <path class="line line1" d="M-10,192c0,0,51-54,91-59s60,8,99,28s83,24,141,50 s152,48,292,37s203-51,269-64s142-15,222,0s136,37,207,53"/>
+  
+  <path class="line line3" d="M-10,144c0,0,54-39,94-44s85,7,124,27s59,25,117,51 s153,52,293,41s188-53,254-66s148-13,228,2s181,38,211,38"/>
+  <path class="line line2" d="M-10,144c0,0,54-39,94-44s85,7,124,27s59,25,117,51 s153,52,293,41s188-53,254-66s148-13,228,2s181,38,211,38"/>
+  <path class="line line1" d="M-10,144c0,0,54-39,94-44s85,7,124,27s59,25,117,51 s153,52,293,41s188-53,254-66s148-13,228,2s181,38,211,38"/>
+  
+  <path class="line line3" d="M-10,115c0,0,66-50,145-47s176.71,58.34,234,75 c86,25,187,47,352,7s150.3-93.53,404-31c142,35,190,26,190,26"/>
+  <path class="line line2" d="M-10,115c0,0,66-50,145-47s176.71,58.34,234,75 c86,25,187,47,352,7s150.3-93.53,404-31c142,35,190,26,190,26"/>
+  <path class="line line1" d="M-10,115c0,0,66-50,145-47s176.71,58.34,234,75 c86,25,187,47,352,7s150.3-93.53,404-31c142,35,190,26,190,26"/>
+  
+  <path class="line line3" d="M-10,88c0,0,100-71,231-36s199,100,373,85s187-94,320-94 s301,87,418,60"/>
+  <path class="line line2" d="M-10,88c0,0,100-71,231-36s199,100,373,85s187-94,320-94 s301,87,418,60"/>
+  <path class="line line1" d="M-10,88c0,0,100-71,231-36s199,100,373,85s187-94,320-94 s301,87,418,60"/>
+  
+</svg>
+        </div>
     </section>
 </template>
 
 <script setup>
+// import { onMounted, onUnmounted, ref } from 'vue';
 import IconArrow from '~/assets/icons/arrow.svg'
 import IconArrowright from '~/assets/icons/arrow__right.svg'
 
+// onMounted(() => {
+//     let i = 0;
+
+// gsap.set('.line',  {attr:{'stroke':'hsl(1,100%, 50%)', 'stroke-width':4, 'stroke-linecap':'round'}});
+// gsap.set('.line2', {attr:{'stroke-width':6}, opacity:0.4});
+// gsap.set('.line3', {attr:{'stroke-width':9}, opacity:0.15});
+
+// [].forEach.call(document.getElementsByClassName('line'), (el) => {
+//   gsap.timeline({defaults:{duration:1}, repeat:-1, repeatDelay:(27-i)/50})
+//       .to(el, {duration:2, attr:{'stroke':'hsl(360, 100%, 50%)', ease:'power2.inOut'}}, 0)
+//       .fromTo(el, {drawSVG:0}, {drawSVG:'35% 70%', ease:'sine.in'}, i/50)
+//       .to(el, {drawSVG:'100% 100%', ease:'sine.out'}, 1+i/50)
+//       .progress(i/20)
+//   i++;
+// });
+// })
+
+// onUnmounted(() => {})
 </script>
 
 <script>
@@ -169,7 +229,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .SuperTitle {
     font-family: 'Airborne';
     font-style: normal;
@@ -242,6 +302,11 @@ export default {
     height: 2rem;
 }
 
+.minus {
+    z-index: -1;
+}
+
+
 @media (min-width: 768px) {
     .SuperTitle {
         font-family: 'Airborne';
@@ -252,5 +317,11 @@ export default {
 
         color: #FFFFFF;
     }
+     /* .mainClass {
+        background: url('/img/City.png'), url('/img/Sun.png');
+        background-repeat: no-repeat;
+        background-position: bottom, 50% 40%;
+        background-size: auto, auto;
+    } */
 }
 </style>
