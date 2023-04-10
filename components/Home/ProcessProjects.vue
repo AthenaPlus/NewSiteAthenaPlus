@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="/img/webp/LineFrame.webp" alt="" class="w-11/12 mx-auto">
+                            <img src="/img/LineFrame.png" alt="" class="w-11/12 mx-auto">
                         </div>
                     </div>
                 </div>
