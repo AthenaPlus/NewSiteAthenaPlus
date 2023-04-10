@@ -6,14 +6,10 @@
         </button>
         <div class="max-w-[856px] mx-auto w-full max-h-screen overflow-y-auto">
             <div class="popup-header flex flex-row items-center justify-between p-3">
-                <!-- <h2 class="text-2xl">{{ popupTitle }}</h2> -->
             </div>
             <div class="popup-content px-5">
                 <slot></slot>
             </div>
-            <!-- <div class="popup-footer flex flex-row items-center justify-end p-3">
-                <button @click="closePopup" class="btn">Закрыть</button>
-            </div> -->
         </div>
     </div>
 </template>
@@ -51,14 +47,6 @@ export default {
     .popup_wrapper {
         z-index: 100000;
     }
-    /* .popup {
-        padding: 16px;
-        position: fixed;
-        top: 40%;
-        right: 0;
-        left: 0;
-        width: 50%;
-    } */
     .popup-content{
         display: flex;
         justify-content: center;

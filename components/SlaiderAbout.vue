@@ -104,22 +104,4 @@ img {
   width: 100%;
   object-fit: cover;
 }
-
-/* .gradient {
-	display: inline-block;
-	position: relative;    
-	line-height: 0;
-}
-.gradient:hover:after {
-	content: "";
-	display: block;    
-	width: 100%;
-	height: 100%;    
-	position: absolute;
-	top: 0;      
-	left: 0;   
-	background: transparent;
-	background-image: linear-gradient(180deg, rgba(112, 112, 112, 0.7) 0%, rgba(130, 69, 104, 0.7) 70.31%, rgba(160, 2, 92, 0.7) 100%);
-    transition: all 5s !important;
-} */
 </style>

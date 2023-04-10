@@ -25,7 +25,6 @@
                         <p class="w-11/12 sm:w-2/3 lg:w-3/4 text-sm lg:text-xl py-5">
                             {{ block.blockDescription }}
                         </p>
-                        <!-- <button @click="showPopupInfo" class="btn-primary hover:btn--shadow px-5 lg:px-10">Подать заявку</button> -->
                     </div>
                 </DisclosurePanel>
             </Transition>
