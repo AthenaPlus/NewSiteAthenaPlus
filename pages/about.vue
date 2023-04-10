@@ -48,61 +48,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Блок Лучшие работы -->
-            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
-                <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Лучшие работы</h3>
-                </div>
-                <div class="w-full lg:w-2/3">
-                    <div class="grid grid-flow-col-1 md:grid-cols-2 gap-5  gap-[75px]">
-                        <div class="">
-                            <p class="text-[20px] md:text-[26px] font-semibold">
-                               Лучшие работы нашей компании.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Блок Портфолио ссылки на картинки -->
-            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 border-b-2 border-white/70 pt-[50px] pb-10">
-                <div class="w-full md:w-1/2">
-                    <ul>
-                        <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">Чек Маркет</button>
-                        </li>
-                        <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">Midas Event</button>
-                        </li>
-                        <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">Як</button>
-                        </li>
-                        <li class="text-[40px] md:text-[70px] font_Airborne ">
-                            <button href="" class="link-gradient">9Global</button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full md:w-1/2">
-                    <img src="/img/about_portfolio.jpg" alt="">
-                </div>
-            </div> -->
-            <!-- Блок Команда -->
-            <!-- <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 pt-[50px] pb-10">
-                <div class="w-full lg:w-1/3">
-                    <h3 class="sticky top-14 uppercase font_Airborne text-[30px] md:text-[50px] leading-tight">Команда</h3>
-                </div>
-                <div class="w-full lg:w-2/3">
-                    <div class="grid grid-flow-col-1 md:grid-cols-2  gap-[75px]">
-                        <div class="">
-                            <p class="text-[20px] md:text-[26px] font-regular font-normal md:font-semibold">
-                                Ведущие специалисты всех направлений. Мощное творческое и маркетинговое объединение. Мы используем передовые концепции для создания лучшего продукта.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Блок Портфолио Команды -->
-            <!-- <SlaiderTeam/> -->
-            <!-- ======================= -->
         </div>
     </section>
 </template>

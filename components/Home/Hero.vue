@@ -15,12 +15,6 @@
                     <div class="md:mr-auto md:mt-[25px] sbm">
                         <a data-menuanchor="order" href="#order" class="btn btn--shadow mx-auto"><span class="mx-auto">Обсудить проект</span></a>
                     </div>
-                    <!-- <div class="hidden md:flex flex-wrap justify-start gap-2.5 mt-[25px]">
-                        <Nuxt-link v-for="HeroLabel in HeroLabels" :key="HeroLabel.index" :to="HeroLabel.url"
-                            class="font_Airborne rounded-full border-2 border-white py-[13px] px-[13px] leading-[21px]">
-                            {{HeroLabel.title}}
-                        </Nuxt-link>
-                    </div> -->
                 </div>
                 <div class="order-1 lg:order-2 w-full lg:w-11/12">
                     <h1
