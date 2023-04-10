@@ -195,7 +195,6 @@ export default {
         function Submit() {
             emailjs.send().then(success => {
                 if (success) {
-                    // after clearing inputs
                     myForm.value.resetValidation()
                 }
             })
@@ -204,7 +203,6 @@ export default {
   return {
     myForm,
     Submit,
-    // ...
   }
 }
 }

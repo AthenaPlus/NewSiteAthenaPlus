@@ -47,7 +47,7 @@ const AboutItems = [
         title: 'на рынке'
     },
     {
-        subTitle: 'свыше 40',
+        subTitle: 'Свыше 40',
         title: 'проектов'
     },
     {

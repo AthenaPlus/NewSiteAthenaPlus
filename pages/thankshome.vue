@@ -18,7 +18,6 @@
         </div>
     </section>
 </template>
-
 <script setup>
 useHead({
     title: 'Ваше сообщение отправлено!',
