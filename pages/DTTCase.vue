@@ -39,7 +39,7 @@
             </div>
             <div class="lg:pl-10 order-1" v-for="case1 in cases" :key="case1">
                 <h2 class="font_Airborne sm:hidden block text-4xl pb-3">Кейс:</h2>
-                <h3 class="sm:text-2xl sm:hidden block text-lg pb-3">Navat</h3>
+                <h3 class="sm:text-2xl sm:hidden block text-lg pb-3">Dostyk Trans Terminal</h3>
                 <img :src="case1.img" alt="">
             </div>
         </div>

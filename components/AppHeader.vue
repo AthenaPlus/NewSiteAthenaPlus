@@ -21,7 +21,7 @@
         </svg>
     </button>
     <!-- Hte End - Диномичная SVG кнопка для управления выезда боковой панели с меню/fixed позиции нет -->
-    <header id="navbar" class="text-white body-font border_b_1 w-full scroll-container z-10 fixed">
+    <header id="navbar" class="text-white body-font border_b_1 w-full scroll-container z-20 fixed">
         <div class="absolute inset-0 z-one blur"></div>
         <div class="px-5 py-0 mx-auto flex flex-wrap flex-row items-center justify-between">
             <div class="flex title-font font-medium items-center text-white mb-0">

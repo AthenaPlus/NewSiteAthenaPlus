@@ -16,6 +16,14 @@ useHead({
     meta: [
         { name: 'description', content: 'Креативные IT-Решения на основе глубокой аналитики рынка. ' }
     ],
+
+    script: [
+    {
+      src: 'https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js',
+      body: true
+    },
+
+  ]
 })
 </script>
 
