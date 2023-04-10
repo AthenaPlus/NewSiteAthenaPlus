@@ -4,7 +4,7 @@ description: Зачастую люди сегодня проводят боль�
 category: web developing
 date: 2022-03-07
 author: Chef
-img: /img/Mobailsite.png
+img: /img/webp/Mobailsite.webp
 ---
 
 <!-- more -->

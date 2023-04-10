@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="/img/LineFrame.png" alt="" class="w-11/12 mx-auto">
+                            <img src="/img/webp/LineFrame.webp" alt="" class="w-11/12 mx-auto">
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="/img/LineFrame-2.png" alt="" class="w-11/12 mx-auto">
+                            <img src="/img/webp/LineFrame-2.webp" alt="" class="w-11/12 mx-auto">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="/img/LineFrame-2.png" alt="" class="w-11/12 mx-auto">
+                            <img src="/img/webp/LineFrame-2.webp" alt="" class="w-11/12 mx-auto">
                         </div>
                     </div>
                 </div>

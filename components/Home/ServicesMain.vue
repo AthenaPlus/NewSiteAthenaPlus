@@ -18,32 +18,32 @@ export default {
         return {
             items: [{
                 title: 'Мобильные приложения',
-                img: '/img/ServiceImg1.png',
+                img: '/img/webp/ServiceImg1.webp',
                 class: 'item-title'
             },
             {
                 title: 'Сайты',
-                img: '/img/ServiceImg2.png',
+                img: '/img/webp/ServiceImg2.webp',
                 class: 'item-title1'
             },
             {
                 title: 'SEO',
-                img: '/img/ServiceImg3.png',
+                img: '/img/webp/ServiceImg3.webp',
                 class: 'item-title2'
             },
             {
                 title: 'Графический дизайн',
-                img: '/img/ServiceImg4.png',
+                img: '/img/webp/ServiceImg4.webp',
                 class: 'item-title3'
             },
             {
                 title: 'Реклама',
-                img: '/img/ServiceImg5.png',
+                img: '/img/webp/ServiceImg5.webp',
                 class: 'item-title4'
             },
             {
                 title: 'Поддержка',
-                img: '/img/ServiceImg6.png',
+                img: '/img/webp/ServiceImg6.webp',
                 class: 'item-title5'
             },
         ] 

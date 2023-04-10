@@ -10,7 +10,7 @@
                     <div class="w-full mb-20">
                         <div class="flex flexp-row  gap-[18px] mb-[22px]">
                             <div class="w-full min-w-[130px]">
-                                <img src="/img/About_photo1.png" alt="" class="w-full lg:w-[350px] object-cover">
+                                <img src="/img/webp/About_photo1.webp" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Всё о Нас</h3>
@@ -27,7 +27,7 @@
                     <div class="w-full mb-20">
                         <div class="flex flex-row  gap-[18px] mb-[22px]">
                             <div class="w-full min-w-[130px]">
-                                <img src="/img/About_photo2.png" alt="" class="w-full lg:w-[350px] object-cover">
+                                <img src="/img/webp/About_photo2.webp" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Карьера</h3>
@@ -44,7 +44,7 @@
                     <div class="w-full mb-20">
                         <div class="flex flex-row  gap-[18px] mb-[22px]">
                             <div class="w-full min-w-[130px]">
-                                <img src="/img/About_photo3.png" alt="" class="w-full lg:w-[350px] object-cover">
+                                <img src="/img/webp/About_photo3.webp" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Рефералы</h3>
@@ -60,7 +60,7 @@
                     <div class="w-full mb-20">
                         <div class="flex flex-row  gap-[18px] mb-[22px]">
                             <div class="w-full min-w-[130px]">
-                                <img src="/img/About_photo4.png" alt="" class="w-full lg:w-[350px] object-cover">
+                                <img src="/img/webp/About_photo4.webp" alt="" class="w-full lg:w-[350px] object-cover">
                             </div>
                             <div class="w-full">
                                 <h3 class="text-2xl">Блог</h3>

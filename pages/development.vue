@@ -9,7 +9,7 @@ useHead({
 
 <template>
   <section class="bg-black pt-10">
-    <div class="antialiased  text-white grid min-h-screen place-content-top overflow-hidden bg-[url('/img/bg_development.png')] bg-no-repeat bg-center bg-cover md:bg-auto">
+    <div class="antialiased  text-white grid min-h-screen place-content-top overflow-hidden bg-[url('/img/webp/bg_development.webp')] bg-no-repeat bg-center bg-cover md:bg-auto">
       <div class="max-w-520px text-center z-10 mt-[150px]">
         <h1 class="text-4xl md:text-7xl lg:text-[100px] lg:leading-[115px] font-normal">Страница</h1>
         <h2 class="font_Airborne text-3xl md:text-5xl lg:text-[69px] mb-[50px]"> в Разработке</h2>

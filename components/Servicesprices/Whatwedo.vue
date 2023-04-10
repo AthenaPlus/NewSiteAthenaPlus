@@ -19,7 +19,7 @@
                         class="text-4xl md:text-7xl 2xl:text-8xl mr-auto block lg:hidden animate__animated animate__fadeInLeft animate__delay-0.5s">
                         {{ WhatwedoTitle }}
                     </h1>
-                    <img src="/img/WhatWeDo.png"
+                    <img src="/img/webp/WhatWeDo.webp"
                         class="w-full my-5 lg:my-0 animate__animated animate__zoomIn animate__delay-1s" />
                 </div>
             </div>
