@@ -48,7 +48,7 @@ export default {
             cases: [{
                 title: 'Midas Event agency',
                 desc: 'Цель "Midas Event" - быть самым эффективным event-агентством в Казахстане. Команда работает по системному подходу, от разработки концепции, до конечной реализации.',
-                img: '/img/MidasFrame.png'
+                img: '/img/webp/MidasFrame.webp'
             }]
         }
     }

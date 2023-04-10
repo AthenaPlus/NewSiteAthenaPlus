@@ -4,7 +4,7 @@ description: Тендеры - один из самых распростране�
 category: web developing
 date: 2022-03-07
 author: Chef
-img: /img/trends.png
+img: /img/webp/trends.webp
 ---
 
 <!-- more -->

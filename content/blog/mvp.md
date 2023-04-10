@@ -4,7 +4,7 @@ description: MVP - это первоначальный минимально жи
 category: web developing
 date: 2023-03-29
 author: Chef
-img: /img/mvp.png
+img: /img/webp/mvp.webp
 ---
 
 <!-- more -->

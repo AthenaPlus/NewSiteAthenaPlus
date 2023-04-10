@@ -5,7 +5,7 @@
                 <h1 class="sticky top-20 text-4xl md:text-6xl lg:text-[66px] animate__animated animate__fadeInLeft animate__delay-0.5s">Построй карьеру вместе с Athena Plus</h1>
             </div>
             <div class="w-full md:w-1/2">
-                <img src="/img/career.png" alt="" class="max-w-full animate__animated animate__zoomIn animate__delay-1s" />
+                <img src="/img/webp/career.webp" alt="" class="max-w-full animate__animated animate__zoomIn animate__delay-1s" />
                 <p class="my-4 max-w-[600px]">
                     Являешься фанатом веба? Считаешь что разработка сайтов это не просто входная дверь в IT и Дизайн?
                     Понимаешь разницу между "хорошо" и "как надо"? Хочешь создать что-то особенное?

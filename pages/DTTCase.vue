@@ -56,7 +56,7 @@ export default {
             cases: [{
                 title: 'Dostyk Trans Terminal',
                 desc: 'Dostyk Trans Terminal - модерн-терминал на границе "Достык - Алашанькоу" предоставляет ряд высококачественных услуг, от стандартного хранения контейнеров и перегруза, до сложнореализуемых операций.',
-                img: '/img/DTTFrame.png'
+                img: '/img/webp/DTTFrame.webp'
             }]
         }
     }

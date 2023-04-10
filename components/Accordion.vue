@@ -31,7 +31,7 @@ export default {
           title2: 'Для лучших',
           subTitle: 'Интервью',
           desc: 'Проводим съемку интервью в профессиональной фотостудии для создания лучшего продукта. Формируем концепцию будущего проекта. Определяем сильные стороны Вашей компании.',
-          img: '/img/ServicePhoto1.png',
+          img: '/img/webp/ServicePhoto1.webp',
           expanded: true
         },
         {
@@ -39,7 +39,7 @@ export default {
           title2: 'Конкурентов',
           subTitle: 'Анализ',
           desc: 'Исследуем конкурентов и их сильные стороны, проверяем рыночный потенциал, проводим опрос целевой аудитории. Строим аналитику и предоставляем картину рынка.',
-          img: '/img/ServicePhoto2.png',
+          img: '/img/webp/ServicePhoto2.webp',
           expanded: false
         },
         {
@@ -47,7 +47,7 @@ export default {
           title2: 'Продвижения',
           subTitle: 'Маркетинг',
           desc: 'Составляем стратегию для улучшения имиджа бренда и максимального коэффицента конверсии. Наш целевой порог - не менее 10%.',
-          img: '/img/ServicePhoto3.png',
+          img: '/img/webp/ServicePhoto3.webp',
           expanded: false
         },
         {
@@ -55,7 +55,7 @@ export default {
           title2: 'Практичность',
           subTitle: 'UX/UI',
           desc: 'Pixel-Perfect-подход от дизайнеров из лучших школ. Повышаем рентабельность проектов при помощи премиального UX/UI, интерактивности и геймификации.',
-          img: '/img/ServicePhoto4.png',
+          img: '/img/webp/ServicePhoto4.webp',
           expanded: false
         },
         {
@@ -63,7 +63,7 @@ export default {
           title2: 'Продукта',
           subTitle: 'MVP',
           desc: ' MVP-стадия для проверки гипотез на целевой аудитории. Разрабатываем продающий подход. Внедряем его в конечную версию проекта перед запуском.',
-          img: '/img/ServicePhoto6.png',
+          img: '/img/webp/ServicePhoto6.webp',
           expanded: false
         },
         {
@@ -71,7 +71,7 @@ export default {
           title2: 'Проекта',
           subTitle: 'Разработка',
           desc: 'От вёрстки, до посадки на передовые языки программирования и фреймворки. Доводим проект до технического совершенства.',
-          img: '/img/ServicePhoto5.png',
+          img: '/img/webp/ServicePhoto5.webp',
           expanded: false
         },
         {
@@ -79,7 +79,7 @@ export default {
           title2: 'как арт-объект',          
           subTitle: 'Запуск',
           desc: 'Запускаем лучший продукт в нише, имеющий уникальную ценность. Доведя каждый элемент до совершенства, задаем стандарты рынка.',
-          img: '/img/ServicePhoto7.png',
+          img: '/img/webp/ServicePhoto7.webp',
           expanded: false
         }
       ]
