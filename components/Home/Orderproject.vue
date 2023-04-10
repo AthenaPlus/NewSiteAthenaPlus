@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="absolute inset-0  overflow-hidden minus opacity-50">
+        <!-- <div class="absolute inset-0  overflow-hidden minus opacity-50">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" fill="none">
   
   <path class="line line3" d="M-10,348c15,17,24,43,68,47s97-43,183-12s165,73,283,49 s290-98,472-87c131.22,7.93,225.6,51.07,304,38"/>
@@ -125,7 +125,7 @@
   <path class="line line1" d="M-10,88c0,0,100-71,231-36s199,100,373,85s187-94,320-94 s301,87,418,60"/>
   
 </svg>
-        </div>
+        </div> -->
     </section>
 </template>
 
@@ -320,7 +320,7 @@ export default {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   svg { height:900px; }
-}
+} */
 </style>
