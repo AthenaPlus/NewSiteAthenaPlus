@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="absolute inset-0  overflow-hidden minus opacity-20">
+        <div class="absolute inset-0  overflow-hidden minus opacity-50">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" fill="none">
   
   <path class="line line3" d="M-10,348c15,17,24,43,68,47s97-43,183-12s165,73,283,49 s290-98,472-87c131.22,7.93,225.6,51.07,304,38"/>
@@ -130,8 +130,30 @@
 </template>
 
 <script setup>
+// import { onMounted, onUnmounted, ref } from 'vue';
 import IconArrow from '~/assets/icons/arrow.svg'
 import IconArrowright from '~/assets/icons/arrow__right.svg'
+
+
+
+// onMounted(() => {
+//     let i = 0;
+
+// gsap.set('.line',  {attr:{'stroke':'hsl(1,100%, 50%)', 'stroke-width':4, 'stroke-linecap':'round'}});
+// gsap.set('.line2', {attr:{'stroke-width':6}, opacity:0.4});
+// gsap.set('.line3', {attr:{'stroke-width':9}, opacity:0.15});
+
+// [].forEach.call(document.getElementsByClassName('line'), (el) => {
+//   gsap.timeline({defaults:{duration:1}, repeat:-1, repeatDelay:(27-i)/50})
+//       .to(el, {duration:2, attr:{'stroke':'hsl(360, 100%, 50%)', ease:'power2.inOut'}}, 0)
+//       .fromTo(el, {drawSVG:0}, {drawSVG:'35% 70%', ease:'sine.in'}, i/50)
+//       .to(el, {drawSVG:'100% 100%', ease:'sine.out'}, 1+i/50)
+//       .progress(i/20)
+//   i++;
+// });
+// })
+
+// onUnmounted(() => {})
 
 </script>
 
@@ -296,5 +318,9 @@ export default {
 
         color: #FFFFFF;
     }
+}
+
+@media only screen and (max-width: 1200px) {
+  svg { height:900px; }
 }
 </style>

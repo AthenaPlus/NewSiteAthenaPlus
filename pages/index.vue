@@ -18,10 +18,14 @@ useHead({
     ],
 
     script: [
-    {
-      src: 'https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js',
-      body: true
-    },
+    // {
+    //   src: 'https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js',
+    //   body: true
+    // },
+    // {
+    //   src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js',
+    //   body: true
+    // },
 
   ]
 })
