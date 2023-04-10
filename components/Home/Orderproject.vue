@@ -154,7 +154,6 @@ export default {
         function Submit() {
             emailjs.send().then(success => {
                 if (success) {
-                    // after clearing inputs
                     myForm.value.resetValidation()
                 }
             })
@@ -163,7 +162,6 @@ export default {
   return {
     myForm,
     Submit,
-    // ...
   }
 }
 }
@@ -252,11 +250,5 @@ export default {
 
         color: #FFFFFF;
     }
-     /* .mainClass {
-        background: url('/img/City.png'), url('/img/Sun.png');
-        background-repeat: no-repeat;
-        background-position: bottom, 50% 40%;
-        background-size: auto, auto;
-    } */
 }
 </style>

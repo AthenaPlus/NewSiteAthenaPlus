@@ -6,7 +6,6 @@
             <div class="grid lg:grid-cols-2 gap-5 md:gap-12 2xl:gap-24">
                 <div v-for="(item, index) in items" :key="index"  @mousemove="handleMouseMove(index, $event)"  ref="itemRefs" class="relative">
                     <img :src="item.img" alt="" ref="imageRefs" />
-                    <!-- <p class="text-lg sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl font_Airborne" :class="item.class">{{ item.title }}</p> -->
                 </div>
             </div>
         </div>
