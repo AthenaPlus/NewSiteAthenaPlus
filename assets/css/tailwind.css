@@ -27,6 +27,7 @@ html {
 @font-face {
     font-family: Airborne; 
     src: url(/fonts/airborne.ttf); 
+    font-display: swap;
   }
 
   @layer base {
