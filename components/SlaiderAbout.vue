@@ -59,7 +59,7 @@
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo7.webp" alt="">
+                    <img src="/img/Photo7.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
         </swiper>
