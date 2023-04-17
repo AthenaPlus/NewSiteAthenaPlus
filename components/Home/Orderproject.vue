@@ -21,7 +21,7 @@
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Приложение</label>
                                 <input type="radio" id="app" name="project_type" value="Приложение" class="w-0" />
 
-                                <label for="site" @click="clickButton2"
+                                <label for="Website" @click="clickButton2"
                                     class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton2 ? 'btn--click' : '']"> Сайт</label>
                                 <input type="radio" id="Website" name="project_type" value="Сайт"
@@ -30,7 +30,7 @@
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton3 ? 'btn--click' : '']">CRM-система</label>
                                 <input type="radio" id="CRM" name="project_type" value="CRM-система" class="w-0" />
-                                <label for="Marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
+                                <label for="marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton4 ? 'btn--click' : '']">Маркетинг</label>
                                 <input type="radio" id="marketing" name="project_type" value="Маркетинг" class="w-0" />
                             </div>

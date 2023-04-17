@@ -13,7 +13,7 @@
                     <div class="flex justify-between flex-wrap py-5">
                         <div v-for="AboutItem in AboutItems" :key="AboutItem.index" class="w-1/2 flex py-5">
                             <div class="mt-3 mr-5">
-                                <img src="/img/webp/Arrow.webp" alt="">
+                                <img src="/img/webp/Arrow.webp" alt="" width="17" height="17">
                             </div>
                             <div class="AboutSubtitle">
                                 <p class="2xl:text-4xl md:text-2xl text-xl font-semibold">{{ AboutItem.subTitle }}</p>

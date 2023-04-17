@@ -29,32 +29,32 @@
     }">
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo1.webp" alt="">
+                    <img src="/img/Photo1.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo2.webp" alt="">
+                    <img src="/img/Photo2.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo3.webp" alt="">
+                    <img src="/img/Photo3.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo4.webp" alt="">
+                    <img src="/img/Photo4.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo5.webp" alt="">
+                    <img src="/img/Photo5.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="gradient">
-                    <img src="/img/Photo6.webp" alt="">
+                    <img src="/img/Photo6.webp" alt="" width="340" height="500">
                 </div>
             </swiper-slide>
             <swiper-slide>

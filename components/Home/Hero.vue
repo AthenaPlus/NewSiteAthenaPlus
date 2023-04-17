@@ -23,9 +23,9 @@
                     </h1>
                     <div class="pt-5 lg:pt-0 animate__animated animate__zoomIn animate__delay-1s xl:mb-20 2xl:mb-0">
                         <!-- comment for webp -->
-                        <img src="/img/webp/Palm.webp" alt="" class="absolute 2xl:top-14 2xl:left-0 xl:top-10 xl:left-0 lg:top-10 w-full">
-                        <img src="/img/webp/AthenaMain.webp" alt="" class="animate__animated animate__zoomIn animate__delay-1s mx-auto lg:w-4/5 2xl:w-2/3 xl:w-4/5 w-4/5">
-                        <img src="/img/webp/Clouds.webp" alt="" class="z-10 min-[300px]:top-16 min-[400px]:top-24 sm:top-36 sm:left-5 md:top-32 md:left-5 md:w-full lg:top-20 lg:left-3 xl:top-28 xl:left-5 2xl:top-32 2xl:left-20 2xl:w-4/5 absolute">
+                        <img src="/img/webp/Palm.webp" alt="" class="absolute 2xl:top-14 2xl:left-0 xl:top-10 xl:left-0 lg:top-10 w-full" width="716" height="300">
+                        <img src="/img/webp/AthenaMain.webp" alt="" class="animate__animated animate__zoomIn animate__delay-1s mx-auto lg:w-4/5 2xl:w-2/3 xl:w-4/5 w-4/5" width="488" height="490">
+                        <img src="/img/webp/Clouds.webp" alt="" class="z-10 min-[300px]:top-16 min-[400px]:top-24 sm:top-36 sm:left-5 md:top-32 md:left-5 md:w-full lg:top-20 lg:left-3 xl:top-28 xl:left-5 2xl:top-32 2xl:left-20 2xl:w-4/5 absolute" width="548" height="304">
                     </div>
                 </div>
             </div>

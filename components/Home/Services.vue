@@ -17,7 +17,7 @@
                         <p v-for="(item, index) in ServiceItems" :key="item.id" v-show="isActive(index)" class="md:text-lg lg:text-base xl:text-xl" :class="{ 'animate__animated animate__backInLeft': isActive(index) }">{{ item.desc }}</p>
                     </div>
                     <div class="md:w-4/5 lg:w-1/2 order-first lg:order-last mb-5">
-                        <img v-for="(item, index) in ServiceItems" :key="item.id" v-show="isActive(index)" :src="item.img" alt="" :class="{ 'animate__animated animate__backInLeft': isActive(index) }">
+                        <img v-for="(item, index) in ServiceItems" :key="item.id" v-show="isActive(index)" :src="item.img" alt="" :class="{ 'animate__animated animate__backInLeft': isActive(index) }" width="500" height="340">
                     </div>
                 </div>
             </div>
