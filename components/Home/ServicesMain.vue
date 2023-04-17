@@ -5,7 +5,7 @@
             <h2 data-aos="fade-right" class="font_Airborne 2xl:text-7xl xl:text-6xl md:text-4xl text-3xl mb-5 xl:mb-8">Услуги</h2>
             <div class="grid lg:grid-cols-2 gap-5 md:gap-12 2xl:gap-24">
                 <div v-for="(item, index) in items" :key="index"  @mousemove="handleMouseMove(index, $event)"  ref="itemRefs" class="relative">
-                    <img :src="item.img" alt="" ref="imageRefs" />
+                    <img :src="item.img" alt="" ref="imageRefs" width="856" height="696" />
                 </div>
             </div>
         </div>
