@@ -1,6 +1,6 @@
 <template>
     <div class="flex gap-[25px]">
-        <a href="https://t.me/AthenaPlus" target="_blank" class="link-to-svg-soc w-[28px] h-[25px]" aria-label="telegram">
+        <a href="https://t.me/AthenaPlus" target="_blank" class="link-to-svg-soc w-[28px] h-[25px]">
             <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                     y2="23.8254">
@@ -12,7 +12,7 @@
                     fill="white" />
             </svg>
         </a>
-        <a href="https://wa.me/77753938855" target="_blank" class="link-to-svg-soc" aria-label="whatsapp">
+        <a href="https://wa.me/77753938855" target="_blank" class="link-to-svg-soc">
             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                     y2="23.8254">
@@ -24,7 +24,7 @@
                     fill="white" />
             </svg>
         </a>
-        <a href="https://www.instagram.com/athena_plus/" target="_blank" class="link-to-svg-soc" aria-label="instagram">
+        <a href="https://www.instagram.com/athena_plus/" target="_blank" class="link-to-svg-soc">
             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                     y2="23.8254">
@@ -36,7 +36,7 @@
                     fill="white" />
             </svg>
         </a>
-        <a href="https://www.linkedin.com/company/86286001" target="_blank" class="link-to-svg-soc" aria-label="linkedin">
+        <a href="https://www.linkedin.com/company/86286001" target="_blank" class="link-to-svg-soc">
             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                     y2="23.8254">
