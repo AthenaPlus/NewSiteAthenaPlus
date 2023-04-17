@@ -14,7 +14,7 @@
                 <h2 class="service-item font_Airborne text-2xl text-right">{{ item.subTitle }}</h2>
             </div>
             <div class="accordion-body animate__animated animate__backInLeft" v-if="item.expanded">
-                <img :src="item.img" alt="">
+                <img :src="item.img" alt="" width="500" height="340">
                 <p class="text-base mt-5">{{ item.desc }}</p>
             </div>
         </div>
