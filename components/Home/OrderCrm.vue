@@ -13,44 +13,45 @@
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы хотите создать<span class="text-red-500"></span>?</h3>
 
-                        <form action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST"
+                        <form @submit="submitForm" action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST"
                             class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
                                 <label for="app" @click="clickButton1"
                                     class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Приложение</label>
-                                <input type="radio" id="app" name="project_type" value="Приложение" class="w-0" />
+                                <input type="radio" id="app" name="project_type" value="Приложение" v-model="value" class="w-0" />
 
                                 <label for="Website" @click="clickButton2"
                                     class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton2 ? 'btn--click' : '']"> Сайт</label>
-                                <input type="radio" id="Website" name="project_type" value="Сайт"
+                                <input type="radio" id="Website" name="project_type" value="Сайт" v-model="value"
                                     class="w-0" />
 
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton3 ? 'btn--click' : '']">CRM-система</label>
-                                <input type="radio" id="CRM" name="project_type" value="CRM-система" class="w-0" />
+                                <input type="radio" id="CRM" name="project_type" value="CRM-система" v-model="value" class="w-0" />
+
                                 <label for="marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton4 ? 'btn--click' : '']">Маркетинг</label>
-                                <input type="radio" id="marketing" name="project_type" value="Маркетинг" class="w-0" />
+                                <input type="radio" id="marketing" name="project_type" value="Маркетинг" v-model="value" class="w-0" />
                             </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
-                                    <input type="text" id="name" name="name" placeholder="Ваше имя *" required
+                                    <input type="text" id="name" name="name" v-model="name" placeholder="Ваше имя *" required
                                         autocomplete="on"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" placeholder="Ваш телефон *" required
+                                    <input type="tel" id="phone" name="phone" v-model="phone" placeholder="Ваш телефон *" required
                                         autocomplete="on"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 pt-10 w-full">
                                 <div class="relative">
-                                    <textarea id="message" name="message" placeholder="Опишите проект"
+                                    <textarea id="message" v-model="message" name="message" placeholder="Опишите проект"
                                         autocomplete="on"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
@@ -109,8 +110,10 @@ export default {
             isClickButton4: false,
             project_type: '',
             name: '',
+            email: '',
             phone: '',
-            message: ''
+            message: '',
+            value: ''
 
 
 
@@ -149,7 +152,68 @@ export default {
             this.phone = '',
             this.message = ''
 
-        }
+        },
+
+        // ОТправка формы CRM 24
+        submitForm(event) {
+      event.preventDefault();
+
+      const formData = {
+        fields: {
+          TITLE: 'Заявка от ' + this.name,
+          NAME: this.name,
+          COMMENTS: this.message,
+          POST: this.value,
+          EMAIL: [
+            {
+              "VALUE": this.email
+            }
+          ],
+          PHONE: [
+            {
+              "VALUE": this.phone
+            }
+          ],
+          WEB: [
+            {
+              "VALUE": "https://athenaplus.kz/",
+              "VALUE_TYPE": "Сайт компании Athena+"
+            }
+          ],
+        },
+
+
+      };
+
+
+      // Отправка данных в Bitrix24
+      this.sendLeadToBitrix24(formData);
+    },
+    async sendLeadToBitrix24(formData) {
+      try {
+        const response = await fetch(
+          'https://athenaplus.bitrix24.kz/rest/39/ozahwi69f64tr1r9/crm.lead.add.json',
+          {
+            method: 'POST',
+            body: JSON.stringify(formData),
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          }
+        );
+
+        const data = await response.json();
+
+        // Обработка ответа от сервера Bitrix24
+        console.log(data);
+        console.log(formData);
+
+        // Дополнительные действия после успешной отправки формы
+      } catch (error) {
+        console.error(error);
+        // Обработка ошибок при отправке данных в Bitrix24
+      }
+    }
     },
     setup() {
         const myForm = ref(null)

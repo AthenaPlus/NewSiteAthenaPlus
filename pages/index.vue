@@ -5,7 +5,7 @@
     <HomeAbout class="snap-start w-full px-5 sm:px-0  py-12 md:min-h-0 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
     <HomeServices class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
     <HomePartners class="snap-start w-full px-5 sm:px-0  sm:pt-14 md:pt-16 lg:pt-28 xl:pt-36 section" />
-    <HomeOrderproject class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
+    <HomeOrderCrm class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
     <CookieBanner />
   </div>
 </template>
