@@ -138,7 +138,6 @@ onMounted(() => {
     }
     element.addEventListener("mousemove", mouseMoveAnim);
     element.addEventListener("mouseleave", mouseLeaveAnim);
-    console.log(moveMe2)
   });
 });
 </script>

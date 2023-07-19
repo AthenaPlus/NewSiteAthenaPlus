@@ -108,7 +108,6 @@ export default {
             isClickButton2: false,
             isClickButton3: false,
             isClickButton4: false,
-            project_type: '',
             name: '',
             email: '',
             phone: '',
@@ -198,14 +197,25 @@ export default {
         const data = await response.json();
 
         // Обработка ответа от сервера Bitrix24
-        console.log(data);
-        console.log(formData);
+        // console.log(data);
+        // console.log(formData);
 
         // Дополнительные действия после успешной отправки формы
       } catch (error) {
         console.error(error);
         // Обработка ошибок при отправке данных в Bitrix24
       }
+         //   Очистка формы после отправки
+        this.name = ''
+        this.email = ''
+        this.phone = ''
+        this.message = ''
+        this.value = ''
+        this.isClickButton1 = false
+        this.isClickButton2 = false
+        this.isClickButton3 = false
+        this.isClickButton4 = false
+        
     }
     },
     setup() {
