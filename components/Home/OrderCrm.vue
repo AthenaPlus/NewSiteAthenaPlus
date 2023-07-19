@@ -13,7 +13,7 @@
                     <div class="">
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы хотите создать<span class="text-red-500"></span>?</h3>
 
-                        <form @submit="submitForm" action="https://formsubmit.co/24c79e3d6353b67ceddcc79963875302" method="POST"
+                        <form @submit="submitForm" method="POST"
                             class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
                                 <label for="app" @click="clickButton1"
@@ -145,14 +145,7 @@ export default {
             this.isClickButton3 = false
             this.isClickButton1 = false
         },
-        sendForm() {
 
-            this.project_type = '',
-            this.name = '',
-            this.phone = '',
-            this.message = ''
-
-        },
 
         // ОТправка формы CRM 24
         submitForm(event) {
