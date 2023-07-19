@@ -3,49 +3,54 @@
         class="mainClass text-white body-font relative md:bg-none bg-no-repeat bg-top bg-contain md:bg-cover z-0">
         <div id="order" class="sm:container px-5 mx-auto overflow-x-hidden">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 data-aos="fade-right" class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl text-left md:mt-16">Есть проект?</h1>
+                <h1 data-aos="fade-right"
+                    class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 2xl:text-9xl text-left md:mt-16">Есть проект?</h1>
                 <div data-aos="fade-left" class="flex items-center md:justify-end gap-2  md:mr-32">
                     <IconArrow class="hidden md:block" />
-                    <h2 class="font_Airborne md:Source_Sans_Pro md:mt-5 lg:mt-0 text-xl sm:text-3xl lg:text-5xl 2xl:text-7xl">Оставьте заявку</h2>
+                    <h2
+                        class="font_Airborne md:Source_Sans_Pro md:mt-5 lg:mt-0 text-xl sm:text-3xl lg:text-5xl 2xl:text-7xl">
+                        Оставьте заявку</h2>
                     <IconArrowright class="block md:hidden w-10" />
                 </div>
                 <div class="flex flex-col md:flex-row items-start lg:items-center w-full mt-">
                     <div class="">
-                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы хотите создать<span class="text-red-500"></span>?</h3>
+                        <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы
+                            хотите создать<span class="text-red-500"></span>?</h3>
 
-                        <form @submit="submitForm" method="POST"
-                            class="flex flex-wrap my-10">
+                        <form @submit="submitForm" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
-                                <label for="app" @click="clickButton1"
-                                    class="btn--label text-white py-3 cursor-pointer"
+                                <label for="app" @click="clickButton1" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Приложение</label>
-                                <input type="radio" id="app" name="project_type" value="Приложение" v-model="value" class="w-0" />
+                                <input type="radio" id="app" name="project_type" value="Приложение" v-model="value"
+                                    class="w-0" />
 
-                                <label for="Website" @click="clickButton2"
-                                    class="btn--label text-white py-3 cursor-pointer"
+                                <label for="Website" @click="clickButton2" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton2 ? 'btn--click' : '']"> Сайт</label>
                                 <input type="radio" id="Website" name="project_type" value="Сайт" v-model="value"
                                     class="w-0" />
 
                                 <label for="CRM" @click="clickButton3" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton3 ? 'btn--click' : '']">CRM-система</label>
-                                <input type="radio" id="CRM" name="project_type" value="CRM-система" v-model="value" class="w-0" />
+                                <input type="radio" id="CRM" name="project_type" value="CRM-система" v-model="value"
+                                    class="w-0" />
 
-                                <label for="marketing" @click="clickButton4" class="btn--label text-white py-3 cursor-pointer"
+                                <label for="marketing" @click="clickButton4"
+                                    class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton4 ? 'btn--click' : '']">Маркетинг</label>
-                                <input type="radio" id="marketing" name="project_type" value="Маркетинг" v-model="value" class="w-0" />
+                                <input type="radio" id="marketing" name="project_type" value="Маркетинг" v-model="value"
+                                    class="w-0" />
                             </div>
                             <div class="pr-5 w-full md:w-1/2 mb-5 md:mb-0">
                                 <div class="relative">
-                                    <input type="text" id="name" name="name" v-model="name" placeholder="Ваше имя *" required
-                                        autocomplete="on"
+                                    <input type="text" id="name" name="name" v-model="name" placeholder="Ваше имя *"
+                                        required autocomplete="on"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
                             <div class="pr-5 w-full md:w-1/2">
                                 <div class="relative">
-                                    <input type="tel" id="phone" name="phone" v-model="phone" placeholder="Ваш телефон *" required
-                                        autocomplete="on"
+                                    <input type="tel" id="phone" name="phone" v-model="phone" placeholder="Ваш телефон *"
+                                        required autocomplete="on"
                                         class="w-full bg-gray-100 bg-opacity-5  border-b-2 border-gray-300 focus:border-pink-500 focus:border-b-2 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                 </div>
                             </div>
@@ -86,7 +91,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 </template>
 
@@ -102,7 +107,7 @@ import IconArrowright from '~/assets/icons/arrow__right.svg'
 
 export default {
 
-    data(){
+    data() {
         return {
             isClickButton1: false,
             isClickButton2: false,
@@ -120,25 +125,25 @@ export default {
     },
 
     methods: {
-        clickButton1(){
+        clickButton1() {
             this.isClickButton1 = true
             this.isClickButton2 = false
             this.isClickButton3 = false
             this.isClickButton4 = false
         },
-        clickButton2(){
+        clickButton2() {
             this.isClickButton2 = true
             this.isClickButton1 = false
             this.isClickButton3 = false
             this.isClickButton4 = false
         },
-        clickButton3(){
+        clickButton3() {
             this.isClickButton3 = true
             this.isClickButton2 = false
             this.isClickButton1 = false
             this.isClickButton4 = false
         },
-        clickButton4(){
+        clickButton4() {
             this.isClickButton4 = true
             this.isClickButton2 = false
             this.isClickButton3 = false
@@ -148,92 +153,81 @@ export default {
 
         // ОТправка формы CRM 24
         submitForm(event) {
-      event.preventDefault();
+            event.preventDefault();
 
-      const formData = {
-        fields: {
-          TITLE: 'Заявка от ' + this.name,
-          NAME: this.name,
-          COMMENTS: this.message,
-          POST: this.value,
-          EMAIL: [
-            {
-              "VALUE": this.email
-            }
-          ],
-          PHONE: [
-            {
-              "VALUE": this.phone
-            }
-          ],
-          WEB: [
-            {
-              "VALUE": "https://athenaplus.kz/",
-              "VALUE_TYPE": "Сайт компании Athena+"
-            }
-          ],
+            const formData = {
+                fields: {
+                    TITLE: 'Заявка от ' + this.name,
+                    NAME: this.name,
+                    COMMENTS: this.message,
+                    POST: this.value,
+                    EMAIL: [
+                        {
+                            "VALUE": this.email
+                        }
+                    ],
+                    PHONE: [
+                        {
+                            "VALUE": this.phone
+                        }
+                    ],
+                    WEB: [
+                        {
+                            "VALUE": "https://athenaplus.kz/",
+                            "VALUE_TYPE": "Сайт компании Athena+"
+                        }
+                    ],
+                },
+
+
+            };
+
+
+            // Отправка данных в Bitrix24
+            this.sendLeadToBitrix24(formData);
         },
+        async sendLeadToBitrix24(formData) {
+            try {
+                const response = await fetch(
+                    'https://athenaplus.bitrix24.kz/rest/39/ozahwi69f64tr1r9/crm.lead.add.json',
+                    {
+                        method: 'POST',
+                        body: JSON.stringify(formData),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    }
+                );
 
+                const data = await response.json();
 
-      };
+                // Обработка ответа от сервера Bitrix24
+                // console.log(data);
+                // console.log(formData);
 
+                // Дополнительные действия после успешной отправки формы
+                //   Очистка формы после отправки
+                this.name = ''
+                this.email = ''
+                this.phone = ''
+                this.message = ''
+                this.value = ''
+                this.isClickButton1 = false
+                this.isClickButton2 = false
+                this.isClickButton3 = false
+                this.isClickButton4 = false
 
-      // Отправка данных в Bitrix24
-      this.sendLeadToBitrix24(formData);
-    },
-    async sendLeadToBitrix24(formData) {
-      try {
-        const response = await fetch(
-          'https://athenaplus.bitrix24.kz/rest/39/ozahwi69f64tr1r9/crm.lead.add.json',
-          {
-            method: 'POST',
-            body: JSON.stringify(formData),
-            headers: {
-              'Content-Type': 'application/json'
+                // Переадресация на страницу `/thankshome`
+                this.$router.push('/thankshome')
+            } catch (error) {
+                console.error(error);
+                // Обработка ошибок при отправке данных в Bitrix24
             }
-          }
-        );
 
-        const data = await response.json();
 
-        // Обработка ответа от сервера Bitrix24
-        // console.log(data);
-        // console.log(formData);
-
-        // Дополнительные действия после успешной отправки формы
-      } catch (error) {
-        console.error(error);
-        // Обработка ошибок при отправке данных в Bitrix24
-      }
-         //   Очистка формы после отправки
-        this.name = ''
-        this.email = ''
-        this.phone = ''
-        this.message = ''
-        this.value = ''
-        this.isClickButton1 = false
-        this.isClickButton2 = false
-        this.isClickButton3 = false
-        this.isClickButton4 = false
-        
-    }
+        }
     },
-    setup() {
-        const myForm = ref(null)
 
-        function Submit() {
-            emailjs.send().then(success => {
-                if (success) {
-                    myForm.value.resetValidation()
-                }
-            })
-  }
-
-  return {
-    myForm,
-    Submit,
-  }
-}
 }
 </script>
 
@@ -246,6 +240,7 @@ export default {
 
     color: #FFFFFF;
 }
+
 .subtitle {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -296,13 +291,14 @@ export default {
 }
 
 
-.link-to-svg  .st0 {
+.link-to-svg .st0 {
     fill: #fff;
-    
-  }
-  .link-to-svg:hover .st0 {
-    fill:url(#g1);
-  }
+
+}
+
+.link-to-svg:hover .st0 {
+    fill: url(#g1);
+}
 
 #signInterview .btn img {
     display: none;
