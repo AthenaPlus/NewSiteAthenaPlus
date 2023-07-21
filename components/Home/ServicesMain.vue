@@ -22,42 +22,42 @@ import gsap from 'gsap'
 const imageArray = [
   {
     id: 1,
-    path: '/img/Mobile.png',
+    path: '/img/webp/Mobile.webp',
     text: "Мобильные приложения",
     top: '89%',
     left: '5%'
   },
   {
     id: 2,
-    path: "/img/Sites.png",
+    path: "/img/webp/Sites.webp",
     text: "Сайты",
     top: '86%',
     left: '5%'
   },
   {
     id: 3,
-    path: "/img/Seo.png",
+    path: "/img/webp/Seo.webp",
     text: "SEO",
     top: '86%',
     left: '5%'
   },
   {
     id: 4,
-    path: "/img/Design.png",
+    path: "/img/webp/Design.webp",
     text: "Графический дизайн",
     top: '93%',
     left: '5%'
   },
   {
     id: 5,
-    path: "/img/Advertising.png",
+    path: "/img/webp/Advertising.webp",
     text: "Реклама",
     top: '89%',
     left: '5%'
   },
   {
     id: 6,
-    path: "/img/Support.png",
+    path: "/img/webp/Support.webp",
     text: "Поддержка",
     top: '85%',
     left: '5%'
