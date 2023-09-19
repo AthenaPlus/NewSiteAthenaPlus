@@ -51,14 +51,14 @@ const imageArray = [
   {
     id: 5,
     path: "/img/webp/Advertising.webp",
-    text: "Реклама",
+    text: "Маркетинг",
     top: '89%',
     left: '5%'
   },
   {
     id: 6,
     path: "/img/webp/Support.webp",
-    text: "Поддержка",
+    text: "Digital-Аудит",
     top: '85%',
     left: '5%'
   },
