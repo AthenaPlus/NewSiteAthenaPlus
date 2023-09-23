@@ -13,7 +13,7 @@
             <a href="tel:+77753938855" class="text-xl Source_Sans_Pro">+7 775 393 8855</a>
 
             <h3 class="text-xl font_Airborne uppercase mt-10">e-mail:</h3>
-            <a href="mailto:athenaplus@gmail.com" class="text-xl Source_Sans_Pro">athenaplus@gmail.com</a>
+            <a href="mailto:sain.athenaplus@gmail.com" class="text-xl Source_Sans_Pro">sain.athenaplus@gmail.com</a>
             <AppSocialButtons class="my-[40px]"/>
 
         </div>
