@@ -9,7 +9,6 @@ useHead({
 </script>
 <template>
     <section class="text-gray-100 body-font">
-        <ClientOnly>
         <ContentDoc :path="$route.path" v-slot="{ doc }">
             <div class="relative container mx-auto">
                 <div class="absolute z-0 h-full w-full">
@@ -37,7 +36,6 @@ useHead({
                 </NuxtLink>
             </div>
         </ContentDoc>
-    </ClientOnly>
     </section>
 </template>
 
