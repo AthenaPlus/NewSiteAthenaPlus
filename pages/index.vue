@@ -13,9 +13,9 @@
 
 <script setup>
 useHead({
-    title: 'Разработка IT-Решений Нового Формата | Алматы, Athena Plus Digital',
+    title: 'Создание Сайтов Нового Формата | Алматы, Athena Plus',
     meta: [
-        { name: 'description', content: 'Креативные IT-Решения на основе глубокой аналитики рынка. ' }
+        { name: 'description', content: 'Создание и Разработка Креативных Веб-Сайтов' }
     ],
 
     script: [
