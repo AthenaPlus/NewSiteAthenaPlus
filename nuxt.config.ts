@@ -37,6 +37,7 @@ export default defineNuxtConfig({
         crawlLinks: true,
         routes: [
           '/',
+          'sitemap.xml'
         ],
         
       },
