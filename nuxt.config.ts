@@ -43,6 +43,9 @@ export default defineNuxtConfig({
 
     },
 
+    site: {
+      url: 'https://athenaplus.kz/',
+    },
 
     build: {
       
