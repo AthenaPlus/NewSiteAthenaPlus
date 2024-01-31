@@ -17,7 +17,7 @@
                         <h3 class="hidden md:block text-left text-2xl text-white Source_Sans_Pro mb-8">Какой продукт вы
                             хотите создать<span class="text-red-500"></span>?</h3>
 
-                        <form @submit="submitForm" method="POST" class="flex flex-wrap my-10">
+                        <form action="https://formsubmit.co/sain.athenaplus@gmail.com" method="POST" class="flex flex-wrap my-10">
                             <div class="hidden md:flex flex-wrap justify-start  gap-5 mb-10">
                                 <label for="app" @click="clickButton1" class="btn--label text-white py-3 cursor-pointer"
                                     :class="[isClickButton1 ? 'btn--click' : '']"> Приложение</label>
@@ -67,7 +67,7 @@
                                 <input type="hidden" name="_captcha" value="false" />
                                 <input type="text" name="_honey" style="display:none" />
                                 <input type="hidden" name="_template" value="table" />
-                                <input type="hidden" name="_next" value="https://athenaplus.kz/thankshome" />
+                                <input type="hidden" name="_next" value="https://athenaplus.kz/thanks" />
                             </div>
                             <div class="pt-10">
                                 <button type="submit"
