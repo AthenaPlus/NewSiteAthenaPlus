@@ -1,7 +1,7 @@
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/apollo', '@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-svgo', 'nuxt-headlessui', '@fullpage/nuxt-fullpage', '@nuxtjs/sitemap'],
+    modules: ['@nuxtjs/apollo', '@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-svgo', 'nuxt-headlessui', '@fullpage/nuxt-fullpage'],
 
     css: ['animate.css'],
 
