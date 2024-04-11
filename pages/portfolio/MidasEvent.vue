@@ -220,4 +220,8 @@ h2 {
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
+span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
 </style>
