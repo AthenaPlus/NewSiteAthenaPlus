@@ -20,36 +20,36 @@
 
 
 const items = ([
-{
-        title: 'чек маркет',
+    {
+        title: 'Dostyk Trans Terminal',
         number: '#1',
-        toLink: '/development'
+        toLink: '/portfolio/DTT'
+    },
+    {
+        title: 'wallet kit',
+        number: '#2',
+        toLink: '/portfolio/WalletKit'
     },
     {
         title: 'midas event',
-        number: '#2',
-        toLink: '/MidasCase'
+        number: '#3',
+        toLink: '/portfolio/MidasEvent'
     },
     {
-        title: 'як',  
-        number: '#3',
-        toLink: '/development'
+        title: 'pixel school',  
+        number: '#4',
+        toLink: '/portfolio/PixelSchool'
     },
     {
         title: 'navat',
-        number: '#4',
+        number: '#5',
         toLink: '/NavatCase'
     },
     {
         title: '9Global',
-        number: '#5',
-        toLink: '/development'
-    },
-    {
-        title: 'Dostyk Trans Terminal',
         number: '#6',
-        toLink: '/DTTCase'
-    },
+        toLink: '/development'
+    }
 ])
 
 </script>
