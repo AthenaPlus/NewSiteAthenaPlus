@@ -1,0 +1,16 @@
+<svg width="70.000000" height="70.000000" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip739_1718">
+			<rect id="Tilda" width="70.000000" height="70.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Tilda" width="70.000000" height="70.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip739_1718)">
+		<path id="Vector" d="M31.5 56.05L36.58 56.05L36.58 30.99L31.5 29.29L31.5 56.05Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M46.4 19.92C46.34 23.31 45.27 25.06 43.01 25.06C40.7 25.06 38.33 23.82 35.17 22.29C30.88 20.26 28.84 19.7 26.19 19.7C21.84 19.7 18.46 23.31 18.68 29.52L22.46 29.52C22.52 25.57 23.93 23.82 26.19 23.82C28.45 23.82 30.82 25 33.75 26.47C38.1 28.45 40.36 29.35 42.9 29.35C46.79 29.35 50.41 27.26 50.13 19.92L46.4 19.92Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M0 34.94C0 15.69 15.69 0 34.94 0C54.25 0 69.88 15.69 69.88 34.94C69.88 54.19 54.19 69.88 34.94 69.88C15.69 69.88 0 54.19 0 34.94ZM2.25 34.94C2.25 53 16.93 67.62 34.94 67.62C52.95 67.62 67.62 52.95 67.62 34.94C67.62 16.93 52.95 2.25 34.94 2.25C16.93 2.25 2.25 16.87 2.25 34.94Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
