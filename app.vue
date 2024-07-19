@@ -13,7 +13,8 @@ useHead({
       lang: 'ru',
     },
   meta: [
-    { name: 'description', content: 'Современный дизайн, инновационная технология, результативный маркетинг - все это в нашей веб-студии' }
+    { name: 'description', content: 'Современный дизайн, инновационная технология, результативный маркетинг - все это в нашей веб-студии' },
+    { name: 'google-site-verification', content: 'ke4mI2P2m7m02CCNXbomg1fCr6SPk0FdKo0s-1ssyXI' },
   ],
   bodyAttrs: {
     class: 'test'
