@@ -52,7 +52,7 @@
                 </div>
                 <!-- Icons -->
                 <div class="hidden sm:flex items-center border_l_1 h_51 ml_18 pl-5">
-                    <a href="https://t.me/AthenaPlus" target="_blank" class="text-gray-100 link-to-svg mr-9" aria-label="telegram">
+                    <a href="/" target="_blank" class="text-gray-100 link-to-svg mr-9" aria-label="telegram">
                         <svg viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                                 y2="23.8254">
@@ -63,7 +63,7 @@
                                 d="M20.9402 1.72929L17.7711 17.8531C17.5318 18.9909 16.9085 19.2741 16.0226 18.7384L11.1936 14.8994L8.86387 17.3174C8.60584 17.5958 8.39057 17.828 7.89327 17.828L8.24055 12.5227L17.1898 3.79848C17.579 3.42461 17.105 3.21664 16.5852 3.59131L5.52151 11.1074L0.758509 9.49866C-0.277351 9.14989 -0.296103 8.38112 0.974532 7.84461L19.6043 0.101122C20.4669 -0.247654 21.2214 0.308284 20.9402 1.73009V1.72929Z" />
                         </svg>
                     </a>
-                    <a href="https://wa.me/77753938855" target="_blank" class="ml-3 text-gray-100 link-to-svg mr-9" aria-label="whatsapp">
+                    <a href="/" target="_blank" class="ml-3 text-gray-100 link-to-svg mr-9" aria-label="whatsapp">
                         <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10.9111" y1="0.0449" x2="12.9916"
                                 y2="23.8254">
