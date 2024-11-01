@@ -7,7 +7,7 @@
     <HomePrice class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:pt-16 lg:pt-28 xl:pt-36 section" />
     <HomePartners class="snap-start w-full px-5 sm:px-0 section" />
     <HomeOrderCrm class="snap-start w-full px-5 sm:px-0  py-12 sm:py-14 md:py-16 lg:py-28 xl:py-36 section" />
-    <CookieBanner />
+    <!-- <CookieBanner /> -->
   </div>
 </template>
 
